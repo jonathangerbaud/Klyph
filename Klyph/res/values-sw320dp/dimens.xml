@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stream_link_image_size">80dp</dimen>
+    <dimen name="stream_link_image_margin_top">12dp</dimen>
+    
+    <dimen name="stream_link_title_size">14sp</dimen>
+    
+    <dimen name="comment_link_image_size">60dp</dimen>
+    <dimen name="comment_link_height">120dp</dimen>
+    
+    <!-- Grid -->
+    <dimen name="klyph_grid_spacing">8dp</dimen>
+    
+</resources>

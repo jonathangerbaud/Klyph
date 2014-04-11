@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Klyph.ActionBar.Light.Green" parent="@style/Klyph.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_green_light</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Blue_light</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Blue_light</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Blue_light</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Blue_light</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Blue_light</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_green_light</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_green_light</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Blue_light</item>
+        <item name="actionBarStackedBackground">@drawable/ab_stacked_solid_green_light</item>
+    </style>
+
+</resources>

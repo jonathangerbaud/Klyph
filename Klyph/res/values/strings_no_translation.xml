@@ -1,0 +1,77 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Stuff to not translate -->
+    <string name="app_name">Klyph</string>
+    <string name="app_large_name">Klyph for Facebook</string>
+    <string name="app_pro_name">Klyph Pro</string>
+    <string name="app_pro_large_name">Klyph Pro for Facebook</string>
+    <string name="menu_settings">Settings</string>
+    <string name="get_started">To get started, login using Facebook</string>
+    <string name="company_url">http://www.abewy.com</string>
+    <string name="google_plus_community_url">https://plus.google.com/communities/108701133516085969362</string>
+    <string name="donation_validation_code">[VALIDATION_CODE]</string>
+    <string name="admob_id">[ADMOB_ID]</string>
+    <string name="admob_interstitial_id">[ADMOB_INTERSTITAL_ID]</string>
+
+    <!-- GCM -->
+    <string name="gcm_sender_id">[GCM_SENDER_ID]</string>
+    <string name="gcm_api_key">[GCM_API_KEY]</string>
+    <string name="gcm_error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="gcm_already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="gcm_server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="gcm_server_registered">From Demo Server: successfully added device!</string>
+    <string name="gcm_server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="gcm_server_register_error">Could not register device on Server after %1$d attempts.</string>
+    <string name="gcm_server_unregister_error">Could not unregister device on Server (%1$s).</string>
+    <string name="gcm_options_register">Register</string>
+    <string name="gcm_options_unregister">Unregister</string>
+    <string name="gcm_options_clear">Clear</string>
+    <string name="gcm_options_exit">Exit</string>
+
+    <!-- Fragment headers preference value -->
+    <!-- DO NOT TRANSLATE THIS -->
+    <string name="fragment_header_newsfeed_preference_value">Newsfeed</string>
+    <string name="fragment_header_timeline_preference_value">Timeline</string>
+    <string name="fragment_header_friends_preference_value">Friends</string>
+    <string name="fragment_header_pages_preference_value">Pages</string>
+    <string name="fragment_header_about_preference_value">About</string>
+    <string name="fragment_header_events_preference_value">Events</string>
+    <string name="fragment_header_birthdays_preference_value">Birthdays</string>
+    <string name="fragment_header_albums_preference_value">Albums</string>
+    <string name="fragment_header_infos_preference_value">Infos</string>
+    <string name="fragment_header_wall_preference_value">Wall</string>
+    <string name="fragment_header_going_preference_value">Attending</string>
+    <string name="fragment_header_maybe_preference_value">Unsure</string>
+    <string name="fragment_header_declined_preference_value">Not going</string>
+    <string name="fragment_header_invited_preference_value">Invited</string>
+    <string name="fragment_header_groups_preference_value">Groups</string>
+    <string name="fragment_header_members_preference_value">Members</string>
+    <string name="fragment_header_photos_preference_value">Photos</string>
+    <string name="fragment_header_threads_preference_value">Threads</string>
+
+    <!-- Themes -->
+    <string name="theme_light_blue">lightBlue</string>
+    <string name="theme_dark_blue">darkBlue</string>
+    <string name="theme_black_blue">blackBlue</string>
+    <string name="theme_light_green">lightGreen</string>
+    <string name="theme_dark_green">darkGreen</string>
+    <string name="theme_black_green">blackGreen</string>
+
+    <!-- MemorizingTrustManager -->
+    <string name="mtm_accept_cert">Accept Unknown Certificate?</string>
+    <string name="mtm_decision_always">Always</string>
+    <string name="mtm_decision_once">Once</string>
+    <string name="mtm_decision_abort">Abort</string>
+    <string name="mtm_notification">Certificate Verification</string>
+
+    <!-- Fragment headers preference -->
+    <string name="fragment_header_followed_people_preference_value">Followed people</string>
+
+
+</resources>

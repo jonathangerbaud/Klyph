@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Příspěvky</string>
+    <string name="fragment_header_timeline">Timeline</string>
+    <string name="fragment_header_inbox">Inbox</string>
+    <string name="fragment_header_friends">Přátelé</string>
+    <string name="fragment_header_pages">Stránky</string>
+    <string name="fragment_header_about">O</string>
+    <string name="fragment_header_events">Události</string>
+    <string name="fragment_header_birthdays">Narozeniny</string>
+    <string name="fragment_header_albums">Alba</string>
+    <string name="fragment_header_infos">Informace</string>
+    <string name="fragment_header_wall">Zeď</string>
+    <string name="fragment_header_going">Zůčastní se</string>
+    <string name="fragment_header_maybe">Možná</string>
+    <string name="fragment_header_declined">Nezůčastní se</string>
+    <string name="fragment_header_invited">Pozvaní</string>
+    <string name="fragment_header_groups">Skupiny</string>
+    <string name="fragment_header_members">Členové</string>
+    <string name="fragment_header_photos">Fotky</string>
+    <string name="fragment_header_threads">Vlákna</string>
+    <string name="fragment_header_followed_people">Sledovaní lidé</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Hledat</string>
+    <string name="user">Uživatel</string>
+    <string name="page">Strana</string>
+    <string name="group">Skupina</string>
+    <string name="event">Událost</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Odhlásit se</string>
+    <string name="menu_notifications">Notifikace</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_messages">Zprávy</string>
+    <string name="menu_credits">Zásluhy</string>
+    <string name="menu_send">Poslat</string>
+    <string name="menu_preferences">Nastavení</string>
+    <string name="menu_feedback">Navrhnout/Bug</string>
+    <string name="menu_donate">Podpořit</string>
+    <string name="menu_download">Stáhnout</string>
+    <string name="menu_add_photos">Přidat fotky</string>
+    <string name="menu_faq">FAQ</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Do you really want to logout ?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Nové album</string>
+    <string name="create">Vytvořit</string>
+    <string name="name">Název</string>
+    <string name="location">Poloha</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Opakovat</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Objevila se chyba.</string>
+    <string name="request_connexion_error">Chyba připojení.\nZkontrolujte internetové připojení.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Nepodařilo se získat vaší polohu.</string>
+    <string name="choose_place">Zvolte místo</string>
+
+    <!-- General -->
+    <string name="close">Zavřít</string>
+    <string name="open">Otevřit</string>
+    <string name="refresh">Obnovit</string>
+    <string name="share">Share</string>
+    <string name="defaultString">Standardní</string>
+    <string name="camera">fotoaparát</string>
+    <string name="copy_text">Kopírovat text</string>
+    <string name="see_who_likes_this">Podívat se, komu se toto líbí</string>
+    <string name="download_image">Stáhnout obrázek</string>
+    <string name="view_profile">Prohlédnout profil</string>
+    <string name="share_with">Share with</string>
+    <string name="more">Více</string>
+    <string name="reply">Odpovědět</string>
+    <string name="hide">Schovat</string>
+    <string name="none">None</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Vybrat fotky</string>
+    <string name="thread_activity_title">Zprávy</string>
+    <string name="notification_activity_title">Notifikace</string>
+    <string name="credentials_activity_title">Credits</string>
+    <string name="donate_activity_title">Podpořit</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Veřejné</string>
+    <string name="menu_privacy_friends">Přátelé</string>
+    <string name="menu_privacy_self">Pouze já</string>
+
+    <!-- FR Values -->
+    <string name="like">Líbí se mi</string>
+    <string name="unlike">Nelíbí se mi</string>
+    <string name="people_who_likes_this">Lidé, kterým se to líbí</string>
+    <string name="comment">Komentář</string>
+    <string name="zero_or_one_like">%s se líbí</string>
+    <string name="zero_or_one_comment">%s komentářů</string>
+    <string name="number_of_likes">%s se líbí</string>
+    <string name="number_of_comments">%s komentáře</string>
+    <string name="number_of_people_who_like_it">%s lidem se toto líbí</string>
+    <string name="you_and_other_people_who_like_it">Vy a %s lidem se toto líbí</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">před %d sekundami</string>
+    <string name="one_minute_ago">Před jednou minutou</string>
+    <string name="minutes_ago">před %d minutami</string>
+    <string name="one_hour_ago">před hodinou</string>
+    <string name="hours_ago">před %d hodinami</string>
+    <string name="one_day_ago">Před jedním dnem</string>
+    <string name="days_ago">před %d dny</string>
+    <string name="one_month_ago">Před měsícem</string>
+    <string name="months_ago">před %d měsíci</string>
+    <string name="years_ago">před %d lety</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Vyberte kvalitu</string>
+    <string name="dialog_video_quality_message">Shlédnout ve standartní kvalitě (SD) nebo ve vysoké kvalitě (HD) ?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s přidáno %2$s fotek do alba %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— s %1$s</string>
+    <string name="post_with_two_friends">— s %1$s a %2$s</string>
+    <string name="post_with_several_friends">— s %1$s a %2$s dalšími přáteli</string>
+    <string name="with_several_friends">%1$s další přátelé</string>
+    <string name="at_place">— v %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Zrušit</string>
+    <string name="error">Chyba</string>
+    <string name="please_enter_message">Vložte prosím vaši zprávu</string>
+    <string name="must_select_place_to_tag_friends">Pro označení nejdříve vložte polohu.</string>
+    <string name="status">Stav</string>
+    <string name="publishing">Zveřejňování&#8230;</string>
+    <string name="status_successfully_published">Váš nový stav je zveřejněn.</string>
+    <string name="message_successfully_published">Vaše nová zpráva je zveřejněna.</string>
+    <string name="publish_unknown_error">Nepodařilo se zveřejnit stav.</string>
+    <string name="publish_message_unknown_error">Nepodařilo se zveřejnit zprávu.</string>
+    <string name="publish_error_duplicate_message">Toto již je váš minulý stav.</string>
+    <string name="publish_new_status">Zveřejnit nový stav.</string>
+    <string name="publish_new_event_message">Zveřejnit novou zprávu.</string>
+    <string name="friends">Přátelé</string>
+    <string name="post_hint">Vaše zpráva</string>
+    <string name="post_link_malformated_url">Adresa je  chybná</string>
+    <string name="post_link_malformated_image_url">Adresa obrázku je chybná</string>
+    <string name="post_link_empty_name">Prosím vložte jméno.</string>
+    <string name="post_share_status">Sdílet stav</string>
+    <string name="post_share_photo">Sdílet fotku</string>
+    <string name="post_share_video">Sdílet video</string>
+    <string name="post_share_link">Sdílet odkaz</string>
+    <string name="post_share_album">Sdílet album</string>
+    <string name="post_share_on">Sdílet na</string>
+    <string name="post_share_on_my_wall">Má zeď</string>
+    <string name="post_share_on_friend_wall">Zeď přítele</string>
+    <string name="post_a_reply">Post a reply</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Zveřejnit nové fotky</string>
+    <string name="creating_album">Vytváření alba &#8230;</string>
+    <string name="must_select_photos">Vyberte prosím fotky pro nahrání</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Potvrzení</string>
+    <string name="delete_post_confirmation_message">Opravdu chcete odstranit tuto zprávu ?</string>
+    <string name="delete_post_error">Nepodařilo se odstranit zprávu.</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="delete">Odstranit</string>
+    <string name="deleting">Odstraňování&#8230;</string>
+    <string name="post_deleted">Zpráva odstraněna.</string>
+    <string name="like_error">Nepodařilo se dát Líbí se mi.</string>
+    <string name="unlike_error">Nepodařilo se dát Nelíbí se mi.</string>
+    <string name="stream_date">%1$s v %2$s</string>
+    <string name="stream_today_date">Dnes v %1$s</string>
+    <string name="stream_yesterday_date">Včera v %1$s</string>
+    <string name="newsfeed_new_stream">1 nový příspěvek</string>
+    <string name="newsfeed_new_streams">%1$d nových příspěvků</string>
+
+    <!-- Event -->
+    <string name="event_by">od %1$s</string>
+    <string name="event_description">Popis</string>
+    <string name="event_practical_information">Praktické informace</string>
+    <string name="event_date">Datum</string>
+    <string name="event_place">Poloha</string>
+    <string name="event_secret">Pouze na pozvání</string>
+    <string name="event_friends">Přátelé</string>
+    <string name="event_public">Veřejná událost</string>
+    <string name="event_closed">Uzavřená událost</string>
+    <string name="event_will_attend_title">Zůčastním se ?</string>
+    <string name="event_going">Zůčastnit se</string>
+    <string name="event_unsure">Možná</string>
+    <string name="event_declined">Odmítnout</string>
+    <string name="event_num_invitee">%1$s lidí pozváno</string>
+    <string name="event_num_attending">%1$s lidí se zůčastní</string>
+    <string name="event_num_unsure">%1$s lidí se možná zůčastní</string>
+    <string name="event_num_declined">%1$s lidí odmítlo</string>
+    <string name="event_response_dialog_title">Odpověď</string>
+    <string name="event_response_dialog_message">Posílání odpovědi&#8230;</string>
+    <string name="event_response_ok">Vaše odpověď byla poslána</string>
+    <string name="event_response_error">Objevila se chyba při odesílání vaší odpovědi.\Prosím opakujte, to později.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Narozeniny</string>
+    <string name="user_sex">Pohlaví</string>
+    <string name="user_meeting_sex">Zajímá se o</string>
+    <string name="user_relationship_status">Vztah</string>
+    <string name="user_religion">Náboženství</string>
+    <string name="user_political">Politické názory</string>
+    <string name="user_phones">Telefonní číslo</string>
+    <string name="user_address">Adresa</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Sítě</string>
+    <string name="user_activities">Aktivity</string>
+    <string name="user_books">Knihy</string>
+    <string name="user_inspirational_people">Inspirující lidé</string>
+    <string name="user_interests">Záliby</string>
+    <string name="user_movies">Filmy</string>
+    <string name="user_music">Hudba</string>
+    <string name="user_sports">Sport</string>
+    <string name="user_tv">TV pořady</string>
+    <string name="user_quotes">Citáty</string>
+    <string name="user_website">Webové stránky</string>
+
+    <!-- Work -->
+    <string name="work_date">od %1$s do %2$s</string>
+    <string name="work_date_until_today">od %1$s do současnosti</string>
+
+    <!-- Education -->
+    <string name="education_year">%1$s ročník</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s a %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s a %3$d další</string>
+    <string name="thread_and_others">%1$d další</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Lidé, kterým se toto líbí</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Soukromí</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d let</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Vyberte přátelé</string>
+    <string name="friend_picker_single_choice_title">Choose a friend</string>
+    <string name="search_friends">Hledat přátelé</string>
+    <string name="several_friends_selected">%1$d přátel označeno</string>
+    <string name="one_friend_selected">1 přítel vybrán</string>
+    <string name="no_friend_selected">Žádný přítel nevybrán</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d fotek vybráno</string>
+    <string name="one_photo_selected">Jedna fotka vybrána</string>
+    <string name="no_photo_selected">Žádná fotka nevybrána</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Nepodařilo se najít fotku</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Přidat komentář</string>
+    <string name="comments_disabled">Komentáře zakázány</string>
+    <string name="publish_comment_dialog_title">Komentář</string>
+    <string name="publish_comment_dialog_message">Zveřejňování&#8230;</string>
+    <string name="publish_comment_ok">Váš komentář byl zveřejněn.</string>
+    <string name="publish_comment_error">Objevila se chyba při odesílání vaší odpovědi. Prosím, opakujte to později</string>
+    <string name="several_comments">%1$d komentářů</string>
+    <string name="one_comment">Jeden komentář</string>
+    <string name="no_comment">Žádný komentář</string>
+    <string name="define_comment_before_publish">Vložte prosím váš komentář</string>
+    <string name="several_likes">%1$d lidem se toto líbí</string>
+    <string name="one_like">1 člověku se toto líbí</string>
+    <string name="no_like">Nikomu se toto nelíbí</string>
+    <string name="cannot_find_post">Nedaří se najít publikaci</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Nahrávání seznamu fotek před stažením &#8230;</string>
+    <string name="fetch_videos_from_album">Nahrávání seznamu videí před stažením &#8230;</string>
+    <string name="tagged_photos_of">Fotky, na kterých je %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Rodina</string>
+    <string name="others">Ostatní</string>
+    <string name="work">Práce</string>
+    <string name="education">Vzdělání</string>
+    <string name="user_about">O</string>
+    <string name="user_about_sex">Pohlaví : %1$s</string>
+    <string name="user_about_birthday">Narozen %1$s</string>
+    <string name="user_about_ralationship_status">Vztah : %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">O</string>
+    <string name="noone_talk_about_it">Nikdo o tom nemluví</string>
+    <string name="one_talk_about_it">1 člověk o tom mluví</string>
+    <string name="several_talk_about_it">%1$s lidí o tom mluví</string>
+    <string name="page_base_infos">Základní informace</string>
+    <string name="description">Popis</string>
+    <string name="mission">Mise</string>
+    <string name="coordinates">Souřadnice</string>
+    <string name="general_infos">Základní informace</string>
+    <string name="artists_we_like">Umělci, které máme rádi</string>
+    <string name="band_interests">Záliby kapely</string>
+    <string name="band_bio">Biografie</string>
+    <string name="band_members">Členové</string>
+    <string name="founded">Podpořeni</string>
+    <string name="genre">Žánr</string>
+    <string name="band_current_location">Současná poloha</string>
+    <string name="band_hometown">Město</string>
+    <string name="band_record_label">Nahrávací studio</string>
+    <string name="band_influences">Vlivy</string>
+    <string name="band_press_contact">Kontakt</string>
+    <string name="band_booking_agent">Zastupující agent</string>
+    <string name="band_general_manager">Manažer</string>
+    <string name="company_products">Produkty</string>
+    <string name="company_overview">Přehled</string>
+    <string name="hours">Hodiny</string>
+    <string name="public_transit">Veřejná doprava</string>
+    <string name="restaurant_food_styles">Styly jídla</string>
+    <string name="restaurant_culinar_team">Kuchařský tým</string>
+    <string name="restaurant_prices">Ceny</string>
+    <string name="restaurant_attire">Oděv</string>
+    <string name="restaurant_services">Služby</string>
+    <string name="restaurant_specialties">Speciality</string>
+    <string name="restaurant_parking">Parkování</string>
+    <string name="breakfast">Snídaně</string>
+    <string name="lunch">Oběd</string>
+    <string name="dinner">Večeře</string>
+    <string name="coffee">Káva</string>
+    <string name="drinks">Nápoje</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Pouze hotovost</string>
+    <string name="discover">Objevit</string>
+    <string name="reserve">Vytvořit rezervaci</string>
+    <string name="walkins">Návštěvníci vítáni</string>
+    <string name="groups">Vhodné pro skupiny</string>
+    <string name="kids">Vhodné pro děti</string>
+    <string name="takeout">Vzít ssebou</string>
+    <string name="delivery">Doručení</string>
+    <string name="waiter">Číšnická služba</string>
+    <string name="catering">Catering</string>
+    <string name="outdoor">Venkovní sezení</string>
+    <string name="street">Ulice</string>
+    <string name="lot">Parkoviště</string>
+    <string name="valet">Peněženka</string>
+    <string name="monday">Pondělí</string>
+    <string name="tuesday">Úterý</string>
+    <string name="wednesday">Středa</string>
+    <string name="thursday">Čtvrtek</string>
+    <string name="friday">Pátek</string>
+    <string name="saturday">Sobota</string>
+    <string name="sunday">Neděle</string>
+    <string name="plot_outline">Obrys</string>
+    <string name="network">Síť</string>
+    <string name="season">Období</string>
+    <string name="schedule">Rozvrh</string>
+    <string name="starring">Zůčastní se</string>
+    <string name="written_by">Napsáno</string>
+    <string name="awards">Ocenění</string>
+    <string name="personal_info">Osobní informace</string>
+    <string name="personal_interests">Osobní záliby</string>
+    <string name="phone">Telefon</string>
+    <string name="release_date">datum vzniku</string>
+    <string name="studio">Studio</string>
+    <string name="directed_by">Režírováno od</string>
+    <string name="screenplay_by">Scénář</string>
+    <string name="affiliation">Přidružení</string>
+    <string name="built">Postaveno</string>
+    <string name="features">Obsahuje</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info"> Farmaceutické bezpečnostní informace </string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Žádní uživatelé</string>
+    <string name="empty_list_no_friend">Žádní přátelé</string>
+    <string name="empty_list_no_page">Žádné stránky</string>
+    <string name="empty_list_no_event">Žádné události</string>
+    <string name="empty_list_no_album">Žádná alba</string>
+    <string name="empty_list_no_photo">Žádné fotky</string>
+    <string name="empty_list_no_video">Žádná videa</string>
+    <string name="empty_list_no_birthday">Žádné narozeniny</string>
+    <string name="empty_list_no_message">Žádné zprávy</string>
+    <string name="empty_list_no_notification">No notifications</string>
+    <string name="empty_list_no_stream">Žádné příspěvky</string>
+    <string name="empty_list_no_data">Žádná data</string>
+    <string name="empty_list_no_group">Žádné skupiny</string>
+    <string name="empty_list_no_member">Žádní členové</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">Ikony</string>
+    <string name="credentials_translators">Překladači</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Nastavení</string>
+    <string name="preference_theme_title">Motiv</string>
+    <string name="preferences_themes_dialog_title">Zvolte motiv</string>
+    <string name="preference_about_title">O aplikaci</string>
+    <string name="preference_credits_title">Zásluhy</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">Ikony</string>
+    <string name="preference_credits_tools_title">Nástroje</string>
+    <string name="preference_changelog_title">Seznam změn</string>
+    <string name="preference_notifications_title">Notifikace</string>
+    <string name="preference_notification_title">Notifikace</string>
+    <string name="preference_notification_summary">Povolit notifikace</string>
+    <string name="preference_notification_type_title">Typy notifikací</string>
+    <string name="preference_notification_birthday_title">Narozeniny</string>
+    <string name="preference_notification_birthday_summary">Notifikace pro narozeniny přátel</string>
+    <string name="preferences_notification_birthday_time_title">Čas obnovení narozenin</string>
+    <string name="preferences_notification_birthday_time_summary">Čas pro obnovení dnešních narozenin</string>
+    <string name="preference_notification_apprequest_title">App requests</string>
+    <string name="preference_notification_apprequest_summary">Notification on app requests</string>
+    <string name="preference_notification_album_title">Albums</string>
+    <string name="preference_notification_album_summary">Notification on albums</string>
+    <string name="preference_notification_event_title">Události</string>
+    <string name="preference_notification_event_summary">Notifikace událostí</string>
+    <string name="preference_notification_friend_request_title">Žádosti o přátelství</string>
+    <string name="preference_notification_friend_request_summary">Notifikace pro žádosti o přátelství</string>
+    <string name="preference_notification_group_invite_title">Skupiny</string>
+    <string name="preference_notification_group_invite_summary">Notification on groups</string>
+    <string name="preference_notification_page_invite_title">Stránky</string>
+    <string name="preference_notification_page_invite_summary">Notification on pages</string>
+    <string name="preference_notification_photo_title">Fotky</string>
+    <string name="preference_notification_photo_summary">Notifikace fotek</string>
+    <string name="preference_notification_poke_title">Pokes</string>
+    <string name="preference_notification_poke_summary">Notification on pokes</string>
+    <string name="preference_notification_stream_title">Příspěvky</string>
+    <string name="preference_notification_stream_summary">Notifikace pro příspěvky jiné, než zmíněné výše</string>
+    <string name="preference_notification_video_title">Videa</string>
+    <string name="preference_notification_video_summary">Notifikace videí</string>
+    <string name="preferences_notifications_interval">Interval</string>
+    <string name="preferences_notifications_permissions_title">Je nutné oprávnění</string>
+    <string name="preferences_notifications_permissions_message">Pro získání notifikací je nutné se znovu připojit do Facebooku</string>
+    <string name="preference_notification_group_title">Notifikace skupin</string>
+    <string name="preference_notification_group_summary">Informovat mě pouze při obdržení několika notifikací</string>
+    <string name="preference_app_language_title">Jazyk aplikace</string>
+    <string name="preferences_app_language_dialog_title">Změnit jazyk aplikace na</string>
+    <string name="preference_fb_language_title">Jazyk Facebooku</string>
+    <string name="preferences_fb_language_dialog_title">Změnit jazyk Facebooku na</string>
+    <string name="preference_newsfeed_title">Příspěvky</string>
+    <string name="preference_newsfeed_pages_title">Stránky</string>
+    <string name="preference_newsfeed_groups_title">Skupiny</string>
+    <string name="preference_newsfeed_events_title">Události</string>
+    <string name="preference_newsfeed_pages">Zahrnout stránky zobrazené v příspěvcích</string>
+    <string name="preference_newsfeed_groups">Zahrnout skupiny zobrazené v příspěvcích</string>
+    <string name="preference_newsfeed_events">Zahrnout události zobrazené v přspěvcích</string>
+    <string name="preference_performances_title">Výkon</string>
+    <string name="preference_performances_photo_effect_summary">Deaktivování efektu vylepší výkon</string>
+    <string name="preference_performances_photo_effect_title">Aktivovat efekt  blednutí fotek</string>
+    <string name="preference_performances_rounded_profile_picture_summary"> Deaktivování efektu vylepší výkon </string>
+    <string name="preference_performances_rounded_profile_picture_title">Aktivovat kulaté profilové fotky</string>
+    <string name="preferences_view_pager_indicator_style_title">Styl zobrazení příspěvků</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Záložky</string>
+    <string name="preferences_view_pager_indicator_style_titles">Názvy</string>
+    <string name="preferences_ui_title">Uživatelské rozhraní</string>
+    <string name="preference_performances_pause_on_scroll_title">Načítání fotek při dotyku</string>
+    <string name="preference_performances_pause_on_scroll_summary">Při aktivaci je pozastaveno načítání fotek, pokud posouváte příspěvky a dotýkáte se displeje</string>
+    <string name="preference_performances_pause_on_fling_title">Načítání fotek při posouvání</string>
+    <string name="preference_performances_pause_on_fling_summary">Při aktivaci se obrázky nenačítají, pokud se příspěvky posouvají a nedotýkáte se</string>
+    <string name="preference_performances_card_animation_title">Povolit animace karet</string>
+    <string name="preference_performances_card_animation_summary">Deaktivování animací karet zvýší výkon</string>
+    <string name="preferences_main_activity_tabs_title">Hlavní záložky</string>
+    <string name="preferences_user_activity_tabs_title">Záložky přátel</string>
+    <string name="preferences_page_activity_tabs_title">Záložky stránek</string>
+    <string name="preferences_event_activity_tabs_title">Záložky událostí</string>
+    <string name="preferences_group_activity_tabs_title">Záložky skupin</string>
+    <string name="preference_images_title">Obrázky</string>
+    <string name="preference_images_clear_cache_title">Vymazat obrázky v mezipaměti</string>
+    <string name="preference_images_clear_cache_summary">Vymazat obrázky v mezipaměti na extrením úložišti </string>
+    <string name="preference_images_cache_clearing">Mazání obrázků v mezipaměti</string>
+    <string name="preference_images_cache_cleared">Obrázky v mezipaměti vymazány</string>
+    <string name="preference_notification_interval_1_minute">Každou minutu</string>
+    <string name="preference_notification_interval_2_minutes">Každé 2 minuty</string>
+    <string name="preference_notification_interval_3_minutes">Každé 3 minuty</string>
+    <string name="preference_notification_interval_5_minutes">Každých 5 minut</string>
+    <string name="preference_notification_interval_10_minutes">Každých 10 minut</string>
+    <string name="preference_notification_interval_15_minutes">Každých 15 minut</string>
+    <string name="preference_notification_interval_20_minutes">Každých 20 minut</string>
+    <string name="preference_notification_interval_25_minutes">Každých 25 minut</string>
+    <string name="preference_notification_interval_30_minutes">Každých 30 minut</string>
+    <string name="preference_notification_interval_45_minutes">Každých 45 minut</string>
+    <string name="preference_notification_interval_1_hour">Každou hodinu</string>
+    <string name="preference_notification_interval_2_hours">Každé 2 hodiny</string>
+    <string name="preference_notification_interval_3_hours">Každé 3 hodiny</string>
+    <string name="preference_notification_interval_4_hours">Každé 4 hodiny</string>
+    <string name="preference_notification_interval_5_hours">Každých 5 hodin</string>
+    <string name="preference_notification_interval_6_hours">Každých 6 hodin</string>
+    <string name="preference_notification_interval_7_hours">Každých 7 hodin</string>
+    <string name="preference_notification_interval_8_hours">Každých 8 hodin</string>
+    <string name="preference_notification_interval_twice_daily">2x denně</string>
+    <string name="preference_notification_interval_daily">Daily</string>
+    <string name="preferences_notification_system_push">Push notifikace</string>
+    <string name="preferences_notification_system_periodic">Periodické notifications</string>
+    <string name="preferences_notification_system_both">Both</string>
+    <string name="preferences_notifications_system_title">Notifikace systému</string>
+    <string name="preferences_notifications_system_summary">Push notifikace možná nebudou dochvilné.\nPeriodické notifikace využívají více baterii</string>
+    <string name="preference_notification_vibrate_title">Vibrovat</string>
+    <string name="preference_notification_ringtone_title">Zvonění</string>
+    <string name="preference_notifications_ringtone">Zvonění</string>
+    <string name="preference_notifications_song">Písnička</string>
+    <string name="preference_notification_ringtone_chooser">Zvolte zvonění</string>
+    <string name="preference_newsfeed_go_to_top_title">Zobrazit nejnovější příspěvky po načtení</string>
+    <string name="preference_newsfeed_go_to_top_summary">Při aktivaci bude po načtení nejnovějších příspěvků zobrazen první příspěvek</string>
+    <string name="preference_newsfeed_cut_long_post_title">Oříznout dlouhé příspěvky</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Příspěvky delší než 10 řádků budou oříznuty</string>
+    <string name="preference_buy_pro_version_title">Kupte si verzi Pro</string>
+    <string name="preference_left_drawer_items_title">Left menu tabs</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Dnešní narozeniny</string>
+    <string name="notification_birthday_today">Dnes má %1$s narozeniny !</string>
+    <string name="friends_birthday_today">%1$d slaví dnes narozeniny !</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Žádosti o přátelství</string>
+    <string name="notification_friendrequest_message">%1$s vás žádá o přátelství</string>
+    <string name="new_friend_requests">Máte %1$d nové žádosti o přátelství</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Máte %1$s nové notifikace</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Povolení notifikací zamítnuto.\Prosím povolte notifikace kliknutím na tlačítko obnovit.</string>
+    <string name="notifications_unread_header_title">Unread notifications (%1$d)</string>
+    <string name="notifications_read_header_title">Past notifications</string>
+    <string name="notifications_friend_request_header_title">Friend requests</string>
+    <string name="notifications_dismiss">Odmítnout</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Déverrouiller le don</string>
+    <string name="donate_code">Entrez le code</string>
+    <string name="thank_you_very_much">Děkuji moc !</string>
+
+    <!-- Chat -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Videa</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Omlouváme se, Facebook nepovoluje aplikacím třetích stran vkládat příspěvky do skupin.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Nahrávání obrázků</string>
+    <string name="uploading_image_of">Nahrávání obrázků %1$d z %2$d</string>
+    <string name="upload_complete">Nahrávání hotovo</string>
+    <string name="n_uploaded_images">%1$d obrázek nahrán</string>
+    <string name="upload_error">Chyba při nahrávání</string>
+    <string name="file_not_found">Nepodařilo se najít soubor %1$s</string>
+    <string name="upload_photo_default_album_name">Zeď (základní)</string>
+
+    <!-- About -->
+    <string name="about_version">Verze %1$s</string>
+    <string name="about_activity_title">O aplikaci</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Všechna práva vyhrazena</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Poslat email</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Návrh ?\nNašel jste bug ?\nDejte nám vědět !</string>
+    <string name="feedback_send_suggest">Poslat návrh</string>
+    <string name="feedback_send_bug">Ohlásit bug</string>
+    <string name="feedback_g_plus_community">G+ komunita</string>
+    <string name="restart">Restartovat</string>
+    <string name="change_theme_need_restart">Pro nastavení motivu je nutné restartovat aplikaci.</string>
+    <string name="change_app_language_need_restart"> Pro nastavení jazyka je nutné restartovat aplikaci.</string>
+    <string name="option_need_restart"> Pro potvrzení nastavení je nutné restartovat aplikaci.</string>
+    <string name="soon">Soon &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Seznam změn</string>
+    <string name="changelog_close">Zavřít</string>
+    <string name="changelog_activity_title">Seznam změn</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Advertising</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Me : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+
+</resources>

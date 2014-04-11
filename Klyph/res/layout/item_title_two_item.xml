@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Klyph.ListItem.TitleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:paddingTop="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/first_item_layout"
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding" >
+
+        <ImageView
+            android:id="@+id/first_item_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/hdivider" />
+
+        <com.abewy.android.apps.klyph.widget.KlyphImageView
+            android:id="@+id/first_item_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/first_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_item_divider"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/first_item_icon"
+            style="@style/Klyph.ListItem.PrimaryText" />
+
+        <TextView
+            android:id="@+id/first_item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/first_item_name"
+            android:layout_below="@id/first_item_name"
+            android:layout_toRightOf="@id/first_item_icon"
+            android:paddingBottom="4dp"
+            style="@style/Klyph.ListItem.SecondaryText" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second_item_layout"
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_item_layout"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding" >
+
+        <ImageView
+            android:id="@+id/second_item_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/hdivider" />
+
+        <ImageView
+            android:id="@+id/second_item_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/second_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_item_divider"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/second_item_icon"
+            style="@style/Klyph.ListItem.PrimaryText" />
+
+        <TextView
+            android:id="@+id/second_item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/second_item_name"
+            android:layout_below="@id/second_item_name"
+            android:layout_toRightOf="@id/second_item_icon"
+            android:paddingBottom="4dp"
+            style="@style/Klyph.ListItem.SecondaryText" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/second_item_layout"
+        android:background="@drawable/ab_solid_shadow_holo" >
+    </RelativeLayout>
+
+</RelativeLayout>

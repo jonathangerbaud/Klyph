@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Klyph.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@drawable/screen_background_light</item>
+        
+        <item name="vpiTitlePageIndicatorStyle">@style/Klyph.Light.TitlePageIndicator</item>       
+        
+        <item name="backgroundColor">@color/light_background</item>
+        <item name="profileIconBackgroundColor">#858585</item>
+        <item name="android:textColorPrimary">@color/light_theme_primary</item>
+        <item name="android:textColorSecondary">@color/light_theme_secondary</item>
+        <item name="android:textColorTertiary">@color/light_theme_tertiary</item>
+        <item name="android:textColorPrimaryInverse">@color/dark_theme_primary</item>
+        <item name="android:textColorSecondaryInverse">@color/dark_theme_secondary</item>
+        <item name="android:textColorTertiaryInverse">@color/dark_theme_tertiary</item>
+        
+        <item name="streamBackground">@drawable/stream_background_light</item>
+        <item name="cardBackground">@drawable/card_background_light</item>
+        <item name="timelineProfilePicureBackground">@color/grey</item>
+        <item name="listItemBackground">@color/list_item_background_light</item>
+        <item name="listItemBackgroundInverse">@color/list_item_background_dark</item>
+        <item name="iconColor">@color/light_theme_icon_color</item>
+        <item name="iconColorInverse">@color/dark_theme_icon_color</item>
+        <item name="textTimeColor">@color/light_theme_text_time_color</item>
+        <item name="menuBackgroundColor">@color/light_theme_menu_background</item>
+        <item name="commentBackground">#F5F5F5</item>
+        <item name="streamLikeBackground">#E9E9E9</item>
+        <!--<item name="timelineProfilePicureBackground">@color/list_item_background_dark</item>  -->
+        
+        <item name="leftConversationBubbleBackground">@drawable/msg_bubble_selector_left_light</item>
+        <item name="rightConversationBubbleBackground">@drawable/msg_bubble_selector_right_light</item>
+        
+        <item name="android:listDivider">@drawable/divider_vertical_bright</item>
+        
+      	<item name="likeIcon">@drawable/ic_action_light_like</item>
+      	<item name="unlikeIcon">@drawable/ic_action_light_unlike</item>
+      	<item name="likeIconDisabled">@drawable/ic_action_light_like_disabled</item>
+        <item name="unlikeIconDisabled">@drawable/ic_action_light_unlike_disabled</item>
+      	<item name="commentIcon">@drawable/ic_action_light_comment</item>
+      	<item name="likeIconSmall">@drawable/ic_action_light_like_small</item>
+      	<item name="commentIconSmall">@drawable/ic_action_light_comment_small</item>
+      	<item name="maleUserIcon">@drawable/ic_user_male_light</item>
+      	<item name="maleUserIconInverse">@drawable/ic_user_male_dark</item>
+      	<item name="squarePlaceHolderIcon">@drawable/picture_place_holder_square_light</item>
+      	<item name="circlePlaceHolderIcon">@drawable/picture_place_holder_circle_light</item>
+      	<item name="photosIconSmall">@drawable/ic_photos_small_dark</item>
+      	<item name="videoPlaceHolderIcon">@drawable/ic_video_placeholder_light</item>
+      	<item name="videosIconSmall">@drawable/ic_videos_small_dark</item>
+      	<item name="calendarIcon">@drawable/ic_calendar_light</item>
+      	<item name="locationIcon">@drawable/ic_location_light</item>
+      	<item name="locationDisabledIcon">@drawable/ic_location_disabled_light</item>
+      	<item name="addUserIcon">@drawable/ic_add_user_light</item>
+      	<item name="addPictureIcon">@drawable/ic_add_picture_light</item>
+      	<item name="addPictureDisabledIcon">@drawable/ic_add_picture_disabled_light</item>
+      	<item name="groupIcon">@drawable/ic_group_light</item>
+      	<item name="sendIcon">@drawable/ic_send_light</item>
+      	<item name="eventGoingIcon">@drawable/ic_cab_done_holo_light</item>
+      	<item name="eventUnsureIcon">@drawable/ic_event_unsure_light</item>
+      	<item name="eventDeclinedIcon">@drawable/ic_event_declined_light</item>
+      	<item name="eventGoingSelectedIcon">@drawable/ic_event_going_selected</item>
+      	<item name="eventUnsureSelectedIcon">@drawable/ic_event_unsure_selected</item>
+      	<item name="eventDeclinedSelectedIcon">@drawable/ic_event_declined_selected</item>
+      	<item name="refreshIcon">@drawable/ic_refresh_light</item>
+      	<item name="privacyPublicIcon">@drawable/ic_privacy_public_light</item>
+      	<item name="privacyFriendsIcon">@drawable/ic_privacy_friends_light</item>
+      	<item name="privacySelfIcon">@drawable/ic_privacy_self_light</item>
+      	<item name="privacyCustomIcon">@drawable/ic_privacy_friendlist_light</item>
+      	<item name="privacyPublicDisabledIcon">@drawable/ic_privacy_public_disabled_light</item>
+      	<item name="privacyFriendsDisabledIcon">@drawable/ic_privacy_friends_disabled_light</item>
+      	<item name="privacySelfDisabledIcon">@drawable/ic_privacy_self_disabled_light</item>
+      	<item name="playOverVideoIcon">@drawable/ic_action_play_over_video_light</item>
+      	<item name="discardIcon">@drawable/ic_action_discard_light</item>
+      	<item name="newIcon">@drawable/ic_new_light</item>
+      	<item name="likeBaselineIcon">@drawable/ic_action_light_like_text_baseline</item>
+      	<item name="commentBaselineIcon">@drawable/ic_action_light_comment_text_baseline</item>
+      	<item name="userPlaceholderIcon">@drawable/ic_user_male_placeholder_light</item>
+      	<item name="userPlaceholderLargeIcon">@drawable/ic_user_male_placeholder_large_light</item>
+      	<item name="addFriendIcon">@drawable/ic_add_user_light</item>
+      	<item name="addFriendDisabledIcon">@drawable/ic_add_user_disabled_light</item>
+      	<item name="navigationExpandIcon">@drawable/ic_navigation_expand_dark</item>
+      	<item name="editIcon">@drawable/ic_edit_light</item>
+      	<item name="searchIcon">@drawable/ic_action_search_light</item>
+      	<item name="backToTopIcon">@drawable/ic_back_to_top_light</item>
+      	<item name="dragIcon">@drawable/ic_drag_light</item>
+      	<item name="downloadIcon">@drawable/ic_download_light</item>
+      	<item name="pullToRefreshIcon">@drawable/ic_pull_to_refresh_light</item>
+      	<item name="pullToRefreshIconInverse">@drawable/ic_pull_to_refresh_dark</item>
+      	<item name="notificationIcon">@drawable/ic_bell_light</item>
+      	<item name="linkIcon">@drawable/ic_link_light</item>
+      	<item name="linkDisabledIcon">@drawable/ic_link_disabled_light</item>
+      	<item name="pictureIcon">@drawable/ic_navdrawer_albums_light</item>
+      	<item name="shareIcon">@drawable/ic_share_light</item>
+      	<item name="dismissNotificationsIcon">@drawable/ic_dismiss_notifications_light</item>
+      	<item name="takePhotoIcon">@drawable/ic_take_photo_light</item>
+      	<item name="overflowIcon">@drawable/ic_action_overflow_light</item>
+      	<item name="cardLikeIcon">@drawable/ic_card_like_light</item>
+      	<item name="cardCommentIcon">@drawable/ic_card_comment_light</item>
+      	<item name="cardShareIcon">@drawable/ic_card_share_light</item>
+      	<item name="cardOverflowIcon">@drawable/ic_card_overflow_light</item>
+      	
+      	<item name="drawerIcon">@drawable/ic_drawer_light</item>
+      	
+      	<item name="drawerNewsfeedIcon">@drawable/ic_navdrawer_newsfeed_light</item>
+      	<item name="drawerFriendsIcon">@drawable/ic_navdrawer_friends_light</item>
+      	<item name="drawerTimelineIcon">@drawable/ic_navdrawer_timeline_light</item>
+      	<item name="drawerAlbumsIcon">@drawable/ic_navdrawer_albums_light</item>
+      	<item name="drawerGroupsIcon">@drawable/ic_group_light</item>
+      	<item name="drawerPagesIcon">@drawable/ic_drawer_pages_light</item>
+      	<item name="drawerFollowedIcon">@drawable/ic_drawer_followed_people_light</item>
+      	<item name="drawerEventsIcon">@drawable/ic_calendar_light</item>
+      	<item name="drawerBirthdaysIcon">@drawable/ic_navdrawer_birthdays_light</item>
+      	<item name="drawerSearchIcon">@drawable/ic_action_search_light</item>
+      	
+      	<item name="android:selectableItemBackground">@drawable/item_background_holo_dark</item>
+      	<item name="buttonBarStyle">@style/Klyph.ButtonBar</item>
+      	<item name="buttonBarButtonStyle">@style/Klyph.Light.Button.Borderless</item>
+      	<item name="streamButtonBarButtonBackground">@drawable/stream_buttonbar_button_light</item>
+      	<item name="android:dividerVertical">@drawable/divider_vertical_bright</item>
+      	
+        <!--
+        <item name="textColorPrimary">@android:color/primary_text_dark</item>
+        <item name="textColorSecondary">@android:color/secondary_text_dark</item>
+        <item name="textColorTertiary">@android:color/tertiary_text_dark</item>
+        <item name="textColorPrimaryInverse">@android:color/primary_text_light</item>
+        <item name="textColorSecondaryInverse">@android:color/secondary_text_light</item>
+        <item name="textColorTertiaryInverse">@android:color/tertiary_text_light</item>
+        <item name="textColorPrimaryDisableOnly">@android:color/primary_text_dark_disable_only</item>
+        <item name="textColorPrimaryInverseDisableOnly">@android:color/primary_text_light_disable_only</item>
+        <item name="textColorPrimaryNoDisable">@android:color/primary_text_dark_nodisable</item>
+        <item name="textColorSecondaryNoDisable">@android:color/secondary_text_dark_nodisable</item>
+        <item name="textColorPrimaryInverseNoDisable">@android:color/primary_text_light_nodisable</item>
+        <item name="textColorSecondaryInverseNoDisable">@android:color/secondary_text_light_nodisable</item>
+        <item name="textColorHint">@android:color/hint_foreground_dark</item>
+        <item name="textColorHintInverse">@android:color/hint_foreground_light</item>
+        <item name="textColorSearchUrl">@android:color/search_url_text</item>
+        <item name="textColorHighlight">@android:color/highlighted_text_dark</item>
+        <item name="textColorHighlightInverse">@android:color/highlighted_text_light</item>
+        <item name="textColorLink">@android:color/link_text_dark</item>
+        <item name="textColorLinkInverse">@android:color/link_text_light</item>
+        <item name="textColorAlertDialogListItem">@android:color/primary_text_light_disable_only</item>
+
+        <item name="textAppearanceLarge">@android:style/TextAppearance.Large</item>
+        <item name="textAppearanceMedium">@android:style/TextAppearance.Medium</item>
+        <item name="textAppearanceSmall">@android:style/TextAppearance.Small</item>
+        <item name="textAppearanceLargeInverse">@android:style/TextAppearance.Large.Inverse</item>
+        <item name="textAppearanceMediumInverse">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="textAppearanceSmallInverse">@android:style/TextAppearance.Small.Inverse</item>
+        <item name="textAppearanceSearchResultTitle">@android:style/TextAppearance.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@android:style/TextAppearance.SearchResult.Subtitle</item>
+
+        <item name="textAppearanceEasyCorrectSuggestion">@android:style/TextAppearance.EasyCorrectSuggestion</item>
+        <item name="textAppearanceMisspelledSuggestion">@android:style/TextAppearance.MisspelledSuggestion</item>
+        <item name="textAppearanceAutoCorrectionSuggestion">@android:style/TextAppearance.AutoCorrectionSuggestion</item>
+
+        <item name="textAppearanceButton">@android:style/TextAppearance.Widget.Button</item>
+       
+        <item name="editTextColor">@android:color/primary_text_light</item>
+        <item name="editTextBackground">@android:drawable/edit_text</item>
+
+        -->
+    </style>
+
+</resources>

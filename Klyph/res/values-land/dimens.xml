@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ckoobafe_list_padding">4dip</dimen>
+    <dimen name="ckoobafe_item_padding">8dip</dimen>
+    <dimen name="ckoobafe_stream_item_padding">4dip</dimen>
+    <dimen name="klyph_stream_side_padding">8dip</dimen>
+    <dimen name="klyph_stream_album_margin">2dip</dimen>
+    <dimen name="klyph_stream_video_title">16sp</dimen>
+    <dimen name="klyph_stream_video_desc">12sp</dimen>
+    <dimen name="stream_link_image_size">40dp</dimen>
+    <dimen name="stream_link_image_margin_top">8dp</dimen>
+    <dimen name="stream_link_title_size">14sp</dimen>
+    <dimen name="thread_pic">100px</dimen>
+    <dimen name="klyph_stream_grid_padding_left_right">32dp</dimen>
+    <dimen name="klyph_grid_spacing">8dp</dimen>
+    
+    <dimen name="comment_link_image_size">100dp</dimen>
+    <dimen name="comment_link_height">124dp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="klyph_list_item_primary_text">16sp</dimen>
+    <dimen name="klyph_list_item_secondary_text">12sp</dimen>
+    
+    <!-- Grid -->
+    <integer name="klyph_grid_num_column">2</integer>
+    <integer name="klyph_gallery_num_column">4</integer>
+    
+    <!-- Stream grid -->
+    <integer name="klyph_stream_grid_num_column">2</integer>
+    
+    <!-- Album grid -->
+    <integer name="klyph_grid_album_num_column">2</integer>
+    <integer name="klyph_grid_album_photos_num_column">3</integer>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dip_1">1dip</dimen>
+    <dimen name="dip_2">2dip</dimen>
+    <dimen name="dip_4">4dip</dimen>
+    <dimen name="dip_8">8dip</dimen>
+    <dimen name="dip_12">12dip</dimen>
+    <dimen name="dip_16">16dip</dimen>
+    <dimen name="dip_32">32dip</dimen>
+    <dimen name="dip_36">36dip</dimen>
+    <dimen name="dip_40">40dip</dimen>
+    <dimen name="dip_48">48dip</dimen>
+    <dimen name="dip_56">56dip</dimen>
+    <dimen name="dip_64">64dip</dimen>
+    
+    
+    <dimen name="ckoobafe_list_padding">4dip</dimen>
+    <dimen name="ckoobafe_item_padding">8dip</dimen>
+    <dimen name="ckoobafe_stream_item_padding">8dip</dimen>
+    <dimen name="klyph_stream_side_padding">8dip</dimen>
+    <dimen name="klyph_stream_album_margin">2dip</dimen>
+    <dimen name="klyph_stream_video_title">16sp</dimen>
+    <dimen name="klyph_stream_video_desc">12sp</dimen>
+    <dimen name="klyph_stream_item_profile_padding">12dp</dimen>
+    <dimen name="klyph_stream_item_part_padding">12dp</dimen>
+    <dimen name="stream_link_padding">12dp</dimen>
+    <dimen name="stream_link_image_size">80dp</dimen>
+    <dimen name="stream_link_height">250dp</dimen>
+    <dimen name="stream_link_image_margin_top">16dp</dimen>
+    <dimen name="stream_link_title_size">14sp</dimen>
+    <dimen name="thread_pic">100px</dimen>
+    
+    <dimen name="profile_image_size">48dp</dimen>
+    <dimen name="photo_profile_image_size">32dp</dimen>
+    <dimen name="profile_image_border_size">2dp</dimen>
+    
+    <!-- Comment -->
+    <dimen name="comment_margin">12dp</dimen>
+    <dimen name="comment_picture_size">40dp</dimen>
+    <dimen name="comment_link_image_size">60dp</dimen>
+    <dimen name="comment_link_height">100dp</dimen>
+    
+    
+    <!-- Text sizes -->
+    <dimen name="klyph_list_item_primary_text">16sp</dimen>
+    <dimen name="klyph_list_item_secondary_text">12sp</dimen>
+    <dimen name="klyph_list_item_tertiary_text">10sp</dimen>
+    
+    <!-- Grid -->
+    <dimen name="klyph_grid_padding_left_right">8dp</dimen>
+    <dimen name="klyph_grid_padding_top_bottom">8dp</dimen>
+    <dimen name="klyph_grid_spacing">8dp</dimen>
+
+    <integer name="klyph_grid_num_column">1</integer>
+    <integer name="klyph_gallery_num_column">3</integer>
+    
+    <!-- Stream Grid -->
+    <dimen name="klyph_stream_grid_padding_left_right">8dp</dimen>
+    <dimen name="klyph_stream_grid_padding_top_bottom">8dp</dimen>
+    <dimen name="klyph_stream_grid_spacing">8dp</dimen>
+    <integer name="klyph_stream_grid_num_column">1</integer>
+    
+    <!-- Stream album -->
+    <dimen name="klyph_stream_album_height">350dp</dimen>
+    
+    <!-- Album grid -->
+    <integer name="klyph_grid_album_num_column">1</integer>
+    <integer name="klyph_grid_album_photos_num_column">2</integer>
+    
+    <!-- Share -->
+    <dimen name="post_share_image_size">50dp</dimen>
+    
+    <!-- Drawer layout -->
+    <dimen name="max_drawer_layout_width">320dp</dimen>
+    <dimen name="drawer_layout_item_height">48dp</dimen>
+    <dimen name="drawer_cover_height">90dp</dimen>
+    <dimen name="drawer_layout_item_text_size">18sp</dimen>
+    
+    <!-- G+ Stuff -->
+    <dimen name="notification_dismiss_scroll_delta_threshold">2.0dip</dimen>
+    
+    <!-- Messages -->
+    <dimen name="conversation_margin">8dp</dimen>
+    <dimen name="conversation_margin_end">0dp</dimen>
+    <dimen name="conversation_avatar_size">48dp</dimen>
+    <dimen name="conversation_item_min_height">52dp</dimen>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/klyph_grid_padding_top_bottom"
+        android:paddingLeft="@dimen/klyph_grid_padding_left_right"
+        android:paddingRight="@dimen/klyph_grid_padding_left_right"
+        android:paddingTop="@dimen/klyph_grid_padding_top_bottom"
+        android:background="?attr/actionBarStackedBackground" >
+        
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:hint="@string/search"
+            android:singleLine="true"
+            android:textColor="?android:attr/textColorSecondary"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionSearch" />
+
+        <Spinner
+            android:id="@+id/search_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="?attr/searchIcon" />
+    </LinearLayout>
+
+    <include layout="@layout/grid" />
+
+</LinearLayout>

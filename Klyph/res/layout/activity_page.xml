@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/list_empty_view_logo" />
+
+        <TextView
+            android:id="@+id/error_text"
+            style="@style/Klyph.ListEmptyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="16dp"
+            android:singleLine="false"
+            android:text="@string/request_error"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/retry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_error_retry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header_name_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/listItemBackground"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dip_8"
+        android:paddingTop="@dimen/dip_56"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/header_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:lines="1"
+            android:paddingLeft="@dimen/dip_8"
+            android:paddingRight="@dimen/dip_8"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <com.abewy.android.apps.klyph.widget.coverImage.UserCoverImageView
+            android:id="@+id/header_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/picture_place_holder_square_dark" />
+
+        <com.abewy.android.apps.klyph.widget.ProfileImageView
+            android:id="@+id/header_logo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/picture_place_holder_circle_light" />
+    </FrameLayout>
+
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/title_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        selectedColor="@android:color/white"
+        android:background="#333333"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+    <com.viewpagerindicator.TabPageIndicator
+        android:id="@+id/tab_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        selectedColor="@android:color/white"
+        android:background="#333333"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+</FrameLayout>

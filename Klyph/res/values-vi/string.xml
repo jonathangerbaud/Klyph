@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Bảng tin</string>
+    <string name="fragment_header_timeline">Dòng thời gian</string>
+    <string name="fragment_header_inbox">Hộp thư đến</string>
+    <string name="fragment_header_friends">Bạn bè</string>
+    <string name="fragment_header_pages">Trang</string>
+    <string name="fragment_header_about">Giới thiệu</string>
+    <string name="fragment_header_events">Sự kiện</string>
+    <string name="fragment_header_birthdays">Sinh nhật</string>
+    <string name="fragment_header_albums">Album</string>
+    <string name="fragment_header_infos">Thông tin</string>
+    <string name="fragment_header_wall">Trang cá nhân</string>
+    <string name="fragment_header_going">Tham gia</string>
+    <string name="fragment_header_maybe">Không chắc</string>
+    <string name="fragment_header_declined">Không tham gia</string>
+    <string name="fragment_header_invited">Được mời</string>
+    <string name="fragment_header_groups">Nhóm</string>
+    <string name="fragment_header_members">Thành viên</string>
+    <string name="fragment_header_photos">Ảnh</string>
+    <string name="fragment_header_threads">Luồng</string>
+    <string name="fragment_header_followed_people">Người theo dõi</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="user">Người dùng</string>
+    <string name="page">Trang</string>
+    <string name="group">Nhóm</string>
+    <string name="event">Sự kiện</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="menu_notifications">Thông báo</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_messages">Tin nhắn</string>
+    <string name="menu_credits">Người đóng góp</string>
+    <string name="menu_send">Gửi</string>
+    <string name="menu_preferences">Thiết lập</string>
+    <string name="menu_feedback">Đề nghị/báo lỗi</string>
+    <string name="menu_donate">Ủng hộ</string>
+    <string name="menu_download">Tải xuống</string>
+    <string name="menu_add_photos">Thêm ảnh</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_buy_pro">Không còn quảng cáo!</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Bạn thật sự muốn đăng xuất?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Album mới</string>
+    <string name="create">Tạo</string>
+    <string name="name">Tên</string>
+    <string name="location">Vị trí</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Thử lại</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Đã xảy ra lỗi.</string>
+    <string name="request_connexion_error">Lỗi kết nối.\nHãy kiểm tra lại kết nối internet của bạn.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Không thể xác định vị trí của bạn.</string>
+    <string name="choose_place">Chọn vị trí</string>
+
+    <!-- General -->
+    <string name="close">Đóng</string>
+    <string name="open">Mở</string>
+    <string name="refresh">Tải lại</string>
+    <string name="share">Chia sẻ</string>
+    <string name="defaultString">Mặc định</string>
+    <string name="camera">Máy ảnh</string>
+    <string name="copy_text">Chép văn bản</string>
+    <string name="see_who_likes_this">Xem ai thích điều này</string>
+    <string name="download_image">Tải ảnh</string>
+    <string name="view_profile">Xem trang cá nhân</string>
+    <string name="share_with">Chia sẻ với</string>
+    <string name="more">Thêm</string>
+    <string name="reply">Trả lời</string>
+    <string name="hide">Ẩn</string>
+    <string name="none">Không có</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Chọn ảnh</string>
+    <string name="thread_activity_title">Tin nhắn</string>
+    <string name="notification_activity_title">Thông báo</string>
+    <string name="credentials_activity_title">Người đóng góp</string>
+    <string name="donate_activity_title">Ủng hộ</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Công khai</string>
+    <string name="menu_privacy_friends">Bạn bè</string>
+    <string name="menu_privacy_self">Chỉ mình tôi</string>
+
+    <!-- FR Values -->
+    <string name="like">Thích</string>
+    <string name="unlike">Không thích</string>
+    <string name="people_who_likes_this">Những người thích điều này</string>
+    <string name="comment">Bình luận</string>
+    <string name="zero_or_one_like">%s thích</string>
+    <string name="zero_or_one_comment">%s bình luận</string>
+    <string name="number_of_likes">%s lượt thích</string>
+    <string name="number_of_comments">%s bình luận</string>
+    <string name="number_of_people_who_like_it">%s người thích điều này</string>
+    <string name="you_and_other_people_who_like_it">Bạn và %s người khác thích điều này</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d giây trước</string>
+    <string name="one_minute_ago">Một phút trước</string>
+    <string name="minutes_ago">%d phút trước</string>
+    <string name="one_hour_ago">Một giờ trước</string>
+    <string name="hours_ago">%d giờ trước</string>
+    <string name="one_day_ago">Một ngày trước</string>
+    <string name="days_ago">%d ngày trước</string>
+    <string name="one_month_ago">Một tháng trước</string>
+    <string name="months_ago">%d tháng trước</string>
+    <string name="years_ago">%d năm trước</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Chọn chất lượng</string>
+    <string name="dialog_video_quality_message">Xem với chất lượng chuẩn (SD) hay chất lượng cao (HD) ?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s đã thêm %2$s ảnh vào album %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— với %1$s</string>
+    <string name="post_with_two_friends">— với %1$s và %2$s</string>
+    <string name="post_with_several_friends">— với %1$s và %2$s bạn khác</string>
+    <string name="with_several_friends">%1$s bạn khác</string>
+    <string name="at_place">— tại %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Huỷ</string>
+    <string name="error">Lỗi</string>
+    <string name="please_enter_message">Vui lòng nhập tin nhắn</string>
+    <string name="must_select_place_to_tag_friends">Để tag bạn bè, vui lòng chọn địa điểm trước.</string>
+    <string name="status">Trạng thái</string>
+    <string name="publishing">Đang gửi&#8230;</string>
+    <string name="status_successfully_published">Trạng thái của bạn đã được gửi.</string>
+    <string name="message_successfully_published">Tin nhắn của bạn đã được gửi.</string>
+    <string name="publish_unknown_error">Không thể gửi trạng thái.</string>
+    <string name="publish_message_unknown_error">Không thể gửi tin nhắn.</string>
+    <string name="publish_error_duplicate_message">Đây là trạng thái cuối của bạn.</string>
+    <string name="publish_new_status">Gửi trạng thái mới.</string>
+    <string name="publish_new_event_message">Gửi tin nhắn mới.</string>
+    <string name="friends">Bạn bè</string>
+    <string name="post_hint">Tin nhắn của bạn</string>
+    <string name="post_link_malformated_url">Địa chỉ không hợp lệ</string>
+    <string name="post_link_malformated_image_url">Địa chỉ ảnh không hợp lệ</string>
+    <string name="post_link_empty_name">Vui lòng nhập tên.</string>
+    <string name="post_share_status">Chia sẻ trạng thái</string>
+    <string name="post_share_photo">Chia sẻ ảnh</string>
+    <string name="post_share_video">Chia sẻ video</string>
+    <string name="post_share_link">Chia sẻ liên kết</string>
+    <string name="post_share_album">Chia sẻ album</string>
+    <string name="post_share_on">Chia sẻ trên</string>
+    <string name="post_share_on_my_wall">Trang cá nhân của tôi</string>
+    <string name="post_share_on_friend_wall">Trang cá nhân của bạn bè</string>
+    <string name="post_a_reply">Viết trả lời</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Gửi ảnh mới</string>
+    <string name="creating_album">Tạo album &#8230;</string>
+    <string name="must_select_photos">Vui lòng chọn ảnh để tải lên</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Xác nhận</string>
+    <string name="delete_post_confirmation_message">Bạn muốn xoá tin nhắn này chứ ?</string>
+    <string name="delete_post_error">Không thể xoá tin nhắn.</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="delete">Xoá</string>
+    <string name="deleting">Đang xoá&#8230;</string>
+    <string name="post_deleted">Đã xoá tin nhắn.</string>
+    <string name="like_error">Không thể thích.</string>
+    <string name="unlike_error">Không thể bỏ thích.</string>
+    <string name="stream_date">%1$s lúc %2$s</string>
+    <string name="stream_today_date">Hôm nay lúc %1$s</string>
+    <string name="stream_yesterday_date">Hôm qua lúc %1$s</string>
+    <string name="newsfeed_new_stream">1 câu chuyện mới</string>
+    <string name="newsfeed_new_streams">%1$d câu chuyện mới</string>
+
+    <!-- Event -->
+    <string name="event_by">bởi %1$s</string>
+    <string name="event_description">Mô tả</string>
+    <string name="event_practical_information">Thông tin thực</string>
+    <string name="event_date">Ngày</string>
+    <string name="event_place">Địa điểm</string>
+    <string name="event_secret">Chỉ khi mời</string>
+    <string name="event_friends">Bạn bè</string>
+    <string name="event_public">Sự kiện công khai</string>
+    <string name="event_closed">Sự kiện kín</string>
+    <string name="event_will_attend_title">Tôi sẽ tham dự ?</string>
+    <string name="event_going">Tham dự</string>
+    <string name="event_unsure">Có thể</string>
+    <string name="event_declined">Từ chối</string>
+    <string name="event_num_invitee">%1$s người được mời</string>
+    <string name="event_num_attending">%1$s người sẽ tham dự</string>
+    <string name="event_num_unsure">%1$s người chưa quyết định</string>
+    <string name="event_num_declined">%1$s người từ chối</string>
+    <string name="event_response_dialog_title">Trả lời</string>
+    <string name="event_response_dialog_message">Đang gửi hồi đáp&#8230;</string>
+    <string name="event_response_ok">Hồi đáp của bạn đã được gửi</string>
+    <string name="event_response_error">Một lỗi đã xảy ra trong lúc gửi hồi đáp.\nVui lòng thử lại sau.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Sinh nhật</string>
+    <string name="user_sex">Giới tính</string>
+    <string name="user_meeting_sex">Quan tâm đến</string>
+    <string name="user_relationship_status">Tình trạng quan hệ</string>
+    <string name="user_religion">Quan điểm tôn giáo</string>
+    <string name="user_political">Quan điểm chính trị</string>
+    <string name="user_phones">Điện thoại</string>
+    <string name="user_address">Địa chỉ</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Mạng</string>
+    <string name="user_activities">Hoạt động</string>
+    <string name="user_books">Sách</string>
+    <string name="user_inspirational_people">Người truyền cảm hứng</string>
+    <string name="user_interests">Quan tâm</string>
+    <string name="user_movies">Phim ảnh</string>
+    <string name="user_music">Âm nhạc</string>
+    <string name="user_sports">Thể thao</string>
+    <string name="user_tv">TV show</string>
+    <string name="user_quotes">Trích dẫn</string>
+    <string name="user_website">Website</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s đến %2$s</string>
+    <string name="work_date_until_today">%1$s đến hiện tại</string>
+
+    <!-- Education -->
+    <string name="education_year">Niên khoá %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s và %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s và %3$d người khác</string>
+    <string name="thread_and_others">%1$d người khác</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Người thích điều này</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Riêng tư</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d tuổi</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Chọn bạn</string>
+    <string name="friend_picker_single_choice_title">Chọn một bạn</string>
+    <string name="search_friends">Tìm bạn bè</string>
+    <string name="several_friends_selected">%1$d bạn được chọn</string>
+    <string name="one_friend_selected">1 bạn được chọn</string>
+    <string name="no_friend_selected">Chưa chọn bạn bè</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d ảnh được chọn</string>
+    <string name="one_photo_selected">Một ảnh được chọn</string>
+    <string name="no_photo_selected">Chưa chọn ảnh</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Không thể tìm ảnh</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Đăng bình luận</string>
+    <string name="comments_disabled">Đã vô hiệu bình luận</string>
+    <string name="publish_comment_dialog_title">Bình luận</string>
+    <string name="publish_comment_dialog_message">Đang gửi&#8230;</string>
+    <string name="publish_comment_ok">Bình luận của bạn đã được đăng.</string>
+    <string name="publish_comment_error">Một lỗi đã xảy ra khi đăng bình luận của bạn.\nVui lòng thử lại sau.</string>
+    <string name="several_comments">%1$d bình luận</string>
+    <string name="one_comment">Một bình luận</string>
+    <string name="no_comment">Không có bình luận</string>
+    <string name="define_comment_before_publish">Vui lòng viết bình luận của bạn</string>
+    <string name="several_likes">%1$d người thích điều này</string>
+    <string name="one_like">1 người thích điều này</string>
+    <string name="no_like">Chưa ai thích điều này</string>
+    <string name="cannot_find_post">Không thể tìm bài viết</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Đang lấy danh sách ảnh trước khi tải xuống &#8230;</string>
+    <string name="fetch_videos_from_album">Đang lấy danh sách video trước khi tải xuống &#8230;</string>
+    <string name="tagged_photos_of">Ảnh của %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Gia đình</string>
+    <string name="others">Khác</string>
+    <string name="work">Việc làm</string>
+    <string name="education">Học tập</string>
+    <string name="user_about">Thông tin</string>
+    <string name="user_about_sex">Giới tính : %1$s</string>
+    <string name="user_about_birthday">Sinh vào %1$s</string>
+    <string name="user_about_ralationship_status">Tình trạng quan hệ : %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Thông tin</string>
+    <string name="noone_talk_about_it">Chưa ai nói về nó</string>
+    <string name="one_talk_about_it">1 người nói về nó</string>
+    <string name="several_talk_about_it">%1$s người nói về nó</string>
+    <string name="page_base_infos">Thông tin cơ bản</string>
+    <string name="description">Mô tả</string>
+    <string name="mission">Sứ mệnh</string>
+    <string name="coordinates">Phối hợp</string>
+    <string name="general_infos">Thông tin tổng quát</string>
+    <string name="artists_we_like">Nghệ sĩ chúng tôi thích</string>
+    <string name="band_interests">Ban nhạc yêu thích</string>
+    <string name="band_bio">Tiểu sử</string>
+    <string name="band_members">Thành viên</string>
+    <string name="founded">Thành lập</string>
+    <string name="genre">Thể loại</string>
+    <string name="band_current_location">Vị trí hiện tại</string>
+    <string name="band_hometown">Quê quán</string>
+    <string name="band_record_label">Hãng thu âm</string>
+    <string name="band_influences">Ảnh hưởng</string>
+    <string name="band_press_contact">Liên hệ</string>
+    <string name="band_booking_agent">Đại lý bán vé</string>
+    <string name="band_general_manager">Tổng quản lý</string>
+    <string name="company_products">Sản phẩm</string>
+    <string name="company_overview">Tổng quan</string>
+    <string name="hours">Giờ</string>
+    <string name="public_transit">Vận chuyển công cộng</string>
+    <string name="restaurant_food_styles">Phong cách</string>
+    <string name="restaurant_culinar_team">Nhóm ẩm thực</string>
+    <string name="restaurant_prices">Giá</string>
+    <string name="restaurant_attire">Tramh phục</string>
+    <string name="restaurant_services">Dịch vụ</string>
+    <string name="restaurant_specialties">Đặc sản</string>
+    <string name="restaurant_parking">Bãi đỗ xe</string>
+    <string name="breakfast">Bữa sáng</string>
+    <string name="lunch">Bữa trưa</string>
+    <string name="dinner">Bữa tối</string>
+    <string name="coffee">Cà-phê</string>
+    <string name="drinks">Đồ uống</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Chỉ tiền mặt</string>
+    <string name="discover">Khám phá</string>
+    <string name="reserve">Đặt phòng</string>
+    <string name="walkins">Vào không cần hẹn trước</string>
+    <string name="groups">Tốt cho nhóm</string>
+    <string name="kids">Tốt cho trẻ</string>
+    <string name="takeout">Đưa ra</string>
+    <string name="delivery">Giao hàng</string>
+    <string name="waiter">Phục vụ</string>
+    <string name="catering">Dịch vụ ăn uống</string>
+    <string name="outdoor">Chỗ ngồi ngoài trời</string>
+    <string name="street">Đường phố</string>
+    <string name="lot">Bãi đậu xe</string>
+    <string name="valet">Phục vụ</string>
+    <string name="monday">Thứ 2</string>
+    <string name="tuesday">Thứ 3</string>
+    <string name="wednesday">Thứ 4</string>
+    <string name="thursday">Thứ 5</string>
+    <string name="friday">Thứ 6</string>
+    <string name="saturday">Thứ 7</string>
+    <string name="sunday">CN</string>
+    <string name="plot_outline">Phát thảo cốt truyện</string>
+    <string name="network">Mạng</string>
+    <string name="season">Mùa</string>
+    <string name="schedule">Lịch</string>
+    <string name="starring">Tham gia</string>
+    <string name="written_by">Viết bởi</string>
+    <string name="awards">Giải thưởng</string>
+    <string name="personal_info">Thông tin cá nhân</string>
+    <string name="personal_interests">Sở thích cá nhân</string>
+    <string name="phone">Điện thoại</string>
+    <string name="release_date">Ngày phát hành</string>
+    <string name="studio">Phòng thu</string>
+    <string name="directed_by">Đạo diễn</string>
+    <string name="screenplay_by">Kịch bản</string>
+    <string name="affiliation">Liên kết</string>
+    <string name="built">Đã tạo</string>
+    <string name="features">Tính năng</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Thông tin an toàn dược phẩm</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Không có người dùng</string>
+    <string name="empty_list_no_friend">Không có bạn bè</string>
+    <string name="empty_list_no_page">Không có trang</string>
+    <string name="empty_list_no_event">Không có sự kiện</string>
+    <string name="empty_list_no_album">Không có album</string>
+    <string name="empty_list_no_photo">Không có ảnh</string>
+    <string name="empty_list_no_video">Không có video</string>
+    <string name="empty_list_no_birthday">Không có sinh nhật</string>
+    <string name="empty_list_no_message">Không có tin nhắn</string>
+    <string name="empty_list_no_notification">Không có thông báo</string>
+    <string name="empty_list_no_stream">Không có tin tức</string>
+    <string name="empty_list_no_data">Không có dữ liệu</string>
+    <string name="empty_list_no_group">Không có nhóm</string>
+    <string name="empty_list_no_member">Không có thành viên</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">API</string>
+    <string name="credentials_icons">Biểu tượng</string>
+    <string name="credentials_translators">Dịch giả</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Tuỳ chọn</string>
+    <string name="preference_theme_title">Chủ đề</string>
+    <string name="preferences_themes_dialog_title">Chọn chủ đề</string>
+    <string name="preference_about_title">Thông tin</string>
+    <string name="preference_credits_title">Người đóng góp</string>
+    <string name="preference_credits_apis_title">API</string>
+    <string name="preference_credits_icons_title">Biểu tượng</string>
+    <string name="preference_credits_tools_title">Công cụ</string>
+    <string name="preference_changelog_title">Thay đổi</string>
+    <string name="preference_notifications_title">Thông báo</string>
+    <string name="preference_notification_title">Thông báo</string>
+    <string name="preference_notification_summary">Kích hoạt thông báo</string>
+    <string name="preference_notification_type_title">Cách thông báo</string>
+    <string name="preference_notification_birthday_title">Sinh nhật</string>
+    <string name="preference_notification_birthday_summary">Thông báo khi có sinh nhật của bạn bè</string>
+    <string name="preferences_notification_birthday_time_title">Thời gian cập nhật sinh nhật</string>
+    <string name="preferences_notification_birthday_time_summary">Thời gian để cập nhật sinh nhật trong ngày</string>
+    <string name="preference_notification_apprequest_title">Yêu cầu từ ứng dụng</string>
+    <string name="preference_notification_apprequest_summary">Thông báo khi có yêu cầu từ ứng dụng</string>
+    <string name="preference_notification_album_title">Album</string>
+    <string name="preference_notification_album_summary">Thông báo về album</string>
+    <string name="preference_notification_event_title">Sự kiện</string>
+    <string name="preference_notification_event_summary">Thông báo khi có sự kiện</string>
+    <string name="preference_notification_friend_request_title">Yêu cầu kết bạn</string>
+    <string name="preference_notification_friend_request_summary">Thông báo khi có yêu cầu kết bạn</string>
+    <string name="preference_notification_group_invite_title">Nhóm</string>
+    <string name="preference_notification_group_invite_summary">Thông báo về nhóm</string>
+    <string name="preference_notification_page_invite_title">Trang</string>
+    <string name="preference_notification_page_invite_summary">Thông báo về trang</string>
+    <string name="preference_notification_photo_title">Ảnh</string>
+    <string name="preference_notification_photo_summary">Thông báo về hình ảnh</string>
+    <string name="preference_notification_poke_title">Chọc ghẹo</string>
+    <string name="preference_notification_poke_summary">Thông báo khi có chọc ghẹo</string>
+    <string name="preference_notification_stream_title">Bài viết</string>
+    <string name="preference_notification_stream_summary">Thông báo khi có bài viết khác với các loại trên</string>
+    <string name="preference_notification_video_title">Video</string>
+    <string name="preference_notification_video_summary">Thông báo về video</string>
+    <string name="preferences_notifications_interval">Khoảng thời gian</string>
+    <string name="preferences_notifications_permissions_title">Yêu cầu quyền truy cập</string>
+    <string name="preferences_notifications_permissions_message">Để có thể gửi thông báo, chúng tôi cần bạn đăng nhập lại để lấy quyền truy cập từ Facebook</string>
+    <string name="preference_notification_group_title">Nhóm thông báo</string>
+    <string name="preference_notification_group_summary">Chỉ thông báo một lần khi nhận nhiều thông báo</string>
+    <string name="preference_app_language_title">Ngôn ngữ</string>
+    <string name="preferences_app_language_dialog_title">Thay đổi ngôn ngữ ứng dụng sang</string>
+    <string name="preference_fb_language_title">Ngôn ngữ Facebook</string>
+    <string name="preferences_fb_language_dialog_title">Thay đổi ngôn ngữ Facebook</string>
+    <string name="preference_newsfeed_title">Dòng tin tức</string>
+    <string name="preference_newsfeed_pages_title">Trang</string>
+    <string name="preference_newsfeed_groups_title">Nhóm</string>
+    <string name="preference_newsfeed_events_title">Sự kiện</string>
+    <string name="preference_newsfeed_pages">Bao gồm bài viết từ các trang trong dòng tin tức</string>
+    <string name="preference_newsfeed_groups">Bao gồm bài viết từ các nhóm trong dòng tin </string>
+    <string name="preference_newsfeed_events">Bao gồm bài viết từ các sự kiện trong dòng tin tức</string>
+    <string name="preference_performances_title">Hiệu năng</string>
+    <string name="preference_performances_photo_effect_summary">Vô hiệu hiệu ứng sẽ tăng hiệu suất</string>
+    <string name="preference_performances_photo_effect_title">Sử dụng hiệu ứng mờ dần trên hình ảnh</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Vô hiệu hiệu ứng sẽ tăng hiệu suất</string>
+    <string name="preference_performances_rounded_profile_picture_title">Sử dụng ảnh cá nhân được làm tròn</string>
+    <string name="preferences_view_pager_indicator_style_title">Kiểu hiển thị trang</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Thẻ</string>
+    <string name="preferences_view_pager_indicator_style_titles">Tiêu đề</string>
+    <string name="preferences_ui_title">Giao diện người dùng</string>
+    <string name="preference_performances_pause_on_scroll_title">Tạm dừng tải ảnh khi vuốt</string>
+    <string name="preference_performances_pause_on_scroll_summary">Khi được kích hoạt, ảnh sẽ không được tải khi bạn vuốt trong danh sách và tay bạn chạm vào màn hình</string>
+    <string name="preference_performances_pause_on_fling_title">Tạm dừng tải ảnh khi cuộn</string>
+    <string name="preference_performances_pause_on_fling_summary">Khi được kích hoạt, ảnh sẽ không được tải khi bạn vuốt trong danh sách và tay bạn không chạm vào màn hình</string>
+    <string name="preference_performances_card_animation_title">Sử dụng hoạt ảnh thẻ</string>
+    <string name="preference_performances_card_animation_summary">Vô hiệu hoạt ảnh thẻ sẽ tăng hiệu suất</string>
+    <string name="preferences_main_activity_tabs_title">Thẻ chính</string>
+    <string name="preferences_user_activity_tabs_title">Thẻ bạn bè</string>
+    <string name="preferences_page_activity_tabs_title">Thẻ trang</string>
+    <string name="preferences_event_activity_tabs_title">Thẻ sự kiện</string>
+    <string name="preferences_group_activity_tabs_title">Thẻ nhóm</string>
+    <string name="preference_images_title">Ảnh</string>
+    <string name="preference_images_clear_cache_title">Xoá bộ đệm ảnh</string>
+    <string name="preference_images_clear_cache_summary">Xoá bộ đệm ảnh trên bộ nhớ ngoài</string>
+    <string name="preference_images_cache_clearing">Đang xoá bộ đệm ảnh</string>
+    <string name="preference_images_cache_cleared">Đã xoá bộ đệm ảnh</string>
+    <string name="preference_notification_interval_1_minute">Mỗi phút</string>
+    <string name="preference_notification_interval_2_minutes">Mỗi 2 phút</string>
+    <string name="preference_notification_interval_3_minutes">Mỗi 3 phút</string>
+    <string name="preference_notification_interval_5_minutes">Mỗi 5 phút</string>
+    <string name="preference_notification_interval_10_minutes">Mỗi 10 phút</string>
+    <string name="preference_notification_interval_15_minutes">Mỗi 15phút</string>
+    <string name="preference_notification_interval_20_minutes">Mỗi 20 phút</string>
+    <string name="preference_notification_interval_25_minutes">Mỗi 25 phút</string>
+    <string name="preference_notification_interval_30_minutes">Mỗi 30 phút</string>
+    <string name="preference_notification_interval_45_minutes">Mỗi 45 phút</string>
+    <string name="preference_notification_interval_1_hour">Mỗi giờ</string>
+    <string name="preference_notification_interval_2_hours">Mỗi 2 giờ</string>
+    <string name="preference_notification_interval_3_hours">Mỗi 3 giờ</string>
+    <string name="preference_notification_interval_4_hours">Mỗi 4 giờ</string>
+    <string name="preference_notification_interval_5_hours">Mỗi 5 giờ</string>
+    <string name="preference_notification_interval_6_hours">Mỗi 6 giờ</string>
+    <string name="preference_notification_interval_7_hours">Mỗi 7 giờ</string>
+    <string name="preference_notification_interval_8_hours">Mỗi 8 giờ</string>
+    <string name="preference_notification_interval_twice_daily">2 lần mỗi ngày</string>
+    <string name="preference_notification_interval_daily">Mỗi ngày</string>
+    <string name="preferences_notification_system_push">Thông báo trực tiếp</string>
+    <string name="preferences_notification_system_periodic">Thông báo theo thời gian</string>
+    <string name="preferences_notification_system_both">Cả hai</string>
+    <string name="preferences_notifications_system_title">Hệ thống thông báo</string>
+    <string name="preferences_notifications_system_summary">Thông báo trực tiếp có thể không đúng thời gian.\nThông báo theo thời gian tốn pin hơn</string>
+    <string name="preference_notification_vibrate_title">Rung</string>
+    <string name="preference_notification_ringtone_title">Chuông</string>
+    <string name="preference_notifications_ringtone">Chuông</string>
+    <string name="preference_notifications_song">bài hát</string>
+    <string name="preference_notification_ringtone_chooser">Chọn nhạc chuông</string>
+    <string name="preference_newsfeed_go_to_top_title">Hiện câu chuyện mới nhất sau khi tải tin mới</string>
+    <string name="preference_newsfeed_go_to_top_summary">Nếu được kích hoạt, sẽ nhảy lên đầu danh sách sau khi tải tin mới nhất</string>
+    <string name="preference_newsfeed_cut_long_post_title">Ngắt bài viết dài</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Nếu được kích hoạt, các bài viết dài hơn 10 dòng sẽ được cắt bớt</string>
+    <string name="preference_buy_pro_version_title">Mua bản Pro</string>
+    <string name="preference_left_drawer_items_title">Thẻ menu bên trái</string>
+    <string name="preference_alternative_newsfeed_title">Bảng tin thay thế</string>
+    <string name="preference_alternative_newsfeed_summary">Nếu được kích hoạt, ứng dụng sẽ dùng phương thức khác để tải bảng tin</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Sinh nhật hôm nay</string>
+    <string name="notification_birthday_today">Hôm nay là sinh nhật của %1$s !</string>
+    <string name="friends_birthday_today">%1$d bạn mừng sinh nhật họ hôm nay !</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Yêu cầu kết bạn</string>
+    <string name="notification_friendrequest_message">%1$s muốn thêm bạn vào danh sách bạn bè</string>
+    <string name="new_friend_requests">Bạn có %1$d yêu cầu kết bạn mới</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Bạn có %1$s thông báo mới</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Quyền thông báo bị từ chối.\nVui lòng cho phép quyền này bằng cách làm mới nút menu.</string>
+    <string name="notifications_unread_header_title">Thông báo chưa đọc (%1$d)</string>
+    <string name="notifications_read_header_title">Thông báo cũ</string>
+    <string name="notifications_friend_request_header_title">Yêu cầu kết bạn</string>
+    <string name="notifications_dismiss">Bỏ qua</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Mở khoá</string>
+    <string name="donate_code">Nhập mã</string>
+    <string name="thank_you_very_much">Cảm ơn bạn rất nhiều !</string>
+
+    <!-- Chat -->
+    <string name="online">Online</string>
+    <string name="offline">Chưa online</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Video</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Xin lỗi, Facebook không cho phép ứng dụng của bên thứ ba đăng bài vào nhóm.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Đang tải ảnh lên</string>
+    <string name="uploading_image_of">Đang tải %1$d trên %2$d ảnh</string>
+    <string name="upload_complete">Tải lên hoàn tất</string>
+    <string name="n_uploaded_images">Đã tải %1$d ảnh lên</string>
+    <string name="upload_error">Lỗi tải lên</string>
+    <string name="file_not_found">Không tìm thấy tập tin %1$s</string>
+    <string name="upload_photo_default_album_name">Ảnh trên tường (mặc định)</string>
+
+    <!-- About -->
+    <string name="about_version">Phiên bản %1$s</string>
+    <string name="about_activity_title">Thông tin</string>
+    <string name="about_copyright">Bản quyền © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Mọi quyền được bảo lưu</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Gửi thư</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Có đề nghị ?\nBạn tìm thấy lỗi ?\nHãy cho chúng tôi biết !</string>
+    <string name="feedback_send_suggest">Gửi đề nghị</string>
+    <string name="feedback_send_bug">Báo cáo lỗi</string>
+    <string name="feedback_g_plus_community">Cộng đồng G+</string>
+    <string name="restart">Khởi động lại</string>
+    <string name="change_theme_need_restart">Bạn cần khởi động lại để áp dụng chủ đề.</string>
+    <string name="change_app_language_need_restart">Bạn cần khởi động lại để áp dụng ngôn ngữ mới.</string>
+    <string name="option_need_restart">Bạn cần khởi động lại để áp dụng tuỳ chọn này.</string>
+    <string name="soon">Sắp có &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Thay đổi</string>
+    <string name="changelog_close">Đóng</string>
+    <string name="changelog_activity_title">Thay đổi</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Quảng cáo</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Tôi : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+	
+	<!-- User Activity -->
+    <string name="is_friend">Bạn bè</string>
+	<string name="confirm_friend_request">Xác nhận yêu cầu kết bạn</string>
+	<string name="send_friend_request">Gửi yêu cầu kết bạn</string>
+	<string name="friend_request_sent">Đã gửi yêu cầu kết bạn</string>
+
+</resources>

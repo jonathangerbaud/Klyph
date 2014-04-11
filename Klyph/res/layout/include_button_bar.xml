@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/dip_12"
+            android:paddingTop="@dimen/dip_12" >
+
+            <Button
+                android:id="@+id/like_button"
+                style="@style/Klyph.Stream.ButtonBar.Button"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/dip_12"
+                android:contentDescription="@string/like"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+
+            <ImageButton
+                android:id="@+id/share_button"
+                style="@style/Klyph.Stream.ButtonBar.Button"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/dip_12"
+                android:layout_toRightOf="@id/like_button"
+                android:contentDescription="@string/share"
+                android:src="?attr/cardShareIcon" />
+
+            <Button
+                android:id="@+id/comment_button"
+                style="@style/Klyph.Stream.ButtonBar.Button"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dip_12"
+                android:contentDescription="@string/comment"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+        </RelativeLayout>
+
+</merge>

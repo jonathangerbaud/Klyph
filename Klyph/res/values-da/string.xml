@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Nyhedsfeed</string>
+    <string name="fragment_header_timeline">Tidslinje</string>
+    <string name="fragment_header_inbox">Indbakke</string>
+    <string name="fragment_header_friends">Venner</string>
+    <string name="fragment_header_pages">Sider</string>
+    <string name="fragment_header_about">Om</string>
+    <string name="fragment_header_events">Begivenheder</string>
+    <string name="fragment_header_birthdays">Fødselsdage</string>
+    <string name="fragment_header_albums">Albummer</string>
+    <string name="fragment_header_infos">Informationer</string>
+    <string name="fragment_header_wall">Væg</string>
+    <string name="fragment_header_going">Deltager</string>
+    <string name="fragment_header_maybe">Måske</string>
+    <string name="fragment_header_declined">Deltager ikke</string>
+    <string name="fragment_header_invited">Inviteret</string>
+    <string name="fragment_header_groups">Grupper</string>
+    <string name="fragment_header_members">Medlemmer</string>
+    <string name="fragment_header_photos">Fotos</string>
+    <string name="fragment_header_threads">Tråde</string>
+    <string name="fragment_header_followed_people">Fulgte personer</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Søg</string>
+    <string name="user">Bruger</string>
+    <string name="page">Side</string>
+    <string name="group">Gruppe</string>
+    <string name="event">Begivenhed</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Log af</string>
+    <string name="menu_notifications">Notifikationer</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_messages">Beskeder</string>
+    <string name="menu_credits">Credits</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_preferences">Indstillinger</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_donate">Donér</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_add_photos">Tilføj billeder</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Er du sikker på at du vil logge ud?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album:</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Nyt album</string>
+    <string name="create">Opret</string>
+    <string name="name">Navn</string>
+    <string name="location">Placering</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Forsøg igen</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Der er opstået en fejl.</string>
+    <string name="request_connexion_error">Forbindelses fejl.\nTjek din internet forbindelse.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Kan ikke finde din placering.</string>
+    <string name="choose_place">Vælg et sted</string>
+
+    <!-- General -->
+    <string name="close">Luk</string>
+    <string name="open">Åben</string>
+    <string name="refresh">Opdatér</string>
+    <string name="share">Del</string>
+    <string name="defaultString">Standard</string>
+    <string name="camera">Kamera</string>
+    <string name="copy_text">Kopiér tekst</string>
+    <string name="see_who_likes_this">Se hvem der synes godt om dette</string>
+    <string name="download_image">Download billede</string>
+    <string name="view_profile">Vis profil</string>
+    <string name="share_with">Del med</string>
+    <string name="more">Mere</string>
+    <string name="reply">Svar</string>
+    <string name="hide">Skjul</string>
+    <string name="none">Ingen</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Vælg billeder</string>
+    <string name="thread_activity_title">Beskeder</string>
+    <string name="notification_activity_title">Notifikationer</string>
+    <string name="credentials_activity_title">Credits</string>
+    <string name="donate_activity_title">Donér</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Offentligt</string>
+    <string name="menu_privacy_friends">Venner</string>
+    <string name="menu_privacy_self">Kun mig</string>
+
+    <!-- FR Values -->
+    <string name="like">Synes godt om</string>
+    <string name="unlike">Synes ikke godt om længere</string>
+    <string name="people_who_likes_this">Personer som synes godt om dette</string>
+    <string name="comment">Kommentér</string>
+    <string name="zero_or_one_like">%s synes godt om</string>
+    <string name="zero_or_one_comment">%s kommentar</string>
+    <string name="number_of_likes">%s synes godt om</string>
+    <string name="number_of_comments">%s kommentarer</string>
+    <string name="number_of_people_who_like_it">%s person synes godt om dette</string>
+    <string name="you_and_other_people_who_like_it">Du og %s person synes godt om dette </string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d sekunder siden</string>
+    <string name="one_minute_ago">Et minut siden</string>
+    <string name="minutes_ago">%d minutter siden</string>
+    <string name="one_hour_ago">en time siden</string>
+    <string name="hours_ago">%d timer siden</string>
+    <string name="one_day_ago">En dag siden</string>
+    <string name="days_ago">%d dage siden</string>
+    <string name="one_month_ago">En måned siden</string>
+    <string name="months_ago">%d måneder siden</string>
+    <string name="years_ago">%d år siden</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Vælg kvalitet</string>
+    <string name="dialog_video_quality_message">Vis i standard definition (SD) eller høj definition (HD)?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s tilføjede %2$s fotos til albummet %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— med %1$s</string>
+    <string name="post_with_two_friends">— med %1$s og %2$s</string>
+    <string name="post_with_several_friends">— med %1$s og %2$s andre venner</string>
+    <string name="with_several_friends">%1$s andre venner</string>
+    <string name="at_place">— ved %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Fortryd</string>
+    <string name="error">Fejl</string>
+    <string name="please_enter_message">Skriv venligst din besked</string>
+    <string name="must_select_place_to_tag_friends">For at tagge venner, vælg først et sted.</string>
+    <string name="status">Status</string>
+    <string name="publishing">Slår op&#8230;</string>
+    <string name="status_successfully_published">Din nye status er slået op.</string>
+    <string name="message_successfully_published">Din besked er slået op.</string>
+    <string name="publish_unknown_error">Kan ikke slå status op.</string>
+    <string name="publish_message_unknown_error">Kan ikke slå besked op.</string>
+    <string name="publish_error_duplicate_message">Dette er allerede din sidste status.</string>
+    <string name="publish_new_status">Slå en ny status op.</string>
+    <string name="publish_new_event_message">Slå en ny besked op.</string>
+    <string name="friends">Venner</string>
+    <string name="post_hint">Din besked</string>
+    <string name="post_link_malformated_url">URL\'en er ugyldig</string>
+    <string name="post_link_malformated_image_url">Billed URL\'en er ugyldig</string>
+    <string name="post_link_empty_name">Indtast venligt et navn.</string>
+    <string name="post_share_status">Del en status</string>
+    <string name="post_share_photo">Del et foto</string>
+    <string name="post_share_video">Del en video</string>
+    <string name="post_share_link">Del et link</string>
+    <string name="post_share_album">Del et album</string>
+    <string name="post_share_on">Del på</string>
+    <string name="post_share_on_my_wall">Min væg</string>
+    <string name="post_share_on_friend_wall">En vens væg</string>
+    <string name="post_a_reply">Skriv et svar</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Slå nye billeder op</string>
+    <string name="creating_album">Opretter et album&#8230;</string>
+    <string name="must_select_photos">Vælg venligt hvilke fotoer der skal uploades</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Bekræftelse</string>
+    <string name="delete_post_confirmation_message">Vil du virkelig slette denne besked?</string>
+    <string name="delete_post_error">Kan ikke slette beskeden.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="delete">Slet</string>
+    <string name="deleting">Sletter&#8230;</string>
+    <string name="post_deleted">Besked fjernet.</string>
+    <string name="like_error">Kan ikke synes godt om.</string>
+    <string name="unlike_error">Kan ikke fjerne synes godt om.</string>
+    <string name="stream_date">%1$s kl. %2$s</string>
+    <string name="stream_today_date">I dag kl. %1$s</string>
+    <string name="stream_yesterday_date">I går kl. %1$s</string>
+    <string name="newsfeed_new_stream">1 ny historie</string>
+    <string name="newsfeed_new_streams">%1$d nye historier</string>
+
+    <!-- Event -->
+    <string name="event_by">af %1$s</string>
+    <string name="event_description">Beskrivelse</string>
+    <string name="event_practical_information">Praktisk information</string>
+    <string name="event_date">Dato</string>
+    <string name="event_place">Sted</string>
+    <string name="event_secret">Kun for inviterede</string>
+    <string name="event_friends">Venner</string>
+    <string name="event_public">Offentlig begivenhed</string>
+    <string name="event_closed">Lukket begivenhed</string>
+    <string name="event_will_attend_title">Deltager jeg?</string>
+    <string name="event_going">Tilmeld</string>
+    <string name="event_unsure">Måske</string>
+    <string name="event_declined">Afvis</string>
+    <string name="event_num_invitee">%1$s personer inviteret</string>
+    <string name="event_num_attending">%1$s personer kommer</string>
+    <string name="event_num_unsure">%1$s personer er usikre</string>
+    <string name="event_num_declined">%1$s personer afviste</string>
+    <string name="event_response_dialog_title">Svar</string>
+    <string name="event_response_dialog_message">Sender svar&#8230;</string>
+    <string name="event_response_ok">Dit svar er blevet sendt</string>
+    <string name="event_response_error">Der skete en fejl under afsending af dit svar.\nPrøv venligst igen senere.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Fødselsdag</string>
+    <string name="user_sex">Køn</string>
+    <string name="user_meeting_sex">Interesseret i</string>
+    <string name="user_relationship_status">Civilstand</string>
+    <string name="user_religion">Religiøs overbevisning</string>
+    <string name="user_political">Politiske holdninger</string>
+    <string name="user_phones">Mobiltelefoner</string>
+    <string name="user_address">Adresse</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Netværk</string>
+    <string name="user_activities">Aktiviteter</string>
+    <string name="user_books">Bøger</string>
+    <string name="user_inspirational_people">Inspirerende mennesker</string>
+    <string name="user_interests">Interesser</string>
+    <string name="user_movies">Film</string>
+    <string name="user_music">Musik</string>
+    <string name="user_sports">Sportsgrene</string>
+    <string name="user_tv">TV serier</string>
+    <string name="user_quotes">Citater</string>
+    <string name="user_website">Hjemmeside</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s til %2$s</string>
+    <string name="work_date_until_today">%1$s til nu</string>
+
+    <!-- Education -->
+    <string name="education_year">Afgangsår %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s og %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s og %3$d andre</string>
+    <string name="thread_and_others">%1$d andre</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Personer der synes godt om dette</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Privatliv</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d år</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Vælg venner</string>
+    <string name="friend_picker_single_choice_title">Vælg en ven</string>
+    <string name="search_friends">Søg efter venner</string>
+    <string name="several_friends_selected">%1$d venner valgt</string>
+    <string name="one_friend_selected">1 ven valgt</string>
+    <string name="no_friend_selected">Ingen venner valgt</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d fotos valgt</string>
+    <string name="one_photo_selected">Et foto valgt</string>
+    <string name="no_photo_selected">Ingen fotos valgt</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Kan ikke finde foto</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Skriv en kommentar</string>
+    <string name="comments_disabled">Kommentarer slået fra</string>
+    <string name="publish_comment_dialog_title">Kommentar</string>
+    <string name="publish_comment_dialog_message">Slår op&#8230;</string>
+    <string name="publish_comment_ok">Din kommentar er slået op.</string>
+    <string name="publish_comment_error">Der skete en fejl med at slå din kommentar op.\nPrøv venligst igen senere.</string>
+    <string name="several_comments">%1$d kommentarer</string>
+    <string name="one_comment">En kommentar</string>
+    <string name="no_comment">Ingen kommentarer</string>
+    <string name="define_comment_before_publish">Indtast venligt din kommentar</string>
+    <string name="several_likes">%1$d personer synes godt om dette</string>
+    <string name="one_like">1 person synes godt om dette</string>
+    <string name="no_like">0 personer synes godt om dette</string>
+    <string name="cannot_find_post">Kan ikke finde opslag</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Henter foto liste før download&#8230;</string>
+    <string name="fetch_videos_from_album">Henter video liste før download&#8230;</string>
+    <string name="tagged_photos_of">Fotos af %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Familie</string>
+    <string name="others">Andre</string>
+    <string name="work">Arbejde</string>
+    <string name="education">Uddannelse</string>
+    <string name="user_about">Om</string>
+    <string name="user_about_sex">Køn: %1$s</string>
+    <string name="user_about_birthday">Født d. %1$s</string>
+    <string name="user_about_ralationship_status">Civilstand: %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Om</string>
+    <string name="noone_talk_about_it">Ingen taler om dette</string>
+    <string name="one_talk_about_it">1 person taler om dette</string>
+    <string name="several_talk_about_it">%1$s personer taler om dette</string>
+    <string name="page_base_infos">Basis information</string>
+    <string name="description">Beskrivelse</string>
+    <string name="mission">Mission</string>
+    <string name="coordinates">Koordinater</string>
+    <string name="general_infos">Generel information</string>
+    <string name="artists_we_like">Kunstnere vi synes godt om</string>
+    <string name="band_interests">Band interesser</string>
+    <string name="band_bio">Biografi</string>
+    <string name="band_members">Medlemmer</string>
+    <string name="founded">Dannet</string>
+    <string name="genre">Genré</string>
+    <string name="band_current_location">Nuværende lokation</string>
+    <string name="band_hometown">Hjemby</string>
+    <string name="band_record_label">Pladeselskab</string>
+    <string name="band_influences">Påvirkning</string>
+    <string name="band_press_contact">Presse kontakt</string>
+    <string name="band_booking_agent">Booking agent</string>
+    <string name="band_general_manager">General manager</string>
+    <string name="company_products">Produkter</string>
+    <string name="company_overview">Oversigt</string>
+    <string name="hours">Timer</string>
+    <string name="public_transit">Offentlig transport</string>
+    <string name="restaurant_food_styles">Mad typer</string>
+    <string name="restaurant_culinar_team">Kulinarisk hold</string>
+    <string name="restaurant_prices">Priser</string>
+    <string name="restaurant_attire">Påklædning</string>
+    <string name="restaurant_services">Tjenester</string>
+    <string name="restaurant_specialties">Specialiteter</string>
+    <string name="restaurant_parking">Parkering</string>
+    <string name="breakfast">Morgenmad</string>
+    <string name="lunch">Frokost</string>
+    <string name="dinner">Aftensmad</string>
+    <string name="coffee">Kaffe</string>
+    <string name="drinks">Drinks</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Kun kontant</string>
+    <string name="discover">Opdag</string>
+    <string name="reserve">Modtager reservationer </string>
+    <string name="walkins">Walk-ins velkomende</string>
+    <string name="groups">God til grupper</string>
+    <string name="kids">God til børn</string>
+    <string name="takeout">Take away</string>
+    <string name="delivery">Levering</string>
+    <string name="waiter">Tjener service</string>
+    <string name="catering">Catering</string>
+    <string name="outdoor">Udendørs servering</string>
+    <string name="street">Gade</string>
+    <string name="lot">Parkeringsplads</string>
+    <string name="valet">Serviceret</string>
+    <string name="monday">Mandag</string>
+    <string name="tuesday">Tirsdag</string>
+    <string name="wednesday">Onsdag</string>
+    <string name="thursday">Torsdag</string>
+    <string name="friday">Fredag</string>
+    <string name="saturday">Lørdag</string>
+    <string name="sunday">Søndag</string>
+    <string name="plot_outline">Plot</string>
+    <string name="network">Netværk</string>
+    <string name="season">Sæson</string>
+    <string name="schedule">Tidsplan</string>
+    <string name="starring">Med</string>
+    <string name="written_by">Skrevet af</string>
+    <string name="awards">Priser</string>
+    <string name="personal_info">Personlige informationer</string>
+    <string name="personal_interests">Personlige interesser</string>
+    <string name="phone">Telefon</string>
+    <string name="release_date">Udgivelsesdato</string>
+    <string name="studio">Studie</string>
+    <string name="directed_by">Instrueret af</string>
+    <string name="screenplay_by">Screenplay</string>
+    <string name="affiliation">Tilhørsforhold</string>
+    <string name="built">Bygget</string>
+    <string name="features">Features</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Farmaceutisk sikkerheds informationer</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Ingen brugere</string>
+    <string name="empty_list_no_friend">Ingen venner</string>
+    <string name="empty_list_no_page">Inden sider</string>
+    <string name="empty_list_no_event">Ingen begivenheder</string>
+    <string name="empty_list_no_album">Ingen albums</string>
+    <string name="empty_list_no_photo">Ingen fotos</string>
+    <string name="empty_list_no_video">Ingen videoer</string>
+    <string name="empty_list_no_birthday">Ingen fødselsdage</string>
+    <string name="empty_list_no_message">Ingen beskeder</string>
+    <string name="empty_list_no_notification">Ingen notifikationer</string>
+    <string name="empty_list_no_stream">Ingen feeds</string>
+    <string name="empty_list_no_data">Ingen data</string>
+    <string name="empty_list_no_group">Ingen grupper</string>
+    <string name="empty_list_no_member">Ingen medlemmer</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">API\'s</string>
+    <string name="credentials_icons">Ikoner</string>
+    <string name="credentials_translators">Oversættere</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Indstillinger</string>
+    <string name="preference_theme_title">Tema</string>
+    <string name="preferences_themes_dialog_title">Vælg et tema</string>
+    <string name="preference_about_title">Om</string>
+    <string name="preference_credits_title">Credits</string>
+    <string name="preference_credits_apis_title">API\'s</string>
+    <string name="preference_credits_icons_title">Ikoner</string>
+    <string name="preference_credits_tools_title">Værktøjer</string>
+    <string name="preference_changelog_title">Ændrings log</string>
+    <string name="preference_notifications_title">Notifikationer</string>
+    <string name="preference_notification_title">Notifikation</string>
+    <string name="preference_notification_summary">Slå notifikationer til</string>
+    <string name="preference_notification_type_title">Notifikations type</string>
+    <string name="preference_notification_birthday_title">Fødselsdage</string>
+    <string name="preference_notification_birthday_summary">Notifikationer for venners fødselsdage</string>
+    <string name="preferences_notification_birthday_time_title">Fødselsdags opdaterings tidspunkt</string>
+    <string name="preferences_notification_birthday_time_summary">Tidspunkt hvor dagens fødselsdage skal opdateres</string>
+    <string name="preference_notification_apprequest_title">App anmodninger</string>
+    <string name="preference_notification_apprequest_summary">Notifikationer for app anmodninger</string>
+    <string name="preference_notification_album_title">Albummer</string>
+    <string name="preference_notification_album_summary">Notifikationer for albummer</string>
+    <string name="preference_notification_event_title">Begivenheder</string>
+    <string name="preference_notification_event_summary">Notifikationer for begivenheder</string>
+    <string name="preference_notification_friend_request_title">Venneanmodninger</string>
+    <string name="preference_notification_friend_request_summary">Notifikationer for venneanmodninger</string>
+    <string name="preference_notification_group_invite_title">Grupper</string>
+    <string name="preference_notification_group_invite_summary">Notifikationer for grupper</string>
+    <string name="preference_notification_page_invite_title">Sider</string>
+    <string name="preference_notification_page_invite_summary">Notifikationer for sider</string>
+    <string name="preference_notification_photo_title">Fotos</string>
+    <string name="preference_notification_photo_summary">Notifikationer for fotos</string>
+    <string name="preference_notification_poke_title">Prik</string>
+    <string name="preference_notification_poke_summary">Notikationer for prik</string>
+    <string name="preference_notification_stream_title">Opslag</string>
+    <string name="preference_notification_stream_summary">Notifikationer for andre opslag end de ovenstående</string>
+    <string name="preference_notification_video_title">Videoer</string>
+    <string name="preference_notification_video_summary">Notifikationer for videoer</string>
+    <string name="preferences_notifications_interval">Interval</string>
+    <string name="preferences_notifications_permissions_title">Tilladelser påkrævet</string>
+    <string name="preferences_notifications_permissions_message">For at sende notifikationer, skal vi bede dig om at logge ind igen, for at få tilladelse fra Facebook</string>
+    <string name="preference_notification_group_title">Gruppe notifikationer</string>
+    <string name="preference_notification_group_summary">Påmind kun en gang når du modtager flere notifikationer</string>
+    <string name="preference_app_language_title">Applikations sprog</string>
+    <string name="preferences_app_language_dialog_title">Skift applikations sprog</string>
+    <string name="preference_fb_language_title">Facebook sprog</string>
+    <string name="preferences_fb_language_dialog_title">Skift facebook sprog til</string>
+    <string name="preference_newsfeed_title">Nyheds feed</string>
+    <string name="preference_newsfeed_pages_title">Sider</string>
+    <string name="preference_newsfeed_groups_title">Grupper</string>
+    <string name="preference_newsfeed_events_title">Begivenheder</string>
+    <string name="preference_newsfeed_pages">Medtag side opdateringer i nyheds feed</string>
+    <string name="preference_newsfeed_groups">Medtag gruppe opdateringer i nyheds feed</string>
+    <string name="preference_newsfeed_events">Medtag begivenheds opdateringer i nyheds feed</string>
+    <string name="preference_performances_title">Ydelse</string>
+    <string name="preference_performances_photo_effect_summary">Slå effekter fra for at forbedre ydelsen</string>
+    <string name="preference_performances_photo_effect_title">Brug fade effekt på fotos</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Slå effekten fra for at forbedre ydelsen</string>
+    <string name="preference_performances_rounded_profile_picture_title">Brug runde profil billeder</string>
+    <string name="preferences_view_pager_indicator_style_title">Vis side indikator stil</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Tabs</string>
+    <string name="preferences_view_pager_indicator_style_titles">Overskrifter</string>
+    <string name="preferences_ui_title">Brugergrænseflade</string>
+    <string name="preference_performances_pause_on_scroll_title">Pause billed indlæsning mens skærmen berøres samt der scrolles</string>
+    <string name="preference_performances_pause_on_scroll_summary">Når slået til, så vil billeder ikke loade mens du scroller lister og dine fingre rør skærmen</string>
+    <string name="preference_performances_pause_on_fling_title">Pause billede indlæsning mens der scrolles</string>
+    <string name="preference_performances_pause_on_fling_summary">Når slået til, så vil billeder ikke loade mens du scroller lister og dine fingre ikke længere rører skærmen</string>
+    <string name="preference_performances_card_animation_title">Slå kort animationer til</string>
+    <string name="preference_performances_card_animation_summary">Slå kort animationer fra for at forbedre ydelsen</string>
+    <string name="preferences_main_activity_tabs_title">Hoved tabs</string>
+    <string name="preferences_user_activity_tabs_title">Venne tabs</string>
+    <string name="preferences_page_activity_tabs_title">Side tabs</string>
+    <string name="preferences_event_activity_tabs_title">Begivenheds tabs</string>
+    <string name="preferences_group_activity_tabs_title">Gruppe tabs</string>
+    <string name="preference_images_title">Billeder</string>
+    <string name="preference_images_clear_cache_title">Ryd billede cache</string>
+    <string name="preference_images_clear_cache_summary">Slet cachede billeder på ekstern lager</string>
+    <string name="preference_images_cache_clearing">Sletter cachede billeder</string>
+    <string name="preference_images_cache_cleared">Cachede billeder slettet</string>
+    <string name="preference_notification_interval_1_minute">Hvert minut</string>
+    <string name="preference_notification_interval_2_minutes">Hvert 2. minut</string>
+    <string name="preference_notification_interval_3_minutes">Hvert 3. minut</string>
+    <string name="preference_notification_interval_5_minutes">Hvert 5. minut</string>
+    <string name="preference_notification_interval_10_minutes">Hvert 10. minut</string>
+    <string name="preference_notification_interval_15_minutes">Hvert 15. minut</string>
+    <string name="preference_notification_interval_20_minutes">Hvert 20. minut</string>
+    <string name="preference_notification_interval_25_minutes">Hvert 25. minut</string>
+    <string name="preference_notification_interval_30_minutes">Hvert 30. minut</string>
+    <string name="preference_notification_interval_45_minutes">Hvert 45. minut</string>
+    <string name="preference_notification_interval_1_hour">Hver time</string>
+    <string name="preference_notification_interval_2_hours">Hver 2. time</string>
+    <string name="preference_notification_interval_3_hours">Hver 3. time</string>
+    <string name="preference_notification_interval_4_hours">Hver 4. time</string>
+    <string name="preference_notification_interval_5_hours">Hver 5. time</string>
+    <string name="preference_notification_interval_6_hours">Hver 6. time</string>
+    <string name="preference_notification_interval_7_hours">Hver 7. time</string>
+    <string name="preference_notification_interval_8_hours">Hver 8. time</string>
+    <string name="preference_notification_interval_twice_daily">To gange dagligt</string>
+    <string name="preference_notification_interval_daily">Dagligt</string>
+    <string name="preferences_notification_system_push">Push notifikationer</string>
+    <string name="preferences_notification_system_periodic">Periodiske notifikationer</string>
+    <string name="preferences_notification_system_both">Begge</string>
+    <string name="preferences_notifications_system_title">Notifikations system</string>
+    <string name="preferences_notifications_system_summary">Push notifikationer er muligvis ikke punktlige.\nPeriodiske notifikationer bruger mere batteri</string>
+    <string name="preference_notification_vibrate_title">Vibrér</string>
+    <string name="preference_notification_ringtone_title">Ringetone</string>
+    <string name="preference_notifications_ringtone">Ringetone</string>
+    <string name="preference_notifications_song">Sang</string>
+    <string name="preference_notification_ringtone_chooser">Vælg en ringetone</string>
+    <string name="preference_newsfeed_go_to_top_title">Vis nyeste nyhed efter indlæsning</string>
+    <string name="preference_newsfeed_go_to_top_summary">Hvis slået til, vil listen hoppe til toppen efter sidste nyhed er indlæst.</string>
+    <string name="preference_newsfeed_cut_long_post_title">Beskær lange opslag</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Hvis slået til, vil opslag på mere end 10 linjer blive beskåret</string>
+    <string name="preference_buy_pro_version_title">Køb Pro versionen</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Dagens fødselsdage</string>
+    <string name="notification_birthday_today">Det er %1$s\'s fødselsdag!</string>
+    <string name="friends_birthday_today">%1$d venner fejrer deres fødselsdag i dag!</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Venneanmodninger</string>
+    <string name="notification_friendrequest_message">%1$s vil gerne tilføje dig som ven</string>
+    <string name="new_friend_requests">Du har %1$d nye venneanmodninger</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Du har %1$s nye notifikationer</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Notifikations tilladelse nægtet.\nTillad venligst rettighed ved at klikke på opdatér knappen</string>
+    <string name="notifications_unread_header_title">Ulæste notifikationer (%1$d)</string>
+    <string name="notifications_read_header_title">Tidligere notifikationer</string>
+    <string name="notifications_friend_request_header_title">Venneanmodninger</string>
+    <string name="notifications_dismiss">Afvis</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Oplås donationen</string>
+    <string name="donate_code">Indtast koden</string>
+    <string name="thank_you_very_much">Mange tak!</string>
+
+    <!-- Chat -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Videoer</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Beklager, Facebook tillader ikke 3. parts apps at poste i grupper.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Uploader billeder</string>
+    <string name="uploading_image_of">Uploader billede %1$d af %2$d</string>
+    <string name="upload_complete">Upload færdig</string>
+    <string name="n_uploaded_images">%1$d billeder uploadet</string>
+    <string name="upload_error">Upload fejl</string>
+    <string name="file_not_found">Kan ikke finde filen %1$s </string>
+    <string name="upload_photo_default_album_name">Væg (standard)</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_activity_title">Om</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">All rights reserved</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Send en mail</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Et forslag?\nHar du fundet en fejl?\nGiv os besked!</string>
+    <string name="feedback_send_suggest">Send et foreslag</string>
+    <string name="feedback_send_bug">Indmeld en fejl</string>
+    <string name="feedback_g_plus_community">G+ fællesskab</string>
+    <string name="restart">Genstart</string>
+    <string name="change_theme_need_restart">En genstart er påkrævet for at anvende temaet.</string>
+    <string name="change_app_language_need_restart">En genstart er påkrævet for at anvende et nyt sprog.</string>
+    <string name="option_need_restart">En genstart er krævet for at slå denne valgmulighed til.</string>
+    <string name="soon">Snart &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Ændrings log</string>
+    <string name="changelog_close">Luk</string>
+    <string name="changelog_activity_title">Ændrings log</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Annoncering</string>
+    
+    <string name="my_last_message">Me : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+
+</resources>

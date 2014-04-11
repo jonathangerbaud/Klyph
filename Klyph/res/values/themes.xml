@@ -1,0 +1,163 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Themes -->
+
+    <!-- Blue -->
+    
+    <style name="Klyph.Dark.Blue" parent="@style/AssetStudio.Dark.Blue">
+        <item name="android:textColorLink">@color/blue_theme_primary</item>
+        <item name="themeColor">@color/blue_theme_primary</item>
+        <item name="themeSelector">@drawable/blue_theme_selector</item>
+        <item name="buttonBarStyle">@style/Klyph.Dark.ButtonBar</item>
+        <item name="android:divider">@drawable/divider_vertical_dark</item>
+        
+        <!-- Klyph elements -->
+		<item name="streamSelector">@drawable/list_selector_stream_blue</item>
+		<item name="actionBarSplitBackground">@drawable/ab_split_background_blue</item>
+		<item name="counterBackground">@drawable/simple_counter_background_blue</item>
+		<item name="notificationsItemBackground">@drawable/notifications_unread_background_blue</item>
+		<item name="friendButtonBackground">@drawable/blue_button</item>
+
+        <!-- Icons -->
+        <item name="galleryCheckmarkIcon">@drawable/ic_gallery_checkmark_blue</item>
+        <item name="userLikeIcon">@drawable/ic_action_user_like_blue</item>
+        <item name="userLikeBaselineIcon2">@drawable/ic_action_user_like_text_baseline_blue2</item>
+        <item name="newNotificationIcon">@drawable/ic_bell_blue</item>
+        <item name="userLikeSmallIcon">@drawable/ic_action_like_small_blue</item>
+    </style>
+    
+    <style name="Klyph.Black.Blue" parent="@style/Klyph.Dark.Blue">
+        <item name="android:windowBackground">@drawable/screen_background_black</item>
+    </style>
+    
+    <style name="Klyph.Dark.Blue.TransparentActionBar" parent="@style/Klyph.Dark.Blue">
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Blue_dark</item>
+    </style>
+    
+    <style name="Klyph.Dark.Blue.Profile" parent="@style/Klyph.Dark.Blue">
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Blue_dark</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Klyph.Dark.TabPageIndicator</item>
+    </style>
+    
+    <style name="Klyph.Black.Blue.Profile" parent="@style/Klyph.Dark.Blue.Profile">
+        <item name="android:windowBackground">@drawable/screen_background_black</item>
+    </style>
+    
+    <style name="Klyph.Black.Blue.TransparentActionBar" parent="@style/Klyph.Black.Blue">
+         <item name="android:actionBarStyle">@style/ActionBar.Transparent.Blue_dark</item>
+    </style>
+        
+    <style name="Klyph.Light.Blue" parent="@style/AssetSudio.Light.Blue">
+        <item name="android:textColorLink">@color/blue_theme_secondary</item>
+        <item name="themeColor">@color/blue_theme_primary</item>
+        <item name="themeSelector">@drawable/blue_theme_selector</item>
+        <item name="buttonBarStyle">@style/Klyph.Light.ButtonBar</item>
+        <item name="android:divider">@drawable/divider_vertical_bright</item>
+        
+        <!-- Klyph elements -->
+		<item name="streamSelector">@drawable/list_selector_stream_blue</item>
+		<item name="actionBarSplitBackground">@drawable/ab_split_background_blue</item>
+		<item name="counterBackground">@drawable/simple_counter_background_blue</item>
+		<item name="notificationsItemBackground">@drawable/notifications_unread_background_blue</item>
+		<item name="friendButtonBackground">@drawable/blue_button</item>
+		
+        <!-- Icons -->
+        <item name="galleryCheckmarkIcon">@drawable/ic_gallery_checkmark_blue</item>
+        <item name="userLikeIcon">@drawable/ic_action_user_like_blue</item>
+        <item name="userLikeBaselineIcon2">@drawable/ic_action_user_like_text_baseline_blue2</item>
+        <item name="newNotificationIcon">@drawable/ic_bell_blue</item>
+        <item name="userLikeSmallIcon">@drawable/ic_action_like_small_blue</item>
+    </style>
+    
+    <style name="Klyph.Light.Blue.Profile" parent="@style/Klyph.Light.Blue">
+        <item name="android:actionBarStyle">@style/ActionBar.Profile.Blue_light</item>
+        <item name="android:actionBarWidgetTheme">@android:style/Theme.Holo</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_ab_back_holo_dark</item>
+        <item name="android:actionButtonStyle">@android:style/Widget.Holo.ActionButton</item>
+        <item name="android:actionOverflowButtonStyle">@android:style/Widget.Holo.ActionButton.Overflow</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Klyph.Dark.TabPageIndicator</item>
+    </style>
+    <!-- Green -->
+    
+    <style name="Klyph.Dark.Green" parent="@style/AssetStudio.Dark.Green">
+        <item name="android:textColorLink">@color/green_theme_secondary</item>
+        <item name="themeColor">@color/green_theme_primary</item>
+        <item name="themeSelector">@drawable/green_theme_selector</item>
+        <item name="buttonBarStyle">@style/Klyph.Dark.ButtonBar</item>
+        <item name="android:divider">@drawable/divider_vertical_dark</item>
+        
+        <!-- Klyph elements -->
+		<item name="streamSelector">@drawable/list_selector_stream_green</item>
+		<item name="android:selectableItemBackground">@drawable/item_background_holo_dark_green</item>
+		<item name="actionBarSplitBackground">@drawable/ab_split_background_green</item>
+		<item name="counterBackground">@drawable/simple_counter_background_green</item>
+		<item name="notificationsItemBackground">@drawable/notifications_unread_background_green</item>
+		<item name="friendButtonBackground">@drawable/green_button</item>
+		
+		<item name="leftConversationBubbleBackground">@drawable/msg_bubble_selector_left_dark_green</item>
+        <item name="rightConversationBubbleBackground">@drawable/msg_bubble_selector_right_dark_green</item>
+
+        <!-- Icons -->
+        <item name="galleryCheckmarkIcon">@drawable/ic_gallery_checkmark_blue</item>
+        <item name="userLikeIcon">@drawable/ic_action_user_like_green</item>
+        <item name="userLikeBaselineIcon2">@drawable/ic_action_user_like_text_baseline_green</item>
+        <item name="newNotificationIcon">@drawable/ic_bell_green</item>
+        <item name="userLikeSmallIcon">@drawable/ic_action_like_small_green</item>
+        
+        <!-- Pull to refresh -->
+        <item name="ptrHeaderStyle">@style/Klyph.Green.PullToRefresh</item>
+    </style>
+    
+    <style name="Klyph.Dark.Green.Profile" parent="@style/Klyph.Dark.Green">
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Green_dark</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Klyph.Dark.Green.TabPageIndicator</item>
+    </style>
+    
+    <style name="Klyph.Black.Green" parent="@style/Klyph.Dark.Green">
+        <item name="android:windowBackground">@drawable/screen_background_black</item>
+    </style>
+    
+    <style name="Klyph.Black.Green.Profile" parent="@style/Klyph.Dark.Green.Profile">
+        <item name="android:windowBackground">@drawable/screen_background_black</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Klyph.Dark.Green.TabPageIndicator</item>
+    </style>
+	
+	<style name="Klyph.Light.Green" parent="@style/AssetSudio.Light.Green">
+        <item name="android:textColorLink">@color/green_theme_secondary</item>
+        <item name="themeColor">@color/green_theme_primary</item>
+        <item name="themeSelector">@drawable/green_theme_selector</item>
+        <item name="buttonBarStyle">@style/Klyph.Light.ButtonBar</item>
+        <item name="android:divider">@drawable/divider_vertical_bright</item>
+        
+        <!-- Klyph elements -->
+		<item name="streamSelector">@drawable/list_selector_stream_green</item>
+		<item name="android:selectableItemBackground">@drawable/item_background_holo_light_green</item>
+		<item name="actionBarSplitBackground">@drawable/ab_split_background_green</item>
+		<item name="counterBackground">@drawable/simple_counter_background_green</item>
+		<item name="notificationsItemBackground">@drawable/notifications_unread_background_green</item>
+		<item name="friendButtonBackground">@drawable/green_button</item>
+		
+		<item name="leftConversationBubbleBackground">@drawable/msg_bubble_selector_left_light_green</item>
+        <item name="rightConversationBubbleBackground">@drawable/msg_bubble_selector_right_light_green</item>
+		
+        <!-- Icons -->
+        <item name="galleryCheckmarkIcon">@drawable/ic_gallery_checkmark_blue</item>
+        <item name="userLikeIcon">@drawable/ic_action_user_like_green</item>
+        <item name="userLikeBaselineIcon2">@drawable/ic_action_user_like_text_baseline_green</item>
+        <item name="newNotificationIcon">@drawable/ic_bell_green</item>
+        <item name="userLikeSmallIcon">@drawable/ic_action_like_small_green</item>
+        
+        <!-- Pull to refresh -->
+        <item name="ptrHeaderStyle">@style/Klyph.Green.PullToRefresh</item>
+    </style>
+    
+	<style name="Klyph.Light.Green.Profile" parent="@style/Klyph.Light.Green">
+        <item name="android:actionBarStyle">@style/ActionBar.Profile.Green_light</item>
+        <item name="android:actionBarWidgetTheme">@android:style/Theme.Holo</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_ab_back_holo_dark</item>
+        <item name="android:actionButtonStyle">@android:style/Widget.Holo.ActionButton</item>
+        <item name="android:actionOverflowButtonStyle">@android:style/Widget.Holo.ActionButton.Overflow</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Klyph.Dark.Green.TabPageIndicator</item>
+    </style>
+
+</resources>

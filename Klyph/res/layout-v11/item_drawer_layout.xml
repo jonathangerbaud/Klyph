@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_layout_item_height"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/border"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="?attr/themeColor" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:id="@+id/primary_text"
+        style="@style/Klyph.DrawerLayout.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:background="@color/transparent"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textSize="@dimen/drawer_layout_item_text_size" />
+
+</LinearLayout>

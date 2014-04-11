@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">شريط الأخبار</string>
+    <string name="fragment_header_timeline">الصفحة الشخصية</string>
+    <string name="fragment_header_friends">الأصدقاء</string>
+    <string name="fragment_header_pages">صفحات</string>
+    <string name="fragment_header_about">عن كلايف</string>
+    <string name="fragment_header_events">مناسبات</string>
+    <string name="fragment_header_birthdays">أعياد الميلاد</string>
+    <string name="fragment_header_albums">البومات</string>
+    <string name="fragment_header_infos">معلومات</string>
+    <string name="fragment_header_wall">حائط</string>
+    <string name="fragment_header_going">ساحضر</string>
+    <string name="fragment_header_maybe">لست متأكد</string>
+    <string name="fragment_header_declined"> لن أحضر</string>
+    <string name="fragment_header_invited">دعيت</string>
+    <string name="fragment_header_groups">مجموعات</string>
+    <string name="fragment_header_members">أعضاء</string>
+    <string name="fragment_header_photos">صور</string>
+    <string name="fragment_header_threads">مواضيع</string>
+    <string name="fragment_header_followed_people"> الناس المتبوعبن</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">بحث</string>
+    <string name="user">مستخدم</string>
+    <string name="page">صفحة</string>
+    <string name="group">مجموعة</string>
+    <string name="event">مناسبة</string>
+
+    <!-- Menus -->
+    <string name="menu_logout"> تسجيل الخروج</string>
+    <string name="menu_notifications">إشعارات</string>
+    <string name="menu_chat">محادثة</string>
+    <string name="menu_messages">رسائل</string>
+    <string name="menu_credits">Credits</string>
+    <string name="menu_send">أرسل</string>
+    <string name="menu_preferences">الإعدادات</string>
+    <string name="menu_feedback">اقتراح/ثغرة</string>
+    <string name="menu_donate">منح</string>
+    <string name="menu_download">تحميل</string>
+    <string name="menu_add_photos">صور إضافة</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">ألبوم :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">ألبوم جديد </string>
+    <string name="create">إنشاء</string>
+    <string name="name">إسم</string>
+    <string name="location">الموقع</string>
+    <string name="camera">كاميرا</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">أعادة المحاولة</string>
+
+    <!-- Request errors -->
+    <string name="request_error">لقد حدث خطأ.</string>
+    <string name="request_connexion_error">خطأ في الإتصال.\قم بالتأكد من اتصالك بالإنترنت.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">غير قادر على تحديد موقعك.</string>
+    <string name="choose_place"> اختر مكان</string>
+
+    <!-- General -->
+    <string name="close">اغلاق</string>
+    <string name="open">فتح</string>
+    <string name="refresh">تحديث</string>
+    <string name="share">مشاركة</string>
+    <string name="defaultString">أساسي</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title"> اختر صور</string>
+    <string name="thread_activity_title">الرسائل</string>
+    <string name="notification_activity_title">إشعارات</string>
+    <string name="credentials_activity_title">رصيد</string>
+    <string name="donate_activity_title">منح</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">عام</string>
+    <string name="menu_privacy_friends">الأصدقاء</string>
+    <string name="menu_privacy_self">فقط أنا</string>
+
+    <!-- FR Values -->
+    <string name="like">معجب</string>
+    <string name="unlike">غير معجب</string>
+    <string name="people_who_likes_this"> الناس المعجبون بهذا</string>
+    <string name="comment">تعليق</string>
+    <string name="number_of_comments">%s تعليقات</string>
+    <string name="number_of_people_who_like_it">%s معجبون بهذا</string>
+    <string name="you_and_other_people_who_like_it"> شخص معجبون بهذا%s أنت و</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago"> ثانية%d منذ</string>
+    <string name="one_minute_ago"> منذ دقية واحدة</string>
+    <string name="minutes_ago"> دقائق%d منذ </string>
+    <string name="one_hour_ago"> منذ ساعة</string>
+    <string name="hours_ago"> ساعة%d منذ</string>
+    <string name="one_day_ago">منذ يوم</string>
+    <string name="days_ago"> يوم%d منذ</string>
+    <string name="one_month_ago">منذ شهر</string>
+    <string name="months_ago"> أشهر%d منذ</string>
+    <string name="years_ago"> سنوات%d منذ</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title"> ختر الجودة</string>
+    <string name="dialog_video_quality_message">هل تريد  شاهد بوضوح عادي أو وضوح عالي الجودة؟</string>
+    <string name="dialog_video_quality_hd">وضوح عالي الجودة</string>
+    <string name="dialog_video_quality_sd">وضوح عادي</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s صورة %2$s صور الألبوم %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— قام بنشر مع %1$s</string>
+    <string name="post_with_two_friends">— مع %1$s و %2$s</string>
+    <string name="post_with_several_friends">— مع %1$s و %2$s أصدقاء آخرون</string>
+    <string name="with_several_friends">%1$s مع صديق آخر</string>
+    <string name="at_place">— في %1$s</string>
+    <string name="ok">نعم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="error">خطأ</string>
+    <string name="please_enter_message"> الرجاء قم بإدخال رسالتك</string>
+    <string name="must_select_place_to_tag_friends">للإشارة على صديق, إختر مكان أولاً.</string>
+    <string name="status">حالة</string>
+    <string name="publishing">قم بالنشر&#8230;</string>
+    <string name="status_successfully_published">تم نشر الحالة .</string>
+    <string name="message_successfully_published">تم نشر الرسالة .</string>
+    <string name="publish_unknown_error">غير قادر على نشر الحالة.</string>
+    <string name="publish_message_unknown_error">غير قادر على نشر الرسالة.</string>
+    <string name="publish_error_duplicate_message">هذا منشورك الأخيرة.</string>
+    <string name="publish_new_status"> نشر حالة جديدة.</string>
+    <string name="publish_new_event_message"> إرسال رسالة جديدة.</string>
+    <string name="friends">الأصدقاء</string>
+    <string name="post_hint">رسالتك</string>
+    <string name="post_link_malformated_url">رابط غير صحيح</string>
+    <string name="post_link_malformated_image_url">رابط الصورة غير صحيح</string>
+    <string name="post_link_empty_name">الرجاء كتابة اسم.</string>
+    <string name="post_share_status">نشر حالة</string>
+    <string name="post_share_photo">نشر صورة</string>
+    <string name="post_share_video">نشر فيديو</string>
+    <string name="post_share_link">نشر رابط</string>
+    <string name="post_share_album">نشر أليبوم</string>
+    <string name="post_share_on">نشر على</string>
+    <string name="post_share_on_my_wall">حائطي</string>
+    <string name="post_share_on_friend_wall">حائط صديق</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">نشر صورة جديدة</string>
+    <string name="creating_album">عمل ألبوم &#8230;</string>
+    <string name="must_select_photos">الرجاء اختيار صور ليتم رفعها</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">تأكيد</string>
+    <string name="delete_post_confirmation_message">هل تريد بالتأكيد حذف هذه الرسالة؟</string>
+    <string name="delete_post_error">لا يمكن حذف الرسالة.</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="delete">حذف</string>
+    <string name="deleting">يتم الحذف&#8230;</string>
+    <string name="post_deleted">تم حذف الرسالة.</string>
+    <string name="like_error"> لا يمكن الإعجاب.</string>
+    <string name="unlike_error">لا يمكن عدم الإعجاب.</string>
+    <string name="stream_date">%1$s في %2$s</string>
+    <string name="stream_today_date">اليوم %1$s</string>
+    <string name="stream_yesterday_date"> يوم أمس %1$s</string>
+    <string name="newsfeed_new_stream">1 منشور جديد</string>
+    <string name="newsfeed_new_streams">%1$d منشور جديد</string>
+
+    <!-- Event -->
+    <string name="event_by">بواسطة %1$s</string>
+    <string name="event_description">الوصف</string>
+    <string name="event_practical_information">معلومات عملية </string>
+    <string name="event_date">التاريخ</string>
+    <string name="event_place">المكان</string>
+    <string name="event_secret">عند الدعوة فقط</string>
+    <string name="event_friends">الأصدقاء</string>
+    <string name="event_public">حدث عام</string>
+    <string name="event_closed"> حدث مغلق</string>
+    <string name="event_will_attend_title">سأحضر أنا؟ ?</string>
+    <string name="event_going">اشتراك</string>
+    <string name="event_unsure">احتمال</string>
+    <string name="event_declined">رفض</string>
+    <string name="event_num_invitee">%1$s شخص تمت دعوتهم</string>
+    <string name="event_num_attending">%1$s شخص سيحضرون</string>
+    <string name="event_num_unsure">%1$s شخص غير متأكدين</string>
+    <string name="event_num_declined">%1$s شخص رفضوا</string>
+    <string name="event_response_dialog_title">جواب</string>
+    <string name="event_response_dialog_message">إرسال الرد&#8230;</string>
+    <string name="event_response_ok">تم ارسال ردك</string>
+    <string name="event_response_error">حدث خطأ أثناء ارسال الرد.\الرجاء المحاولة لاحقا.</string>
+
+    <!-- User -->
+    <string name="user_birthday">تاريخ الميلاد</string>
+    <string name="user_sex">الجنس</string>
+    <string name="user_meeting_sex"> مهتم بـ</string>
+    <string name="user_relationship_status">الحالة الاجتماعية</string>
+    <string name="user_religion"> الأراء الدينية</string>
+    <string name="user_political"> الآراء السياسية</string>
+    <string name="user_phones" الهاتف="" رقم=""></string>
+    <string name="user_address">العنوان</string>
+    <string name="user_email">البريد الالكتروني</string>
+    <string name="user_networks">شبكات</string>
+    <string name="user_activities">نشاطات</string>
+    <string name="user_books">الكتب</string>
+    <string name="user_inspirational_people"> الناس الملهم بهم</string>
+    <string name="user_interests">اهتمامات</string>
+    <string name="user_movies">أفلام</string>
+    <string name="user_music">موسيقى</string>
+    <string name="user_sports">رياضة</string>
+    <string name="user_tv">مسلسلات تلفزيونية</string>
+    <string name="user_quotes">اقتباسات</string>
+    <string name="user_website">الموقع الخاص</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s الى %2$s</string>
+    <string name="work_date_until_today">%1$s للوقت الحالي</string>
+
+    <!-- Education -->
+    <string name="education_year">%1$sصف</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s et %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s and %3$d others</string>
+    <string name="thread_and_others">%1$d others</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">الاشخاص المعجبين بهذا</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">الخصوصية</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d سنة</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title"> اختر أصدقاء</string>
+    <string name="friend_picker_single_choice_title">اختر صديق</string>
+    <string name="search_friends">ابحث عن أصدقاء</string>
+    <string name="several_friends_selected">%1$d صديق تم اختياره</string>
+    <string name="one_friend_selected">1 صديق تم اختياره</string>
+    <string name="no_friend_selected">لم يتم اختيار أصدقاء</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d صورة تم تحديدها</string>
+    <string name="one_photo_selected">صورة واحدة اختيرت</string>
+    <string name="no_photo_selected">لم يتم اختيار صور</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">لم يتم العثور على الصورة</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">ضع تعليق</string>
+    <string name="comments_disabled">تم الغاء وضع التعليقات</string>
+    <string name="publish_comment_dialog_title">تعليق</string>
+    <string name="publish_comment_dialog_message">جاري النشر&#8230;</string>
+    <string name="publish_comment_ok">تم نشر تعليقك.</string>
+    <string name="publish_comment_error">حدث خطأ أثناء نشر التعليق.\الرجاء المحاولة لاحقا.</string>
+    <string name="several_comments">%1$d comments</string>
+    <string name="one_comment">تعلق واحد</string>
+    <string name="no_comment">لا يوجد تعليقات</string>
+    <string name="define_comment_before_publish">الرجاء وضع تعليقك</string>
+    <string name="several_likes">%1$d شخص أعجبوا به1ا</string>
+    <string name="one_like">1 شخص أعجب بهذا</string>
+    <string name="no_like">0 شخص أعجب بهذا </string>
+    <string name="cannot_find_post">غير قادر على ايجاد المنشور</string>
+    
+    <string name="my_last_message">Me : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+
+</resources>

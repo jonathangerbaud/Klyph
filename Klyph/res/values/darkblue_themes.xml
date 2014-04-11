@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AssetStudio.Dark.Blue" parent="@style/Klyph.ActionBar.Dark.Blue">
+        <item name="android:editTextStyle">@style/EditTextDarkBlue</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewDarkBlue</item>
+        <item name="android:checkboxStyle">@style/CheckBoxDarkBlue</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonDarkBlue</item>
+        <item name="android:buttonStyle">@style/ButtonDarkBlue</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonDarkBlue</item>
+        <item name="android:spinnerStyle">@style/SpinnerDarkBlue</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerDarkBlue</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemDarkBlue</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarDarkBlue</item>
+        <item name="android:seekBarStyle">@style/SeekBarDarkBlue</item>
+        <item name="android:listViewStyle">@style/ListViewDarkBlue</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewDarkBlue.White</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemDarkBlue</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Klyph.Dark.Blue.TabPageIndicator</item>
+        <item name="android:editTextBackground">@drawable/edit_text_holo_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_dark</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_dark</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+    </style>
+
+</resources>

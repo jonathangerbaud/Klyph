@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?attr/buttonBarButtonStyle"
+    android:layout_width="56dp"
+    android:layout_height="match_parent"
+    android:clickable="true" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:background="@drawable/notifications_read_background"
+        android:gravity="center"
+        android:minWidth="32dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>

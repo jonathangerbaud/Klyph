@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Galaxy Note/Tab fix for paddingStart/End -->
+    <style name="Klyph.Dark.ButtonBar" parent="Klyph.ButtonBar">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingStart">0dip</item>
+        <item name="android:paddingEnd">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+    </style>
+    
+    <style name="Klyph.Dark.Button.Borderless">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:paddingStart">4dip</item>
+        <item name="android:paddingEnd">4dip</item>
+    </style>
+    
+</resources>

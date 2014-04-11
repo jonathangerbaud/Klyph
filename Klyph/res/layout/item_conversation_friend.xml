@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/conversation_item_min_height"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/message_author_picture"
+        android:layout_width="@dimen/conversation_avatar_size"
+        android:layout_height="@dimen/conversation_avatar_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/conversation_item_min_height"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="@dimen/conversation_margin_end"
+        android:background="?attr/leftConversationBubbleBackground"
+        android:orientation="vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp" >
+
+        <TextView
+            android:id="@+id/message_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/message_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:attr/textColorTertiary"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/message_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center" />
+    </LinearLayout>
+
+</LinearLayout>

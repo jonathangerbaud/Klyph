@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:klyph="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory android:title="@string/preferences_ui_title" >
+        <ListPreference
+            android:defaultValue="@string/theme_light_blue"
+            android:dialogTitle="@string/preferences_themes_dialog_title"
+            android:entries="@array/preferences_themes_entries"
+            android:entryValues="@array/preferences_themes_values"
+            android:key="preference_theme"
+            android:title="@string/preference_theme_title" />
+        <ListPreference
+            android:defaultValue="@string/preferences_view_pager_indicator_style_tabs"
+            android:dialogTitle="@string/preferences_view_pager_indicator_style_title"
+            android:entries="@array/preferences_view_pager_indicator_style_entries"
+            android:entryValues="@array/preferences_view_pager_indicator_style_values"
+            android:key="preference_view_pager_indicator_style"
+            android:title="@string/preferences_view_pager_indicator_style_title" />
+        
+        <android.preference.MultiSelectDragListPreference
+            android:defaultValue="@array/nav_classes"
+            android:dialogTitle="@string/preference_left_drawer_items_title"
+            android:key="preference_left_drawer_items"
+            android:title="@string/preference_left_drawer_items_title"
+            klyph:entries="@array/nav_names"
+            klyph:entryValues="@array/nav_classes" />
+
+        <!--
+            <android.preference.MultiSelectDragListPreference
+            android:defaultValue="@array/preferences_main_activity_entries"
+            android:dialogTitle="@string/preferences_main_activity_tabs_title"
+            android:key="preference_main_activity_tabs"
+            android:title="@string/preferences_main_activity_tabs_title"
+            klyph:entries="@array/preferences_main_activity_entries"
+            klyph:entryValues="@array/preferences_main_activity_values" />
+        -->
+        <android.preference.MultiSelectDragListPreference
+            android:defaultValue="@array/preferences_user_activity_values"
+            android:dialogTitle="@string/preferences_user_activity_tabs_title"
+            android:key="preference_user_activity_tabs"
+            android:title="@string/preferences_user_activity_tabs_title"
+            klyph:entries="@array/preferences_user_activity_entries"
+            klyph:entryValues="@array/preferences_user_activity_values" />
+        <android.preference.MultiSelectDragListPreference
+            android:defaultValue="@array/preferences_page_activity_values"
+            android:dialogTitle="@string/preferences_page_activity_tabs_title"
+            android:key="preference_page_activity_tabs"
+            android:title="@string/preferences_page_activity_tabs_title"
+            klyph:entries="@array/preferences_page_activity_entries"
+            klyph:entryValues="@array/preferences_page_activity_values" />
+        <android.preference.MultiSelectDragListPreference
+            android:defaultValue="@array/preferences_group_activity_values"
+            android:dialogTitle="@string/preferences_group_activity_tabs_title"
+            android:key="preference_group_activity_tabs"
+            android:title="@string/preferences_group_activity_tabs_title"
+            klyph:entries="@array/preferences_group_activity_entries"
+            klyph:entryValues="@array/preferences_group_activity_values" />
+    </PreferenceCategory>
+    <!--
+    <PreferenceCategory android:title="@string/preference_newsfeed_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_newsfeed_pages"
+            android:summary="@string/preference_newsfeed_pages"
+            android:title="@string/preference_newsfeed_pages_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_newsfeed_groups"
+            android:summary="@string/preference_newsfeed_groups"
+            android:title="@string/preference_newsfeed_groups_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_newsfeed_events"
+            android:summary="@string/preference_newsfeed_events"
+            android:title="@string/preference_newsfeed_events_title" />  
+    </PreferenceCategory>
+    -->
+    <PreferenceCategory android:title="@string/fragment_header_newsfeed" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_newsfeed_go_to_top"
+            android:summary="@string/preference_newsfeed_go_to_top_summary"
+            android:title="@string/preference_newsfeed_go_to_top_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_newsfeed_cut_long_post"
+            android:summary="@string/preference_newsfeed_cut_long_post_summary"
+            android:title="@string/preference_newsfeed_cut_long_post_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_alternative_newsfeed"
+            android:summary="@string/preference_alternative_newsfeed_summary"
+            android:title="@string/preference_alternative_newsfeed_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_app_language_title" >
+        <ListPreference
+            android:defaultValue=""
+            android:dialogTitle="@string/preferences_app_language_dialog_title"
+            android:entries="@array/preferences_app_language_entries"
+            android:entryValues="@array/preferences_app_language_values"
+            android:key="preference_app_language"
+            android:title="@string/preference_app_language_title" />
+        <ListPreference
+            android:defaultValue="default"
+            android:dialogTitle="@string/preferences_fb_language_dialog_title"
+            android:entries="@array/preferences_fb_language_entries"
+            android:entryValues="@array/preferences_fb_language_values"
+            android:key="preference_fb_language"
+            android:title="@string/preference_fb_language_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_notifications_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_notifications"
+            android:summary="@string/preference_notification_summary"
+            android:title="@string/preference_notification_title" />
+
+        <ListPreference
+            android:defaultValue="push"
+            android:dependency="preference_notifications"
+            android:entries="@array/preferences_notification_system_labels"
+            android:entryValues="@array/preferences_notification_system_values"
+            android:key="preference_notifications_system"
+            android:shouldDisableView="true"
+            android:summary="@string/preferences_notifications_system_summary"
+            android:title="@string/preferences_notifications_system_title" />
+        <ListPreference
+            android:defaultValue="10"
+            android:dependency="preference_notifications"
+            android:entries="@array/preferences_notifications_interval_labels"
+            android:entryValues="@array/preferences_notifications_interval_values"
+            android:key="preferences_notifications_interval"
+            android:shouldDisableView="true"
+            android:title="@string/preferences_notifications_interval" />
+
+        <PreferenceScreen
+            android:dependency="preference_notifications"
+            android:key="preference_notification_type"
+            android:shouldDisableView="true"
+            android:title="@string/preference_notification_type_title" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_apprequest"
+                android:persistent="true"
+                android:summary="@string/preference_notification_apprequest_summary"
+                android:title="@string/preference_notification_apprequest_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_album"
+                android:persistent="true"
+                android:summary="@string/preference_notification_album_summary"
+                android:title="@string/preference_notification_album_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_event"
+                android:persistent="true"
+                android:summary="@string/preference_notification_event_summary"
+                android:title="@string/preference_notification_event_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_friend"
+                android:persistent="true"
+                android:summary="@string/preference_notification_friend_request_summary"
+                android:title="@string/preference_notification_friend_request_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_groups"
+                android:persistent="true"
+                android:summary="@string/preference_notification_group_invite_summary"
+                android:title="@string/preference_notification_group_invite_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_page"
+                android:persistent="true"
+                android:summary="@string/preference_notification_page_invite_summary"
+                android:title="@string/preference_notification_page_invite_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_photo"
+                android:persistent="true"
+                android:summary="@string/preference_notification_photo_summary"
+                android:title="@string/preference_notification_photo_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_poke"
+                android:persistent="true"
+                android:summary="@string/preference_notification_poke_summary"
+                android:title="@string/preference_notification_poke_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_stream"
+                android:persistent="true"
+                android:summary="@string/preference_notification_stream_summary"
+                android:title="@string/preference_notification_stream_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_video"
+                android:persistent="true"
+                android:summary="@string/preference_notification_video_summary"
+                android:title="@string/preference_notification_video_title" />
+            <!--
+                <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_message"
+                android:summary="@string/preference_notification_message_summary"
+                android:title="@string/preference_notification_message_title"
+                android:persistent="true" />
+            -->
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="preference_notifications_birthday"
+                android:persistent="true"
+                android:summary="@string/preference_notification_birthday_summary"
+                android:title="@string/preference_notification_birthday_title" />
+
+            <ListPreference
+                android:defaultValue="10"
+                android:dependency="preference_notifications_birthday"
+                android:entries="@array/preferences_birthday_time_label"
+                android:entryValues="@array/preferences_birthday_time_values"
+                android:key="preference_notifications_birthday_time"
+                android:persistent="true"
+                android:shouldDisableView="true"
+                android:summary="@string/preferences_notification_birthday_time_summary"
+                android:title="@string/preferences_notification_birthday_time_title" />
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="preference_notifications"
+            android:key="preference_notifications_group"
+            android:persistent="true"
+            android:shouldDisableView="true"
+            android:summary="@string/preference_notification_group_summary"
+            android:title="@string/preference_notification_group_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="preference_notifications"
+            android:key="preference_notifications_vibrate"
+            android:persistent="true"
+            android:shouldDisableView="true"
+            android:title="@string/preference_notification_vibrate_title" />
+
+        <ListPreference
+            android:defaultValue="default"
+            android:dependency="preference_notifications"
+            android:entries="@array/preferences_notifications_ringtone_labels"
+            android:entryValues="@array/preferences_notifications_ringtone_values"
+            android:key="preference_notifications_ringtone"
+            android:persistent="true"
+            android:shouldDisableView="true"
+            android:title="@string/preference_notification_ringtone_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_performances_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_performances_card_animation"
+            android:persistent="true"
+            android:summary="@string/preference_performances_card_animation_summary"
+            android:title="@string/preference_performances_card_animation_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_performances_photo_effect"
+            android:persistent="true"
+            android:summary="@string/preference_performances_photo_effect_summary"
+            android:title="@string/preference_performances_photo_effect_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_performances_rounded_profile_picture"
+            android:persistent="true"
+            android:summary="@string/preference_performances_rounded_profile_picture_summary"
+            android:title="@string/preference_performances_rounded_profile_picture_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_images_title" >
+
+        <!--
+            <Preference
+            android:key="preference_image_save_directory"
+            android:persistent="true"
+            android:summary="/here/i/am"
+            android:title="Images saved directory" >
+        </Preference>
+        -->
+        <Preference
+            android:key="preference_image_clear_cache"
+            android:persistent="true"
+            android:summary="@string/preference_images_clear_cache_summary"
+            android:title="@string/preference_images_clear_cache_title" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_about_title" >
+        <PreferenceScreen
+            android:key="preference_about"
+            android:title="@string/preference_about_title" />
+        <PreferenceScreen
+            android:persistent="false"
+            android:title="@string/preference_credits_title" >
+            <PreferenceCategory android:title="@string/preference_credits_apis_title" >
+                <Preference
+                    android:summary="Jake Wharton"
+                    android:title="ViewPagerIndicator" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://viewpagerindicator.com" />
+                </Preference>
+                <Preference
+                    android:summary="Michael Ortiz / Hank Zhu"
+                    android:title="TouchImageView" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/hank-cp/TouchImageView" />
+                </Preference>
+                <Preference
+                    android:summary="Square"
+                    android:title="Picasso" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/square/picasso" />
+                </Preference>
+                <Preference
+                    android:summary="The Apache Software Foundation"
+                    android:title="Apache Commons Lang" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://commons.apache.org/proper/commons-lang/" />
+                </Preference>
+                <Preference
+                    android:summary="Facebook Inc."
+                    android:title="Facebook SDK" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/facebook/facebook-android-sdk" />
+                </Preference>
+                <Preference
+                    android:summary="Niek Haarman"
+                    android:title="ListViewAnimations" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/nhaarman/ListViewAnimations" />
+                </Preference>
+                <Preference
+                    android:summary="Chris Banes"
+                    android:title="ActionBar-PullToRefresh" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/chrisbanes/ActionBar-PullToRefresh" />
+                </Preference>
+                <Preference
+                    android:summary="Dominik Schürmann"
+                    android:title="android-donations-lib" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/dschuermann/android-donations-lib" />
+                </Preference>
+                <Preference
+                    android:summary="Crashlytics"
+                    android:title="Crashlytics" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="www.crashlytics.com" />
+                </Preference>
+                <Preference
+                    android:summary="Carl A. Bauer"
+                    android:title="drag-sort-listview" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/bauerca/drag-sort-listview" />
+                </Preference>
+                <Preference
+                    android:summary="Antoine Merle"
+                    android:title="FlipImageView" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/castorflex/FlipImageView" />
+                </Preference>
+                <Preference
+                    android:summary="Alessandro Crugnola"
+                    android:title="Horizontal Variable ListView" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/sephiroth74/HorizontalVariableListView" />
+                </Preference>
+                <Preference
+                    android:summary="Google"
+                    android:title="Android Support Library v13" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://developer.android.com/tools/support-library/index.html" />
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/credentials_translators" >
+                <Preference
+                    android:summary="German"
+                    android:title="Jens Baumann" >
+                </Preference>
+                <Preference
+                    android:summary="German"
+                    android:title="Marius Schiller" >
+                </Preference>
+                <Preference
+                    android:summary="Italian"
+                    android:title="Marco Fullin" >
+                </Preference>
+                <Preference
+                    android:summary="Italian"
+                    android:title="Looka Feeorettee" >
+                </Preference>
+                <Preference
+                    android:summary="Turkish"
+                    android:title="Hasan Güray Güner" >
+                </Preference>
+                <Preference
+                    android:summary="Dutch"
+                    android:title="Kris Winkelmans" >
+                </Preference>
+                <Preference
+                    android:summary="Czech"
+                    android:title="Vojtěch Navrátil" >
+                </Preference>
+                <Preference
+                    android:summary="Polish"
+                    android:title="Michał Jabłoński" >
+                </Preference>
+                <Preference
+                    android:summary="Polish"
+                    android:title="Kamil Zet" >
+                </Preference>
+                <Preference
+                    android:summary="Greek"
+                    android:title="Leon Vaggalis" >
+                </Preference>
+                <Preference
+                    android:summary="Romanian"
+                    android:title="Baiar Ali" >
+                </Preference>
+                <Preference
+                    android:summary="Portugues (Brazil)"
+                    android:title="Bruno Perissotti" >
+                </Preference>
+                <Preference
+                    android:summary="Hungarian"
+                    android:title="András Csaba Szűcs" >
+                </Preference>
+                <Preference
+                    android:summary="Hebrew"
+                    android:title="Niv Lazarovitch" >
+                </Preference>
+                <Preference
+                    android:summary="Vietnamese"
+                    android:title="Tai Nguyen" >
+                </Preference>
+                <Preference
+                    android:summary="Spanish"
+                    android:title="Pacho Bernal" >
+                </Preference>
+                <Preference
+                    android:summary="Arabic"
+                    android:title="Tareq Rayyan" >
+                </Preference>
+                <Preference
+                    android:summary="Traditional Chinese"
+                    android:title="Kuwata Toku" >
+                </Preference>
+                <Preference
+                    android:summary="Danish"
+                    android:title="Troels Müller" >
+                </Preference>
+                <Preference
+                    android:summary="Swedish"
+                    android:title="Johan Dornell" >
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_credits_tools_title" >
+                <Preference
+                    android:summary="Android Asset Studio / Jérôme Van Der Linden"
+                    android:title="Android Holo Colors Generator" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://android-holo-colors.com/" />
+                </Preference>
+                <Preference
+                    android:summary="Android Asset Studio / Jeff Gilfelt"
+                    android:title="Android Action Bar Style Generator" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://jgilfelt.github.io/android-actionbarstylegenerator/" />
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_credits_icons_title" >
+                <Preference
+                    android:summary="http://thenounproject.com"
+                    android:title="The Noun Project" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="Like designed by Manwa Boukarim" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/like/#icon-No1297" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="Picture designed by Ilias Ismanalijev" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/picture/#icon-No7724" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="User designed by Rémy Médard" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/user/#icon-No2553" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="User designed by Ryan Oksenhorn" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/user/#icon-No1331" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="Video designed by Dmitry Baranovskiy" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/video/#icon-No5068" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="Lock" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/lock/#icon-No99" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="Friends designed by Rob Schill" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/friends/#icon-No3359" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="Earth designed by Fracesco Paleari" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/earth/#icon-No1071" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="Birthday Cake designed by Marcela Abbade" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/birthday-cake/#icon-No7309" />
+                </Preference>
+                <Preference
+                    android:summary="from The Noun Project"
+                    android:title="House designed by Shane Miller" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://thenounproject.com/noun/house/#icon-No8178" />
+                </Preference>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="preference_buy_pro_version"
+            android:title="@string/preference_buy_pro_version_title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.abewy.klyph.pro" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="preference_changelog"
+            android:title="@string/preference_changelog_title" />
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory
+            android:title="@string/inline_preferences">
+
+        <CheckBoxPreference
+                android:key="checkbox_preference"
+                android:title="@string/title_checkbox_preference"
+                android:summary="@string/summary_checkbox_preference" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/dialog_based_preferences">
+
+        <EditTextPreference
+                android:key="edittext_preference"
+                android:title="@string/title_edittext_preference"
+                android:summary="@string/summary_edittext_preference"
+                android:dialogTitle="@string/dialog_title_edittext_preference" />
+
+        <ListPreference
+                android:key="list_preference"
+                android:title="@string/title_list_preference"
+                android:summary="@string/summary_list_preference"
+                android:entries="@array/entries_list_preference"
+                android:entryValues="@array/entryvalues_list_preference"
+                android:dialogTitle="@string/dialog_title_list_preference" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/launch_preferences">
+
+        <PreferenceScreen
+                android:title="@string/title_intent_preference"
+                android:summary="@string/summary_intent_preference">
+
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="http://www.android.com" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/preference_attributes">
+
+        <CheckBoxPreference
+                android:key="parent_checkbox_preference"
+                android:title="@string/title_parent_preference"
+                android:summary="@string/summary_parent_preference" />
+
+        The visual style of a child is defined by this styled theme attribute.
+        <CheckBoxPreference
+                android:key="child_checkbox_preference"
+                android:dependency="parent_checkbox_preference"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@string/title_child_preference"
+                android:summary="@string/summary_child_preference" />
+
+    </PreferenceCategory>
+    -->
+
+</PreferenceScreen>

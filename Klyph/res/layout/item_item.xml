@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/text_layout"
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding" >
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/Klyph.ListItem.PrimaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/desc"
+            style="@style/Klyph.ListItem.SecondaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/text_layout"
+        android:background="@drawable/ab_solid_shadow_holo" >
+    </RelativeLayout>
+
+</RelativeLayout>

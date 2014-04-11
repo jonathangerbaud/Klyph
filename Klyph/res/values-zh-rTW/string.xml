@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">動態消息</string>
+    <string name="fragment_header_timeline">動態</string>
+    <string name="fragment_header_inbox">收件匣</string>
+    <string name="fragment_header_friends">朋友</string>
+    <string name="fragment_header_pages">粉絲專頁</string>
+    <string name="fragment_header_about">關於</string>
+    <string name="fragment_header_events">活動</string>
+    <string name="fragment_header_birthdays">生日</string>
+    <string name="fragment_header_albums">相簿</string>
+    <string name="fragment_header_infos">關於</string>
+    <string name="fragment_header_wall">塗鴉牆</string>
+    <string name="fragment_header_going">參加</string>
+    <string name="fragment_header_maybe">未確定</string>
+    <string name="fragment_header_declined">婉拒</string>
+    <string name="fragment_header_invited">受邀</string>
+    <string name="fragment_header_groups">社團</string>
+    <string name="fragment_header_members">成員</string>
+    <string name="fragment_header_photos">相片</string>
+    <string name="fragment_header_threads">活動紀錄</string>
+    <string name="fragment_header_followed_people">追蹤者</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">搜尋</string>
+    <string name="user">朋友</string>
+    <string name="page">專頁</string>
+    <string name="group">社團</string>
+    <string name="event">活動</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">登出</string>
+    <string name="menu_notifications">通知</string>
+    <string name="menu_chat">聊天</string>
+    <string name="menu_messages">留言</string>
+    <string name="menu_credits">勞苦功高的弟兄</string>
+    <string name="menu_send">送出</string>
+    <string name="menu_preferences">設定</string>
+    <string name="menu_feedback">意見回饋</string>
+    <string name="menu_donate">捐贈</string>
+    <string name="menu_download">下載</string>
+    <string name="menu_add_photos">新加相片</string>
+    <string name="menu_faq">問題集</string>
+    <string name="menu_buy_pro">取消廣告！</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">確定登出？</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">相簿：</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">新相簿</string>
+    <string name="create">建立</string>
+    <string name="name">名稱</string>
+    <string name="location">地點</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">重試</string>
+
+    <!-- Request errors -->
+    <string name="request_error">發生一個錯誤。</string>
+    <string name="request_connexion_error">連線錯誤。\n請檢查你的網路連線。</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">找不到你的座標位置。</string>
+    <string name="choose_place">選擇地點</string>
+
+    <!-- General -->
+    <string name="close">關閉</string>
+    <string name="open">開啟</string>
+    <string name="refresh">立即更新</string>
+    <string name="share">分享</string>
+    <string name="defaultString">預設</string>
+    <string name="camera">相機</string>
+    <string name="copy_text">複製文字</string>
+    <string name="see_who_likes_this">看誰按讚</string>
+    <string name="download_image">下載相片</string>
+    <string name="view_profile">個人主頁</string>
+    <string name="share_with">分享</string>
+    <string name="more">其他</string>
+    <string name="reply">回覆</string>
+    <string name="hide">隱藏</string>
+    <string name="none">空白</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">選擇相片</string>
+    <string name="thread_activity_title">留言</string>
+    <string name="notification_activity_title">通知</string>
+    <string name="credentials_activity_title">勞苦功高的弟兄</string>
+    <string name="donate_activity_title">捐贈</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">公開</string>
+    <string name="menu_privacy_friends">朋友</string>
+    <string name="menu_privacy_self">只限本人</string>
+
+    <!-- FR Values -->
+    <string name="like">讚</string>
+    <string name="unlike">收回讚</string>
+    <string name="people_who_likes_this">按讚的人</string>
+    <string name="comment">留言</string>
+    <string name="zero_or_one_like">%s 人按讚</string>
+    <string name="zero_or_one_comment">%s 個留言</string>
+    <string name="number_of_likes">%s 人按讚</string>
+    <string name="number_of_comments">%s 個留言</string>
+    <string name="number_of_people_who_like_it">%s 人按讚</string>
+    <string name="you_and_other_people_who_like_it">你和其他 %s 人都說讚</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d 秒以前</string>
+    <string name="one_minute_ago">1 分鐘前</string>
+    <string name="minutes_ago">%d 分鐘前</string>
+    <string name="one_hour_ago">1 小時前</string>
+    <string name="hours_ago">%d 小時前</string>
+    <string name="one_day_ago">昨天</string>
+    <string name="days_ago">%d 天前</string>
+    <string name="one_month_ago">1 個月前</string>
+    <string name="months_ago">%d 個月前</string>
+    <string name="years_ago">%d 年前</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">選擇畫質</string>
+    <string name="dialog_video_quality_message">觀看標準畫質（SD）或高畫質（HD）？</string>
+    <string name="dialog_video_quality_hd">高畫質</string>
+    <string name="dialog_video_quality_sd">標準畫質</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s 加入 %2$s 張相片至 %3$s 相簿</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— 和 %1$s</string>
+    <string name="post_with_two_friends">— 和 %1$s 、 %2$s</string>
+    <string name="post_with_several_friends">— 和 %1$s 和其他 %2$s 位朋友</string>
+    <string name="with_several_friends">和其他 %1$s 位朋友</string>
+    <string name="at_place">— 在 %1$s</string>
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="error">錯誤</string>
+    <string name="please_enter_message">請輸入留言</string>
+    <string name="must_select_place_to_tag_friends">貼標籤前請先選擇地點。</string>
+    <string name="status">狀態</string>
+    <string name="publishing">傳送中&#8230;</string>
+    <string name="status_successfully_published">近況已更新。</string>
+    <string name="message_successfully_published">留言已送出。</string>
+    <string name="publish_unknown_error">近況無法更新。</string>
+    <string name="publish_message_unknown_error">留言無法送出。</string>
+    <string name="publish_error_duplicate_message">重複留言囉！</string>
+    <string name="publish_new_status">近況更新</string>
+    <string name="publish_new_event_message">發佈活動留言</string>
+    <string name="friends">朋友</string>
+    <string name="post_hint">留言在此</string>
+    <string name="post_link_malformated_url">網址有誤</string>
+    <string name="post_link_malformated_image_url">相片網址有誤</string>
+    <string name="post_link_empty_name">請輸入名稱。</string>
+    <string name="post_share_status">分享近況或相片</string>
+    <string name="post_share_photo">分享相片</string>
+    <string name="post_share_video">分享影片</string>
+    <string name="post_share_link">分享網址</string>
+    <string name="post_share_album">分享相簿</string>
+    <string name="post_share_on">分享在</string>
+    <string name="post_share_on_my_wall">我的塗鴉牆</string>
+    <string name="post_share_on_friend_wall">朋友的塗鴉牆</string>
+    <string name="post_a_reply">回覆留言</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">發佈新相片</string>
+    <string name="creating_album">相簿新建中&#8230;</string>
+    <string name="must_select_photos">請選擇要上傳的相片</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">通知確認</string>
+    <string name="delete_post_confirmation_message">確定刪除不後悔？</string>
+    <string name="delete_post_error">無法刪除。</string>
+    <string name="yes">確定</string>
+    <string name="no">後悔了</string>
+    <string name="delete">刪除</string>
+    <string name="deleting">正在刪除&#8230;</string>
+    <string name="post_deleted">已刪除。</string>
+    <string name="like_error">無法讚。</string>
+    <string name="unlike_error">無法收回讚。</string>
+    <string name="stream_date">%1$s %2$s</string>
+    <string name="stream_today_date">今天%1$s</string>
+    <string name="stream_yesterday_date">昨天%1$s</string>
+    <string name="newsfeed_new_stream">1 個新動態</string>
+    <string name="newsfeed_new_streams">%1$d 個新動態</string>
+
+    <!-- Event -->
+    <string name="event_by">由 %1$s</string>
+    <string name="event_description">簡介</string>
+    <string name="event_practical_information">詳細資料</string>
+    <string name="event_date">時間</string>
+    <string name="event_place">地點</string>
+    <string name="event_secret">僅限受邀者</string>
+    <string name="event_friends">朋友</string>
+    <string name="event_public">公開活動</string>
+    <string name="event_closed">結束活動</string>
+    <string name="event_will_attend_title">參加嗎？</string>
+    <string name="event_going">參加</string>
+    <string name="event_unsure">或許</string>
+    <string name="event_declined">婉拒</string>
+    <string name="event_num_invitee">%1$s 人受邀</string>
+    <string name="event_num_attending">%1$s 人確定參加</string>
+    <string name="event_num_unsure">%1$s 人為確定</string>
+    <string name="event_num_declined">%1$s 人婉拒</string>
+    <string name="event_response_dialog_title">回覆</string>
+    <string name="event_response_dialog_message">發送中&#8230;</string>
+    <string name="event_response_ok">回覆已送出</string>
+    <string name="event_response_error">回覆時發生錯誤。\n請稍後再試。</string>
+
+    <!-- User -->
+    <string name="user_birthday">生日</string>
+    <string name="user_sex">性別</string>
+    <string name="user_meeting_sex">戀愛性向</string>
+    <string name="user_relationship_status">感情狀態</string>
+    <string name="user_religion">宗教</string>
+    <string name="user_political">政治立場</string>
+    <string name="user_phones">行動電話</string>
+    <string name="user_address">地址</string>
+    <string name="user_email">電子郵件</string>
+    <string name="user_networks">網路</string>
+    <string name="user_activities">活動</string>
+    <string name="user_books">書籍</string>
+    <string name="user_inspirational_people">偶像</string>
+    <string name="user_interests">嗜好</string>
+    <string name="user_movies">電影</string>
+    <string name="user_music">音樂</string>
+    <string name="user_sports">健身</string>
+    <string name="user_tv">電視</string>
+    <string name="user_quotes">簡介</string>
+    <string name="user_website">個人網站</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s 到 %2$s</string>
+    <string name="work_date_until_today">%1$s 至今</string>
+
+    <!-- Education -->
+    <string name="education_year">畢業於 %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s 和 %2$s</string>
+    <string name="thread_many_users">%1$s 、 %2$s 和 %3$d 等</string>
+    <string name="thread_and_others">%1$d 等</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">按讚的人</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">隱私</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d 歲</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">選擇朋友</string>
+    <string name="friend_picker_single_choice_title">選擇 1 位朋友</string>
+    <string name="search_friends">尋找朋友</string>
+    <string name="several_friends_selected">選擇了 %1$d 位朋友</string>
+    <string name="one_friend_selected">選擇了 1 位朋友</string>
+    <string name="no_friend_selected">尚未選擇朋友</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">選擇了 %1$d 張相片</string>
+    <string name="one_photo_selected">選擇了 1 張相片</string>
+    <string name="no_photo_selected">未選擇相片</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">找不到相片</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">留言</string>
+    <string name="comments_disabled">無法留言</string>
+    <string name="publish_comment_dialog_title">留言</string>
+    <string name="publish_comment_dialog_message">正在傳送&#8230;</string>
+    <string name="publish_comment_ok">傳送成功。</string>
+    <string name="publish_comment_error">傳送時發生錯誤。\n請稍後重試。</string>
+    <string name="several_comments">%1$d 個留言</string>
+    <string name="one_comment">1 個留言</string>
+    <string name="no_comment">沒有留言</string>
+    <string name="define_comment_before_publish">請輸入留言</string>
+    <string name="several_likes">%1$d 人按讚</string>
+    <string name="one_like">1 人按讚</string>
+    <string name="no_like">無人按讚</string>
+    <string name="cannot_find_post">找不到留言</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">下載前正在讀取相片列表&#8230;</string>
+    <string name="fetch_videos_from_album">下載前正在讀取影片列表&#8230;</string>
+    <string name="tagged_photos_of">標註有 %1$s 的相片</string>
+
+    <!-- User about -->
+    <string name="family">家人</string>
+    <string name="others">其他內容</string>
+    <string name="work">工作</string>
+    <string name="education">學歷</string>
+    <string name="user_about">關於</string>
+    <string name="user_about_sex">性別：%1$s</string>
+    <string name="user_about_birthday">生於 %1$s</string>
+    <string name="user_about_ralationship_status">交往狀態：%1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">關於</string>
+    <string name="noone_talk_about_it">沒人聊過</string>
+    <string name="one_talk_about_it">1 人提及</string>
+    <string name="several_talk_about_it">%1$s 人提及</string>
+    <string name="page_base_infos">基本資料</string>
+    <string name="description">簡介</string>
+    <string name="mission">任務</string>
+    <string name="coordinates">網路</string>
+    <string name="general_infos">一般資訊</string>
+    <string name="artists_we_like">藝術家</string>
+    <string name="band_interests">樂團</string>
+    <string name="band_bio">簡介</string>
+    <string name="band_members">成員</string>
+    <string name="founded">找到</string>
+    <string name="genre">類型</string>
+    <string name="band_current_location">目前位置</string>
+    <string name="band_hometown">家鄉</string>
+    <string name="band_record_label">唱片</string>
+    <string name="band_influences">影響</string>
+    <string name="band_press_contact">相關</string>
+    <string name="band_booking_agent">代理商</string>
+    <string name="band_general_manager">經理</string>
+    <string name="company_products">製作</string>
+    <string name="company_overview">簡介</string>
+    <string name="hours">時間</string>
+    <string name="public_transit">公開</string>
+    <string name="restaurant_food_styles">飲食習慣</string>
+    <string name="restaurant_culinar_team">烹飪團隊</string>
+    <string name="restaurant_prices">價格</string>
+    <string name="restaurant_attire">服裝</string>
+    <string name="restaurant_services">服務內容</string>
+    <string name="restaurant_specialties">特色</string>
+    <string name="restaurant_parking">停車</string>
+    <string name="breakfast">早餐</string>
+    <string name="lunch">午餐</string>
+    <string name="dinner">晚餐</string>
+    <string name="coffee">咖啡</string>
+    <string name="drinks">飲料</string>
+    <string name="visa">Visa卡</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">美國運通卡</string>
+    <string name="cash_only">僅收現金</string>
+    <string name="discover">發現者</string>
+    <string name="reserve">預約</string>
+    <string name="walkins">歡迎散客</string>
+    <string name="groups">適合團體聚會</string>
+    <string name="kids">適合小孩</string>
+    <string name="takeout">外帶</string>
+    <string name="delivery">外送</string>
+    <string name="waiter">服務生</string>
+    <string name="catering">自備食物</string>
+    <string name="outdoor">戶外雅座</string>
+    <string name="street">街區</string>
+    <string name="lot">停車場</string>
+    <string name="valet">代課停車</string>
+    <string name="monday">週一</string>
+    <string name="tuesday">週二</string>
+    <string name="wednesday">週三</string>
+    <string name="thursday">週四</string>
+    <string name="friday">週五</string>
+    <string name="saturday">週六</string>
+    <string name="sunday">週日</string>
+    <string name="plot_outline">劇情大綱</string>
+    <string name="network">網路</string>
+    <string name="season">季節</string>
+    <string name="schedule">計畫</string>
+    <string name="starring">開始</string>
+    <string name="written_by">劇本</string>
+    <string name="awards">結束</string>
+    <string name="personal_info">個人資訊</string>
+    <string name="personal_interests">個人嗜好</string>
+    <string name="phone">手機</string>
+    <string name="release_date">發佈日期</string>
+    <string name="studio">片廠</string>
+    <string name="directed_by">製作人</string>
+    <string name="screenplay_by">編劇</string>
+    <string name="affiliation">廠務</string>
+    <string name="built">造景</string>
+    <string name="features">特色</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">藥品安全資訊</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">空無一人</string>
+    <string name="empty_list_no_friend">沒有朋友</string>
+    <string name="empty_list_no_page">沒有粉絲專頁</string>
+    <string name="empty_list_no_event">沒有活動</string>
+    <string name="empty_list_no_album">沒有相簿</string>
+    <string name="empty_list_no_photo">沒有相片</string>
+    <string name="empty_list_no_video">沒有影片</string>
+    <string name="empty_list_no_birthday">沒有生日</string>
+    <string name="empty_list_no_message">無人留言</string>
+    <string name="empty_list_no_notification">沒有通知</string>
+    <string name="empty_list_no_stream">沒有更新</string>
+    <string name="empty_list_no_data">沒有資料</string>
+    <string name="empty_list_no_group">沒有社團</string>
+    <string name="empty_list_no_member">沒有成員</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">API 研發</string>
+    <string name="credentials_icons">圖示設計</string>
+    <string name="credentials_translators">文字譯者</string>
+
+    <!-- Preferences -->
+    <string name="preferences">效能</string>
+    <string name="preference_theme_title">佈景主題</string>
+    <string name="preferences_themes_dialog_title">選擇紀錄</string>
+    <string name="preference_about_title">關於</string>
+    <string name="preference_credits_title">研發團隊</string>
+    <string name="preference_credits_apis_title">API</string>
+    <string name="preference_credits_icons_title">圖示</string>
+    <string name="preference_credits_tools_title">工具</string>
+    <string name="preference_changelog_title">更新紀錄</string>
+    <string name="preference_notifications_title">通知</string>
+    <string name="preference_notification_title">通知</string>
+    <string name="preference_notification_summary">啟用通知</string>
+    <string name="preference_notification_type_title">通知類型</string>
+    <string name="preference_notification_birthday_title">生日</string>
+    <string name="preference_notification_birthday_summary">朋友生日時通知</string>
+    <string name="preferences_notification_birthday_time_title">生日通知時間</string>
+    <string name="preferences_notification_birthday_time_summary">設定朋友生日當天的通知時間</string>
+    <string name="preference_notification_apprequest_title">APP 邀請</string>
+    <string name="preference_notification_apprequest_summary">App 邀請時通知</string>
+    <string name="preference_notification_album_title">相簿</string>
+    <string name="preference_notification_album_summary">相簿邀請時通知</string>
+    <string name="preference_notification_event_title">活動</string>
+    <string name="preference_notification_event_summary">收到活動訊息時通知</string>
+    <string name="preference_notification_friend_request_title">朋友邀請</string>
+    <string name="preference_notification_friend_request_summary">收到朋友邀請時通知</string>
+    <string name="preference_notification_group_invite_title">社團</string>
+    <string name="preference_notification_group_invite_summary">邀請加入社團時通知</string>
+    <string name="preference_notification_page_invite_title">粉絲專頁</string>
+    <string name="preference_notification_page_invite_summary">邀請粉絲專頁時通知</string>
+    <string name="preference_notification_photo_title">相片</string>
+    <string name="preference_notification_photo_summary">朋友更新相片時通知</string>
+    <string name="preference_notification_poke_title">戳</string>
+    <string name="preference_notification_poke_summary">被戳時通知</string>
+    <string name="preference_notification_stream_title">留言</string>
+    <string name="preference_notification_stream_summary">收到留言回覆時通知</string>
+    <string name="preference_notification_video_title">影片通知</string>
+    <string name="preference_notification_video_summary">朋友更新影片時通知</string>
+    <string name="preferences_notifications_interval">更新間隔</string>
+    <string name="preferences_notifications_permissions_title">要求許可</string>
+    <string name="preferences_notifications_permissions_message">將重新登入，以便取得臉書許可。</string>
+    <string name="preference_notification_group_title">合併通知</string>
+    <string name="preference_notification_group_summary">收到多個通知時，僅顯示 1 則通知</string>
+    <string name="preference_app_language_title">APP 語言</string>
+    <string name="preferences_app_language_dialog_title">變更 APP 語言</string>
+    <string name="preference_fb_language_title">臉書語言</string>
+    <string name="preferences_fb_language_dialog_title">變更臉書語言</string>
+    <string name="preference_newsfeed_title">動態消息</string>
+    <string name="preference_newsfeed_pages_title">粉絲專頁</string>
+    <string name="preference_newsfeed_groups_title">社團</string>
+    <string name="preference_newsfeed_events_title">活動</string>
+    <string name="preference_newsfeed_pages">將粉絲專頁動態加入動態消息中</string>
+    <string name="preference_newsfeed_groups">將社團動態加入動態消息中</string>
+    <string name="preference_newsfeed_events">將活動動態加入動態消息中</string>
+    <string name="preference_performances_title">效能</string>
+    <string name="preference_performances_photo_effect_summary">關閉淡入淡出效果可以改進效能</string>
+    <string name="preference_performances_photo_effect_title">啟用相片淡入淡出效果</string>
+    <string name="preference_performances_rounded_profile_picture_summary">關閉圓形頭相可以改進效能</string>
+    <string name="preference_performances_rounded_profile_picture_title">啟用圓形頭相</string>
+    <string name="preferences_view_pager_indicator_style_title">主頁風格</string>
+    <string name="preferences_view_pager_indicator_style_tabs">標籤式</string>
+    <string name="preferences_view_pager_indicator_style_titles">主題式</string>
+    <string name="preferences_ui_title">使用者介面</string>
+    <string name="preference_performances_pause_on_scroll_title">滑動頁面時停止載入圖檔</string>
+    <string name="preference_performances_pause_on_scroll_summary">若啟用，滑動頁面時將立即停止載入圖檔</string>
+    <string name="preference_performances_pause_on_fling_title">滑動頁面後停止載入圖檔</string>
+    <string name="preference_performances_pause_on_fling_summary">若啟用，滑動頁面後將立即停止載入圖檔</string>
+    <string name="preference_performances_card_animation_title">啟用過場動畫</string>
+    <string name="preference_performances_card_animation_summary">關閉過場動畫可以改進效能</string>
+    <string name="preferences_main_activity_tabs_title">個人主頁標籤</string>
+    <string name="preferences_user_activity_tabs_title">朋友頁標籤</string>
+    <string name="preferences_page_activity_tabs_title">粉絲專頁標籤</string>
+    <string name="preferences_event_activity_tabs_title">活動頁標籤</string>
+    <string name="preferences_group_activity_tabs_title">社團頁標籤</string>
+    <string name="preference_images_title">圖檔</string>
+    <string name="preference_images_clear_cache_title">清除圖檔快取</string>
+    <string name="preference_images_clear_cache_summary">點擊後將立即刪除儲存在記憶體中的圖檔</string>
+    <string name="preference_images_cache_clearing">正在刪除快取圖檔</string>
+    <string name="preference_images_cache_cleared">快取圖檔已刪除</string>
+    <string name="preference_notification_interval_1_minute">每分鐘</string>
+    <string name="preference_notification_interval_2_minutes">每 2 分鐘</string>
+    <string name="preference_notification_interval_3_minutes">每 3 分鐘</string>
+    <string name="preference_notification_interval_5_minutes">每 5 分鐘</string>
+    <string name="preference_notification_interval_10_minutes">每 10 分鐘</string>
+    <string name="preference_notification_interval_15_minutes">每 15 分鐘</string>
+    <string name="preference_notification_interval_20_minutes">每 20 分鐘</string>
+    <string name="preference_notification_interval_25_minutes">每 25 分鐘</string>
+    <string name="preference_notification_interval_30_minutes">每 30 分鐘</string>
+    <string name="preference_notification_interval_45_minutes">每 45 分鐘</string>
+    <string name="preference_notification_interval_1_hour">每小時</string>
+    <string name="preference_notification_interval_2_hours">每 2 小時</string>
+    <string name="preference_notification_interval_3_hours">每 3 小時</string>
+    <string name="preference_notification_interval_4_hours">每 4 小時</string>
+    <string name="preference_notification_interval_5_hours">每 5 小時</string>
+    <string name="preference_notification_interval_6_hours">每 6 小時</string>
+    <string name="preference_notification_interval_7_hours">每 7 小時</string>
+    <string name="preference_notification_interval_8_hours">每 8 小時</string>
+    <string name="preference_notification_interval_twice_daily">每天兩次</string>
+    <string name="preference_notification_interval_daily">每天</string>
+    <string name="preferences_notification_system_push">推播通知</string>
+    <string name="preferences_notification_system_periodic">定時通知</string>
+    <string name="preferences_notification_system_both">以上全選</string>
+    <string name="preferences_notifications_system_title">通知系統</string>
+    <string name="preferences_notifications_system_summary">推播通知較不即時。\n定時通知相對耗電。</string>
+    <string name="preference_notification_vibrate_title">震動</string>
+    <string name="preference_notification_ringtone_title">通知音效</string>
+    <string name="preference_notifications_ringtone">通知音效</string>
+    <string name="preference_notifications_song">歌曲</string>
+    <string name="preference_notification_ringtone_chooser">選擇通知音</string>
+    <string name="preference_newsfeed_go_to_top_title">載入後顯示置頂</string>
+    <string name="preference_newsfeed_go_to_top_summary">當載入最新動態後，直接跳至最頂端</string>
+    <string name="preference_newsfeed_cut_long_post_title">省略長文</string>
+    <string name="preference_newsfeed_cut_long_post_summary">超過 10 行則予省略，點選後才顯示全文</string>
+    <string name="preference_buy_pro_version_title">購買專業版</string>
+    <string name="preference_left_drawer_items_title">左側選單</string>
+    <string name="preference_alternative_newsfeed_title">動態消息替代方案</string>
+    <string name="preference_alternative_newsfeed_summary">若勾選，將使用替代方案擷取動態消息</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">今天生日</string>
+    <string name="notification_birthday_today">今天是 %1$s 的生日！</string>
+    <string name="friends_birthday_today">有 %1$d 位朋友今天生日！</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">朋友邀請</string>
+    <string name="notification_friendrequest_message">%1$s 想加你為朋友</string>
+    <string name="new_friend_requests">收到 %1$d 位新朋友的邀請</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">收到 %1$s 個新通知</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">通知功能有誤。\n請點選更新表單鍵重置表單。</string>
+    <string name="notifications_unread_header_title">新通知（%1$d）</string>
+    <string name="notifications_read_header_title">舊通知</string>
+    <string name="notifications_friend_request_header_title">朋友邀請</string>
+    <string name="notifications_dismiss">Dismiss</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">解除付費鎖</string>
+    <string name="donate_code">輸入付費密碼</string>
+    <string name="thank_you_very_much">感謝您！</string>
+
+    <!-- Chat -->
+    <string name="online">在線</string>
+    <string name="offline">離線</string>
+
+    <!-- Video -->
+    <string name="video_album_name">影片</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">抱歉，臉書不接受第三方 APP 在社團留言。</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">上傳圖檔</string>
+    <string name="uploading_image_of">正在上傳 %2$d 之 %1$d</string>
+    <string name="upload_complete">完成上傳</string>
+    <string name="n_uploaded_images">圖檔已上傳（共 %1$d 張）</string>
+    <string name="upload_error">上傳錯誤</string>
+    <string name="file_not_found">找不到檔案 %1$s</string>
+    <string name="upload_photo_default_album_name">塗鴉牆（預設）</string>
+
+    <!-- About -->
+    <string name="about_version">%1$s 版</string>
+    <string name="about_activity_title">關於</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">版權所有</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">寫信</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">有何建議？\n或者發現蟲蟲？\n請讓我們知道！</string>
+    <string name="feedback_send_suggest">書寫意見</string>
+    <string name="feedback_send_bug">蟲蟲報告</string>
+    <string name="feedback_g_plus_community">G+ 社團</string>
+    <string name="restart">重新啟動</string>
+    <string name="change_theme_need_restart">更換主題後必須重新啟動才能生效。</string>
+    <string name="change_app_language_need_restart">變更語言後必須重新啟動才能生效。</string>
+    <string name="option_need_restart">變更後必須重新啟動才能生效。</string>
+    <string name="soon">我們將盡快回覆&#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">更新紀錄</string>
+    <string name="changelog_close">關閉</string>
+    <string name="changelog_activity_title">更新紀錄</string>
+    
+    <!-- Ads -->
+    <string name="advertising">廣告</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">我： %1$s</string>
+	<string name="friend_last_message">%1$s ： %2$s</string>
+	
+	<!-- User Activity -->
+    <string name="is_friend">朋友</string>
+	<string name="confirm_friend_request">確認加入</string>
+	<string name="send_friend_request">加為朋友</string>
+	<string name="friend_request_sent">朋友已加入</string>
+
+</resources>

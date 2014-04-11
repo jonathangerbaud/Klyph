@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/album_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.abewy.android.apps.klyph.widget.KlyphImageView
+        android:id="@+id/album_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/squarePlaceHolderIcon"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow_up"
+        android:padding="4dp" >
+
+        <TextView
+            android:id="@+id/album_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/album_num_photo"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="4dip"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.abewy.android.apps.klyph.widget.KlyphImageView
+            android:id="@+id/album_video_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="2dp"
+            android:src="?attr/videosIconSmall" />
+
+        <TextView
+            android:id="@+id/album_num_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/album_video_icon"
+            android:textColor="@color/white" />
+
+        <com.abewy.android.apps.klyph.widget.KlyphImageView
+            android:id="@+id/album_photo_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="2dp"
+            android:src="?attr/photosIconSmall" />
+
+        <TextView
+            android:id="@id/album_num_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/album_photo_icon"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

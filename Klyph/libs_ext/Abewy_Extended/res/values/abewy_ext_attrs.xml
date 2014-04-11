@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TypefaceTextView">
+        <attr name="fontFamily" format="string" />
+    </declare-styleable>
+    <declare-styleable name="MaxWidthLinearLayout_Layout">
+        <attr name="layout_maxWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>

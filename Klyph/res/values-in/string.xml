@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Newsfeed</string>
+    <string name="fragment_header_timeline">Timeline</string>
+    <string name="fragment_header_inbox">Kotak Masuk</string>
+    <string name="fragment_header_friends">Teman</string>
+    <string name="fragment_header_pages">Halaman</string>
+    <string name="fragment_header_about">Tentang</string>
+    <string name="fragment_header_events">Acara</string>
+    <string name="fragment_header_birthdays">Ulang Tahun</string>
+    <string name="fragment_header_albums">Album</string>
+    <string name="fragment_header_infos">Info</string>
+    <string name="fragment_header_wall">Dinding</string>
+    <string name="fragment_header_going">Menghadiri</string>
+    <string name="fragment_header_maybe">Tidak Pasti</string>
+    <string name="fragment_header_declined">Tidak Datang</string>
+    <string name="fragment_header_invited">Diundang</string>
+    <string name="fragment_header_groups">Grup</string>
+    <string name="fragment_header_members">Anggota</string>
+    <string name="fragment_header_photos">Foto</string>
+    <string name="fragment_header_threads">Topik</string>
+    <string name="fragment_header_followed_people">Orang yang diikuti </string>
+    <string name="fragment_header_search">kata/cari</string>
+    <string name="search">Cari</string>
+    <string name="user">Pengguna</string>
+    <string name="page">Halaman</string>
+    <string name="group">Grup</string>
+    <string name="event">Acara</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Keluar</string>
+    <string name="menu_notifications">Pemberitahuan</string>
+    <string name="menu_chat">Obrolan</string>
+    <string name="menu_messages">Pesan</string>
+    <string name="menu_credits">Saldo</string>
+    <string name="menu_send">Kirim</string>
+    <string name="menu_preferences">Pengaturan</string>
+    <string name="menu_feedback">Umpan Balik</string>
+    <string name="menu_donate">Donasi</string>
+    <string name="menu_download">Unduh</string>
+    <string name="menu_add_photos">Tambah Foto</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Apakah anda yakin ingin keluar ?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Album Baru</string>
+    <string name="create">Buat</string>
+    <string name="name">Nama</string>
+    <string name="location">Lokasi</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Coba lagi</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Kesalahan terjadi</string>
+    <string name="request_connexion_error">Koneksi Errror. Cek koneksi internet anda.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Tidak dapat mencari lokasi anda</string>
+    <string name="choose_place">Pilih sebuah tempat</string>
+
+    <!-- General -->
+    <string name="close">Tutup</string>
+    <string name="open">Buka</string>
+    <string name="refresh">Muat ulang</string>
+    <string name="share">Bagikan</string>
+    <string name="defaultString">Bawaan</string>
+    <string name="camera">Kamera</string>
+    <string name="copy_text">Salin teks</string>
+    <string name="see_who_likes_this">Lihat yang menyukai ini</string>
+    <string name="download_image">Unduh gambar</string>
+    <string name="view_profile">Lihat Profil</string>
+    <string name="share_with">Bagikan dengan</string>
+    <string name="more">Lainnya</string>
+    <string name="reply">Balas</string>
+    <string name="hide">Sembunyikan</string>
+    <string name="none">Tidak Ada</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Pilih Foto</string>
+    <string name="thread_activity_title">Pesan</string>
+    <string name="notification_activity_title">Pemberitahuan</string>
+    <string name="credentials_activity_title">Saldo</string>
+    <string name="donate_activity_title">Donasi</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Umum</string>
+    <string name="menu_privacy_friends">Teman</string>
+    <string name="menu_privacy_self">Hanya Saya</string>
+
+    <!-- FR Values -->
+    <string name="like">Suka</string>
+    <string name="unlike">Tidak Suka</string>
+    <string name="people_who_likes_this">Orang yang menyukai ini</string>
+    <string name="comment">Komentar</string>
+    <string name="zero_or_one_like">%s Suka</string>
+    <string name="zero_or_one_comment">%s Komentar</string>
+    <string name="number_of_likes">%s Suka</string>
+    <string name="number_of_comments">%s Komentar</string>
+    <string name="number_of_people_who_like_it">%s orang menyukai ini</string>
+    <string name="you_and_other_people_who_like_it">Anda dan %s orang menyukai ini</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d detik yang lalu</string>
+    <string name="one_minute_ago">Satu menit yang lalu</string>
+    <string name="minutes_ago">%d menit yang lalu</string>
+    <string name="one_hour_ago">Satu jam yang lalu</string>
+    <string name="hours_ago">%d jam yang lalu</string>
+    <string name="one_day_ago">Satu hari yang lalu</string>
+    <string name="days_ago">%d hari yang lalu</string>
+    <string name="one_month_ago">Satu bulan yang lalu</string>
+    <string name="months_ago">%d bulan yang lalu</string>
+    <string name="years_ago">%d tahun yang lalu</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Pilih kualitas</string>
+    <string name="dialog_video_quality_message">Menonton di Kualitas Standar atau Kualitas Tinggi ?</string>
+    <string name="dialog_video_quality_hd">Kualitas Tinggi</string>
+    <string name="dialog_video_quality_sd">Kualitas Standar</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s ditambahkan %2$s foto pada album %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— dengan %1$s</string>
+    <string name="post_with_two_friends">— dengan %1$s dan %2$s</string>
+    <string name="post_with_several_friends">— dengan %1$s dan %2$s teman lain</string>
+    <string name="with_several_friends">%1$s teman lain</string>
+    <string name="at_place">— di %1$s</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Batal</string>
+    <string name="error">Error</string>
+    <string name="please_enter_message">Silahkan isi pesan anda</string>
+    <string name="must_select_place_to_tag_friends">Untuk memilih teman, pilih tempat terlebih dahulu</string>
+    <string name="status">Status</string>
+    <string name="publishing">Terbitkan&#8230;</string>
+    <string name="status_successfully_published">Status baru anda sudah diterbitkan</string>
+    <string name="message_successfully_published">Pesan anda sudah di terbitkan</string>
+    <string name="publish_unknown_error">Tidak ada menerbitkan status</string>
+    <string name="publish_message_unknown_error">Tidak dapat menerbitkan pesan</string>
+    <string name="publish_error_duplicate_message">Ini sudah menjadi status terakhir anda</string>
+    <string name="publish_new_status">Terbitkan status baru</string>
+    <string name="publish_new_event_message">Terbitkan pesan baru</string>
+    <string name="friends">Teman</string>
+    <string name="post_hint">Pesan Anda</string>
+    <string name="post_link_malformated_url">Alamat ini tidak berlaku</string>
+    <string name="post_link_malformated_image_url">Alamat gambar ini tidak berlaku</string>
+    <string name="post_link_empty_name">Silahkan isi nama</string>
+    <string name="post_share_status">Bagikan status</string>
+    <string name="post_share_photo">Bagikan foto</string>
+    <string name="post_share_video">Bagikan video</string>
+    <string name="post_share_link">Bagikan alamat</string>
+    <string name="post_share_album">Bagikan album</string>
+    <string name="post_share_on">Bagikan di</string>
+    <string name="post_share_on_my_wall">Dinding saya</string>
+    <string name="post_share_on_friend_wall">Dinding teman</string>
+    <string name="post_a_reply">Kirim balasan</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Terbitkan foto baru</string>
+    <string name="creating_album">Buat album &#8230;</string>
+    <string name="must_select_photos">Silahkan pilih foto yang ingin di upload</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Konfirmasi</string>
+    <string name="delete_post_confirmation_message">Apakah anda yakin ingin menghapus pesan ini ?</string>
+    <string name="delete_post_error">Tidak dapat menghapus pesan</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="delete">Hapus</string>
+    <string name="deleting">Menghapus&#8230;</string>
+    <string name="post_deleted">Pesan dihapus.</string>
+    <string name="like_error">Tidak bisa like</string>
+    <string name="unlike_error">Tidak bisa unlike</string>
+    <string name="stream_date">%1$s di %2$s</string>
+    <string name="stream_today_date">Hari ini di %1$s</string>
+    <string name="stream_yesterday_date">Kemarin di  %1$s</string>
+    <string name="newsfeed_new_stream">1 riwayat baru</string>
+    <string name="newsfeed_new_streams">%1$d riwayat baru</string>
+
+    <!-- Event -->
+    <string name="event_by">oleh %1$s</string>
+    <string name="event_description">Deskripsi</string>
+    <string name="event_practical_information">Informasi Praktis</string>
+    <string name="event_date">Tanggal</string>
+    <string name="event_place">Tempat</string>
+    <string name="event_secret">Hanya undangan</string>
+    <string name="event_friends">Teman</string>
+    <string name="event_public">Acara umum</string>
+    <string name="event_closed">Acara tertutup</string>
+    <string name="event_will_attend_title">Akankah saya ikut ?</string>
+    <string name="event_going">Ikut</string>
+    <string name="event_unsure">Mungkin</string>
+    <string name="event_declined">Tolak</string>
+    <string name="event_num_invitee">%1$s orang diundang</string>
+    <string name="event_num_attending">%1$s orang datang</string>
+    <string name="event_num_unsure">%1$s orang tidak yakin</string>
+    <string name="event_num_declined">%1$s orang menolak</string>
+    <string name="event_response_dialog_title">Jawab</string>
+    <string name="event_response_dialog_message">Mengirim respon&#8230;</string>
+    <string name="event_response_ok">Respon anda telah terkirim</string>
+    <string name="event_response_error">Sebuah kesalahan terjadi ketika mengirim respon anda.\nMohon coba kembali.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Ulang tahun</string>
+    <string name="user_sex">Jenis Kelamin</string>
+    <string name="user_meeting_sex">Tertarik dengan</string>
+    <string name="user_relationship_status">Status Hubungan</string>
+    <string name="user_religion">Pandangan Agama</string>
+    <string name="user_political">Pandangan Politik</string>
+    <string name="user_phones">Telepon</string>
+    <string name="user_address">Alamat</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Jaringan</string>
+    <string name="user_activities">Aktifitas</string>
+    <string name="user_books">Buku</string>
+    <string name="user_inspirational_people">Orang yang menginspirasi</string>
+    <string name="user_interests">Ketertarikan</string>
+    <string name="user_movies">Film</string>
+    <string name="user_music">Musik</string>
+    <string name="user_sports">Olahraga</string>
+    <string name="user_tv">Acara TV</string>
+    <string name="user_quotes">Kutipan</string>
+    <string name="user_website">Website</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s sampai %2$s</string>
+    <string name="work_date_until_today">%1$s sampai sekarang</string>
+
+    <!-- Education -->
+    <string name="education_year">Kelas %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s dan %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s dan %3$d lainnya</string>
+    <string name="thread_and_others">%1$d lainnya</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Orang yang menyukai ini</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Privasi</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d tahun</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Pilih teman</string>
+    <string name="friend_picker_single_choice_title">Pilih seorang teman</string>
+    <string name="search_friends">Cari teman</string>
+    <string name="several_friends_selected">%1$d teman terpilih</string>
+    <string name="one_friend_selected">1 teman terpilih</string>
+    <string name="no_friend_selected">Tidak ada teman terpilih</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d foto terpilih</string>
+    <string name="one_photo_selected">Satu foto terpilih</string>
+    <string name="no_photo_selected">Tidak ada foto terpilih</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Tidak dapat menemukan foto</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Terbitkan komentar</string>
+    <string name="comments_disabled">Komentar ditutup</string>
+    <string name="publish_comment_dialog_title">Komentar</string>
+    <string name="publish_comment_dialog_message">Terbitkan&#8230;</string>
+    <string name="publish_comment_ok">Komentar anda diterbitkan</string>
+    <string name="publish_comment_error">Kesalahan terjadi ketika menerbitkan komentar anda.\n Mohon dicoba kembali</string>
+    <string name="several_comments">%1$d Komentar</string>
+    <string name="one_comment">Satu komentar</string>
+    <string name="no_comment">Tidak ada komentar</string>
+    <string name="define_comment_before_publish">Silahkan isi komentar anda</string>
+    <string name="several_likes">%1$d orang menyukai ini</string>
+    <string name="one_like">1 orang menyukai ini</string>
+    <string name="no_like">0 orang menyukai ini</string>
+    <string name="cannot_find_post">Tidak dapat mencari publikasi</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Mengambil daftar foto sebelum mengunduh &#8230;</string>
+    <string name="fetch_videos_from_album">Menyiapkan daftar video sebelum mengunduh &#8230;</string>
+    <string name="tagged_photos_of">Foto dari  %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Keluarga</string>
+    <string name="others">Lainnya</string>
+    <string name="work">Pekerjaan</string>
+    <string name="education">Pendidikan</string>
+    <string name="user_about">Tentang</string>
+    <string name="user_about_sex">Jenis Kelamin : %1$s</string>
+    <string name="user_about_birthday">Lahir di %1$s</string>
+    <string name="user_about_ralationship_status">Status Hubungan :  %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Tentang</string>
+    <string name="noone_talk_about_it">TIdak ada yang membicarkan tentang ini</string>
+    <string name="one_talk_about_it">1 orang membicarakan hal ini</string>
+    <string name="several_talk_about_it">%1$s orang membicarakan tentang ini</string>
+    <string name="page_base_infos">Informasi Dasar</string>
+    <string name="description">Deskripsi</string>
+    <string name="mission">Misi</string>
+    <string name="coordinates">Koordinat</string>
+    <string name="general_infos">Informasi Umum</string>
+    <string name="artists_we_like">Artis yang disuka</string>
+    <string name="band_interests">Band disuka</string>
+    <string name="band_bio">Biografi</string>
+    <string name="band_members">Anggota</string>
+    <string name="founded">Didirikan</string>
+    <string name="genre">Jenis</string>
+    <string name="band_current_location">Lokasi saat ini</string>
+    <string name="band_hometown">Kampung Halaman</string>
+    <string name="band_record_label">Label rekaman</string>
+    <string name="band_influences">Pengaruh</string>
+    <string name="band_press_contact">Kontak Pers</string>
+    <string name="band_booking_agent">Agen Pesan</string>
+    <string name="band_general_manager">Manager Umum</string>
+    <string name="company_products">Produk</string>
+    <string name="company_overview">Tinjauan</string>
+    <string name="hours">Jam</string>
+    <string name="public_transit">Transit Umum</string>
+    <string name="restaurant_food_styles">Jenis Makanan</string>
+    <string name="restaurant_culinar_team">Tim Kuliner</string>
+    <string name="restaurant_prices">Harga</string>
+    <string name="restaurant_attire">Pakaian</string>
+    <string name="restaurant_services">Layanan</string>
+    <string name="restaurant_specialties">Keahlian</string>
+    <string name="restaurant_parking">Parkir</string>
+    <string name="breakfast">Makan Pagi</string>
+    <string name="lunch">Makan Siang</string>
+    <string name="dinner">Makan Malam</string>
+    <string name="coffee">Kopi</string>
+    <string name="drinks">Minuman</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Hanya Tunai</string>
+    <string name="discover">Discover</string>
+    <string name="reserve">Memesan</string>
+    <string name="walkins">Sambutan</string>
+    <string name="groups">Baik untuk grup</string>
+    <string name="kids">Baik untuk anak</string>
+    <string name="takeout">Mengambil</string>
+    <string name="delivery">Pesanan</string>
+    <string name="waiter">Layanan pelayan</string>
+    <string name="catering">Katering</string>
+    <string name="outdoor">Duduk diluar</string>
+    <string name="street">Jalan</string>
+    <string name="lot">Tempat Parkir</string>
+    <string name="valet">Valet</string>
+    <string name="monday">Senin</string>
+    <string name="tuesday">Selasa</string>
+    <string name="wednesday">Rabu</string>
+    <string name="thursday">Kamis</string>
+    <string name="friday">Jumat</string>
+    <string name="saturday">Sabtu</string>
+    <string name="sunday">Minggu</string>
+    <string name="plot_outline">Alur garis besar</string>
+    <string name="network">Jaringan</string>
+    <string name="season">Musim</string>
+    <string name="schedule">Jadwal</string>
+    <string name="starring">DIbintangi</string>
+    <string name="written_by">Ditulis oleh</string>
+    <string name="awards">Penghargaan</string>
+    <string name="personal_info">Informasi Pribadi</string>
+    <string name="personal_interests">Ketertarikan Pribadi</string>
+    <string name="phone">Telepon</string>
+    <string name="release_date">Waktu Rilis</string>
+    <string name="studio">Studio</string>
+    <string name="directed_by">Diarahkan oleh</string>
+    <string name="screenplay_by">Skenario</string>
+    <string name="affiliation">Affiliasi</string>
+    <string name="built">Dibangun</string>
+    <string name="features">Fitur</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Informasi Keselamatan Farmasi</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Tidak ada pengguna</string>
+    <string name="empty_list_no_friend">Tidak Ada teman</string>
+    <string name="empty_list_no_page">Tidak ada halaman</string>
+    <string name="empty_list_no_event">Tidak ada acara</string>
+    <string name="empty_list_no_album">Tidak ada album</string>
+    <string name="empty_list_no_photo">Tidak ada foto</string>
+    <string name="empty_list_no_video">Tidak ada video</string>
+    <string name="empty_list_no_birthday">Tidak ada ulang tahun</string>
+    <string name="empty_list_no_message">Tidak Ada Pesan</string>
+    <string name="empty_list_no_notification">Tidak ada pemberitahuan</string>
+    <string name="empty_list_no_stream">Tidak ada riwayat</string>
+    <string name="empty_list_no_data">TIdak ada data</string>
+    <string name="empty_list_no_group">Tidak ada grup</string>
+    <string name="empty_list_no_member">Tidak ada anggota</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">Ikon</string>
+    <string name="credentials_translators">Penerjemah</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Preferensi</string>
+    <string name="preference_theme_title">Tema</string>
+    <string name="preferences_themes_dialog_title">Pilih sebuah tema</string>
+    <string name="preference_about_title">Tentang</string>
+    <string name="preference_credits_title">Kredit</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">Ikon</string>
+    <string name="preference_credits_tools_title">Peralatan</string>
+    <string name="preference_changelog_title">Catatan Perubahan</string>
+    <string name="preference_notifications_title">Pemberitahuan</string>
+    <string name="preference_notification_title">Pemberitahuan</string>
+    <string name="preference_notification_summary">Mengatur Pemberitahuan</string>
+    <string name="preference_notification_type_title">Tipe pemberitahuan</string>
+    <string name="preference_notification_birthday_title">Ulang tahun</string>
+    <string name="preference_notification_birthday_summary">Pemberitahuan untuk ulang tahun teman</string>
+    <string name="preferences_notification_birthday_time_title">Waktu ulang tahun terbaru</string>
+    <string name="preferences_notification_birthday_time_summary">Waktu untuk memperbaharui ulang tahun hari ini</string>
+    <string name="preference_notification_apprequest_title">Izin aplikasi</string>
+    <string name="preference_notification_apprequest_summary">Pemberitahuan pada izin aplikasi</string>
+    <string name="preference_notification_album_title">Album</string>
+    <string name="preference_notification_album_summary">Pemberitahuan Album</string>
+    <string name="preference_notification_event_title">Acara</string>
+    <string name="preference_notification_event_summary">Pemberitahuan Acara</string>
+    <string name="preference_notification_friend_request_title">Permintaan pertemanan</string>
+    <string name="preference_notification_friend_request_summary">Pemberitahuan untuk permintaan pertemanan</string>
+    <string name="preference_notification_group_invite_title">Grup</string>
+    <string name="preference_notification_group_invite_summary">Pemberitahuan Grup</string>
+    <string name="preference_notification_page_invite_title">Halaman</string>
+    <string name="preference_notification_page_invite_summary">Pemberitahuan Halaman</string>
+    <string name="preference_notification_photo_title">Foto</string>
+    <string name="preference_notification_photo_summary">Pemberitahuan pada foto</string>
+    <string name="preference_notification_poke_title">Colek</string>
+    <string name="preference_notification_poke_summary">Pemberitahuan colek</string>
+    <string name="preference_notification_stream_title">Kiriman</string>
+    <string name="preference_notification_stream_summary">Pemberitahuan untuk kiriman lainnya lebih dari satu</string>
+    <string name="preference_notification_video_title">Video</string>
+    <string name="preference_notification_video_summary">Pemberitahuan video</string>
+    <string name="preferences_notifications_interval">Jangka waktu</string>
+    <string name="preferences_notifications_permissions_title">Membutuhkan izin</string>
+    <string name="preferences_notifications_permissions_message">Untuk mengirim pemberitahuan, kami meminta agar anda masuk kembali untuk mendapatkan izin dari facebook</string>
+    <string name="preference_notification_group_title">Pemberitahuan grup</string>
+    <string name="preference_notification_group_summary">Beritahukan sekali ketika mendapatkan banyak pemberitahuan</string>
+    <string name="preference_app_language_title">Bahasa Aplikasi</string>
+    <string name="preferences_app_language_dialog_title">Ubah bahasa aplikasi ke</string>
+    <string name="preference_fb_language_title">Bahasa Facebook</string>
+    <string name="preferences_fb_language_dialog_title">Ubah bahasa Facebook ke </string>
+    <string name="preference_newsfeed_title">Kabar Berita</string>
+    <string name="preference_newsfeed_pages_title">Halaman</string>
+    <string name="preference_newsfeed_groups_title">Grup</string>
+    <string name="preference_newsfeed_events_title">Acara</string>
+    <string name="preference_newsfeed_pages">Termasuk kiriman halaman di kabar berita</string>
+    <string name="preference_newsfeed_groups">Termasuk kiriman grup di kabar berita</string>
+    <string name="preference_newsfeed_events">Termasuk kiriman acara di kabar berita</string>
+    <string name="preference_performances_title">Performa</string>
+    <string name="preference_performances_photo_effect_summary">Matikan efek untuk meningkatkan performa</string>
+    <string name="preference_performances_photo_effect_title">Hidupkan efek fade pada foto</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Matikan efek untuk meningkatkan performa</string>
+    <string name="preference_performances_rounded_profile_picture_title">Hidupkan foto profil membulat</string>
+    <string name="preferences_view_pager_indicator_style_title">Lihat Indikator Halaman</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Tabs</string>
+    <string name="preferences_view_pager_indicator_style_titles">Judul</string>
+    <string name="preferences_ui_title">Tampilan Pengguna</string>
+    <string name="preference_performances_pause_on_scroll_title">Berhentikan gambar ketika menyentuh gulungan</string>
+    <string name="preference_performances_pause_on_scroll_summary">Ketika dihidupkan, gambar tidak muncul ketika anda menggulung daftar dan jari anda menyentuh layar</string>
+    <string name="preference_performances_pause_on_fling_title">Berhentikan gambar ketika menggulung</string>
+    <string name="preference_performances_pause_on_fling_summary">When enabled, image are not loading while you are scrolling lists and your finger(s) are no longer touching the screen</string>
+    <string name="preference_performances_card_animation_title">Hidupkan animasi kartu</string>
+    <string name="preference_performances_card_animation_summary">Matikan animasi kartu untuk meningkatkan performa</string>
+    <string name="preferences_main_activity_tabs_title">Tabs Utama</string>
+    <string name="preferences_user_activity_tabs_title">Tab teman</string>
+    <string name="preferences_page_activity_tabs_title">Tab Halaman</string>
+    <string name="preferences_event_activity_tabs_title">Tab Acara</string>
+    <string name="preferences_group_activity_tabs_title">Tab Grup</string>
+    <string name="preference_images_title">Gambar</string>
+    <string name="preference_images_clear_cache_title">Hapus Cache gambar</string>
+    <string name="preference_images_clear_cache_summary">Hapus cache gambar di memori eksternal</string>
+    <string name="preference_images_cache_clearing">Menghapus cache gambar</string>
+    <string name="preference_images_cache_cleared">Cache gambar dihapus</string>
+    <string name="preference_notification_interval_1_minute">Setiap menit</string>
+    <string name="preference_notification_interval_2_minutes">Setiap 2 menit</string>
+    <string name="preference_notification_interval_3_minutes">Setiap 3 menit</string>
+    <string name="preference_notification_interval_5_minutes">Setiap 5 menit</string>
+    <string name="preference_notification_interval_10_minutes">Setiap 10 menit</string>
+    <string name="preference_notification_interval_15_minutes">Setiap 15 menit</string>
+    <string name="preference_notification_interval_20_minutes">Setiap 20 menit</string>
+    <string name="preference_notification_interval_25_minutes">Setiap 25 menit</string>
+    <string name="preference_notification_interval_30_minutes">Setiap 30 menit</string>
+    <string name="preference_notification_interval_45_minutes">Setiap 45 menit</string>
+    <string name="preference_notification_interval_1_hour">Setiap jam</string>
+    <string name="preference_notification_interval_2_hours">Setiap 2 Jam</string>
+    <string name="preference_notification_interval_3_hours">Setiap 3 Jam</string>
+    <string name="preference_notification_interval_4_hours">Setiap 4 Jam</string>
+    <string name="preference_notification_interval_5_hours">Setiap 5 Jam</string>
+    <string name="preference_notification_interval_6_hours">Setiap 6 Jam</string>
+    <string name="preference_notification_interval_7_hours">Setiap 7 Jam</string>
+    <string name="preference_notification_interval_8_hours">Setiap 8 Jam</string>
+    <string name="preference_notification_interval_twice_daily">Dua kali sehari</string>
+    <string name="preference_notification_interval_daily">Harian</string>
+    <string name="preferences_notification_system_push">Push Notifikasi</string>
+    <string name="preferences_notification_system_periodic">Notifikasi Berkala</string>
+    <string name="preferences_notification_system_both">Keduanya</string>
+    <string name="preferences_notifications_system_title">System Notifkasi</string>
+    <string name="preferences_notifications_system_summary">Push notifikasi mungkin tidak tepat waktunya.\nNotifikasi berkala menghabiskan baterai lebih</string>
+    <string name="preference_notification_vibrate_title">Getaran</string>
+    <string name="preference_notification_ringtone_title">Nada dering</string>
+    <string name="preference_notifications_ringtone">Nada dering</string>
+    <string name="preference_notifications_song">Lagu</string>
+    <string name="preference_notification_ringtone_chooser">Pilih nada dering</string>
+    <string name="preference_newsfeed_go_to_top_title">Munculkan berita terbaru setelah pemuatan terbaru</string>
+    <string name="preference_newsfeed_go_to_top_summary">Jika dihidupkan, daftar akan naik ke atas setelah berita terakhir dimuat</string>
+    <string name="preference_newsfeed_cut_long_post_title">Potong kiriman yang panjang</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Jika dihidupkan, kiriman panjang lebih dari 10 baris akan dipotong</string>
+    <string name="preference_buy_pro_version_title">Beli versi Pro</string>
+    <string name="preference_left_drawer_items_title">Left menu tabs</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Ulang tahun hari ini</string>
+    <string name="notification_birthday_today">Ini  %1$s Ulang tahun!</string>
+    <string name="friends_birthday_today">%1$d teman merayakan ulang tahunnya hari ini!</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Permintaan Pertemanan</string>
+    <string name="notification_friendrequest_message">%1$s ingin menambahkan anda sebagai teman</string>
+    <string name="new_friend_requests">Kamu mempunyai %1$d permintaan pertemanan baru</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Kamu mempunyai %1$s pemberitahuan baru</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Izin pemberitahuan ditolak. \nMohon izinkan dengan mengklik tombol refresh</string>
+    <string name="notifications_unread_header_title">Pemberitahuan yang belum dibaca(%1$d)</string>
+    <string name="notifications_read_header_title">Pemberitahuan yang lalu</string>
+    <string name="notifications_friend_request_header_title">Permintaan Pertemanan</string>
+    <string name="notifications_dismiss">Buang</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Buka donasi</string>
+    <string name="donate_code">Masukkan kode</string>
+    <string name="thank_you_very_much">Terima Kasih Banyak !</string>
+
+    <!-- Chat -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Video</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Maaf, Facebook tidak mengizinkan aplikasi ketiga untuk memposting ke grup</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Mengupload gambar</string>
+    <string name="uploading_image_of">Mengupload gambar %1$d dari %2$d</string>
+    <string name="upload_complete">Upload selesai</string>
+    <string name="n_uploaded_images">%1$d gambar terupload</string>
+    <string name="upload_error">Upload Error</string>
+    <string name="file_not_found">Tidak dapat menemukan file %1$s</string>
+    <string name="upload_photo_default_album_name">Dinding (bawaan)</string>
+
+    <!-- About -->
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_activity_title">Tentang</string>
+    <string name="about_copyright">Hak Cipta © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Semua Hak Cipta</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Kirim Email</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Saran ?\nAnda menemukan bug/error ?nBeritahukan kami !</string>
+    <string name="feedback_send_suggest">Beri Saran</string>
+    <string name="feedback_send_bug">Laporkan Bug / Error</string>
+    <string name="feedback_g_plus_community">Komunitas G+</string>
+    <string name="restart">Mulai Ulang</string>
+    <string name="change_theme_need_restart">Mulai ulang diperlukan untuk menerapkan tema ini</string>
+    <string name="change_app_language_need_restart">Mulai ulang diperlukan untuk menerapkan bahasa baru</string>
+    <string name="option_need_restart">Mulai ulang diperlukan untuk menerapkan opsi ini</string>
+    <string name="soon">Segera &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Catatan Perubahan</string>
+    <string name="changelog_close">Tutup</string>
+    <string name="changelog_activity_title">Catatan Perubahan</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Iklan</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Saya : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+
+</resources>

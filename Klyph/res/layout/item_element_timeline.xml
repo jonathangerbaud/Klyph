@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/element_timeline_layout"
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp" >
+
+        <RelativeLayout
+            android:id="@+id/element_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" >
+
+            <com.abewy.android.apps.klyph.widget.coverImage.UserCoverImageView
+                android:id="@+id/element_cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <com.abewy.android.apps.klyph.widget.ProfileImageView
+                android:id="@+id/element_profile_image"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_below="@id/element_cover_image"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="-50dip" />
+
+            <TextView
+                android:id="@+id/likes"
+                style="@style/Klyph.SecondaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/element_cover_image"
+                android:paddingRight="8dip"
+                android:paddingTop="4dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/talk_about"
+                style="@style/Klyph.SecondaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/likes"
+                android:paddingRight="8dip"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/element_detail_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/element_profile"
+            android:layout_marginLeft="10dip"
+            android:paddingTop="10dip"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/element_detail_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/element_detail_1"
+            android:layout_below="@id/element_detail_1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/element_detail_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/element_detail_1"
+            android:layout_below="@id/element_detail_2"
+            android:paddingRight="8dip"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/element_detail_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/element_detail_1"
+            android:layout_below="@id/element_detail_3"
+            android:paddingRight="8dip"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/element_timeline_layout"
+        android:background="@drawable/ab_solid_shadow_holo" >
+    </RelativeLayout>
+
+</RelativeLayout>

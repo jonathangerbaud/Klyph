@@ -1,0 +1,596 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Nyheter</string>
+    <string name="fragment_header_timeline">Tidslinje</string>
+    <string name="fragment_header_inbox">Inkorg</string>
+    <string name="fragment_header_friends">Vänner</string>
+    <string name="fragment_header_pages">Sidor</string>
+    <string name="fragment_header_about">Om</string>
+    <string name="fragment_header_events">Evenemang</string>
+    <string name="fragment_header_birthdays">Födelsedagar</string>
+    <string name="fragment_header_albums">Album</string>
+    <string name="fragment_header_infos">Information</string>
+    <string name="fragment_header_wall">Vägg</string>
+    <string name="fragment_header_going">Kommer</string>
+    <string name="fragment_header_maybe">Kanske</string>
+    <string name="fragment_header_declined">Kommer inte</string>
+    <string name="fragment_header_invited">Inbjudna</string>
+    <string name="fragment_header_groups">Grupper</string>
+    <string name="fragment_header_members">Medlemmar</string>
+    <string name="fragment_header_photos">Foton</string>
+    <string name="fragment_header_threads">Trådar</string>
+    <string name="fragment_header_followed_people">Följda människor</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Sök</string>
+    <string name="user">Användare</string>
+    <string name="page">Sida</string>
+    <string name="group">Grupp</string>
+    <string name="event">Evenemang</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Logga ut</string>
+    <string name="menu_notifications">Aviseringar</string>
+    <string name="menu_chat">Chatt</string>
+    <string name="menu_messages">Meddelanden</string>
+    <string name="menu_credits">Tack till</string>
+    <string name="menu_send">Skicka</string>
+    <string name="menu_preferences">Inställningar</string>
+    <string name="menu_feedback">Respons</string>
+    <string name="menu_donate">Donera</string>
+    <string name="menu_download">Ladda ned</string>
+    <string name="menu_add_photos">Lägg till foton</string>
+    <string name="menu_faq">Vanliga frågor och svar</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Vill du verkligen logga ut?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album:</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Nytt album</string>
+    <string name="create">Skapa</string>
+    <string name="name">Namn</string>
+    <string name="location">Plats</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Försök igen</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Ett fel har inträffat.</string>
+    <string name="request_connexion_error">Fel i uppkoppling.\nKontrollera din internet uppkoppling.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Det gick inte att ange din plats.</string>
+    <string name="choose_place">Välj en plats</string>
+
+    <!-- General -->
+    <string name="close">Stäng</string>
+    <string name="open">Öppna</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="share">Dela</string>
+    <string name="defaultString">Standard</string>
+    <string name="camera">Kamera</string>
+    <string name="copy_text">Kopiera text</string>
+    <string name="see_who_likes_this">Se vem som gillar detta</string>
+    <string name="download_image">Ladda ned bild</string>
+    <string name="view_profile">Visa profil</string>
+    <string name="share_with">Dela med</string>
+    <string name="more">Mer</string>
+    <string name="reply">Svara</string>
+    <string name="hide">Dölj</string>
+    <string name="none">Ingen</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Välj foton</string>
+    <string name="thread_activity_title">Meddelanden</string>
+    <string name="notification_activity_title">Aviseringar</string>
+    <string name="credentials_activity_title">Tack till</string>
+    <string name="donate_activity_title">Donera</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Offentlig</string>
+    <string name="menu_privacy_friends">Vänner</string>
+    <string name="menu_privacy_self">Endast jag</string>
+
+    <!-- FR Values -->
+    <string name="like">Gilla</string>
+    <string name="unlike">Avgilla</string>
+    <string name="people_who_likes_this">Personer som gillar detta</string>
+    <string name="comment">Kommentar</string>
+    <string name="zero_or_one_like">%s gilla</string>
+    <string name="zero_or_one_comment">%s kommentar</string>
+    <string name="number_of_likes">%s gillar</string>
+    <string name="number_of_comments">%s kommentarer</string>
+    <string name="number_of_people_who_like_it">%s personer gillar detta</string>
+    <string name="you_and_other_people_who_like_it">Du och %s person gillar detta</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d sekunder sedan</string>
+    <string name="one_minute_ago">En minut sedan</string>
+    <string name="minutes_ago">%d minuter sedan</string>
+    <string name="one_hour_ago">en timme sedan</string>
+    <string name="hours_ago">%d timmar sedan</string>
+    <string name="one_day_ago">En dag sedan</string>
+    <string name="days_ago">%d dagar sedan</string>
+    <string name="one_month_ago">En månad sedan</string>
+    <string name="months_ago">%d månader sedan</string>
+    <string name="years_ago">%d år sedan</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Välj kvalité</string>
+    <string name="dialog_video_quality_message">Visa i standard upplösning (SD) eller hög upplösning (HD)?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s la till %2$s foton i album %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">--- med %1$s</string>
+    <string name="post_with_two_friends">— med %1$s och %2$s</string>
+    <string name="post_with_several_friends">— med %1$s och %2$s andra vänner</string>
+    <string name="with_several_friends">%1$s andra vänner</string>
+    <string name="at_place">— med %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Avbryt</string>
+    <string name="error">Fel</string>
+    <string name="please_enter_message">Vänligen skriv ditt meddelande</string>
+    <string name="must_select_place_to_tag_friends">För att tagga vänner, välj först en plats.</string>
+    <string name="status">Status</string>
+    <string name="publishing">Publicerar&#8230;</string>
+    <string name="status_successfully_published">Din nya status har publicerats.</string>
+    <string name="message_successfully_published">Ditt meddelande har publicerats.</string>
+    <string name="publish_unknown_error">Kunde inte publicera status.</string>
+    <string name="publish_message_unknown_error">Kunde inte publicera meddelande.</string>
+    <string name="publish_error_duplicate_message">Detta är din senaste status.</string>
+    <string name="publish_new_status">Publicera en ny status.</string>
+    <string name="publish_new_event_message">Publicera ett nytt meddelande.</string>
+    <string name="friends">Vänner</string>
+    <string name="post_hint">Ditt meddelande</string>
+    <string name="post_link_malformated_url">Adressen är ogiltig</string>
+    <string name="post_link_malformated_image_url">Bildadressen är ogiltig</string>
+    <string name="post_link_empty_name">Vänligen skriv ett namn.</string>
+    <string name="post_share_status">Dela en status</string>
+    <string name="post_share_photo">Dela ett foto</string>
+    <string name="post_share_video">Dela en video</string>
+    <string name="post_share_link">Dela en länk</string>
+    <string name="post_share_album">Dela ett album</string>
+    <string name="post_share_on">Dela via</string>
+    <string name="post_share_on_my_wall">Min vägg</string>
+    <string name="post_share_on_friend_wall">En väns vägg</string>
+    <string name="post_a_reply">Svara</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Publicera nya foton</string>
+    <string name="creating_album">Skapar album &#8230;</string>
+    <string name="must_select_photos">Välj foton att ladda upp</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Bekräftelse</string>
+    <string name="delete_post_confirmation_message">Vill du verkligen radera detta meddelande?</string>
+    <string name="delete_post_error">Kan inte radera meddelande.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="delete">Radera</string>
+    <string name="deleting">Raderar&#8230;</string>
+    <string name="post_deleted">Meddelande raderat.</string>
+    <string name="like_error">Kan inte gilla.</string>
+    <string name="unlike_error">Kan inte avgilla.</string>
+    <string name="stream_date">%1$s vid %2$s</string>
+    <string name="stream_today_date">Idag %1$s</string>
+    <string name="stream_yesterday_date">Igår %1$s</string>
+    <string name="newsfeed_new_stream">En nyhet</string>
+    <string name="newsfeed_new_streams">%1$d nyheter</string>
+
+    <!-- Event -->
+    <string name="event_by">av %1$s</string>
+    <string name="event_description">Beskrivning</string>
+    <string name="event_practical_information">Praktisk information</string>
+    <string name="event_date">Datum</string>
+    <string name="event_place">Plats</string>
+    <string name="event_secret">Endast via inbjudan</string>
+    <string name="event_friends">Vänner</string>
+    <string name="event_public">Offentligt evenemang</string>
+    <string name="event_closed">Privat evenemang</string>
+    <string name="event_will_attend_title">Kommer jag ?</string>
+    <string name="event_going">Tacka ja</string>
+    <string name="event_unsure">Kanske</string>
+    <string name="event_declined">Avböj</string>
+    <string name="event_num_invitee">%1$s personer inbjudna</string>
+    <string name="event_num_attending">%1$s personer kommer</string>
+    <string name="event_num_unsure">%1$s personer kommer kanske</string>
+    <string name="event_num_declined">%1$s personer kommer inte</string>
+    <string name="event_response_dialog_title">Svara</string>
+    <string name="event_response_dialog_message">Skickar svar&#8230;</string>
+    <string name="event_response_ok">Ditt svar har skickats</string>
+    <string name="event_response_error">Ett fel inträffade.\nVänligen försök igen senare.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Födelsedag</string>
+    <string name="user_sex">Kön</string>
+    <string name="user_meeting_sex">Intresserad av</string>
+    <string name="user_relationship_status">Relationsstatus</string>
+    <string name="user_religion">Religiösa åsikter</string>
+    <string name="user_political">Politiska åsikter</string>
+    <string name="user_phones">Telefon</string>
+    <string name="user_address">Adress</string>
+    <string name="user_email">E-post</string>
+    <string name="user_networks">Nätverk</string>
+    <string name="user_activities">Aktiviteter</string>
+    <string name="user_books">Böcker</string>
+    <string name="user_inspirational_people">Inspirerande människor</string>
+    <string name="user_interests">Intressen</string>
+    <string name="user_movies">Filmer</string>
+    <string name="user_music">Musik</string>
+    <string name="user_sports">Sport</string>
+    <string name="user_tv">Tv-program</string>
+    <string name="user_quotes">Citat</string>
+    <string name="user_website">Webbsida</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s till %2$s</string>
+    <string name="work_date_until_today">%1$s till nuvarande</string>
+
+    <!-- Education -->
+    <string name="education_year">%1$s års klass</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s et %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s och %3$d andra</string>
+    <string name="thread_and_others">%1$d andra</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Personer som gillar detta</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Privat</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d år</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Välj vänner</string>
+    <string name="friend_picker_single_choice_title">Välj en vän</string>
+    <string name="search_friends">Sök vänner</string>
+    <string name="several_friends_selected">%1$d vänner valda</string>
+    <string name="one_friend_selected">1 vän vald</string>
+    <string name="no_friend_selected">Inga vänner valda</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d foton valda</string>
+    <string name="one_photo_selected">Ett foto valt</string>
+    <string name="no_photo_selected">Inget foto valt</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Kan inte hitta foto</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Kommentera</string>
+    <string name="comments_disabled">Kommentarer avstängda</string>
+    <string name="publish_comment_dialog_title">Kommentar</string>
+    <string name="publish_comment_dialog_message">Publicerar&#8230;</string>
+    <string name="publish_comment_ok">Din kommentar har publicerats.</string>
+    <string name="publish_comment_error">Ett fel inträffade.\nVänligen försök igen senare.</string>
+    <string name="several_comments">%1$d Kommentarer</string>
+    <string name="one_comment">En kommentar</string>
+    <string name="no_comment">Inga kommentarer</string>
+    <string name="define_comment_before_publish">Kommentera</string>
+    <string name="several_likes">%1$d personer gillar detta</string>
+    <string name="one_like">1 person gillar detta</string>
+    <string name="no_like">0 personer gillar detta</string>
+    <string name="cannot_find_post">Kan inte hitta publicering</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Hämtar foton före nedladdning &#8230;</string>
+    <string name="fetch_videos_from_album">Hämtar video före nedladdning &#8230;</string>
+    <string name="tagged_photos_of">Foton av %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Familj</string>
+    <string name="others">Andra</string>
+    <string name="work">Arbete</string>
+    <string name="education">Utbildning</string>
+    <string name="user_about">Om</string>
+    <string name="user_about_sex">Kön : %1$s</string>
+    <string name="user_about_birthday">Född den %1$s</string>
+    <string name="user_about_ralationship_status">Relationsstatus : %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Om</string>
+    <string name="noone_talk_about_it">Ingen pratar om detta</string>
+    <string name="one_talk_about_it">1 person pratar om detta</string>
+    <string name="several_talk_about_it">%1$s personer pratar om detta</string>
+    <string name="page_base_infos">Allmän information</string>
+    <string name="description">Beskrivning</string>
+    <string name="mission">Uppdrag</string>
+    <string name="coordinates">Koordinationer</string>
+    <string name="general_infos">Allmän information</string>
+    <string name="artists_we_like">Artister vi gillar</string>
+    <string name="band_interests">Intressen för band</string>
+    <string name="band_bio">Biografi</string>
+    <string name="band_members">Medlemmar</string>
+    <string name="founded">Skapad</string>
+    <string name="genre">Genre</string>
+    <string name="band_current_location">Nuvarande plats</string>
+    <string name="band_hometown">Hemstad</string>
+    <string name="band_record_label">Skivbolag</string>
+    <string name="band_influences">Influenser</string>
+    <string name="band_press_contact">Press kontakt</string>
+    <string name="band_booking_agent">Bokningsagent</string>
+    <string name="band_general_manager">Manager</string>
+    <string name="company_products">Produkter</string>
+    <string name="company_overview">Överblick</string>
+    <string name="hours">Timmar</string>
+    <string name="public_transit">Offentlig övergång</string>
+    <string name="restaurant_food_styles">Matstil</string>
+    <string name="restaurant_culinar_team">Kulinariskt team</string>
+    <string name="restaurant_prices">Priser</string>
+    <string name="restaurant_attire">Klädsel</string>
+    <string name="restaurant_services">Service</string>
+    <string name="restaurant_specialties">Specialitéer</string>
+    <string name="restaurant_parking">Parkering</string>
+    <string name="breakfast">Frukost</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Middag</string>
+    <string name="coffee">Kaffe</string>
+    <string name="drinks">Drinkar</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Endast kontant</string>
+    <string name="discover">Upptäck</string>
+    <string name="reserve">Mottar reserveringar</string>
+    <string name="walkins">Kräver ej reservering</string>
+    <string name="groups">Bra för grupper</string>
+    <string name="kids">Bra för barn</string>
+    <string name="takeout">Ta ut</string>
+    <string name="delivery">Leverans</string>
+    <string name="waiter">Bordsservice</string>
+    <string name="catering">Catering</string>
+    <string name="outdoor">Utomusservering</string>
+    <string name="street">Gata</string>
+    <string name="lot">Parkeringsplats</string>
+    <string name="valet">Vaktmästare</string>
+    <string name="monday">Måndag</string>
+    <string name="tuesday">Tisdag</string>
+    <string name="wednesday">Onsdag</string>
+    <string name="thursday">Torsdag</string>
+    <string name="friday">Fredag</string>
+    <string name="saturday">Lördag</string>
+    <string name="sunday">Söndag</string>
+    <string name="plot_outline">Handling</string>
+    <string name="network">Nätverk</string>
+    <string name="season">Säsong</string>
+    <string name="schedule">Schema</string>
+    <string name="starring">Med</string>
+    <string name="written_by">Skriven av</string>
+    <string name="awards">Priser</string>
+    <string name="personal_info">Personlig information</string>
+    <string name="personal_interests">Personliga intressen</string>
+    <string name="phone">Telefon</string>
+    <string name="release_date">Utgivningsdatum</string>
+    <string name="studio">Studio</string>
+    <string name="directed_by">Regisserad av</string>
+    <string name="screenplay_by">Manus</string>
+    <string name="affiliation">Anknytning</string>
+    <string name="built">Byggd</string>
+    <string name="features">Innehåll</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Farmaceutisk säkerhetsinformation</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Inga användare</string>
+    <string name="empty_list_no_friend">Inga vänner</string>
+    <string name="empty_list_no_page">Inga sidor</string>
+    <string name="empty_list_no_event">Inga evenemang</string>
+    <string name="empty_list_no_album">Inga album</string>
+    <string name="empty_list_no_photo">Inga foton</string>
+    <string name="empty_list_no_video">Inga videos</string>
+    <string name="empty_list_no_birthday">Inga födelsedagar</string>
+    <string name="empty_list_no_message">Inga meddelanden</string>
+    <string name="empty_list_no_notification">Inga aviseringar</string>
+    <string name="empty_list_no_stream">Inga nyheter</string>
+    <string name="empty_list_no_data">Ingen data</string>
+    <string name="empty_list_no_group">Inga grupper</string>
+    <string name="empty_list_no_member">Inga medlemmar</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">Ikoner</string>
+    <string name="credentials_translators">Översättare</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Inställningar</string>
+    <string name="preference_theme_title">Tema</string>
+    <string name="preferences_themes_dialog_title">Välj ett tema</string>
+    <string name="preference_about_title">Om</string>
+    <string name="preference_credits_title">Tack till</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">Ikoner</string>
+    <string name="preference_credits_tools_title">Verktyg</string>
+    <string name="preference_changelog_title">Ändringslogg</string>
+    <string name="preference_notifications_title">Aviseringar</string>
+    <string name="preference_notification_title">Avisering</string>
+    <string name="preference_notification_summary">Aktivera aviseringar</string>
+    <string name="preference_notification_type_title">Aviseringstyp</string>
+    <string name="preference_notification_birthday_title">Födelsedagar</string>
+    <string name="preference_notification_birthday_summary">Avisering för vänners födelsedagar</string>
+    <string name="preferences_notification_birthday_time_title">Tid för födelsedagsuppdatering</string>
+    <string name="preferences_notification_birthday_time_summary">Dags att uppdatera dagens födelsedagar</string>
+    <string name="preference_notification_apprequest_title">Applikationsförfrågan</string>
+    <string name="preference_notification_apprequest_summary">Avisering vid applikationsförfrågan</string>
+    <string name="preference_notification_album_title">Album</string>
+    <string name="preference_notification_album_summary">Avisering för album</string>
+    <string name="preference_notification_event_title">Evenemang</string>
+    <string name="preference_notification_event_summary">Aviseringar vid evenemang</string>
+    <string name="preference_notification_friend_request_title">Vänförfrågningar</string>
+    <string name="preference_notification_friend_request_summary">Avisering för vänförfrågningar</string>
+    <string name="preference_notification_group_invite_title">Grupper</string>
+    <string name="preference_notification_group_invite_summary">Avisering för grupper</string>
+    <string name="preference_notification_page_invite_title">Sidor</string>
+    <string name="preference_notification_page_invite_summary">Avisering för sidor</string>
+    <string name="preference_notification_photo_title">Foton</string>
+    <string name="preference_notification_photo_summary">Aviseringar för foton</string>
+    <string name="preference_notification_poke_title">Puffar</string>
+    <string name="preference_notification_poke_summary">Aviseringar för puffar</string>
+    <string name="preference_notification_stream_title">Inlägg</string>
+    <string name="preference_notification_stream_summary">Aviseringar för inlägg förutom de ovan angivna</string>
+    <string name="preference_notification_video_title">Video</string>
+    <string name="preference_notification_video_summary">Aviseringar för video</string>
+    <string name="preferences_notifications_interval">Intervall</string>
+    <string name="preferences_notifications_permissions_title">Tillstånd krävs</string>
+    <string name="preferences_notifications_permissions_message">För att kunna sända aviseringar, ber vi dig att logga in igen för att få tillstånd från Facebook</string>
+    <string name="preference_notification_group_title">Gruppaviseringar</string>
+    <string name="preference_notification_group_summary">Meddela endast en gång vid flera notifieringar</string>
+    <string name="preference_app_language_title">Applikationsspråk</string>
+    <string name="preferences_app_language_dialog_title">Ändra applikationsspråk till</string>
+    <string name="preference_fb_language_title">Facebookspråk</string>
+    <string name="preferences_fb_language_dialog_title">Ändra Facebookspråk till</string>
+    <string name="preference_newsfeed_title">Nyheter</string>
+    <string name="preference_newsfeed_pages_title">Sidor</string>
+    <string name="preference_newsfeed_groups_title">Grupper</string>
+    <string name="preference_newsfeed_events_title">Evenemang</string>
+    <string name="preference_newsfeed_pages">Inkludera sidor i nyhetsflöde</string>
+    <string name="preference_newsfeed_groups">Inkludera grupper i nyhetsflöde</string>
+    <string name="preference_newsfeed_events">Inkludera evenemang i nyhetsflöde</string>
+    <string name="preference_performances_title">Prestanda</string>
+    <string name="preference_performances_photo_effect_summary">Avaktivera effekten ökar prestandan</string>
+    <string name="preference_performances_photo_effect_title">Aktivera toningseffekt för foton</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Avaktivera effekten ökar prestandan</string>
+    <string name="preference_performances_rounded_profile_picture_title">Aktivera runda profilbilder</string>
+    <string name="preferences_view_pager_indicator_style_title">Stil för sidindikator</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Etikett</string>
+    <string name="preferences_view_pager_indicator_style_titles">Titlar</string>
+    <string name="preferences_ui_title">Användargränssnitt</string>
+    <string name="preference_performances_pause_on_scroll_title">Pausa laddning av bild om skärmen nuddas</string>
+    <string name="preference_performances_pause_on_scroll_summary">Vid aktivering laddas inte bilder när du scrollar och ditt finger nuddar skärmen</string>
+    <string name="preference_performances_pause_on_fling_title">Pausa laddning av bild under scrollning</string>
+    <string name="preference_performances_pause_on_fling_summary">Vid aktivering laddas inte bilder när du scrollar och ditt finger inte längre nuddar skärmen</string>
+    <string name="preference_performances_card_animation_title">Aktivera kortanimation</string>
+    <string name="preference_performances_card_animation_summary">Avaktivera kortanimationer ökar prestanda</string>
+    <string name="preferences_main_activity_tabs_title">Huvudetikett</string>
+    <string name="preferences_user_activity_tabs_title">Vänetikett</string>
+    <string name="preferences_page_activity_tabs_title">Sidetikett</string>
+    <string name="preferences_event_activity_tabs_title">Evenemangsetikett</string>
+    <string name="preferences_group_activity_tabs_title">Gruppetikett</string>
+    <string name="preference_images_title">Bilder</string>
+    <string name="preference_images_clear_cache_title">Rensa bildminne</string>
+    <string name="preference_images_clear_cache_summary">Radera bildminnet</string>
+    <string name="preference_images_cache_clearing">Raderar bildminne</string>
+    <string name="preference_images_cache_cleared">Bildminne raderat</string>
+    <string name="preference_notification_interval_1_minute">Varje minut</string>
+    <string name="preference_notification_interval_2_minutes">Varannan minut</string>
+    <string name="preference_notification_interval_3_minutes">Var tredje minut</string>
+    <string name="preference_notification_interval_5_minutes">Var femte minut</string>
+    <string name="preference_notification_interval_10_minutes">Var 10:e minut</string>
+    <string name="preference_notification_interval_15_minutes">Var 15:e minut</string>
+    <string name="preference_notification_interval_20_minutes">Var 20:e minut</string>
+    <string name="preference_notification_interval_25_minutes">Var 25:e minut</string>
+    <string name="preference_notification_interval_30_minutes">Var 30:e minut</string>
+    <string name="preference_notification_interval_45_minutes">Var 45:e minut</string>
+    <string name="preference_notification_interval_1_hour">Varje timme</string>
+    <string name="preference_notification_interval_2_hours">Varannan timme</string>
+    <string name="preference_notification_interval_3_hours">Var tredje timme</string>
+    <string name="preference_notification_interval_4_hours">Var fjärde timme</string>
+    <string name="preference_notification_interval_5_hours">Var femte timme</string>
+    <string name="preference_notification_interval_6_hours">Var sjätte timme</string>
+    <string name="preference_notification_interval_7_hours">Var sjunde timme</string>
+    <string name="preference_notification_interval_8_hours">Var åttonde timme</string>
+    <string name="preference_notification_interval_twice_daily">Två gånger dagligen</string>
+    <string name="preference_notification_interval_daily">Varje dag</string>
+    <string name="preferences_notification_system_push">Push aviseringar</string>
+    <string name="preferences_notification_system_periodic">Periodiska aviseringar</string>
+    <string name="preferences_notification_system_both">Både och</string>
+    <string name="preferences_notifications_system_title">Aviseringssystem</string>
+    <string name="preferences_notifications_system_summary">Push aviseringar är inte alltid punktliga.\nPeriodiska aviseringar drar mer batteri</string>
+    <string name="preference_notification_vibrate_title">Vibration</string>
+    <string name="preference_notification_ringtone_title">Ringsignal</string>
+    <string name="preference_notifications_ringtone">Ringsignal</string>
+    <string name="preference_notifications_song">Låt</string>
+    <string name="preference_notification_ringtone_chooser">Välj en ringsignal</string>
+    <string name="preference_newsfeed_go_to_top_title">Visa senaste nyhet efter laddning</string>
+    <string name="preference_newsfeed_go_to_top_summary">Om aktiverad, hoppar listan till toppen efter att senaste nyheten har laddats</string>
+    <string name="preference_newsfeed_cut_long_post_title">Dela långa inlägg</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Om aktiverad, delas inlägg längre än 10 rader</string>
+    <string name="preference_buy_pro_version_title">Köp Pro versionen</string>
+    <string name="preference_left_drawer_items_title">Vänster menyetikett</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Dagens födelsedagar</string>
+    <string name="notification_birthday_today">Det är %1$s\'s födelsedag !</string>
+    <string name="friends_birthday_today">%1$d vänner firar sina födelsedagar idag !</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Vänförfrågningar</string>
+    <string name="notification_friendrequest_message">%1$s vill lägga till dig som vän</string>
+    <string name="new_friend_requests">Du har %1$d ny vänförfrågan</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Du har %1$s ny notifiering(ar)</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Tillstånd för aviseringar nekad.\nVänligen tillåt genom att klicka på knappen Uppdatera.</string>
+    <string name="notifications_unread_header_title">Olästa aviseringar (%1$d)</string>
+    <string name="notifications_read_header_title">Passerade aviseringar</string>
+    <string name="notifications_friend_request_header_title">Vänförfrågningar</string>
+    <string name="notifications_dismiss">Avvisa</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Lås upp donation</string>
+    <string name="donate_code">Ange kod</string>
+    <string name="thank_you_very_much">Tack så mycket !</string>
+
+    <!-- Chat -->
+    <string name="online">Inloggad</string>
+    <string name="offline">Utloggad</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Video</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Tyvärr, Facebook tillåter inte tredjepartsapplikationer att göra inlägg i grupper.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Laddar upp bilder</string>
+    <string name="uploading_image_of">Laddar upp bild %1$d av %2$d</string>
+    <string name="upload_complete">Uppladdning färdig</string>
+    <string name="n_uploaded_images">%1$d bilder uppladdade</string>
+    <string name="upload_error">Fel vid uppladdning</string>
+    <string name="file_not_found">Kan inte hitta fil %1$s</string>
+    <string name="upload_photo_default_album_name">Vägg (standard)</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_activity_title">Om</string>
+    <string name="about_copyright">Upphovsrätt © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Alla rättigheter reserverade</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Skicka e-post</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Ett förslag ?\nHar du hittat ett fel ?\nMeddela oss !</string>
+    <string name="feedback_send_suggest">Skicka ett förslag</string>
+    <string name="feedback_send_bug">Rapportera ett fel</string>
+    <string name="feedback_g_plus_community">G+ grupp</string>
+    <string name="restart">Starta om</string>
+    <string name="change_theme_need_restart">Omstart krävs för att använda temat.</string>
+    <string name="change_app_language_need_restart">Omstart krävs för att använda ett nytt språk.</string>
+    <string name="option_need_restart">Omstart krävs för att utföra denna ändring.</string>
+    <string name="soon">Snart &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Ändringslogg</string>
+    <string name="changelog_close">Stäng</string>
+    <string name="changelog_activity_title">Ändringslogg</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Annonsering</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Jag : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+
+</resources>

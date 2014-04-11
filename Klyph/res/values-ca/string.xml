@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Canal de notícies</string>
+    <string name="fragment_header_timeline">Timeline</string>
+    <string name="fragment_header_inbox">Safata d\'entrada</string>
+    <string name="fragment_header_friends">Amistats</string>
+    <string name="fragment_header_pages">Pàgines</string>
+    <string name="fragment_header_about">Quant a</string>
+    <string name="fragment_header_events">Esdeveniments</string>
+    <string name="fragment_header_birthdays">Aniversaris</string>
+    <string name="fragment_header_albums">Àlbums</string>
+    <string name="fragment_header_infos">Informacions</string>
+    <string name="fragment_header_wall">Mur</string>
+    <string name="fragment_header_going">Assistència</string>
+    <string name="fragment_header_maybe">Potser</string>
+    <string name="fragment_header_declined">No hi assistiré</string>
+    <string name="fragment_header_invited">Convidat/da</string>
+    <string name="fragment_header_groups">Grups</string>
+    <string name="fragment_header_members">Membres</string>
+    <string name="fragment_header_photos">Fotos</string>
+    <string name="fragment_header_threads">Discussions</string>
+    <string name="fragment_header_followed_people">Persones a qui segueixes</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Cerca</string>
+    <string name="user">Usuari</string>
+    <string name="page">Pàgina</string>
+    <string name="group">Grup</string>
+    <string name="event">Esdeveniment</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Sortir</string>
+    <string name="menu_notifications">Notificacions</string>
+    <string name="menu_chat">Xat</string>
+    <string name="menu_messages">Missatges</string>
+    <string name="menu_credits">Crèdits</string>
+    <string name="menu_send">Enviar</string>
+    <string name="menu_preferences">Configuració</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_donate">Donar</string>
+    <string name="menu_download">Descarregar</string>
+    <string name="menu_add_photos">Afegir fotos</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_buy_pro">No més anuncis!</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Realment vols sortir?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Àlbum:</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Nou àlbum</string>
+    <string name="create">Crear</string>
+    <string name="name">Nom</string>
+    <string name="location">Localització</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Reintentar</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Hi ha hagut un error</string>
+    <string name="request_connexion_error">Error de connexió.\nComprova la teva connexió a internet</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">No s\'ha pogut localitzar la teva posició</string>
+    <string name="choose_place">Escull un lloc</string>
+
+    <!-- General -->
+    <string name="close">Tancar</string>
+    <string name="open">Obrir</string>
+    <string name="refresh">Refrescar</string>
+    <string name="share">Compartir</string>
+    <string name="defaultString">Per defecte</string>
+    <string name="camera">Càmera</string>
+    <string name="copy_text">Copia el text</string>
+    <string name="see_who_likes_this">Mira a qui li agrada això</string>
+    <string name="download_image">Descarregar imatge</string>
+    <string name="view_profile">Mirar el perfil</string>
+    <string name="share_with">Compartir amb</string>
+    <string name="more">Més</string>
+    <string name="reply">Respondre</string>
+    <string name="hide">Amaga</string>
+    <string name="none">Cap</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Escollir fotos</string>
+    <string name="thread_activity_title">Missatges</string>
+    <string name="notification_activity_title">Notificacions</string>
+    <string name="credentials_activity_title">Crèdits</string>
+    <string name="donate_activity_title">Donar</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Públic</string>
+    <string name="menu_privacy_friends">Amistats</string>
+    <string name="menu_privacy_self">Només jo</string>
+
+    <!-- FR Values -->
+    <string name="like">M\'agrada</string>
+    <string name="unlike">No m\'agrada</string>
+    <string name="people_who_likes_this">Persones a qui agrada això</string>
+    <string name="comment">Comentari</string>
+    <string name="zero_or_one_like">%s m\'agrada</string>
+    <string name="zero_or_one_comment">%s comentari</string>
+    <string name="number_of_likes">%s m\'agrada</string>
+    <string name="number_of_comments">%s comentaris</string>
+    <string name="number_of_people_who_like_it">%s persona li agrada això</string>
+    <string name="you_and_other_people_who_like_it">A tu i %s persona li agrada això</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">fa %d segons</string>
+    <string name="one_minute_ago">Fa un minut</string>
+    <string name="minutes_ago">Fa %d minuts</string>
+    <string name="one_hour_ago">fa una hora</string>
+    <string name="hours_ago">fa %d hores</string>
+    <string name="one_day_ago">Fa un dia</string>
+    <string name="days_ago">fa %d dies</string>
+    <string name="one_month_ago">Fa un mes</string>
+    <string name="months_ago">fa %d mesos</string>
+    <string name="years_ago">fa %d any(s)</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Escull qualitat</string>
+    <string name="dialog_video_quality_message">Veure en definició estàndard (SD) o alta definició (HD)?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s ha afegit %2$s fotos a l\'àlbum %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— amb %1$s</string>
+    <string name="post_with_two_friends">— amb %1$s i %2$s</string>
+    <string name="post_with_several_friends">— amb %1$s i %2$s amics més</string>
+    <string name="with_several_friends">%1$s amics més</string>
+    <string name="at_place">— a %1$s</string>
+    <string name="ok">D\'acord</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="error">Error</string>
+    <string name="please_enter_message">Si us plau escriu el teu missatge</string>
+    <string name="must_select_place_to_tag_friends">Per etiquetar amics, escull primer un lloc</string>
+    <string name="status">Estat</string>
+    <string name="publishing">Publicant&#8230;</string>
+    <string name="status_successfully_published">El teu nou estat ha estat publicat</string>
+    <string name="message_successfully_published">El teu missatge s\'ha publicat</string>
+    <string name="publish_unknown_error">No s\'ha pogut publicar l\'estat</string>
+    <string name="publish_message_unknown_error">No s\'ha pogut publicar el missatge</string>
+    <string name="publish_error_duplicate_message">Aquest és el teu últim estat</string>
+    <string name="publish_new_status">Publicar un nou estat</string>
+    <string name="publish_new_event_message">Publicar un nou missatge</string>
+    <string name="friends">Amics</string>
+    <string name="post_hint">El teu missatge</string>
+    <string name="post_link_malformated_url">La URL és invàlida</string>
+    <string name="post_link_malformated_image_url">La URL de la imatge és invàlida</string>
+    <string name="post_link_empty_name">Si us plau, escriu un nom</string>
+    <string name="post_share_status">Compartir un estat</string>
+    <string name="post_share_photo">Compartir una foto</string>
+    <string name="post_share_video">Compartir un video</string>
+    <string name="post_share_link">Compartir un enllaç</string>
+    <string name="post_share_album">Compartir un àlbum</string>
+    <string name="post_share_on">Compartir a</string>
+    <string name="post_share_on_my_wall">El meu mur</string>
+    <string name="post_share_on_friend_wall">El mur d\'una amistat</string>
+    <string name="post_a_reply">Escriure una reposta</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Publicar fotos noves</string>
+    <string name="creating_album">Creant l\'àlbum &#8230; </string>
+    <string name="must_select_photos">Si us plau, selecciona les potos per pujar</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Confirmació</string>
+    <string name="delete_post_confirmation_message">Vols realment eliminar aquest missatge?</string>
+    <string name="delete_post_error">No s\'ha pogut eliminar el missatge</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="delete">Esborrar</string>
+    <string name="deleting">Esborrant&#8230;</string>
+    <string name="post_deleted">Missatge eliminat</string>
+    <string name="like_error">No es pot afegir el "m\'agrada"</string>
+    <string name="unlike_error">No es pot afegir el "no m\'agrada"</string>
+    <string name="stream_date">%1$s a %2$s</string>
+    <string name="stream_today_date">Avui a %1$s</string>
+    <string name="stream_yesterday_date">Ahir a %1$s</string>
+    <string name="newsfeed_new_stream">1 història nova</string>
+    <string name="newsfeed_new_streams">%1$d històries noves</string>
+
+    <!-- Event -->
+    <string name="event_by">per %1$s</string>
+    <string name="event_description">Descripció</string>
+    <string name="event_practical_information">Informació pràctica</string>
+    <string name="event_date">Data</string>
+    <string name="event_place">Lloc</string>
+    <string name="event_secret">Només amb invitació</string>
+    <string name="event_friends">Amistats</string>
+    <string name="event_public">Esdeveniment públic</string>
+    <string name="event_closed">Esdeveniment privat</string>
+    <string name="event_will_attend_title">Hi assistiré?</string>
+    <string name="event_going">Unir-se</string>
+    <string name="event_unsure">Potser</string>
+    <string name="event_declined">Rebutjar</string>
+    <string name="event_num_invitee">%1$s convidats</string>
+    <string name="event_num_attending">%1$s hi assistiran</string>
+    <string name="event_num_unsure">%1$s potser hi assistiran</string>
+    <string name="event_num_declined">%1$s no hi assistiran</string>
+    <string name="event_response_dialog_title">Respon</string>
+    <string name="event_response_dialog_message">Enviant resposta&#8230;</string>
+    <string name="event_response_ok">La teva resposta ha estat enviada</string>
+    <string name="event_response_error">Hi ha hagut un error mentre s\'enviava la teva resposta. \nSi us plau, intenta-ho més tard</string>
+
+    <!-- User -->
+    <string name="user_birthday">Aniversari</string>
+    <string name="user_sex">Sexe</string>
+    <string name="user_meeting_sex">Interessat/da en</string>
+    <string name="user_relationship_status">Estat civil</string>
+    <string name="user_religion">Creences religioses</string>
+    <string name="user_political">Idees polítiques</string>
+    <string name="user_phones">Telèfons</string>
+    <string name="user_address">Adreça</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Xarxes</string>
+    <string name="user_activities">Activitats</string>
+    <string name="user_books">Llibres</string>
+    <string name="user_inspirational_people">Persones que inspiren</string>
+    <string name="user_interests">Interessos</string>
+    <string name="user_movies">Pel·lícules</string>
+    <string name="user_music">Música</string>
+    <string name="user_sports">Esports</string>
+    <string name="user_tv">Shows de TV</string>
+    <string name="user_quotes">Destacats</string>
+    <string name="user_website">Web</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s a %2$s</string>
+    <string name="work_date_until_today">%1$s fins avui</string>
+
+    <!-- Education -->
+    <string name="education_year">Classe de %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s i %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s i %3$d altres</string>
+    <string name="thread_and_others">%1$d altres</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Persones a qui agrada això</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Privacitat</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d anys</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Escull amistats</string>
+    <string name="friend_picker_single_choice_title">Escull una amistat</string>
+    <string name="search_friends">Busca amistats</string>
+    <string name="several_friends_selected">%1$d amistats seleccionades</string>
+    <string name="one_friend_selected">1 amistat seleccionada</string>
+    <string name="no_friend_selected">Cap amistat seleccionada</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d fotos seleccionades</string>
+    <string name="one_photo_selected">Una foto seleccionada</string>
+    <string name="no_photo_selected">Cap foto seleccionada</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">No s\'ha pogut trobar la foto</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Escriu un comentari</string>
+    <string name="comments_disabled">Comentaris desactivats</string>
+    <string name="publish_comment_dialog_title">Comentari</string>
+    <string name="publish_comment_dialog_message">Publicant&#8230;</string>
+    <string name="publish_comment_ok">El teu comentari ha estat publicat</string>
+    <string name="publish_comment_error">Hi ha hagut un error mentre es publicava el teu comentari.\nSi us plau, prova-ho més tard</string>
+    <string name="several_comments">%1$d comentaris</string>
+    <string name="one_comment">Un comentari</string>
+    <string name="no_comment">Sense comentaris</string>
+    <string name="define_comment_before_publish">Si us plau escriu el teu comentari</string>
+    <string name="several_likes">%1$d persones a qui agrada això</string>
+    <string name="one_like">A 1 persona li agrada això</string>
+    <string name="no_like">A ningú li agrada això</string>
+    <string name="cannot_find_post">No s\'ha pogut trobar la publicació</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Buscant la llista de fotos abans de baixar &#8230;</string>
+    <string name="fetch_videos_from_album">Buscant la llista de videos abans de baixar &#8230;</string>
+    <string name="tagged_photos_of">Fotos de %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Família</string>
+    <string name="others">Altres</string>
+    <string name="work">Feina</string>
+    <string name="education">Educació</string>
+    <string name="user_about">Quant a</string>
+    <string name="user_about_sex">Sexe: %1$s</string>
+    <string name="user_about_birthday">Nascut/da el %1$s</string>
+    <string name="user_about_ralationship_status">Estat civil: %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Quant a</string>
+    <string name="noone_talk_about_it">Ningú en parla</string>
+    <string name="one_talk_about_it">1 persona en parla</string>
+    <string name="several_talk_about_it">%1$s persones en parlen</string>
+    <string name="page_base_infos">Informacions bàsiques</string>
+    <string name="description">Descripció</string>
+    <string name="mission">Missió</string>
+    <string name="coordinates">Coordenades</string>
+    <string name="general_infos">Informació general</string>
+    <string name="artists_we_like">Artistes que ens agraden</string>
+    <string name="band_interests">Músics que m\'interessen</string>
+    <string name="band_bio">Biografia</string>
+    <string name="band_members">Membres</string>
+    <string name="founded">Fundat</string>
+    <string name="genre">Gènere</string>
+    <string name="band_current_location">Localització actual</string>
+    <string name="band_hometown">Lloc de residència</string>
+    <string name="band_record_label">Segell discogràfic</string>
+    <string name="band_influences">Influències</string>
+    <string name="band_press_contact">Contacte de premsa</string>
+    <string name="band_booking_agent">Agent de reserves</string>
+    <string name="band_general_manager">Mànager general</string>
+    <string name="company_products">Productes</string>
+    <string name="company_overview">Resum</string>
+    <string name="hours">Hores</string>
+    <string name="public_transit">Visitants</string>
+    <string name="restaurant_food_styles">Estils de menjar</string>
+    <string name="restaurant_culinar_team">Equip culinari</string>
+    <string name="restaurant_prices">Preus</string>
+    <string name="restaurant_attire">Uniforme</string>
+    <string name="restaurant_services">Serveis</string>
+    <string name="restaurant_specialties">Especialitats</string>
+    <string name="restaurant_parking">Aparcament</string>
+    <string name="breakfast">Esmorzar</string>
+    <string name="lunch">Dinar</string>
+    <string name="dinner">Sopar</string>
+    <string name="coffee">Cafè</string>
+    <string name="drinks">Begudes</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Només en efectiu</string>
+    <string name="discover">Descobrir</string>
+    <string name="reserve">Admet reserves</string>
+    <string name="walkins">Les visites són benvingudes</string>
+    <string name="groups">Adequat per grups</string>
+    <string name="kids">Adequat per infants</string>
+    <string name="takeout">Sortir</string>
+    <string name="delivery">Enviament</string>
+    <string name="waiter">Servei de cambrer</string>
+    <string name="catering">Càtering</string>
+    <string name="outdoor">Seients a l\'aire lliure</string>
+    <string name="street">Carrer</string>
+    <string name="lot">Aparcament</string>
+    <string name="valet">Ajudant de cambra</string>
+    <string name="monday">Dilluns</string>
+    <string name="tuesday">Dimarts</string>
+    <string name="wednesday">Dimecres</string>
+    <string name="thursday">Dijous</string>
+    <string name="friday">Divendres</string>
+    <string name="saturday">Dissabte</string>
+    <string name="sunday">Diumenge</string>
+    <string name="plot_outline">Argument</string>
+    <string name="network">Xarxa</string>
+    <string name="season">Estació</string>
+    <string name="schedule">Horari</string>
+    <string name="starring">Protagonitzant</string>
+    <string name="written_by">Escrit per</string>
+    <string name="awards">Premis</string>
+    <string name="personal_info">Informacions personals</string>
+    <string name="personal_interests">Interessos personals</string>
+    <string name="phone">Telèfon</string>
+    <string name="release_date">Data d\'estrena</string>
+    <string name="studio">Estudi</string>
+    <string name="directed_by">Dirigit per</string>
+    <string name="screenplay_by">Guió</string>
+    <string name="affiliation">Afiliació</string>
+    <string name="built">Construit</string>
+    <string name="features">Característiques</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Informacions de seguretat farmacèutica</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Sense usuaris</string>
+    <string name="empty_list_no_friend">Sense amistats</string>
+    <string name="empty_list_no_page">Sense pàgines</string>
+    <string name="empty_list_no_event">Sense esdeveniments</string>
+    <string name="empty_list_no_album">Sense àlbums</string>
+    <string name="empty_list_no_photo">Sense fotos</string>
+    <string name="empty_list_no_video">Sense videos</string>
+    <string name="empty_list_no_birthday">Sense aniversaris</string>
+    <string name="empty_list_no_message">Sense missatges</string>
+    <string name="empty_list_no_notification">Sense notificacions</string>
+    <string name="empty_list_no_stream">Sense notícies</string>
+    <string name="empty_list_no_data">Sense dades</string>
+    <string name="empty_list_no_group">Sense grups</string>
+    <string name="empty_list_no_member">Sense membres</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">Icones</string>
+    <string name="credentials_translators">Traductors</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Preferències</string>
+    <string name="preference_theme_title">Tema</string>
+    <string name="preferences_themes_dialog_title">Escull un tema</string>
+    <string name="preference_about_title">Quant a</string>
+    <string name="preference_credits_title">Crèdits</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">Icones</string>
+    <string name="preference_credits_tools_title">Eines</string>
+    <string name="preference_changelog_title">Registre de canvis</string>
+    <string name="preference_notifications_title">Notificacions</string>
+    <string name="preference_notification_title">Notificació</string>
+    <string name="preference_notification_summary">Activar notificacions</string>
+    <string name="preference_notification_type_title">Tipus de notificació</string>
+    <string name="preference_notification_birthday_title">Aniversaris</string>
+    <string name="preference_notification_birthday_summary">Notificació d\'aniversari d\'amic</string>
+    <string name="preferences_notification_birthday_time_title">Actualització d\'aniversari</string>
+    <string name="preferences_notification_birthday_time_summary">Temps per actualitzar els aniversaris d\'avui</string>
+    <string name="preference_notification_apprequest_title">Peticions d\'aplicacions</string>
+    <string name="preference_notification_apprequest_summary">Notificació de peticions d\'aplicacions</string>
+    <string name="preference_notification_album_title">Àlbums</string>
+    <string name="preference_notification_album_summary">Notificacions d\'àlbums</string>
+    <string name="preference_notification_event_title">Esdeveniments</string>
+    <string name="preference_notification_event_summary">Notificació d\'esdeveniments</string>
+    <string name="preference_notification_friend_request_title">Peticions d\'amistat</string>
+    <string name="preference_notification_friend_request_summary">Notificació de petició d\'amistat</string>
+    <string name="preference_notification_group_invite_title">Grups</string>
+    <string name="preference_notification_group_invite_summary">Notificació de grups</string>
+    <string name="preference_notification_page_invite_title">Pàgines</string>
+    <string name="preference_notification_page_invite_summary">Notificació de pàgines</string>
+    <string name="preference_notification_photo_title">Fotos</string>
+    <string name="preference_notification_photo_summary">Notificacions de fotos</string>
+    <string name="preference_notification_poke_title">Tocs</string>
+    <string name="preference_notification_poke_summary">Notificació de tocs</string>
+    <string name="preference_notification_stream_title">Posts</string>
+    <string name="preference_notification_stream_summary">Notificació d\'altres posts que els d\'amunt</string>
+    <string name="preference_notification_video_title">Videos</string>
+    <string name="preference_notification_video_summary">Notificacions de videos</string>
+    <string name="preferences_notifications_interval">Intèrval</string>
+    <string name="preferences_notifications_permissions_title">Es necessiten permisos</string>
+    <string name="preferences_notifications_permissions_message">Per rebre notificacions, entra de nou per obtenir permisos del Facebook</string>
+    <string name="preference_notification_group_title">Notificacions de grup</string>
+    <string name="preference_notification_group_summary">Notificar només una vegada quan es rebin notificacions múltiples</string>
+    <string name="preference_app_language_title">Idioma de l\'aplicació</string>
+    <string name="preferences_app_language_dialog_title">Canviar l\'idioma de l\'aplicació a</string>
+    <string name="preference_fb_language_title">Idioma del Facebook</string>
+    <string name="preferences_fb_language_dialog_title">Canviar l\'idioma del Facebook a</string>
+    <string name="preference_newsfeed_title">Canal de notícies</string>
+    <string name="preference_newsfeed_pages_title">Pàgines</string>
+    <string name="preference_newsfeed_groups_title">Grups</string>
+    <string name="preference_newsfeed_events_title">Esdeveniments</string>
+    <string name="preference_newsfeed_pages">Incloure les pàgines al canal de notícies</string>
+    <string name="preference_newsfeed_groups">Incloure els grups al canal de notícies</string>
+    <string name="preference_newsfeed_events">Incloure els esdeveniments al canal de notícies</string>
+    <string name="preference_performances_title">Rendiment</string>
+    <string name="preference_performances_photo_effect_summary">Desactivar els efectes millora el rendiment</string>
+    <string name="preference_performances_photo_effect_title">Activar l\'efecte de fos a les fotos</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Desactivar l\'efecte millora el rendiment</string>
+    <string name="preference_performances_rounded_profile_picture_title">Activar fotos de perfil arrodonides</string>
+    <string name="preferences_view_pager_indicator_style_title">Veure l\'estil d\'indicador de pàgina</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Pestanyes</string>
+    <string name="preferences_view_pager_indicator_style_titles">Títols</string>
+    <string name="preferences_ui_title">Interfície d\'usuari</string>
+    <string name="preference_performances_pause_on_scroll_title">Pausa la càrrega de la imatge mentre es toqui el desplaçament</string>
+    <string name="preference_performances_pause_on_scroll_summary">Quan està activat, la imatge no es carrega mentre et desplaces per les llistes i els teus dits toquen la pantalla</string>
+    <string name="preference_performances_pause_on_fling_title">Pausar l\'imatge durant el desplaçament</string>
+    <string name="preference_performances_pause_on_fling_summary">Quan està activat, la la imatge no es carrega mentre et desplaces per les llistes i els teus dits deixen de tocar la pantalla</string>
+    <string name="preference_performances_card_animation_title">Activar animacions de targeta</string>
+    <string name="preference_performances_card_animation_summary">Desactivar les animacions de targeta millora el rendiment</string>
+    <string name="preferences_main_activity_tabs_title">Pestanyes principals</string>
+    <string name="preferences_user_activity_tabs_title">Pestanyes de l\'amistat</string>
+    <string name="preferences_page_activity_tabs_title">Pestanyes de la pàgina</string>
+    <string name="preferences_event_activity_tabs_title">Pestanyes de l\'esdeveniment</string>
+    <string name="preferences_group_activity_tabs_title">Pestanyes del grup</string>
+    <string name="preference_images_title">Imatges</string>
+    <string name="preference_images_clear_cache_title">Esborrar la memòria cau de les imatges</string>
+    <string name="preference_images_clear_cache_summary">Esborrar la memòria cau de les imatges de la memòria externa</string>
+    <string name="preference_images_cache_clearing">Esborrant imatges de la memòria cau</string>
+    <string name="preference_images_cache_cleared">Imatges esborrades de la memòria cau</string>
+    <string name="preference_notification_interval_1_minute">Cada minut</string>
+    <string name="preference_notification_interval_2_minutes">Cada 2 minuts</string>
+    <string name="preference_notification_interval_3_minutes">Cada 3 minuts</string>
+    <string name="preference_notification_interval_5_minutes">Cada 5 minuts</string>
+    <string name="preference_notification_interval_10_minutes">Cada 10 minuts</string>
+    <string name="preference_notification_interval_15_minutes">Cada 15 minuts</string>
+    <string name="preference_notification_interval_20_minutes">Cada 20 minuts</string>
+    <string name="preference_notification_interval_25_minutes">Cada 25 minuts</string>
+    <string name="preference_notification_interval_30_minutes">Cada 30 minuts</string>
+    <string name="preference_notification_interval_45_minutes">Cada 45 minuts</string>
+    <string name="preference_notification_interval_1_hour">Cada hora</string>
+    <string name="preference_notification_interval_2_hours">Cada 2 hores</string>
+    <string name="preference_notification_interval_3_hours">Cada 3 hores</string>
+    <string name="preference_notification_interval_4_hours">Cada 4 hores</string>
+    <string name="preference_notification_interval_5_hours">Cada 5 hores</string>
+    <string name="preference_notification_interval_6_hours">Cada 6 hores</string>
+    <string name="preference_notification_interval_7_hours">Cada 7 hores</string>
+    <string name="preference_notification_interval_8_hours">Cada 8 hores</string>
+    <string name="preference_notification_interval_twice_daily">Dues vegades al dia</string>
+    <string name="preference_notification_interval_daily">Diari</string>
+    <string name="preferences_notification_system_push">Notificacions push</string>
+    <string name="preferences_notification_system_periodic"> Notificacions periòdiques</string>
+    <string name="preferences_notification_system_both">Ambdós</string>
+    <string name="preferences_notifications_system_title">Notificacions del sistema</string>
+    <string name="preferences_notifications_system_summary">Les notificacions push podrien no ser exactes.\nLes notificacions periòdiques esgoten ràpid la bateria</string>
+    <string name="preference_notification_vibrate_title">Vibració</string>
+    <string name="preference_notification_ringtone_title">To de notificació</string>
+    <string name="preference_notifications_ringtone">To de notificació</string>
+    <string name="preference_notifications_song">Cançó</string>
+    <string name="preference_notification_ringtone_chooser">Escull un to</string>
+    <string name="preference_newsfeed_go_to_top_title">Mostra les històries més recents</string>
+    <string name="preference_newsfeed_go_to_top_summary">Si està activat, la llista saltarà amunt després que es carreguin les notícies</string>
+    <string name="preference_newsfeed_cut_long_post_title">Tallar posts llargs</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Si està activat, els posts més llargs de 10 línies seran tallats</string>
+    <string name="preference_buy_pro_version_title">Comprar la versió Pro</string>
+    <string name="preference_left_drawer_items_title">Pestanyes menú esquerre</string>
+    <string name="preference_alternative_newsfeed_title">Canal de notícies alternatiu</string>
+    <string name="preference_alternative_newsfeed_summary">Si està activat, utilitza un mètode alternatiu per obtenir les notícies</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Aniversaris d\'avui</string>
+    <string name="notification_birthday_today">És l\'aniversari de %1$s\!</string>
+    <string name="friends_birthday_today">%1$d amistats celebren avui el seu aniversari!</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Peticions d\'amistat</string>
+    <string name="notification_friendrequest_message">%1$s vol afegir-te com a amistat</string>
+    <string name="new_friend_requests">Tens %1$d peticions d\'amistat noves</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Tens %1$s notificacions noves</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Permís de notificacions denegat.\nSi us plau, autoritza el permís clicant el botó refrescar del menú</string>
+    <string name="notifications_unread_header_title">Notificacions sense llegir (%1$d)</string>
+    <string name="notifications_read_header_title">Notificacions passades</string>
+    <string name="notifications_friend_request_header_title">Peticions d\'amistat</string>
+    <string name="notifications_dismiss">Descartar</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Desbloqueja la donació</string>
+    <string name="donate_code">Introdueix el codi</string>
+    <string name="thank_you_very_much">Moltes gràcies!</string>
+
+    <!-- Chat -->
+    <string name="online">Connectat</string>
+    <string name="offline">Desconnectat</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Videos</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Ho sentim, el Facebook no permet a apliacions de tercers escriure als grups</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Carregant imatges</string>
+    <string name="uploading_image_of">Carregant imatge %1$d de %2$d</string>
+    <string name="upload_complete">Càrrega completa</string>
+    <string name="n_uploaded_images">%1$d imatges carregades</string>
+    <string name="upload_error">Error de càrrega</string>
+    <string name="file_not_found">No s\'ha pogut trobar l\'arxiu %1$s</string>
+    <string name="upload_photo_default_album_name">Mur (per defecte)</string>
+
+    <!-- About -->
+    <string name="about_version">Versió %1$s</string>
+    <string name="about_activity_title">Quant a</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Tots els drets reservats</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Envia un correu</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Algun suggeriment ?\nHs trobat un bug?\nAvisa\'ns!</string>
+    <string name="feedback_send_suggest">Envia un suggeriment</string>
+    <string name="feedback_send_bug">Notifica un bug</string>
+    <string name="feedback_g_plus_community">Comunitat G+</string>
+    <string name="restart">Reiniciar</string>
+    <string name="change_theme_need_restart">S\'ha de reiniciar per aplicar el tema</string>
+    <string name="change_app_language_need_restart">S\'ha de reiniciar per aplicar el nou idioma</string>
+    <string name="option_need_restart">S\'ha de reiniciar per aplicar aquesta opció</string>
+    <string name="soon">Properament &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Canviar log</string>
+    <string name="changelog_close">Tancar</string>
+    <string name="changelog_activity_title">Canviar log</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Publicitat</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Jo: %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+	
+	<!-- User Activity -->
+    <string name="is_friend">Amistat</string>
+	<string name="confirm_friend_request">Confirmar petició d\'amistat</string>
+	<string name="send_friend_request">Enviar petició d\'amistat</string>
+	<string name="friend_request_sent">Petició d\'amistat enviada</string>
+
+</resources>

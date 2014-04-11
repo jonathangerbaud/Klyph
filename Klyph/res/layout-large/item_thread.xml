@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Klyph.ListItem.Stream"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="@dimen/klyph_stream_side_padding"
+    android:paddingRight="@dimen/klyph_stream_side_padding" >
+
+    <com.abewy.android.apps.klyph.widget.ProfileImageView
+        android:id="@+id/thread_author_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/ckoobafe_stream_item_padding"
+        android:paddingBottom="@dimen/ckoobafe_stream_item_padding" />
+    
+    <TextView 
+        android:id="@+id/thread_unread_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/counterBackground"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        android:layout_alignRight="@id/thread_author_picture"
+        android:layout_alignBottom="@id/thread_author_picture"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/thread_author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/ckoobafe_stream_item_padding"
+        android:layout_toRightOf="@id/thread_author_picture"
+        android:layout_toLeftOf="@+id/thread_date" />
+
+    <TextView
+        android:id="@id/thread_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/ckoobafe_stream_item_padding"
+        android:layout_marginTop="@dimen/ckoobafe_stream_item_padding"
+        android:textColor="#CCCCCC"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/thread_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thread_author_name"
+        android:layout_marginRight="@dimen/ckoobafe_stream_item_padding"
+        android:layout_toRightOf="@id/thread_author_picture"
+        android:ellipsize="end"
+        android:maxLines="3" />
+
+</RelativeLayout>

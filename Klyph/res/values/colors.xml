@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<drawable name="screen_background_dark">#222222</drawable>-->
+    <drawable name="screen_background_dark">#202020</drawable>
+    <drawable name="screen_background_black">#000000</drawable>
+    <!--<drawable name="screen_background_light">#F4F4F4</drawable>-->
+    <drawable name="screen_background_light">#E5E5E5</drawable>
+    
+    <drawable name="redbgd">#FF0000</drawable>
+    
+    <!-- Action bar generated with http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html -->
+    <color name="pressed_blue_dark">#CC33B5E5</color>
+    <color name="pressed_blue_light">#CC33B5E5</color>
+    <color name="pressed_green_light">#CC99CC00</color>
+    <color name="pressed_green_dark">#CC99CC00</color>
+    
+    <!-- Blue Theme -->
+    <color name="blue_theme_primary">#33B5E5</color>
+    <color name="blue_theme_secondary">#0099CC</color>
+    <color name="blue_theme_selector">#9933B5E5</color>
+    
+    <!-- Green Theme -->
+    <color name="green_theme_primary">#9C0</color>
+    <color name="green_theme_secondary">#690</color>
+    <color name="green_theme_selector">#99C0</color>
+    
+    <!-- Dark Theme -->
+    <color name="dark_background">#202020</color>
+    <color name="dark_theme_primary">#FFF</color>
+    <color name="dark_theme_secondary">#FFF</color>
+    <color name="dark_theme_tertiary">#CCC</color>
+    <color name="dark_theme_icon_color">#CCFFFFFF</color>
+    <color name="list_item_background_dark">#333333</color>
+    <color name="dark_theme_text_time_color">#CCCCCC</color>
+    <color name="dark_theme_menu_background">#333333</color>
+    
+    <!-- Light Theme -->
+    <color name="light_background">#F0F0F0</color>
+    <color name="light_theme_primary">#000</color>
+    <color name="light_theme_secondary">#333</color>
+    <color name="light_theme_tertiary">#999</color>
+    <color name="light_theme_icon_color">#CC333333</color>
+    <color name="list_item_background_light">#FFFFFF</color>
+    <color name="light_theme_text_time_color">#888888</color>
+    <color name="light_theme_menu_background">#F2F2F2</color>
+    
+    <color name="blue_theme_background">#175C8A</color>
+    
+    
+    
+    <color name="black">#FF000000</color>
+    <color name="dark_grey">#222222</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_grey">#F6F6F6</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_30_percent">#4C000000</color>
+    <color name="black_60_percent">#99000000</color>
+    <color name="list_background">#22000000</color>
+    <color name="post_message_background">#11000000</color>
+    <color name="post_secondary_text">#CCCCCC</color>
+    <color name="post_button_background">#11000000</color>
+    <color name="timeline_background">#2B2B2B</color>
+</resources>

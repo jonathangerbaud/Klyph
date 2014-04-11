@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Hírfolyam</string>
+    <string name="fragment_header_timeline">Idővonal</string>
+    <string name="fragment_header_friends">Ismerősök</string>
+    <string name="fragment_header_pages">Oldalak</string>
+    <string name="fragment_header_about">Ismertető</string>
+    <string name="fragment_header_events">Események</string>
+    <string name="fragment_header_birthdays">Születésnapok</string>
+    <string name="fragment_header_albums">Albumok</string>
+    <string name="fragment_header_infos">Infók</string>
+    <string name="fragment_header_wall">Fal</string>
+    <string name="fragment_header_going">Részt vesz</string>
+    <string name="fragment_header_maybe">Talán</string>
+    <string name="fragment_header_declined">Nem megy</string>
+    <string name="fragment_header_invited">Meghívottak</string>
+    <string name="fragment_header_groups">Csoportok</string>
+    <string name="fragment_header_members">Tagok</string>
+    <string name="fragment_header_photos">Fotók</string>
+    <string name="fragment_header_threads">Beszélgetések</string>
+    <string name="fragment_header_followed_people">Követett emberek</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Keresés</string>
+    <string name="user">Felhasználó</string>
+    <string name="page">Oldal</string>
+    <string name="group">Csoport</string>
+    <string name="event">Esemény</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Kijelentkezés</string>
+    <string name="menu_notifications">Értesítések</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_messages">Üzenetek</string>
+    <string name="menu_credits">Készítők</string>
+    <string name="menu_send">Küldés</string>
+    <string name="menu_preferences">Beállítások</string>
+    <string name="menu_feedback">Ötlet/Hiba</string>
+    <string name="menu_donate">Adományozz</string>
+    <string name="menu_download">Letöltés</string>
+    <string name="menu_add_photos">Fotók hozzáadása</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album:</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Új album</string>
+    <string name="create">Létrehozás</string>
+    <string name="name">Név</string>
+    <string name="location">Helyszín</string>
+    <string name="camera">Kamera</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Újra</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Hiba történt.</string>
+    <string name="request_connexion_error">Csatlakozási hiba.\nEllenőrizd az internetkapcsolatot.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">A helymeghatározás sikertelen.</string>
+    <string name="choose_place">Válassz egy helyet</string>
+
+    <!-- General -->
+    <string name="close">Bezárás</string>
+    <string name="open">Megnyitás</string>
+    <string name="refresh">Frissítés</string>
+    <string name="share">Megosztás</string>
+    <string name="defaultString">Alapbeállítás</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Fénykép kiválasztása</string>
+    <string name="thread_activity_title">Üzenetek</string>
+    <string name="notification_activity_title">Értesítések</string>
+    <string name="credentials_activity_title">Készítők</string>
+    <string name="donate_activity_title">Adományozz</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Nyilvános</string>
+    <string name="menu_privacy_friends">Ismerősök</string>
+    <string name="menu_privacy_self">Csak én</string>
+
+    <!-- FR Values -->
+    <string name="like">Tetszik</string>
+    <string name="unlike">Nem tetszik</string>
+    <string name="people_who_likes_this">Akiknek tetszik</string>
+    <string name="comment">Hozzászólok</string>
+    <string name="number_of_comments">%s hozzászólás</string>
+    <string name="number_of_people_who_like_it">%s embernek tetszik</string>
+    <string name="you_and_other_people_who_like_it">Neked és %s embernek tetszik</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d másodperce</string>
+    <string name="one_minute_ago">Egy perce</string>
+    <string name="minutes_ago">%d perce</string>
+    <string name="one_hour_ago">egy órája</string>
+    <string name="hours_ago">%d órája</string>
+    <string name="one_day_ago">Egy napja</string>
+    <string name="days_ago">%d napja</string>
+    <string name="one_month_ago">Egy hónapja</string>
+    <string name="months_ago">%d hónapja</string>
+    <string name="years_ago">%d éve</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Válassz minőséget</string>
+    <string name="dialog_video_quality_message">Normál (SD) vagy nagy (HD) felbontásban szeretnéd megnézni?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s hozzáadott %2$s fényképet a %3$s nevű albumhoz</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— %1$s társaságában</string>
+    <string name="post_with_two_friends">— %1$s és %2$s társaságában</string>
+    <string name="post_with_several_friends">— %1$s és %2$s további ismerős társaságában</string>
+    <string name="with_several_friends">%1$s további ismerős társaságában</string>
+    <string name="at_place">— itt: %1$s</string>
+    <string name="ok">Rendben</string>
+    <string name="cancel">Mégse</string>
+    <string name="error">Hiba</string>
+    <string name="please_enter_message">Kérlek írd be az üzenetet</string>
+    <string name="must_select_place_to_tag_friends">Ismerősök megjelöléséhez előbb válassz helyszínt.</string>
+    <string name="status">Állapot</string>
+    <string name="publishing">Közzététel&#8230;</string>
+    <string name="status_successfully_published">Az új állapotod közzé lett téve.</string>
+    <string name="message_successfully_published">Az üzeneted el lett küldve.</string>
+    <string name="publish_unknown_error">Nem lehet közzé tenni az állapotod.</string>
+    <string name="publish_message_unknown_error">Nem lehet elküldeni az üzeneted.</string>
+    <string name="publish_error_duplicate_message">Ez már a legutóbb megosztott állapotod.</string>
+    <string name="publish_new_status">Ossz meg új állapotot.</string>
+    <string name="publish_new_event_message">Írj új üzenetet.</string>
+    <string name="friends">Ismerősök</string>
+    <string name="post_hint">Az üzeneted</string>
+    <string name="post_link_malformated_url">Az URL érvénytelen</string>
+    <string name="post_link_malformated_image_url">A kép URL címe érvénytelen</string>
+    <string name="post_link_empty_name">Kérlek, írj be egy nevet.</string>
+    <string name="post_share_status">Ossz meg egy állapotot</string>
+    <string name="post_share_photo">Ossz meg egy fotót</string>
+    <string name="post_share_video">Ossz meg egy videót</string>
+    <string name="post_share_link">Ossz meg egy linket</string>
+    <string name="post_share_album">Ossz meg egy albumot</string>
+    <string name="post_share_on">Megosztás:</string>
+    <string name="post_share_on_my_wall">Idővonalam</string>
+    <string name="post_share_on_friend_wall">Ismerős idővonalán</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Új fényképek megosztása</string>
+    <string name="creating_album">Album létrehozása&#8230;</string>
+    <string name="must_select_photos">Válassz ki fényképeket a feltöltéshez</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Megerősítés</string>
+    <string name="delete_post_confirmation_message">Valóban törölni szeretnéd ezt az üzenetet?</string>
+    <string name="delete_post_error">Nem lehet törölni az üzenetet.</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="delete">Törlés</string>
+    <string name="deleting">Törlés&#8230;</string>
+    <string name="post_deleted">Üzenet törölve.</string>
+    <string name="like_error">Nem tudod kedvelni.</string>
+    <string name="unlike_error">Nem tudod mégsem-kedvelni.</string>
+    <string name="stream_date">%1$s ekkor: %2$s</string>
+    <string name="stream_today_date">Ma ekkor: %1$s</string>
+    <string name="stream_yesterday_date">Tegnap ekkor: %1$s</string>
+    <string name="newsfeed_new_stream">1 új bejegyzés</string>
+    <string name="newsfeed_new_streams">%1$d új bejegyzés</string>
+
+    <!-- Event -->
+    <string name="event_by">%1$s által</string>
+    <string name="event_description">Ismertető</string>
+    <string name="event_practical_information">Hasznos információ</string>
+    <string name="event_date">Dátum</string>
+    <string name="event_place">Hely</string>
+    <string name="event_secret">Csak meghívással</string>
+    <string name="event_friends">Ismerősök</string>
+    <string name="event_public">Nyilvános esemény</string>
+    <string name="event_closed">Zárt körű esemény</string>
+    <string name="event_will_attend_title">Elmegyek?</string>
+    <string name="event_going">Megyek</string>
+    <string name="event_unsure">Talán</string>
+    <string name="event_declined">Nem megyek</string>
+    <string name="event_num_invitee">%1$s meghívva</string>
+    <string name="event_num_attending">%1$s ott lesz</string>
+    <string name="event_num_unsure">%1$s talán ott lesz</string>
+    <string name="event_num_declined">%1$s nem lesz ott</string>
+    <string name="event_response_dialog_title">Válasz</string>
+    <string name="event_response_dialog_message">Visszajelzés küldése&#8230;</string>
+    <string name="event_response_ok">A visszajelzés nem lett elküldve</string>
+    <string name="event_response_error">Hiba történt a visszajelzés elküldése közben.\nKérlek, próbáld újra később.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Születésnap</string>
+    <string name="user_sex">Nem</string>
+    <string name="user_meeting_sex">Érdeklődés:</string>
+    <string name="user_relationship_status">Családi állapot</string>
+    <string name="user_religion">Vallási nézetek</string>
+    <string name="user_political">Politikai nézetek</string>
+    <string name="user_phones">Telefonszám</string>
+    <string name="user_address">Cím</string>
+    <string name="user_email">Email cím</string>
+    <string name="user_networks">Elérhetőségek</string>
+    <string name="user_activities">Tevékenységek</string>
+    <string name="user_books">Könyvek</string>
+    <string name="user_inspirational_people">Inspiráló személyek</string>
+    <string name="user_interests">Érdeklődési körök</string>
+    <string name="user_movies">Filmek</string>
+    <string name="user_music">Zene</string>
+    <string name="user_sports">Sportok</string>
+    <string name="user_tv">Sorozatok</string>
+    <string name="user_quotes">Idézetek</string>
+    <string name="user_website">Weboldalak</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s %2$s-ig</string>
+    <string name="work_date_until_today">%1$s máig</string>
+
+    <!-- Education -->
+    <string name="education_year">%1$s évfolyam</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s és %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s és %3$d további ismerős</string>
+    <string name="thread_and_others">%1$d további ismerős</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Akik kedvelik:</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Magánélet</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d év</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Ismerősök kiválasztása</string>
+    <string name="friend_picker_single_choice_title">Válassz ismerőst</string>
+    <string name="search_friends">Ismerősök keresése</string>
+    <string name="several_friends_selected">%1$d kiválasztott ismerős</string>
+    <string name="one_friend_selected">1 kiválasztott ismerős</string>
+    <string name="no_friend_selected">Nincs kiválasztott ismerős</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d kiválasztott fénykép</string>
+    <string name="one_photo_selected">Egy kiválasztott fénykép</string>
+    <string name="no_photo_selected">Nincs kiválasztott fénykép</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Nem található a fénykép</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Hozzászólás írása</string>
+    <string name="comments_disabled">A hozzászólások le vannak tiltva</string>
+    <string name="publish_comment_dialog_title">Hozzászólás</string>
+    <string name="publish_comment_dialog_message">Küldés&#8230;</string>
+    <string name="publish_comment_ok">A hozzászólásod el lett küldve.</string>
+    <string name="publish_comment_error">Hiba történt a hozzászólás elküldése közben.\nKérlek, próbáld újra később.</string>
+    <string name="several_comments">%1$d hozzászólás</string>
+    <string name="one_comment">Egy hozzászólás</string>
+    <string name="no_comment">Nincs hozzászólás</string>
+    <string name="define_comment_before_publish">Kérlek, írd be a hozzászólásodat</string>
+    <string name="several_likes">%1$d kedveli ezt</string>
+    <string name="one_like">1 ember kedveli ezt</string>
+    <string name="no_like">0 ember kedveli ezt</string>
+    <string name="cannot_find_post">A bejegyzés nem található</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Fényképlista betöltése letöltés előtt &#8230;</string>
+    <string name="fetch_videos_from_album">Videólista betöltése letöltés előtt &#8230;</string>
+    <string name="tagged_photos_of">%1$s fényképei</string>
+
+    <!-- User about -->
+    <string name="family">Család</string>
+    <string name="others">Egyéb</string>
+    <string name="work">Munkahely</string>
+    <string name="education">Tanulmányok</string>
+    <string name="user_about">Leírás</string>
+    <string name="user_about_sex">Nem: %1$s</string>
+    <string name="user_about_birthday">Születésnap: %1$s</string>
+    <string name="user_about_ralationship_status">Családi állapot: %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Információ</string>
+    <string name="noone_talk_about_it">Senki nem beszél róla</string>
+    <string name="one_talk_about_it">1 ember beszél róla</string>
+    <string name="several_talk_about_it">%1$s ember beszél róla</string>
+    <string name="page_base_infos">Alapvető információk</string>
+    <string name="description">Leírás</string>
+    <string name="mission">Feladat</string>
+    <string name="coordinates">Koordináták</string>
+    <string name="general_infos">Általános információk</string>
+    <string name="artists_we_like">Művészek, akiket kedvelünk</string>
+    <string name="band_interests">Bandák, akik érdekelnek minket</string>
+    <string name="band_bio">Életrajz</string>
+    <string name="band_members">Tagok</string>
+    <string name="founded">Alapítva</string>
+    <string name="genre">Műfaj</string>
+    <string name="band_current_location">Jelenlegi tartózkodási hely</string>
+    <string name="band_hometown">Szülőváros</string>
+    <string name="band_record_label">Lemezkiadó</string>
+    <string name="band_influences">Hatással volt</string>
+    <string name="band_press_contact">Sajtó kapcsolat</string>
+    <string name="band_booking_agent">Foglalási ügynök</string>
+    <string name="band_general_manager">Általános menedzser</string>
+    <string name="company_products">Termékek</string>
+    <string name="company_overview">Áttekintés</string>
+    <string name="hours">Órák</string>
+    <string name="public_transit">Tömegközlekedés</string>
+    <string name="restaurant_food_styles">Ételstílus</string>
+    <string name="restaurant_culinar_team">Kulináris csapat</string>
+    <string name="restaurant_prices">Árak</string>
+    <string name="restaurant_attire">Viselet</string>
+    <string name="restaurant_services">Szolgálatások</string>
+    <string name="restaurant_specialties">Különlegességek</string>
+    <string name="restaurant_parking">Parkolás</string>
+    <string name="breakfast">Reggeli</string>
+    <string name="lunch">Ebéd</string>
+    <string name="dinner">Vacsora</string>
+    <string name="coffee">Kávé</string>
+    <string name="drinks">Italok</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Csak készpénz</string>
+    <string name="discover">Felfedezés</string>
+    <string name="reserve">Foglalásos fogadás</string>
+    <string name="walkins">Azonnali fogadás</string>
+    <string name="groups">Csoportoknak kedvező</string>
+    <string name="kids">Gyerekeknek kedvező</string>
+    <string name="takeout">Kiszállítás</string>
+    <string name="delivery">Házhozszállítás</string>
+    <string name="waiter">Felszolgálás</string>
+    <string name="catering">Étkeztetés</string>
+    <string name="outdoor">Kültéri ülések</string>
+    <string name="street">Utca</string>
+    <string name="lot">Parkoló</string>
+    <string name="valet">Inas</string>
+    <string name="monday">Hétfő</string>
+    <string name="tuesday">Kedd</string>
+    <string name="wednesday">Szerda</string>
+    <string name="thursday">Csütörtök</string>
+    <string name="friday">Péntek</string>
+    <string name="saturday">Szombat</string>
+    <string name="sunday">Vasárnap</string>
+    <string name="plot_outline">Cselekményvázlat</string>
+    <string name="network">Csatorna</string>
+    <string name="season">Évad</string>
+    <string name="schedule">Ütemterv</string>
+    <string name="starring">Főszereplők</string>
+    <string name="written_by">Írta</string>
+    <string name="awards">Díjak</string>
+    <string name="personal_info">Személyes információk</string>
+    <string name="personal_interests">Személyes érdeklődési körök</string>
+    <string name="phone">Telefon</string>
+    <string name="release_date">Megjelenési dátum</string>
+    <string name="studio">Stúdió</string>
+    <string name="directed_by">Rendezte</string>
+    <string name="screenplay_by">Forgatókönyv</string>
+    <string name="affiliation">Együttműködés</string>
+    <string name="built">Épült</string>
+    <string name="features">Jellemzők</string>
+    <string name="mpg">Mérföld-per-gallon</string>
+    <string name="pharma_safety_info">Gyógyszeripari biztosági információk</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Nincsenek felhasználók</string>
+    <string name="empty_list_no_friend">Nincsenek ismerősök</string>
+    <string name="empty_list_no_page">Nincsenek oldalak</string>
+    <string name="empty_list_no_event">Nincsenek események</string>
+    <string name="empty_list_no_album">Nincsenek albumok</string>
+    <string name="empty_list_no_photo">Nincsenek fotók</string>
+    <string name="empty_list_no_video">Nincsenek videók</string>
+    <string name="empty_list_no_birthday">Nincsenek születésnapok</string>
+    <string name="empty_list_no_message">Nincsenek üzenetek</string>
+    <string name="empty_list_no_notification">Nincsenek értesítések</string>
+    <string name="empty_list_no_stream">Nincsenek hírek</string>
+    <string name="empty_list_no_data">Nincsenek adatok</string>
+    <string name="empty_list_no_group">Nincsenek csoportok</string>
+    <string name="empty_list_no_member">Nincsenek tagok</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">API-k</string>
+    <string name="credentials_icons">Ikonok</string>
+    <string name="credentials_translators">Fordítók</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Beállítások</string>
+    <string name="preference_theme_title">Téma</string>
+    <string name="preferences_themes_dialog_title">Válassz témát</string>
+    <string name="preference_about_title">Rólunk</string>
+    <string name="preference_credits_title">Készítők</string>
+    <string name="preference_credits_apis_title">API-k</string>
+    <string name="preference_credits_icons_title">Ikonok</string>
+    <string name="preference_credits_tools_title">Eszközök</string>
+    <string name="preference_changelog_title">Verzió megjegyzések</string>
+    <string name="preference_notifications_title">Értesítések</string>
+    <string name="preference_notification_title">Értesítés</string>
+    <string name="preference_notification_summary">Értesítések bekapcsolása</string>
+    <string name="preference_notification_type_title">Értesítéstípusok</string>
+    <string name="preference_notification_birthday_title">Születésnapok</string>
+    <string name="preference_notification_birthday_summary">Értesítés egy ismerős születésnapján</string>
+    <string name="preferences_notification_birthday_time_title">Születésnapok frissítési ideje</string>
+    <string name="preferences_notification_birthday_time_summary">Mai születésnapok frissítési ideje</string>
+    <string name="preference_notification_event_title">Események</string>
+    <string name="preference_notification_event_summary">Esemény értesítések</string>
+    <string name="preference_notification_photo_title">Fényképek</string>
+    <string name="preference_notification_photo_summary">Fénykép értesítések</string>
+    <string name="preference_notification_video_title">Videók</string>
+    <string name="preference_notification_video_summary">Videó értesítések</string>
+    <string name="preference_notification_page_invite_title">Oldalak</string>
+    <string name="preference_notification_page_invite_summary">Érteítés, ha oldalkedvelési felkérések érkezik</string>
+    <string name="preference_notification_group_invite_title">Csoportok</string>
+    <string name="preference_notification_group_invite_summary">Értesítés, ha csoportbelépési kérelem érkezik</string>
+    <string name="preference_notification_friend_request_title">Ismerős felkérések</string>
+    <string name="preference_notification_friend_request_summary">Ismerős felkérés értesítések</string>
+    <string name="preference_notification_message_title">Üzenet</string>
+    <string name="preference_notification_message_summary">Értesítés bejövő üzenetről</string>
+    <string name="preference_notification_stream_title">Bejegyzések</string>
+    <string name="preference_notification_stream_summary">Értesítés a legújabb bejegyzésekről</string>
+    <string name="preferences_notifications_interval">Interval</string>
+    <string name="preferences_notifications_permissions_title">Engedély szükséges</string>
+    <string name="preferences_notifications_permissions_message">Hogy értesítéseket küldhessünk, kérünk, jelentkezz be újra, hogy engedélyt szerezz a Facebook-tól</string>
+    <string name="preference_notification_group_title">Összevont értesítések</string>
+    <string name="preference_notification_group_summary">Csak egyszer értesítsen, amikor több értesítést kapok</string>
+    <string name="preference_app_language_title">Alkalmazás nyelve</string>
+    <string name="preferences_app_language_dialog_title">Alkalmazás nyelvének beállítása:</string>
+    <string name="preference_fb_language_title">Facebook nyelve</string>
+    <string name="preferences_fb_language_dialog_title">A Facebook nyelvének beállítása:</string>
+    <string name="preference_newsfeed_title">Hírfolyam</string>
+    <string name="preference_newsfeed_pages_title">Oldalak</string>
+    <string name="preference_newsfeed_groups_title">Csoportok</string>
+    <string name="preference_newsfeed_events_title">Események</string>
+    <string name="preference_newsfeed_pages">Oldal frissítések megjelenítése a hírfolyamban</string>
+    <string name="preference_newsfeed_groups">Csoport frissítések megjelenítése a hírfolyamban</string>
+    <string name="preference_newsfeed_events">Események megjelenítése a hírfolyamban</string>
+    <string name="preference_performances_title">Teljesítmény</string>
+    <string name="preference_performances_photo_effect_summary">Az effektek kikapcsolása javítja a teljesítményt</string>
+    <string name="preference_performances_photo_effect_title">Áttűnés effekt a fényképeknél</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Az effekt kikapcsolása javítja a teljesítményt</string>
+    <string name="preference_performances_rounded_profile_picture_title">Kerekített profilképek bekapcsolása</string>
+    <string name="preferences_view_pager_indicator_style_title">Oldal jelzővonalak stílusa</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Fülek</string>
+    <string name="preferences_view_pager_indicator_style_titles">Lapozás</string>
+    <string name="preferences_ui_title">Felhasználói felület</string>
+    <string name="preference_performances_pause_on_scroll_title">Képbetöltés szüneteltetése, miközben görgetsz a kezeddel</string>
+    <string name="preference_performances_pause_on_scroll_summary">Ha be van kapcsolva, a kép nem töltődik, míg a képernyőn van a kezed és listákat görgetsz</string>
+    <string name="preference_performances_pause_on_fling_title">Képbetöltés szüneteltetése, miközben görget a lap</string>
+    <string name="preference_performances_pause_on_fling_summary">Ha be van kapcsolva, a kép nem töltődik, míg listákat görgetsz, de a kezed nem érinti a képernyőt</string>
+    <string name="preference_performances_card_animation_title">Kártyaanimációk bekapcsolása</string>
+    <string name="preference_performances_card_animation_summary">A kártyaanimációk kikapcsolása javítja a teljesítményt</string>
+    <string name="preferences_main_activity_tabs_title">Fő fülek</string>
+    <string name="preferences_user_activity_tabs_title">Ismerős fülek</string>
+    <string name="preferences_page_activity_tabs_title">Oldal fülek</string>
+    <string name="preferences_event_activity_tabs_title">Események fülek</string>
+    <string name="preferences_group_activity_tabs_title">Csoport fülek</string>
+    <string name="preference_images_title">Képek</string>
+    <string name="preference_images_clear_cache_title">Képek gyorsítótár ürítése</string>
+    <string name="preference_images_clear_cache_summary">Gyorsítótárazott képek törlése a külső tárolóról</string>
+    <string name="preference_images_cache_clearing">Gyorsítótárazott képek törlése</string>
+    <string name="preference_images_cache_cleared">Gyorsítótárazott képek törölve</string>
+    <string name="preference_notification_interval_1_minute">Minden percben</string>
+    <string name="preference_notification_interval_2_minutes">Minden második percben</string>
+    <string name="preference_notification_interval_3_minutes">Minden harmadik percben</string>
+    <string name="preference_notification_interval_5_minutes">Minden ötödik percben</string>
+    <string name="preference_notification_interval_10_minutes">Minden tizedik percben</string>
+    <string name="preference_notification_interval_15_minutes">Minden tizenötödik percben</string>
+    <string name="preference_notification_interval_20_minutes">Minden huszadik percben</string>
+    <string name="preference_notification_interval_25_minutes">Minden huszonötödik percben</string>
+    <string name="preference_notification_interval_30_minutes">Minden harmincadik percben</string>
+    <string name="preference_notification_interval_45_minutes">Minden negyvenötödik percben</string>
+    <string name="preference_notification_interval_1_hour">Minden órában</string>
+    <string name="preference_notification_interval_2_hours">Minden második órában</string>
+    <string name="preference_notification_interval_3_hours">Minden harmadik órában</string>
+    <string name="preference_notification_interval_4_hours">Minden negyedik órában</string>
+    <string name="preference_notification_interval_5_hours">Minden ötödik órában</string>
+    <string name="preference_notification_interval_6_hours">Minden hatodik órában</string>
+    <string name="preference_notification_interval_7_hours">Minden hetedik órában</string>
+    <string name="preference_notification_interval_8_hours">Minden nyolcadik órában</string>
+    <string name="preference_notification_interval_twice_daily">Naponta kétszer</string>
+    <string name="preference_notification_interval_daily">Naponta</string>
+    <string name="preferences_notification_system_push">Push értesítések</string>
+    <string name="preferences_notification_system_periodic">Időszakos értesítések</string>
+    <string name="preferences_notification_system_both">Mindkettő</string>
+    <string name="preferences_notifications_system_title">Értesítésrendszer</string>
+    <string name="preferences_notifications_system_summary">A push értesítések nem bizos, hogy pontosan.\nAz időszakos értesítések jobban merítik az akkumlátort</string>
+    <string name="preference_notification_vibrate_title">Rezgés</string>
+    <string name="preference_notification_ringtone_title">Csengőhang</string>
+    <string name="preference_notifications_ringtone">Csengőhang</string>
+    <string name="preference_notifications_song">Zene</string>
+    <string name="preference_notification_ringtone_chooser">Válassz csengőhangot</string>
+    <string name="preference_newsfeed_go_to_top_title">Mutassa a legújabb bejegyzést a legutóbbi után</string>
+    <string name="preference_newsfeed_go_to_top_summary">Ha bekapcsolod, a lista a legelejére fog ugrani, miután a legutóbbi hír betöltődött</string>
+    <string name="preference_buy_pro_version_title">Vedd meg a Pro verziót</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Mai születésnapok</string>
+    <string name="notification_birthday_today">Ma van %1$s születésnapja!</string>
+    <string name="friends_birthday_today">%1$d ismerős ünnepli ma a születésnapját!</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Ismerős felkérések</string>
+    <string name="notification_friendrequest_message">%1$s szeretne az ismerősöd lenni</string>
+    <string name="new_friend_requests">%1$d új ismerős felkérésed van</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">%1$s új értesítésed van</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Az értesítés engedélyek meg lettek tagadva.\nKérlek kattints a Frissítés menügombra és engedélyezd őket.</string>
+    <string name="notifications_unread_header_title">Olvasatlan értesítések (%1$d)</string>
+    <string name="notifications_read_header_title">Korábbi értesítések</string>
+    <string name="notifications_friend_request_header_title">Ismerős felkérések</string>
+    <string name="notifications_dismiss">Elvetés</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Ajándék feloldása</string>
+    <string name="donate_code">Üsd be a kódot</string>
+    <string name="thank_you_very_much">Köszönöm szépen!</string>
+
+    <!-- Chat -->
+    <string name="online">Elérhető</string>
+    <string name="offline">Nem elérhető</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Videók</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Sajnáljuk, de a Facebook nem engedi, hogy harmadik féltől származó alkalmazások bejegyzést publikáljanak csoportokban.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Képek feltöltése</string>
+    <string name="uploading_image_of">%1$d / %2$d kép feltöltése</string>
+    <string name="upload_complete">A feltöltés befejeződött</string>
+    <string name="n_uploaded_images">%1$d kép lett feltöltve</string>
+    <string name="upload_error">Feltöltési hiba</string>
+    <string name="file_not_found">A(z) %1$s nevű fájl nem található</string>
+    <string name="upload_photo_default_album_name">Falam (alapbeáll.)</string>
+
+    <!-- About -->
+    <string name="about_version">Verzió: %1$s</string>
+    <string name="about_activity_title">Rólunk</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Minden jog fenntartva!</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Email küldése</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Javaslatod van? \nHibát találtál? \nÍrd meg nekünk!</string>
+    <string name="feedback_send_suggest">Küldj javaslatot</string>
+    <string name="feedback_send_bug">Hibabejelentés</string>
+    <string name="restart">Újraindítás</string>
+    <string name="change_theme_need_restart">Újraindítás szükséges az új téma beállításához.</string>
+    <string name="change_app_language_need_restart">Újraindítás szükséges az új nyelv beállításához.</string>
+    <string name="option_need_restart">Újraindítás szükséges az új funkció beállításához.</string>
+    <string name="soon">Soon &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Verzió megjegyzések</string>
+    <string name="changelog_close">Bezárás</string>
+    <string name="changelog_activity_title">Verzió megjegyzések</string>
+    <string name="preference_newsfeed_cut_long_post_title">Hosszú bejegyzések megvágása</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Ha be van kapcsolva, a 10 sornál hosszabb bejegyzések  meg lesznek vágva.</string>
+    <string name="copy_text">Szöveg másolása</string>
+    <string name="see_who_likes_this">Nézd meg, kiknek tetszik</string>
+    <string name="download_image">Kép letöltése</string>
+    <string name="view_profile">Profil megtekintése</string>
+    <string name="more">Tovább</string>
+    <string name="number_of_likes">%s személy kedveli</string>
+    <string name="feedback_g_plus_community">G+ közösség</string>
+    <string name="reply">Válasz</string>
+    <string name="hide">Elrejt</string>
+    <string name="zero_or_one_like">%s kedvelés</string>
+    <string name="zero_or_one_comment">%s hozzászólás</string>
+    <string name="none">Nincs</string>
+    <string name="post_a_reply">Írj választ</string>
+    
+    <string name="my_last_message">Me : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+</resources>

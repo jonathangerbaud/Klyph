@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Klyph.Dark.PageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textAppearance">@style/Klyph.Dark.TextAppearance.PageIndicator</item>
+    </style>
+
+    <style name="Klyph.Dark.TextAppearance.PageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    
+    <style name="Klyph.Dark.TitlePageIndicator">
+        <!--<item name="android:textColor">@color/dark_theme_tertiary</item>-->
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="selectedColor">@color/dark_theme_secondary</item>
+        <item name="footerColor">?attr/themeColor</item>
+        <item name="android:background">#FF111111</item>
+        
+        <!--
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="selectedBold">true</item>
+        -->
+    </style>
+    
+    <style name="Klyph.Dark.TabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="selectedColor">@color/dark_theme_secondary</item>
+        <item name="android:background">@drawable/tab_indicator_ab_blue_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    
+    <style name="Klyph.Dark.ButtonBar" parent="Klyph.ButtonBar">
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <!--<item name="showDividers">middle</item>
+        <item name="dividerPadding">12dip</item>-->
+        <item name="android:background">@null</item>
+    </style>
+    
+    <style name="Klyph.Dark.Button" parent="Klyph.Button">
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/dark_theme_secondary</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+    
+    <style name="Klyph.Dark.Button.Borderless">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+</resources>

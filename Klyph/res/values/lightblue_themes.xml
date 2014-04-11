@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AssetSudio.Light.Blue" parent="@style/Klyph.ActionBar.Light.Blue">
+        <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+        <item name="android:editTextStyle">@style/EditTextLightBlue</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewLightBlue</item>
+        <item name="android:checkboxStyle">@style/CheckBoxLightBlue</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonLightBlue</item>
+        <item name="android:buttonStyle">@style/ButtonLightBlue</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonLightBlue</item>
+        <item name="android:spinnerStyle">@style/SpinnerLightBlue</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerLightBlue</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemLightBlue</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarLightBlue</item>
+        <item name="android:seekBarStyle">@style/SeekBarLightBlue</item>
+        <item name="android:listViewStyle">@style/ListViewLightBlue.White</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewLightBlue</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemLightBlue</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Klyph.Light.Blue.TabPageIndicator</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+    </style>
+
+</resources>

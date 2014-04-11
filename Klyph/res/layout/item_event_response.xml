@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Klyph.ListItem.Stream"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/Klyph.ListItem.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dip_16"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:paddingTop="@dimen/dip_8"
+        android:text="@string/event_will_attend_title" />
+
+    <Button
+        android:id="@+id/event_going_button"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="?attr/eventGoingIcon"
+        android:drawablePadding="@dimen/dip_8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:text="@string/event_going" />
+
+     <View
+        android:background="?android:attr/windowBackground"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:id="@+id/event_unsure_button"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="?attr/eventUnsureIcon"
+        android:drawablePadding="@dimen/dip_8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:text="@string/event_unsure" />
+
+    <View
+        android:background="?android:attr/windowBackground"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:id="@+id/event_declined_button"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/dip_8"
+        android:drawableStart="?attr/eventDeclinedIcon"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:text="@string/event_declined"
+        android:textAlignment="textStart" />
+
+</LinearLayout>

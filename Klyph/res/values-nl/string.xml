@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Nieuwsoverzicht</string>
+    <string name="fragment_header_timeline">Tijdlijn</string>
+    <string name="fragment_header_inbox">Postvak in</string>
+    <string name="fragment_header_friends">Vrienden</string>
+    <string name="fragment_header_pages">Pagina’s</string>
+    <string name="fragment_header_about">Over</string>
+    <string name="fragment_header_events">Evenementen</string>
+    <string name="fragment_header_birthdays">Verjaardagen</string>
+    <string name="fragment_header_albums">Albums</string>
+    <string name="fragment_header_infos">Info’s</string>
+    <string name="fragment_header_wall">Muur</string>
+    <string name="fragment_header_going">Aanwezig</string>
+    <string name="fragment_header_maybe">Misschien</string>
+    <string name="fragment_header_declined">Afwezig</string>
+    <string name="fragment_header_invited">Uitgenodigd</string>
+    <string name="fragment_header_groups">Groepen</string>
+    <string name="fragment_header_members">Leden</string>
+    <string name="fragment_header_photos">Foto’s</string>
+    <string name="fragment_header_threads">Threads</string>
+    <string name="fragment_header_followed_people">Mensen die je volgt</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Zoeken</string>
+    <string name="user">Gebruiker</string>
+    <string name="page">Pagina</string>
+    <string name="group">Groep</string>
+    <string name="event">Evenement</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Uitloggen</string>
+    <string name="menu_notifications">Meldingen</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_messages">Berichten</string>
+    <string name="menu_credits">Credits</string>
+    <string name="menu_send">Verzenden</string>
+    <string name="menu_preferences">Instellingen</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_donate">Doneer</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_add_photos">Foto’s bijvoegen</string>
+    <string name="menu_faq">Veelgestelde vragen</string>
+    <string name="menu_buy_pro">Geen reclame meer !</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Wilt u echt uitloggen?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Nieuw album</string>
+    <string name="create">Aanmaken</string>
+    <string name="name">Naam</string>
+    <string name="location">Locatie</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Opnieuw proberen</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Een fout heeft zich voorgedaan.</string>
+    <string name="request_connexion_error">Connectie error.\nCheck je internet connectie.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Kan je positie niet vinden.</string>
+    <string name="choose_place">Kies een plaats</string>
+
+    <!-- General -->
+    <string name="close">Sluiten</string>
+    <string name="open">Openen</string>
+    <string name="refresh">Verversen</string>
+    <string name="share">Delen</string>
+    <string name="defaultString">Standaard</string>
+    <string name="camera">camera</string>
+    <string name="copy_text">Kopieer tekst</string>
+    <string name="see_who_likes_this">Zie wie dit leuk vindt</string>
+    <string name="download_image">Download afbeelding</string>
+    <string name="view_profile">Bekijk profiel</string>
+    <string name="share_with">Delen met</string>
+    <string name="more">Meer</string>
+    <string name="reply">Beantwoorden</string>
+    <string name="hide">Verberg</string>
+    <string name="none">Niks</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Kies foto’s</string>
+    <string name="thread_activity_title">Berichten</string>
+    <string name="notification_activity_title">Meldingen</string>
+    <string name="credentials_activity_title">Credits</string>
+    <string name="donate_activity_title">Schenk</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Publiek</string>
+    <string name="menu_privacy_friends">Vrienden</string>
+    <string name="menu_privacy_self">Alleen ik</string>
+
+    <!-- FR Values -->
+    <string name="like">Vind ik leuk</string>
+    <string name="unlike">Niet leuk</string>
+    <string name="people_who_likes_this">Mensen die dit leuk vinden</string>
+    <string name="comment">Commentaar</string>
+    <string name="zero_or_one_like">%s vindt dit leuk</string>
+    <string name="zero_or_one_comment">%s reactie(s)</string>
+    <string name="number_of_likes">%s vinden dit leuk</string>
+    <string name="number_of_comments">%s commentaren</string>
+    <string name="number_of_people_who_like_it">%s mensen vinden dit leuk</string>
+    <string name="you_and_other_people_who_like_it">Jij en %s mensen vinden dit leuk</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d seconden geleden</string>
+    <string name="one_minute_ago">Een minuut geleden</string>
+    <string name="minutes_ago">%d minuten geleden</string>
+    <string name="one_hour_ago">Een uur geleden</string>
+    <string name="hours_ago">%d uren geleden</string>
+    <string name="one_day_ago">Een dag geleden</string>
+    <string name="days_ago">%d dagen geleden</string>
+    <string name="one_month_ago">Een maand geleden</string>
+    <string name="months_ago">%d maanden geleden</string>
+    <string name="years_ago">%d ja(a)r(en)</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Kies kwaliteit</string>
+    <string name="dialog_video_quality_message">Bekijk in standaard kwaliteit (SD) of hoge kwaliteit (HD) ?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s voegde %2$s foto’s toe in album %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— met %1$s</string>
+    <string name="post_with_two_friends">— met %1$s en %2$s</string>
+    <string name="post_with_several_friends">— met %1$s en %2$s andere vrienden</string>
+    <string name="with_several_friends">%1$s andere vrienden</string>
+    <string name="at_place">— in %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleer</string>
+    <string name="error">Error</string>
+    <string name="please_enter_message">Gelieve je bericht in te voeren.</string>
+    <string name="must_select_place_to_tag_friends">Kies eerst een plaats om je vrienden te taggen.</string>
+    <string name="status">Status</string>
+    <string name="publishing">Plaatsen&#8230;</string>
+    <string name="status_successfully_published">Je nieuwe status is geplaatst.</string>
+    <string name="message_successfully_published">Je bericht is geplaatst.</string>
+    <string name="publish_unknown_error">Kan je status niet plaatsen.</string>
+    <string name="publish_message_unknown_error">Kan je bericht niet plaatsen.</string>
+    <string name="publish_error_duplicate_message">Dit is je laatste status al.</string>
+    <string name="publish_new_status">Plaats een nieuwe status.</string>
+    <string name="publish_new_event_message">Plaats een nieuw bericht.</string>
+    <string name="friends">Vrienden</string>
+    <string name="post_hint">Je bericht</string>
+    <string name="post_link_malformated_url">De URL is ongeldig</string>
+    <string name="post_link_malformated_image_url">De afbeelding URL is ongeldig</string>
+    <string name="post_link_empty_name">Geef een naam aub.</string>
+    <string name="post_share_status">Deel een status</string>
+    <string name="post_share_photo">Deel een foto</string>
+    <string name="post_share_video">Deel een video</string>
+    <string name="post_share_link">Deel een link</string>
+    <string name="post_share_album">Deel een album</string>
+    <string name="post_share_on">Deel op</string>
+    <string name="post_share_on_my_wall">Mijn muur</string>
+    <string name="post_share_on_friend_wall">Een vriend zijn muur</string>
+    <string name="post_a_reply">Een antwoord posten</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Plaats nieuwe foto’s</string>
+    <string name="creating_album">Creëer album &#8230;</string>
+    <string name="must_select_photos">Gelieve je foto’s te kiezen</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Bevestiging</string>
+    <string name="delete_post_confirmation_message">Wil je dit bericht echt verwijderen ?</string>
+    <string name="delete_post_error">Kan het bericht niet verwijderen.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="delete">Verwijder</string>
+    <string name="deleting">Verwijder&#8230;</string>
+    <string name="post_deleted">Bericht verwijderd.</string>
+    <string name="like_error">Kan niet leuk vinden.</string>
+    <string name="unlike_error">Kan leukstatus niet veranderen.</string>
+    <string name="stream_date">%1$s op %2$s</string>
+    <string name="stream_today_date">Vandaag op %1$s</string>
+    <string name="stream_yesterday_date">Gisteren op %1$s</string>
+    <string name="newsfeed_new_stream">1 nieuw verhaal</string>
+    <string name="newsfeed_new_streams">%1$d nieuwe verhalen</string>
+
+    <!-- Event -->
+    <string name="event_by">bij %1$s</string>
+    <string name="event_description">Beschrijving</string>
+    <string name="event_practical_information">Praktische informatie</string>
+    <string name="event_date">Datum</string>
+    <string name="event_place">Plaats</string>
+    <string name="event_secret">Enkel op invitatie</string>
+    <string name="event_friends">Vrienden</string>
+    <string name="event_public">Publiek evenement</string>
+    <string name="event_closed">Gesloten evenement</string>
+    <string name="event_will_attend_title">Ben ik aanwezig ?</string>
+    <string name="event_going">Toetreden</string>
+    <string name="event_unsure">Misschien</string>
+    <string name="event_declined">Afwijzen</string>
+    <string name="event_num_invitee">%1$s mensen geïnviteerd</string>
+    <string name="event_num_attending">%1$s mensen gaan er</string>
+    <string name="event_num_unsure">%1$s mensen zijn onzeker</string>
+    <string name="event_num_declined">%1$s mensen hebben afgewezen</string>
+    <string name="event_response_dialog_title">Bevestig</string>
+    <string name="event_response_dialog_message">Zend bevestiging&#8230;</string>
+    <string name="event_response_ok">Je bevestiging is verzonden</string>
+    <string name="event_response_error">Een fout heeft zich voorgedaan bij het verzenden van je bevestiging.\nProbeer het  later nog eens aub.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Verjaardag</string>
+    <string name="user_sex">Geslacht</string>
+    <string name="user_meeting_sex">Geïnteresseerd in</string>
+    <string name="user_relationship_status">Burgerlijke stand</string>
+    <string name="user_religion">Religie</string>
+    <string name="user_political">Politiek</string>
+    <string name="user_phones">Tel.nr.</string>
+    <string name="user_address">Adres</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Netwerk</string>
+    <string name="user_activities">Activiteiten</string>
+    <string name="user_books">Boeken</string>
+    <string name="user_inspirational_people">Inspirerende mensen</string>
+    <string name="user_interests">Interesses</string>
+    <string name="user_movies">Films</string>
+    <string name="user_music">Muziek</string>
+    <string name="user_sports">Sport</string>
+    <string name="user_tv">TV shows</string>
+    <string name="user_quotes">Quote</string>
+    <string name="user_website">Website</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s tot %2$s</string>
+    <string name="work_date_until_today">%1$s tot heden</string>
+
+    <!-- Education -->
+    <string name="education_year">Klas van %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s en %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s en %3$d anderen</string>
+    <string name="thread_and_others">%1$d anderen</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Mensen die dit leuk vinden</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Privacy</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d jaar</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Kies je vrienden</string>
+    <string name="friend_picker_single_choice_title">Kies een vriend</string>
+    <string name="search_friends">Zoek vrienden</string>
+    <string name="several_friends_selected">%1$d vrienden geselecteerd</string>
+    <string name="one_friend_selected">1 vriend geselecteerd</string>
+    <string name="no_friend_selected">Geen vriend geselecteerd</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d foto’s geselecteerd</string>
+    <string name="one_photo_selected">Eén foto geselecteerd</string>
+    <string name="no_photo_selected">Geen foto geselecteerd</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Kan foto niet vinden</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Schrijf een reactie</string>
+    <string name="comments_disabled">Reacties uitgeschakeld</string>
+    <string name="publish_comment_dialog_title">Reactie</string>
+    <string name="publish_comment_dialog_message">Plaatsen&#8230;</string>
+    <string name="publish_comment_ok">Je reactie is geplaatst.</string>
+    <string name="publish_comment_error">Een fout heeft zich voorgedaan bij het plaatsen van je reactie.\nProbeer later nog eens aub.</string>
+    <string name="several_comments">%1$d reacties</string>
+    <string name="one_comment">Eén reactie</string>
+    <string name="no_comment">Geen reactie</string>
+    <string name="define_comment_before_publish">Plaats je reactie aub</string>
+    <string name="several_likes">%1$d mensen vinden dit leuk</string>
+    <string name="one_like">1 persoon vindt dit leuk</string>
+    <string name="no_like">0 mensen vinden dit leuk</string>
+    <string name="cannot_find_post">Kan bericht niet vinden</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album"> Fotolijst ophalen alvorens te downloaden &#8230;</string>
+    <string name="fetch_videos_from_album">Videolijst ophalen alvorens te downloaden &#8230;</string>
+    <string name="tagged_photos_of">Foto\'s van %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Familie</string>
+    <string name="others">Anderen</string>
+    <string name="work">Werk</string>
+    <string name="education">Opleiding</string>
+    <string name="user_about">Over</string>
+    <string name="user_about_sex">Geslacht : %1$s</string>
+    <string name="user_about_birthday">Geboren op %1$s</string>
+    <string name="user_about_ralationship_status">Burgerlijke stand : %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Over</string>
+    <string name="noone_talk_about_it">Niemand praat hierover</string>
+    <string name="one_talk_about_it">1 persoon praat hierover</string>
+    <string name="several_talk_about_it">%1$s mensen praten hierover</string>
+    <string name="page_base_infos">Basisinformatie</string>
+    <string name="description">Beschrijving</string>
+    <string name="mission">Missie</string>
+    <string name="coordinates">Coördinaten</string>
+    <string name="general_infos">Algemene informatie</string>
+    <string name="artists_we_like">Artiesten die we leuk vinden</string>
+    <string name="band_interests">Interessante bands</string>
+    <string name="band_bio">Biografie</string>
+    <string name="band_members">Leden</string>
+    <string name="founded">Opgericht</string>
+    <string name="genre">Genre</string>
+    <string name="band_current_location">Huidige locatie</string>
+    <string name="band_hometown">Thuisbasis</string>
+    <string name="band_record_label">Platenfirma</string>
+    <string name="band_influences">Invloeden</string>
+    <string name="band_press_contact">Pers contact</string>
+    <string name="band_booking_agent">Boekingsagent</string>
+    <string name="band_general_manager">Algemene manager</string>
+    <string name="company_products">Producten</string>
+    <string name="company_overview">Overzicht</string>
+    <string name="hours">Uren</string>
+    <string name="public_transit">Openbaar vervoer</string>
+    <string name="restaurant_food_styles">Culinaire soorten</string>
+    <string name="restaurant_culinar_team">Culinair team</string>
+    <string name="restaurant_prices">Prijzen</string>
+    <string name="restaurant_attire">Kleding</string>
+    <string name="restaurant_services">Diensten</string>
+    <string name="restaurant_specialties">Specialiteiten</string>
+    <string name="restaurant_parking">Parking</string>
+    <string name="breakfast">Ontbijt</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Middagmaal</string>
+    <string name="coffee">Koffie</string>
+    <string name="drinks">Drinken</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Alleen cash geld</string>
+    <string name="discover">Ontdek</string>
+    <string name="reserve">Reserveren mogelijk</string>
+    <string name="walkins">Zonder reserveren mogelijk</string>
+    <string name="groups">Groepen mogelijk</string>
+    <string name="kids">Goed voor kinderen</string>
+    <string name="takeout">Take Out</string>
+    <string name="delivery">Levering aan huis</string>
+    <string name="waiter">Kelner service</string>
+    <string name="catering">Catering</string>
+    <string name="outdoor">Terras</string>
+    <string name="street">Straat</string>
+    <string name="lot">Parking</string>
+    <string name="valet">Kamerdienaar</string>
+    <string name="monday">Maandag</string>
+    <string name="tuesday">Dinsdag</string>
+    <string name="wednesday">Woensdag</string>
+    <string name="thursday">Donderdag</string>
+    <string name="friday">Vrijdag</string>
+    <string name="saturday">Zaterdag</string>
+    <string name="sunday">Zondag</string>
+    <string name="plot_outline">Verhaallijn</string>
+    <string name="network">Netwerk</string>
+    <string name="season">Seizoen</string>
+    <string name="schedule">Agenda</string>
+    <string name="starring">Met in de hoofdrol</string>
+    <string name="written_by">Geschreven door</string>
+    <string name="awards">Prijzen</string>
+    <string name="personal_info">Persoonlijke informatie</string>
+    <string name="personal_interests">Persoonlijke interesses</string>
+    <string name="phone">Tel.nr.</string>
+    <string name="release_date">Première</string>
+    <string name="studio">Studio</string>
+    <string name="directed_by">Geregisseerd door</string>
+    <string name="screenplay_by">Scenario door</string>
+    <string name="affiliation">Connectie</string>
+    <string name="built">Opgezet</string>
+    <string name="features">Kenmerken</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Farmaceutische veiligheidsinformatie</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Geen gebruiker</string>
+    <string name="empty_list_no_friend">Geen vrienden</string>
+    <string name="empty_list_no_page">Geen pagina’s</string>
+    <string name="empty_list_no_event">Geen evenementen</string>
+    <string name="empty_list_no_album">Geen albums</string>
+    <string name="empty_list_no_photo">Geen foto’s</string>
+    <string name="empty_list_no_video">Geen video’s</string>
+    <string name="empty_list_no_birthday">Geen verjaardagen</string>
+    <string name="empty_list_no_message">Geen berichten</string>
+    <string name="empty_list_no_notification">Geen meldingen</string>
+    <string name="empty_list_no_stream">Geen feeds</string>
+    <string name="empty_list_no_data">Geen data</string>
+    <string name="empty_list_no_group">Geen groepen</string>
+    <string name="empty_list_no_member">Geen leden</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">Iconen</string>
+    <string name="credentials_translators">Vertalers</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Voorkeuren</string>
+    <string name="preference_theme_title">Thema</string>
+    <string name="preferences_themes_dialog_title">Kies een thema</string>
+    <string name="preference_about_title">Over</string>
+    <string name="preference_credits_title">Credits</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">Iconen</string>
+    <string name="preference_credits_tools_title">Gereedschap</string>
+    <string name="preference_changelog_title">Verander log</string>
+    <string name="preference_notifications_title">Meldingen</string>
+    <string name="preference_notification_title">Melding</string>
+    <string name="preference_notification_summary">Meldingen aanzetten</string>
+    <string name="preference_notification_type_title">Melding types</string>
+    <string name="preference_notification_birthday_title">Verjaardagen</string>
+    <string name="preference_notification_birthday_summary">Melding voor de verjaardag van een vriend</string>
+    <string name="preferences_notification_birthday_time_title">Melding van een verjaardag</string>
+    <string name="preferences_notification_birthday_time_summary">Tijd om verjaardag(en) te melden</string>
+    <string name="preference_notification_apprequest_title">App verzoeken</string>
+    <string name="preference_notification_apprequest_summary">Melding voor app verzoeken</string>
+    <string name="preference_notification_album_title">Albums</string>
+    <string name="preference_notification_album_summary">Melding voor albums</string>
+    <string name="preference_notification_event_title">Evenementen</string>
+    <string name="preference_notification_event_summary">Melding voor evenementen</string>
+    <string name="preference_notification_friend_request_title">Vriendschapsverzoek</string>
+    <string name="preference_notification_friend_request_summary">Melding voor vriendschapsverzoek</string>
+    <string name="preference_notification_group_invite_title">Groepen</string>
+    <string name="preference_notification_group_invite_summary">Melding voor groepen</string>
+    <string name="preference_notification_page_invite_title">Pagina’s</string>
+    <string name="preference_notification_page_invite_summary">Melding voor pagina\'s</string>
+    <string name="preference_notification_photo_title">Foto’s</string>
+    <string name="preference_notification_photo_summary">Melding voor foto’s</string>
+    <string name="preference_notification_poke_title">Porren</string>
+    <string name="preference_notification_poke_summary">Melding voor porren</string>
+    <string name="preference_notification_stream_title">Andere berichten</string>
+    <string name="preference_notification_stream_summary">Melding voor andere berichten dan hierboven</string>
+    <string name="preference_notification_video_title">Video’s</string>
+    <string name="preference_notification_video_summary">Melding voor video’s</string>
+    <string name="preferences_notifications_interval">Interval</string>
+    <string name="preferences_notifications_permissions_title">Toestemmingen gevraagd</string>
+    <string name="preferences_notifications_permissions_message">Om meldingen te sturen, vragen wij u om opnieuw in te loggen om toestemming te krijgen van Facebook</string>
+    <string name="preference_notification_group_title">Groepsmeldingen</string>
+    <string name="preference_notification_group_summary">Meld slechts één keer bij het ontvangen van meerdere aanmeldingen</string>
+    <string name="preference_app_language_title">Applicatietaal</string>
+    <string name="preferences_app_language_dialog_title">Verander applicatietaal naar</string>
+    <string name="preference_fb_language_title">Facebooktaal</string>
+    <string name="preferences_fb_language_dialog_title">Verander facebooktaal naar</string>
+    <string name="preference_newsfeed_title">Nieuwsoverzicht</string>
+    <string name="preference_newsfeed_pages_title">Pagina’s</string>
+    <string name="preference_newsfeed_groups_title">Groepen</string>
+    <string name="preference_newsfeed_events_title">Evenementen</string>
+    <string name="preference_newsfeed_pages">Pagina’s toevoegen in nieuwsoverzicht</string>
+    <string name="preference_newsfeed_groups">Groepen toevoegen in nieuwsoverzicht</string>
+    <string name="preference_newsfeed_events">Evenementen toevoegen in nieuwsoverzicht</string>
+    <string name="preference_performances_title">Prestaties</string>
+    <string name="preference_performances_photo_effect_summary">Het effect uitzetten verbetert de prestaties</string>
+    <string name="preference_performances_photo_effect_title">Zet vervaag effect uit voor foto’s</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Het effect uitzetten verbetert de prestaties</string>
+    <string name="preference_performances_rounded_profile_picture_title">Zet ronde profielfoto’s aan</string>
+    <string name="preferences_view_pager_indicator_style_title">Pagina indicatorstijl</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Tabs</string>
+    <string name="preferences_view_pager_indicator_style_titles">Titels</string>
+    <string name="preferences_ui_title">Gebruikers interface</string>
+    <string name="preference_performances_pause_on_scroll_title">Afbeeldingen niet laden tijdens het scrollen</string>
+    <string name="preference_performances_pause_on_scroll_summary">Aangevinkt zullen de afbeeldingen niet laden tijdens het scrollen door de lijsten en je vinger(s) het scherm aanraken</string>
+    <string name="preference_performances_pause_on_fling_title">Pauzeer afbeeldingen laden tijdens het snel scrollen</string>
+    <string name="preference_performances_pause_on_fling_summary">Aangevinkt zullen de afbeeldingen niet laden tijdens het snel scrollen door de lijsten en je vinger(s) het scherm niet meer aanraken</string>
+    <string name="preference_performances_card_animation_title">Zet kaart animaties aan</string>
+    <string name="preference_performances_card_animation_summary">Kaart animaties uitzetten verbetert de prestaties</string>
+    <string name="preferences_main_activity_tabs_title">Hoofdtabbladen</string>
+    <string name="preferences_user_activity_tabs_title">Vriendentabbladen</string>
+    <string name="preferences_page_activity_tabs_title">Paginatabbladen</string>
+    <string name="preferences_event_activity_tabs_title">Evenementtabbladen</string>
+    <string name="preferences_group_activity_tabs_title">Groepstabbladen</string>
+    <string name="preference_images_title">Afbeeldingen</string>
+    <string name="preference_images_clear_cache_title">Maak afbeeldingscache vrij</string>
+    <string name="preference_images_clear_cache_summary">Verwijder gecashte afbeeldingen van externe opslag</string>
+    <string name="preference_images_cache_clearing">Verwijder gecashte afbeeldingen</string>
+    <string name="preference_images_cache_cleared">Gecashte afbeeldingen verwijderd</string>
+    <string name="preference_notification_interval_1_minute">Elke minuut</string>
+    <string name="preference_notification_interval_2_minutes">Elke 2 minuten</string>
+    <string name="preference_notification_interval_3_minutes">Elke 3 minuten</string>
+    <string name="preference_notification_interval_5_minutes">Elke 5 minuten</string>
+    <string name="preference_notification_interval_10_minutes">Elke 10 minuten</string>
+    <string name="preference_notification_interval_15_minutes">Elke 15 minuten</string>
+    <string name="preference_notification_interval_20_minutes">Elke 20 minuten</string>
+    <string name="preference_notification_interval_25_minutes">Elke 25 minuten</string>
+    <string name="preference_notification_interval_30_minutes">Elke 30 minuten</string>
+    <string name="preference_notification_interval_45_minutes">Elke 45 minuten</string>
+    <string name="preference_notification_interval_1_hour">Elk uur</string>
+    <string name="preference_notification_interval_2_hours">Elke 2 uur</string>
+    <string name="preference_notification_interval_3_hours">Elke 3 uur</string>
+    <string name="preference_notification_interval_4_hours">Elke 4 uur</string>
+    <string name="preference_notification_interval_5_hours">Elke 5 uur</string>
+    <string name="preference_notification_interval_6_hours">Elke 6 uur</string>
+    <string name="preference_notification_interval_7_hours">Elke 7 uur</string>
+    <string name="preference_notification_interval_8_hours">Elke 8 uur</string>
+    <string name="preference_notification_interval_twice_daily">Tweemaal daags</string>
+    <string name="preference_notification_interval_daily">Eénmaal daags</string>
+    <string name="preferences_notification_system_push">Push notificaties</string>
+    <string name="preferences_notification_system_periodic">Periodieke notificaties</string>
+    <string name="preferences_notification_system_both">Beiden</string>
+    <string name="preferences_notifications_system_title">Notificatiesysteem</string>
+    <string name="preferences_notifications_system_summary">Push notificaties kunnen mogelijks niet punctueel zijn.\nPeriodieke notificaties verbruiken meer batterij</string>
+    <string name="preference_notification_vibrate_title">Trillen</string>
+    <string name="preference_notification_ringtone_title">Beltoon</string>
+    <string name="preference_notifications_ringtone">Beltoon</string>
+    <string name="preference_notifications_song">Lied</string>
+    <string name="preference_notification_ringtone_chooser">Kies een beltoon </string>
+    <string name="preference_newsfeed_go_to_top_title">Toon de nieuwste melding na het laden van de nieuwste</string>
+    <string name="preference_newsfeed_go_to_top_summary">Wanneer aangevinkt zal de lijst met meldingen naar de top springen nadat de laatste melding ingeladen is</string>
+    <string name="preference_newsfeed_cut_long_post_title">Knip in lange berichten</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Indien ingeschakeld, zullen de berichten langer dan 10 lijnen worden geknipt</string>
+    <string name="preference_buy_pro_version_title">Koop de pro-versie</string>
+    <string name="preference_left_drawer_items_title">Linkse menutabbladen</string>
+    <string name="preference_alternative_newsfeed_title">Alternatieve nieuwsfeed</string>
+    <string name="preference_alternative_newsfeed_summary">Indien ingeschakeld, kies voor een andere methode om uw nieuwsfeed te krijgen</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Verjaardagen vandaag</string>
+    <string name="notification_birthday_today">%1$s\ is jarig !</string>
+    <string name="friends_birthday_today">%1$d vrienden zijn vandaag jarig !</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Vriendschapsverzoek</string>
+    <string name="notification_friendrequest_message">%1$s wilt je toevoegen als vriend</string>
+    <string name="new_friend_requests">Je hebt %1$d nieuwe vriendschapsverzoek(en)</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Je hebt %1$s nieuwe melding(en)</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied"> Meldingen toestemming geweigerd.\nGelieve toestemming te geven door op de refresh menu knop te drukken.</string>
+    <string name="notifications_unread_header_title">Ongelezen meldingen (%1$d)</string>
+    <string name="notifications_read_header_title">Oude meldingen</string>
+    <string name="notifications_friend_request_header_title">Vriendschapsverzoeken</string>
+    <string name="notifications_dismiss">Afwijzen</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">ontgrendel de donatie</string>
+    <string name="donate_code">Geef de code in</string>
+    <string name="thank_you_very_much">Dank u wel !</string>
+
+    <!-- Chat -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Video’s</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Sorry, Facebook staat niet toe dat applicaties van derden berichten plaatsen in groepen.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Uploaden van afbeeldingen</string>
+    <string name="uploading_image_of">Uploaden van afbeelding %1$d van %2$d</string>
+    <string name="upload_complete">Upload compleet</string>
+    <string name="n_uploaded_images">%1$d afbeeldingen geupload</string>
+    <string name="upload_error">Upload error</string>
+    <string name="file_not_found">Kan bestand %1$s niet vinden</string>
+    <string name="upload_photo_default_album_name">Muur (default)</string>
+
+    <!-- About -->
+    <string name="about_version">Versie %1$s</string>
+    <string name="about_activity_title">Over</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">All rights reserved</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Zend een mail</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Een suggestie ?\nEen fout gevonden ?\nLaat het weten !</string>
+    <string name="feedback_send_suggest">Zend een suggestie</string>
+    <string name="feedback_send_bug">Meld een fout</string>
+    <string name="feedback_g_plus_community">G+ gemeenschap</string>
+    <string name="restart">Herstart</string>
+    <string name="change_theme_need_restart">Een herstart is noodzakelijk om het thema toe te passen.</string>
+    <string name="change_app_language_need_restart">Een herstart is noodzakelijk om de nieuwe taal toe te passen.</string>
+    <string name="option_need_restart">Een herstart is noodzakelijk om deze optie toe te passen.</string>
+    <string name="soon">Binnenkort &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Verander log</string>
+    <string name="changelog_close">Sluiten</string>
+    <string name="changelog_activity_title">Verander log</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Advertenties</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Ik : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+	
+	<!-- User Activity -->
+    <string name="is_friend">Vriend</string>
+	<string name="confirm_friend_request">Bevestig vriendschapsverzoek</string>
+	<string name="send_friend_request">Verzend vriendschapsverzoek</string>
+	<string name="friend_request_sent">Vriendschapsverzoek verzonden</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Grid -->
+    <dimen name="klyph_grid_padding_left_right">16dp</dimen>
+    <dimen name="klyph_grid_padding_top_bottom">16dp</dimen>
+    <dimen name="klyph_stream_grid_padding_left_right">32dp</dimen>
+    <dimen name="klyph_grid_spacing">8dp</dimen>
+    <integer name="klyph_grid_num_column">3</integer>
+    
+    <!-- Album grid -->
+    <integer name="klyph_grid_album_photos_num_column">5</integer>
+    <integer name="klyph_gallery_num_column">6</integer>
+    
+    <!-- Stream link -->
+    <dimen name="stream_link_padding">12dp</dimen>
+    <dimen name="stream_link_image_size">40dp</dimen>
+    <dimen name="stream_link_image_margin_top">16dp</dimen>
+    <dimen name="stream_link_title_size">14sp</dimen>
+</resources>

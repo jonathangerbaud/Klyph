@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Action bar generated with http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html -->
+    
+    <style name="Klyph.ActionBar.Dark.Blue" parent="@style/Klyph.Dark">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_blue_dark</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Blue_dark</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Blue_dark</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Blue_dark</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Blue_dark</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Blue_dark</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_blue_dark</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_blue_dark</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Blue_dark</item>
+    </style>
+
+</resources>

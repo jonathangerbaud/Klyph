@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Noutati</string>
+    <string name="fragment_header_timeline">Timeline</string>
+    <string name="fragment_header_friends">Prieteni</string>
+    <string name="fragment_header_pages">Pagini</string>
+    <string name="fragment_header_about">Despre</string>
+    <string name="fragment_header_events">Evenimente</string>
+    <string name="fragment_header_birthdays">Zile de nastere</string>
+    <string name="fragment_header_albums">Albume</string>
+    <string name="fragment_header_infos">Informatii</string>
+    <string name="fragment_header_wall">Perete</string>
+    <string name="fragment_header_going">In asteptare</string>
+    <string name="fragment_header_maybe">Nehotarat</string>
+    <string name="fragment_header_declined">Nu particip</string>
+    <string name="fragment_header_invited">Invitat</string>
+    <string name="fragment_header_groups">Groupuri</string>
+    <string name="fragment_header_members">Membri</string>
+    <string name="fragment_header_photos">Poze</string>
+    <string name="fragment_header_threads">Subiecte</string>
+    <string name="fragment_header_followed_people">Persoane urmarite</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Log out</string>
+    <string name="menu_notifications">Notificari</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_messages">Mesaje</string>
+    <string name="menu_credits">Credite</string>
+    <string name="menu_send">Trimite</string>
+    <string name="menu_preferences">Preferinte</string>
+    <string name="menu_feedback">Sugestii/Bug-uri</string>
+    <string name="menu_donate">Doneaza</string>
+    <string name="menu_download">Descarcare</string>
+    <string name="menu_add_photos">Adauga fotografii</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Album nou</string>
+    <string name="create">Creeaza</string>
+    <string name="name">Nume</string>
+    <string name="location">Locatie</string>
+	<string name="camera">aparat foto</string>
+	
+    <!-- Buttons -->
+    <string name="request_error_retry">Reincercare</string>
+
+    <!-- Request errors -->
+    <string name="request_error">S-a produs o eroare.</string>
+    <string name="request_connexion_error">Eroare de conexiune.\nCheck your internet connection.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Nu se poate determina pozitia.</string>
+    <string name="choose_place">Alege o locatie</string>
+
+    <!-- General -->
+    <string name="close">Inchide</string>
+    <string name="open">Deschide</string>
+    <string name="refresh">Reimprospatare</string>
+    <string name="share">Imparte</string>
+    <string name="defaultString">Default</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Alege fotografii</string>
+    <string name="thread_activity_title">Mesaje</string>
+    <string name="notification_activity_title">Notificari</string>
+    <string name="credentials_activity_title">Credite</string>
+    <string name="donate_activity_title">Doneaza</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Public</string>
+    <string name="menu_privacy_friends">Prieteni</string>
+    <string name="menu_privacy_self">Numai eu</string>
+
+    <!-- FR Values -->
+    <string name="like">Imi place</string>
+    <string name="unlike">Nu imi place</string>
+    <string name="people_who_likes_this">Persoane care apreciaza asta</string>
+    <string name="comment">Comentariu</string>
+    <string name="number_of_comments">%s comentarii</string>
+    <string name="number_of_people_who_like_it">%s le place asta</string>
+    <string name="you_and_other_people_who_like_it">Tu si %s persoane apreciaza asta</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d secunde in urma</string>
+    <string name="one_minute_ago">Acum un minut</string>
+    <string name="minutes_ago">%d minute in urma</string>
+    <string name="one_hour_ago">acum o ora</string>
+    <string name="hours_ago">%d ore inainte</string>
+    <string name="one_day_ago">Acum o zi</string>
+    <string name="days_ago">%d zile in urma</string>
+    <string name="one_month_ago">Acum o luna</string>
+    <string name="months_ago">%d luni in urma</string>
+    <string name="years_ago">%d an(i) in urma</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Alege calitatea</string>
+    <string name="dialog_video_quality_message">vizualizeaza editie standard (SD) sau editie high-definition (HD) ?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s adaugate %2$s poze in albumul %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— cu %1$s</string>
+    <string name="post_with_two_friends">— cu %1$s si %2$s</string>
+    <string name="post_with_several_friends">— cu %1$s si %2$s alti prieteni</string>
+    <string name="with_several_friends">%1$s alti prieteni</string>
+    <string name="at_place">— la %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Anulare</string>
+    <string name="error">Eroare</string>
+    <string name="please_enter_message">introduceti mesaj</string>
+    <string name="must_select_place_to_tag_friends">Pentru a eticheta pritenii, alegeti o locatie.</string>
+    <string name="status">Stare</string>
+    <string name="publishing">Publicare&#8230;</string>
+    <string name="status_successfully_published">Noua ta stare a fost publicata.</string>
+    <string name="message_successfully_published">mesajul tau a fost publicat.</string>
+    <string name="publish_unknown_error">nu se poate publica starea.</string>
+    <string name="publish_message_unknown_error">Nu se poate publica mesajul.</string>
+    <string name="publish_error_duplicate_message">Ai introdus deja aceasta stare.</string>
+    <string name="publish_new_status">Publica o noua stare.</string>
+    <string name="publish_new_event_message">Publica un nou mesaj.</string>
+    <string name="friends">Prieteni</string>
+    <string name="post_hint">Mesajul tau</string>
+    <string name="post_link_malformated_url">Legatura este invalida</string>
+    <string name="post_link_malformated_image_url">legatura(url) imaginii este invalida</string>
+    <string name="post_link_empty_name">Introduceti un nume.</string>
+    <string name="post_share_status">Imparte o stare</string>
+    <string name="post_share_photo">Imparte o poza</string>
+    <string name="post_share_video">Imparte un video</string>
+    <string name="post_share_link">Imparte un link</string>
+    <string name="post_share_album">Imparte pe</string>
+    <string name="post_share_on_my_wall">Peretele meu</string>
+    <string name="post_share_on_friend_wall">Imparte pe peretele unui prieten</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Publica poze noi</string>
+    <string name="creating_album">Creare album &#8230;</string>
+    <string name="must_select_photos">Selectati pozele pentru upload</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Confirmare</string>
+    <string name="delete_post_confirmation_message">Esti sigur ca vrei sa stergi acest mesaj ?</string>
+    <string name="delete_post_error">Nu se poate sterge mesajul.</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="delete">Sterge</string>
+    <string name="deleting">Stergere&#8230;</string>
+    <string name="post_deleted">Mesaj sters.</string>
+    <string name="like_error">Nu se poate da like.</string>
+    <string name="unlike_error">Nu se poate da unlike.</string>
+    <string name="stream_date">%1$s la %2$s</string>
+    <string name="stream_today_date">Azi la %1$s</string>
+    <string name="stream_yesterday_date">Ieri la %1$s</string>
+    <string name="newsfeed_new_stream">O publicare noua</string>
+    <string name="newsfeed_new_streams">%1$d publicari noi</string>
+
+    <!-- Event -->
+    <string name="event_by">de catre %1$s</string>
+    <string name="event_description">Descriere</string>
+    <string name="event_practical_information">Informatii practice</string>
+    <string name="event_date">Data</string>
+    <string name="event_place">Locatie</string>
+    <string name="event_secret">Numai prin invitatie</string>
+    <string name="event_friends">Prieteni</string>
+    <string name="event_public">Eveniment public</string>
+    <string name="event_closed">Eveniment terminat</string>
+    <string name="event_will_attend_title">Voi participa ?</string>
+    <string name="event_going">Alatura-te</string>
+    <string name="event_unsure">Poate</string>
+    <string name="event_declined">Nu</string>
+    <string name="event_num_invitee">%1$s persoane invitate</string>
+    <string name="event_num_attending">%1$s persoane participa</string>
+    <string name="event_num_unsure">%1$s ppersoane sunt nehotarate</string>
+    <string name="event_num_declined">%1$s persoane nu participa</string>
+    <string name="event_response_dialog_title">Raspuns</string>
+    <string name="event_response_dialog_message">Trimitere raspuns&#8230;</string>
+    <string name="event_response_ok">Raspunsul tau a fost trimis</string>
+    <string name="event_response_error">A intervenit o eroare in momentul trimiterii raspunsului.\Incercati mai tarziu.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Zi de nastere</string>
+    <string name="user_sex">Sex</string>
+    <string name="user_meeting_sex">interesat de</string>
+    <string name="user_relationship_status">Starea relatiei</string>
+    <string name="user_religion">Vizualizari religioase</string>
+    <string name="user_political">Vizualizari politice</string>
+    <string name="user_phones">Telefoane</string>
+    <string name="user_address">Adresa</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Retele</string>
+    <string name="user_activities">Activitati</string>
+    <string name="user_books">Carti</string>
+    <string name="user_inspirational_people">Oameni care te inspira</string>
+    <string name="user_interests">Interese</string>
+    <string name="user_movies">Filme</string>
+    <string name="user_music">Muzica</string>
+    <string name="user_sports">Sportsuri</string>
+    <string name="user_tv">Show-uri TV</string>
+    <string name="user_quotes">Zicale</string>
+    <string name="user_website">Pagina web</string>
+    <!-- Work -->
+    <string name="work_date">%1$s la %2$s</string>
+    <string name="work_date_until_today">%1$s pana in prezent</string>
+    <!-- Education -->
+    <string name="education_year">Clasa a %1$s</string>
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s si %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s si %3$d altii</string>
+    <string name="thread_and_others">%1$d altii</string>
+    <!-- UserLikeDialog -->
+    <string name="user_like">Persoane care apreciaza asta</string>
+    <!-- Post Activity -->
+    <string name="select_privacy">Intimitate</string>
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d ani</string>
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Alege prieteni</string>
+    <string name="friend_picker_single_choice_title">Alege prieten</string>
+    <string name="search_friends">Cauta prieteni</string>
+    <string name="several_friends_selected">%1$d prieteni selectati</string>
+    <string name="one_friend_selected">1 prieten selectat</string>
+    <string name="no_friend_selected">Niciun prieten selectat</string>
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d imagini selectate</string>
+    <string name="one_photo_selected">O imagine selectata</string>
+    <string name="no_photo_selected">Nicio imagine selectata</string>
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Nu se gaseste imaginea</string>
+    <!-- Stream Fragment -->
+    <string name="post_comment">Posteaza un comentariu</string>
+    <string name="comments_disabled">Comentarii dezactivate</string>
+    <string name="publish_comment_dialog_title">Comentariu</string>
+    <string name="publish_comment_dialog_message">Publicare&#8230;</string>
+    <string name="publish_comment_ok">Comentariul tau a fost publicat.</string>
+    <string name="publish_comment_error">A intervenit o eroare in momentul postarii comentariului.\nTe rugam incearca mai tarziu.</string>
+    <string name="several_comments">%1$d comentarii</string>
+    <string name="one_comment">Un comentariu</string>
+    <string name="no_comment">Niciun comentariu</string>
+    <string name="define_comment_before_publish">introduceti comentariul vostru</string>
+    <string name="several_likes">%1$d persoanel apreciaza asta</string>
+    <string name="one_like">1 persoane apreciaza asta</string>
+    <string name="no_like">0 persoane apreciaza asta</string>
+    <string name="cannot_find_post">nu se gaseste publicarea</string>
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Aranjare lista imagini inainte de descarcare &#8230;</string>
+    <string name="fetch_videos_from_album">Aranjare lista video-uri inainte de descarcare &#8230;</string>
+    <string name="tagged_photos_of">Fotografiile %1$s</string>
+    <!-- User about -->
+    <string name="family">Familie</string>
+    <string name="others">Altele</string>
+    <string name="work">Loc de munca</string>
+    <string name="education">Educatie</string>
+    <string name="user_about">ADespre</string>
+    <string name="user_about_sex">Sex : %1$s</string>
+    <string name="user_about_birthday">Nascut pe %1$s</string>
+    <string name="user_about_ralationship_status">Stare relatie : %1$s</string>
+    <!-- Page about -->
+    <string name="page_about">Despre</string>
+    <string name="noone_talk_about_it">Nimeni nu discuta despre</string>
+    <string name="one_talk_about_it">1 persoana discuta despre</string>
+    <string name="several_talk_about_it">%1$s persoane discuta despre</string>
+    <string name="page_base_infos">Informatii de baza</string>
+    <string name="description">Descriere</string>
+    <string name="mission">Misiune</string>
+    <string name="coordinates">Coordonate</string>
+    <string name="general_infos">Informatii generale</string>
+    <string name="artists_we_like">Artisti pe care ii placem</string>
+    <string name="band_interests">trupe preferate</string>
+    <string name="band_bio">Biografie</string>
+    <string name="band_members">Membri</string>
+    <string name="founded">Infiintat</string>
+    <string name="genre">Gen</string>
+    <string name="band_current_location">Locatie curenta</string>
+    <string name="band_hometown">Domiciliul</string>
+    <string name="band_record_label">Label-ul de inregistrare</string>
+    <string name="band_influences">Influente</string>
+    <string name="band_press_contact">Contact presa</string>
+    <string name="band_booking_agent">Impresar</string>
+    <string name="band_general_manager">Manager general</string>
+    <string name="company_products">Privire de ansamblu</string>
+    <string name="hours">ore</string>
+    <string name="public_transit">Transport in comun</string>
+    <string name="restaurant_food_styles">Feluri de mancare</string>
+    <string name="restaurant_culinar_team">Echipa culinara</string>
+    <string name="restaurant_prices">Preturi</string>
+    <string name="restaurant_attire">Attire</string>
+    <string name="restaurant_services">Servicii</string>
+    <string name="restaurant_specialties">Specialitati</string>
+    <string name="restaurant_parking">Parcare</string>
+    <string name="breakfast">Mic dejun</string>
+    <string name="lunch">Masa in timpul zilei</string>
+    <string name="dinner">Cina</string>
+    <string name="coffee">Cafea</string>
+    <string name="drinks">Bauturi</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Numai cash</string>
+    <string name="discover">Descopera</string>
+    <string name="reserve">Faceti rezervari</string>
+    <string name="walkins">Walk-ins welcome</string>
+    <string name="groups">Bun pentru grupuri</string>
+    <string name="kids">Bun pentru copii</string>
+    <string name="takeout">Take Out</string>
+    <string name="delivery">Livrare</string>
+    <string name="waiter">Waiter service</string>
+    <string name="catering">Catering</string>
+    <string name="outdoor">Outdoor seating</string>
+    <string name="street">Strada</string>
+    <string name="lot">Loc parcare</string>
+    <string name="valet">Valet</string>
+    <string name="monday">Luni</string>
+    <string name="tuesday">Marti</string>
+    <string name="wednesday">Miercuri</string>
+    <string name="thursday">Joi</string>
+    <string name="friday">Vineri</string>
+    <string name="saturday">Sambata</string>
+    <string name="sunday">Duminica</string>
+    <string name="plot_outline">Plot outline</string>
+    <string name="network">Retea</string>
+    <string name="season">Sezon</string>
+    <string name="schedule">Schedule</string>
+    <string name="starring">In rolul principal</string>
+    <string name="written_by">Scris de</string>
+    <string name="awards">Premii<Informatii></Informatii></string>
+    <string name="personal_interests">Interese personale</string>
+    <string name="phone">Telefon</string>
+    <string name="release_date">Data aparitie</string>
+    <string name="studio">Studio</string>
+    <string name="directed_by">Directed by</string>
+    <string name="screenplay_by">Screenplay</string>
+    <string name="affiliation">Afilieri</string>
+    <string name="built">Creat</string>
+    <string name="features">Proprietati</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Informatii de siguranta farmaceutica</string>
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Niciun user</string>
+    <string name="empty_list_no_friend">Niciun prieten</string>
+    <string name="empty_list_no_page">Nicio pagina</string>
+    <string name="empty_list_no_event">Niciun eveniment</string>
+    <string name="empty_list_no_album">Niciun album</string>
+    <string name="empty_list_no_photo">Nicio imagine</string>
+    <string name="empty_list_no_video">Niciun video</string>
+    <string name="empty_list_no_birthday" Niciun="" mesaj=""></string>
+    <string name="empty_list_no_notification">Nicio notificare</string>
+    <string name="empty_list_no_stream">Nicio noutate</string>
+    <string name="empty_list_no_data">Nicio data</string>
+    <string name="empty_list_no_group">Niciun grup</string>
+    <string name="empty_list_no_member">Niciun membru</string>
+    <!-- Credentials -->
+    <string name="credentials_apis">API-uri</string>
+    <string name="credentials_icons">Iconite</string>
+    <string name="credentials_translators">Traducatori</string>
+    <!-- Preferences -->
+    <string name="preferences">Preferinte</string>
+    <string name="preference_theme_title">Tema</string>
+    <string name="preferences_themes_dialog_title">Alege o tema</string>
+    <string name="preference_about_title">Despre</string>
+    <string name="preference_credits_title">Credite</string>
+    <string name="preference_credits_apis_title">API-uri</string>
+    <string name="preference_credits_icons_title">Iconite</string>
+    <string name="preference_credits_tools_title">Unelte</string>
+    <string name="preference_changelog_title">Log de schimbari</string>
+    <string name="preference_notifications_title">Notificari</string>
+    <string name="preference_notification_title">Notificare</string>
+    <string name="preference_notification_summary">Activeaza notificari</string>
+    <string name="preference_notification_type_title">Tipuri de noticari</string>
+    <string name="preference_notification_birthday_title">Zile de nastere</string>
+    <string name="preference_notification_birthday_summary">Notificari zile de nastere</string>
+    <string name="preferences_notification_birthday_time_title">Momentul de reamintire zi nastere</string>
+    <string name="preferences_notification_birthday_time_summary">Momentul de notificare a zilelor de nastere pentru azi</string>
+    <string name="preference_notification_event_title">Evenimente</string>
+    <string name="preference_notification_event_summary">Notificari evenimente</string>
+    <string name="preference_notification_photo_title">Imagini</string>
+    <string name="preference_notification_photo_summary">Notificari imagini</string>
+    <string name="preference_notification_video_title">Video-uri</string>
+    <string name="preference_notification_video_summary">Notificari video-uri</string>
+    <string name="preference_notification_page_invite_title">Pagini</string>
+    <string name="preference_notification_page_invite_summary">Notificari cand esti invitat sa placi o pagina</string>
+    <string name="preference_notification_group_invite_title">Groupuri</string>
+    <string name="preference_notification_group_invite_summary">Notificari cand esti invitat intr-un grup</string>
+    <string name="preference_notification_friend_request_title">Cereri prietenie</string>
+    <string name="preference_notification_friend_request_summary">Notificare cereri prietenie</string>
+    <string name="preference_notification_message_title">Mesaje</string>
+    <string name="preference_notification_message_summary">Notificari mesaje</string>
+    <string name="preference_notification_stream_title">Postari</string>
+    <string name="preference_notification_stream_summary">Notificari postari altele decat acestea de mai jos</string>
+    <string name="preferences_notifications_interval">Interval</string>
+    <string name="preferences_notifications_permissions_title">Permisiuni necesare</string>
+    <string name="preferences_notifications_permissions_message">Pentru a primi notificari,va rugam sa va relog-ati pentru a primi acces de la Facebook</string>
+    <string name="preference_notification_group_title">Notificari grup</string>
+    <string name="preference_notification_group_summary">Notifica o singura data pentru mai multe notificari</string>
+    <string name="preference_app_language_title">Limba aplicatie</string>
+    <string name="preferences_app_language_dialog_title">Schimba limba in</string>
+    <string name="preference_fb_language_title">Limba facebook</string>
+    <string name="preferences_fb_language_dialog_title">Schimba limba facebook in</string>
+    <string name="preference_newsfeed_title">Noutati</string>
+    <string name="preference_newsfeed_pages_title">Pagini</string>
+    <string name="preference_newsfeed_groups_title">Grupuri</string>
+    <string name="preference_newsfeed_events_title">Evenimente</string>
+    <string name="preference_newsfeed_pages">Include stream-ul paginilor in Noutati</string>
+    <string name="preference_newsfeed_groups">Include stream-ul grupurilor in Noutati</string>
+    <string name="preference_newsfeed_events">Include stream-ul evenimentelor in Noutati</string>
+    <string name="preference_performances_title">Performanta</string>
+    <string name="preference_performances_photo_effect_summary">Dezactivare efectelor creste performanta</string>
+    <string name="preference_performances_photo_effect_title">Activeaza efectul fade pentru poze</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Dezactivarea efectului creste performanta</string>
+    <string name="preference_performances_rounded_profile_picture_title">Activeaza imagini profil rotunjite</string>
+    <string name="preferences_view_pager_indicator_style_title">Stil indicator vizualizare pagina</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Taburi</string>
+    <string name="preferences_view_pager_indicator_style_titles">Titluri</string>
+    <string name="preferences_ui_title">Interfata utilizator</string>
+    <string name="preference_performances_pause_on_scroll_title">Opriti incarcare imagini in timpul glisarii pe ecran</string>
+    <string name="preference_performances_pause_on_scroll_summary">Cand este activat, imaginile nu se incarca cand glisati sau atingeti ecranul cu degetele</string>
+    <string name="preference_performances_pause_on_fling_title">Opriti incarcarea imaginii in timpul glisarii</string>
+    <string name="preference_performances_pause_on_fling_summary">Cand e activat, imaginile nu sunt incarcate in timp ce glisati si degetele voastre numai ating ecranul</string>
+    <string name="preference_performances_card_animation_title">Activeaza animatii carti de joc</string>
+    <string name="preference_performances_card_animation_summary">Dezactivarea animatiilor carti de joc creste performanta</string>
+    <string name="preferences_main_activity_tabs_title">Taburi principale</string>
+    <string name="preferences_user_activity_tabs_title">Taburile de prieteni</string>
+    <string name="preferences_page_activity_tabs_title">Taburile de pagina</string>
+    <string name="preferences_event_activity_tabs_title">Taburile evenimente</string>
+    <string name="preferences_group_activity_tabs_title">Taburile Grupuri</string>
+    <string name="preference_images_title">Imagini</string>
+    <string name="preference_images_clear_cache_title">Curata cache imagini</string>
+    <string name="preference_images_clear_cache_summary">Sterge imagini cache din media extern</string>
+    <string name="preference_images_cache_clearing">Stergere imagini cache</string>
+    <string name="preference_images_cache_cleared">Imaginile din cache sterse</string>
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Zile de nastere azi</string>
+    <string name="notification_birthday_today">Este a %1$s\'s zi de nastere !</string>
+    <string name="friends_birthday_today">%1$d isi serbeaza azi ziua de nastere !</string>
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Cereri prietenie</string>
+    <string name="notification_friendrequest_message">%1$s vrea sa te adauge ca prieten</string>
+    <string name="new_friend_requests">Aveti %1$d cereri prietenie noi</string>
+    <!-- Notification Service -->
+    <string name="new_notifications">Aveti %1$s notificari noi</string>
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Nu sunt permise notificarile.\nVa rugam permiteti accesul notificarilor.</string>
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Deblocati donatia</string>
+    <string name="donate_code">Introduceti cod</string>
+    <string name="thank_you_very_much">Va multumim !</string>
+    <!-- Chat -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <!-- Video -->
+    <string name="video_album_name">Video-uri</string>
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Ne pare rau facebook nu permite aplicatiei sa posteze in grup.</string>
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Upload imagini</string>
+    <string name="uploading_image_of">Upload imagine %1$d of %2$d</string>
+    <string name="upload_complete">Upload complet</string>
+    <string name="n_uploaded_images">%1$d imagini upload-ate</string>
+    <string name="upload_error">Eroare upload</string>
+    <string name="file_not_found">Nu se gaseste fisierul %1$s</string>
+    <string name="upload_photo_default_album_name">Perete (default)</string>
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_activity_title">Despre</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Toate dreprturile rezervate</string>
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Trimite un mail</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Sugestii ?\nAi gasit un bug ?\nLet us know !</string>
+    <string name="feedback_send_suggest">Trimite o sugestie</string>
+    <string name="feedback_send_bug">Raportati un bug</string>
+    <string name="restart">Restart</string>
+    <string name="change_theme_need_restart">Restartati pentru aplicare tema.</string>
+    <string name="change_app_language_need_restart">Restartati pentru aplicare limba noua.</string>
+    <string name="option_need_restart">Restartati pentru aplicare optiune.</string>
+    <string name="soon">Curand &#8230;</string>
+    <!-- Change log -->
+    <string name="title_changelog">Schimba log</string>
+    <string name="changelog_close">Inchide</string>
+    <string name="changelog_activity_title">Schimba log</string>
+	<string name="preference_buy_pro_version_title">Cumpăra versiunea Pro</string>
+	
+	<string name="my_last_message">Me : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+</resources>

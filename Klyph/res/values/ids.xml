@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="view_holder" type="id"/>
+    <item name="view_data" type="id"/>
+    <item name="image_uri_key" type="id"/>
+    <item name="gallery_image_loader" type="id"/>
+    <item name="menu_logout" type="id"/>
+    <item name="menu_notifications" type="id"/>
+    <item name="menu_chat" type="id"/>
+    <item name="menu_messages" type="id"/>
+    <item name="menu_refresh" type="id"/>
+    <item name="menu_send" type="id"/>
+    <item name="menu_delete" type="id"/>
+    <item name="menu_settings" type="id"/>
+    <item name="menu_post" type="id"/>
+    <item name="menu_like" type="id"/>
+    <item name="menu_feedback" type="id"/>
+    <item name="menu_add_friend" type="id"/>
+    <item name="menu_donate" type="id"/>
+    <item name="menu_download" type="id"/>
+    <item name="menu_add" type="id"/>
+    <item name="menu_share" type="id"/>
+    <item name="menu_dismiss" type="id"/>
+    <item name="menu_take_photo" type="id"/>
+    <item name="menu_share_with" type="id"/>
+    <item name="menu_view_profile" type="id"/>
+    <item name="menu_copy_text" type="id"/>
+    <item name="menu_see_who_likes_this" type="id"/>
+    <item name="menu_buy_pro" type="id"/>
+    <item name="menu_faq" type="id"/>
+    
+    <!-- G+ stuff -->
+    <item name="list_layout_parent" type="id"/>
+
+</resources>

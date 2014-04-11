@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Klyph.ListItem.Stream"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/ckoobafe_item_padding"
+    android:paddingRight="@dimen/ckoobafe_item_padding" >
+
+    <TextView
+        style="@style/Klyph.ListItem.TitleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dip_16"
+        android:paddingTop="@dimen/dip_8"
+        android:text="@string/event_practical_information" />
+
+    <LinearLayout
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/dip_32"
+            android:layout_height="@dimen/dip_32"
+            android:layout_gravity="center"
+            android:src="?attr/calendarIcon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_8"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/Klyph.ListItem.PrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/event_date" />
+
+            <TextView
+                android:id="@+id/event_date"
+                style="@style/Klyph.ListItem.SecondaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/hdivider" />
+
+    <LinearLayout
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/dip_32"
+            android:layout_height="@dimen/dip_32"
+            android:layout_gravity="center"
+            android:src="?attr/locationIcon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_8"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/Klyph.ListItem.PrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/event_place" />
+
+            <TextView
+                android:id="@+id/event_place"
+                style="@style/Klyph.ListItem.SecondaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dip_16"
+        android:background="@android:color/transparent"
+        android:lineSpacingMultiplier="1.3"
+        android:paddingBottom="@dimen/klyph_stream_item_part_padding"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textIsSelectable="true" />
+
+</LinearLayout>

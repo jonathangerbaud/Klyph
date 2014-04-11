@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GCM -->
+    <string name="gcm_error_config">Παρακαλώ θέστε την %1$s σταθερά και επανασυντάξετε την εφαρμογή.</string>
+    <string name="gcm_already_registered">Η συσκευή είναι ήδη εγγεγραμένη στον διακομιστή.</string>
+    <string name="gcm_registered">Από GCM: η συσκευή εγγράφηκε επιτυχώς!</string>
+    <string name="gcm_unregistered"> Από GCM: η συσκευή διαγράφθηκε επιτυχώς!</string>
+    <string name="gcm_message">Από GCM: έχετε μήνυμα!</string>
+    <string name="gcm_error">Από GCM: Σφάλμα (%1$s).</string>
+    <string name="gcm_recoverable_error">Από GCM: ανακτήσιμο σφάλμα (%1$s).</string>
+    <string name="gcm_deleted">Από GCM: Διακομιστής διαφράφθηκε. Εκκρεμούν %1$d  μηνύματα!</string>
+    <string name="gcm_server_registering">Δοκιμή (προσπάθεια %1$d/%2$d) εγγραφής της συσκευής σε δοκιμαστικό διακομιστή.</string>
+    <string name="gcm_server_registered">Από δοκιμαστικό διακομιστή: Η συσκευή εγγράφηκε επιτυχώς!</string>
+    <string name="gcm_server_unregistered"> Από δοκιμαστικό διακομιστή: Η συσκευή διαγράφθηκε επιτυχώς!</string>
+    <string name="gcm_server_register_error">Σφάλμα εγγραφής στο διακομιστή μετά από %1$d προσπάθειες.</string>
+    <string name="gcm_server_unregister_error"> Σφάλμα διαγραφής από το διακομιστή (%1$s).</string>
+    <string name="gcm_options_register">Εγγραφή</string>
+    <string name="gcm_options_unregister">Διαγραφή</string>
+    <string name="gcm_options_clear">Καθαρισμός</string>
+    <string name="gcm_options_exit">Έξοδος</string>
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Ενημερώσεις</string>
+    <string name="fragment_header_timeline">Χρονολόγιο</string>
+    <string name="fragment_header_friends">Φίλοι</string>
+    <string name="fragment_header_pages">Σελίδες</string>
+    <string name="fragment_header_about">Σχετικά</string>
+    <string name="fragment_header_events">Γεγονότα</string>
+    <string name="fragment_header_birthdays">Γενέθλια</string>
+    <string name="fragment_header_albums">Άλμπουμ</string>
+    <string name="fragment_header_infos">Πληροφορίες</string>
+    <string name="fragment_header_wall">Τοίχος</string>
+    <string name="fragment_header_going">Θα παρευρεθώ</string>
+    <string name="fragment_header_maybe">Δε ξέρω</string>
+    <string name="fragment_header_declined">Όχι</string>
+    <string name="fragment_header_invited">Πρόσκληση</string>
+    <string name="fragment_header_groups">Ομάδες</string>
+    <string name="fragment_header_members">Μέλη</string>
+    <string name="fragment_header_photos">Φωτογραφίες</string>
+    <string name="fragment_header_threads">Threads</string>
+    <string name="fragment_header_followed_people">Ακόλουθοι</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Έξοδος</string>
+    <string name="menu_notifications">Ειδοποιήσεις</string>
+    <string name="menu_chat">Συζήτηση</string>
+    <string name="menu_messages">Μηνύματα</string>
+    <string name="menu_credits">Credits</string>
+    <string name="menu_send">Αποστολή</string>
+    <string name="menu_preferences">Προτιμήσεις</string>
+    <string name="menu_feedback">Προτείνετε/Σφάλματα</string>
+    <string name="menu_donate">Χορηγία</string>
+    <string name="menu_download">Αποθήκευση</string>
+    <string name="menu_add_photos">Προσθήκη φωτογραφίας</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Τίτλος άλμπουμ :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Νέο άλμπουμ</string>
+    <string name="create">Δημιουργία</string>
+    <string name="name">Όνομα</string>
+    <string name="location">Τοποθεσία</string>
+	<string name="camera">κάμερα</string>
+	
+    <!-- Buttons -->
+    <string name="request_error_retry">Επανάληψη</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Παρουσιάστηκε ένα σφάλμα.</string>
+    <string name="request_connexion_error">Σφάλμα σύνδεσης.\nΕλέγξτε τη σύνδεση στο διαδίκτυο.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Αδυναμία εύρεσης τοποθεσίας.</string>
+    <string name="choose_place">Διαλέξτε μέρος</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="open">Άνοιγμα</string>
+    <string name="refresh">Ανανέωση</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Επιλογή φωτογραφιών</string>
+    <string name="thread_activity_title">Μηνύματα</string>
+    <string name="notification_activity_title">Ειδοποιήσεις</string>
+    <string name="credentials_activity_title">Credits</string>
+    <string name="donate_activity_title">Χορηγία</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Δημόσια</string>
+    <string name="menu_privacy_friends">Φίλοι</string>
+    <string name="menu_privacy_self">Μόνο εγώ</string>
+
+    <!-- FR Values -->
+    <string name="like">Μου αρέσει</string>
+    <string name="unlike">Δε μου αρέσει</string>
+    <string name="people_who_likes_this">Φίλοι που τους αρέσει</string>
+    <string name="comment">Σχόλιο</string>
+    <string name="number_of_comments">%s σχόλια</string>
+    <string name="number_of_people_who_like_it">%s αρέσει αυτό</string>
+    <string name="you_and_other_people_who_like_it">Σε εσένα και %s αρέσει</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">Πριν %d δευτερόλεπτα</string>
+    <string name="one_minute_ago">Πριν ένα λεπτό</string>
+    <string name="minutes_ago">Πριν %d λεπτά</string>
+    <string name="one_hour_ago">Πριν μια ώρα</string>
+    <string name="hours_ago">Πριν %d ώρες</string>
+    <string name="one_day_ago">Πριν μία ημέρα</string>
+    <string name="days_ago">Πριν %d ημέρες</string>
+    <string name="one_month_ago">Πριν ένα μήνα</string>
+    <string name="months_ago">Πριν %d μήνες</string>
+    <string name="years_ago">Πριν %d χρόνια</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Επιλέξτε ποιότητα</string>
+    <string name="dialog_video_quality_message">Παρακολουθήστε σε κανονική ανάλυση (SD) ή σε υψηλή ανάλυση (HD) ?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">Ο χρήστης %1$s προσέθεσε %2$s φωτογραφίες στο άλμπουμ %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— Μαζί με %1$s</string>
+    <string name="post_with_two_friends">— Μαζί με %1$s και %2$s</string>
+    <string name="post_with_several_friends">— Μαζί με %1$s και %2$s άλλους φίλους</string>
+    <string name="with_several_friends">Με %1$s ακόμα φίλους</string>
+    <string name="at_place">— σε %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="error">Σφάλμα</string>
+    <string name="please_enter_message">Παρακαλώ γράψτε το μήνυμά σας</string>
+    <string name="must_select_place_to_tag_friends">Για να επισημάνετε φίλους, πρέπει πρώτα να διαλέξετε τοποθεσία.</string>
+    <string name="status">Κατάσταση</string>
+    <string name="publishing">Δημοσίευση&#8230;</string>
+    <string name="status_successfully_published">Η νέα σας κατάσταση δημοσιεύτηκε.</string>
+    <string name="message_successfully_published">Το μήνυμά σας απεστάλη.</string>
+    <string name="publish_unknown_error">Αδυναμία κοινποίησης κατάστασης.</string>
+    <string name="publish_message_unknown_error">Αδυναμία αποστολής μηνύματος.</string>
+    <string name="publish_error_duplicate_message">Αυτό είναι ήδη η παλιά σας κατάσταση.</string>
+    <string name="publish_new_status">Κοινοποιήστε νέα κατάσταση.</string>
+    <string name="publish_new_event_message">Κοινοποιήστε ένα νέο μήνυμα.</string>
+    <string name="friends">Φίλοι</string>
+    <string name="post_hint">Το μήνυμά σας</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Κοινποιήστε νέες φωτογραφίες</string>
+    <string name="creating_album">Δημιουργία άλμπουμ &#8230;</string>
+    <string name="must_select_photos">Επιλέξτε φωτογραφίες για ανέβασμα </string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Επιβεβαίωση</string>
+    <string name="delete_post_confirmation_message">Θέλετε σίγουρα να διαγράψετε αυτό το μήνυμα?</string>
+    <string name="delete_post_error">Αδυναμία διαγραφής μηνύματος.</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="deleting">Διαγραφή&#8230;</string>
+    <string name="post_deleted">Το μήνυμα διαγράφτηκε.</string>
+    <string name="like_error">Αδυναμία «Μου αρέσει».</string>
+    <string name="unlike_error">Αδυναμία «Δε μου αρέσει».</string>
+    <string name="stream_date">%1$s την %2$s</string>
+    <string name="stream_today_date">Σήμερα στις %1$s</string>
+    <string name="stream_yesterday_date">Χθες στις %1$s</string>
+    <string name="newsfeed_new_streams">%1$d νέες ιστορίες</string>
+
+    <!-- Event -->
+    <string name="event_by">από %1$s</string>
+    <string name="event_description">Περιγραφή</string>
+    <string name="event_practical_information">Πρακτικές πληροφορίες</string>
+    <string name="event_date">Ημερομηνία</string>
+    <string name="event_place">Τοποθεσία</string>
+    <string name="event_secret">Με πρόσκληση μόνο</string>
+    <string name="event_friends">Φίλοι</string>
+    <string name="event_public">Δημόσιο γεγονός</string>
+    <string name="event_closed">Κλειστό γεγονός</string>
+    <string name="event_will_attend_title">Θα παρευρεθώ ?</string>
+    <string name="event_going">Ναι</string>
+    <string name="event_unsure">Ίσως</string>
+    <string name="event_declined">Όχι</string>
+    <string name="event_num_invitee">%1$s είναι καλεσμένοι</string>
+    <string name="event_num_attending">%1$s θα παρευρεθούν</string>
+    <string name="event_num_unsure">%1$s ίσως παρευρεθούν</string>
+    <string name="event_num_declined">%1$s δε θα παρευρεθούν</string>
+    <string name="event_response_dialog_title">Απάντηση</string>
+    <string name="event_response_dialog_message">Αποστολή απάντησης&#8230;</string>
+    <string name="event_response_ok">Η απάντησή σας στάλθηκε</string>
+    <string name="event_response_error">Σφάλμα κατά την αποστολή της απάντησής σας.\nΠαρακαλώ δοκιμάστε αργότερα.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Γενέθλια</string>
+    <string name="user_sex">Φύλο</string>
+    <string name="user_meeting_sex">Ενδιαφέρεται για</string>
+    <string name="user_relationship_status">Κατάσταση σχέσης</string>
+    <string name="user_religion">Θρησκευτικές πεποιθήσεις</string>
+    <string name="user_political">Πολιτικές απόψεις</string>
+    <string name="user_phones">Τηλέφωνα</string>
+    <string name="user_address">Address</string>
+    <string name="user_email">Email</string>
+    <string name="user_networks">Δίκτυα</string>
+    <string name="user_activities">Δραστηριότητες</string>
+    <string name="user_books">Βιβλία</string>
+    <string name="user_inspirational_people">Εμπνευστές</string>
+    <string name="user_interests">Ενδιαφέροντα</string>
+    <string name="user_movies">Ταινίες</string>
+    <string name="user_music">Μουσική</string>
+    <string name="user_sports">Αθλητισμός</string>
+    <string name="user_tv">Τηλεοπτικές εκπομπές</string>
+    <string name="user_quotes">Ατάκες</string>
+    <string name="user_website">Ιστοσελίδα</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s έως %2$s</string>
+    <string name="work_date_until_today">%1$s έως σήμερα</string>
+
+    <!-- Education -->
+    <string name="education_year">Τάξη του %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s και %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s και %3$d άλλοι</string>
+    <string name="thread_and_others">%1$d άλλοι</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Σε πόσους αρέσει</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Ιδιωτικότητα</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d ετών</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Επιλογή φίλων</string>
+    <string name="search_friends">Αναζήτηση φίλων</string>
+    <string name="several_friends_selected">%1$d φίλοι επιλέχθηκαν</string>
+    <string name="one_friend_selected">1 φίλος επιλέχθηκε</string>
+    <string name="no_friend_selected">Κανένας φίλος δεν επιλέχθηκε</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d φωτογραφίες επιλέχθηκαν</string>
+    <string name="one_photo_selected">Μία φωτογραφία επιλέχθηκε</string>
+    <string name="no_photo_selected">Καμία φωτογραφία δεν επιλέχθηκε</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Αδυναμία εύρεσης φωτογραφίας</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Αποστολή σχόλιου</string>
+    <string name="comments_disabled">Σχόλια απενεργοποιημένα</string>
+    <string name="publish_comment_dialog_title">Σχόλιο</string>
+    <string name="publish_comment_dialog_message">Δημοσίευση&#8230;</string>
+    <string name="publish_comment_ok">Το σχόλιό σας δημοσιεύτηκε.</string>
+    <string name="publish_comment_error">Σφάλμα κατά την δημοσίευση του σχόλιού σας.\nΠαρακαλώ δοκιμάστε αργότερα.</string>
+    <string name="several_comments">%1$d σχόλια</string>
+    <string name="one_comment">Ένα σχόλιο</string>
+    <string name="no_comment">Κανένα σχόλιο</string>
+    <string name="define_comment_before_publish">Παρακαλώ προσθέστε σχόλιο</string>
+    <string name="several_likes">Αρέσει σε %1$d </string>
+    <string name="one_like">Αρέσει σε 1</string>
+    <string name="no_like">Αρέσει σε 0</string>
+    <string name="cannot_find_post">Αδυναμία εύρεσης σχόλιου</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Επεξεργασία λίστας φωτογραφιών πριν το κατέβασμα &#8230;</string>
+    <string name="fetch_videos_from_album"> Επεξεργασία λίστας βίντεο πριν το κατέβασμα &#8230;</string>
+    <string name="tagged_photos_of">Φωτογραφίες του χρήστη %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Οικογένεια</string>
+    <string name="others">Άλλοι</string>
+    <string name="work">Εργασία</string>
+    <string name="education">Εκπαίδευση</string>
+    <string name="user_about">Σχετικά</string>
+    <string name="user_about_sex">Φύλο : %1$s</string>
+    <string name="user_about_birthday">Γεννήθηκε στις %1$s</string>
+    <string name="user_about_ralationship_status">Κατάσταση σχέσης : %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Σχετικά</string>
+    <string name="noone_talk_about_it">Δε μιλάει κανέις για το θέμα</string>
+    <string name="one_talk_about_it">Μιλάει 1 για το θέμα</string>
+    <string name="several_talk_about_it">%1$s μιλάνε για το θέμα</string>
+    <string name="page_base_infos">Βασικές πληροφορίες</string>
+    <string name="description">Περιγραφή</string>
+    <string name="mission">Αποστολη</string>
+    <string name="coordinates">Συντεταγμένες</string>
+    <string name="general_infos">Γενικές πληροφορίες</string>
+    <string name="artists_we_like">Καλλιτέχνες που μας αρέσουν</string>
+    <string name="band_interests">Ενδιαφέροντα μπάντας</string>
+    <string name="band_bio">Βιογραφία</string>
+    <string name="band_members">Μέλη</string>
+    <string name="founded">Ιδρύθηκε</string>
+    <string name="genre">Είδος</string>
+    <string name="band_current_location">Τωρινή τοποθεσία</string>
+    <string name="band_hometown">Πόλη</string>
+    <string name="band_record_label">Δισκογραφική εταιρία</string>
+    <string name="band_influences">Επιρροές</string>
+    <string name="band_press_contact">Επαφές για τον τύπο</string>
+    <string name="band_booking_agent">Ατζέντης</string>
+    <string name="band_general_manager">Γενικός Διευθυντής</string>
+    <string name="company_products">Προϊόντα</string>
+    <string name="company_overview">Επιγραμματικά</string>
+    <string name="hours">Ώρες</string>
+    <string name="public_transit">ΜΜΜ</string>
+    <string name="restaurant_food_styles">Στυλ φαγητού</string>
+    <string name="restaurant_culinar_team">Μαγειρική ομάδα</string>
+    <string name="restaurant_prices">Τιμές</string>
+    <string name="restaurant_attire">Ενδυμασία</string>
+    <string name="restaurant_services">Παροχές</string>
+    <string name="restaurant_specialties">Ειδικότητα</string>
+    <string name="restaurant_parking">Χώρος στάθμευσης</string>
+    <string name="breakfast">Πρωινό</string>
+    <string name="lunch">Μεσημεριανό</string>
+    <string name="dinner">Δείπνο</string>
+    <string name="coffee">Καφές</string>
+    <string name="drinks">Ποτά</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Μετρητά</string>
+    <string name="discover">Discover</string>
+    <string name="reserve">Δέχεται κρατήσεις</string>
+    <string name="walkins">Καλωσόρισμα</string>
+    <string name="groups">Καλό για γρουπ</string>
+    <string name="kids">Καλό για παιδιά</string>
+    <string name="takeout">Παραλαβή από το κατάστημα</string>
+    <string name="delivery">Διανομή</string>
+    <string name="waiter">Σερβιτόροι</string>
+    <string name="catering">Catering</string>
+    <string name="outdoor">Σε εξωτερικό χώρο</string>
+    <string name="street">Οδός</string>
+    <string name="lot">Χώρος στάθμευσης</string>
+    <string name="valet">Valet</string>
+    <string name="monday">Δευτέρα</string>
+    <string name="tuesday">Τρίτη</string>
+    <string name="wednesday">Τετάρτη</string>
+    <string name="thursday">Πέμπτη</string>
+    <string name="friday">Παρασκευή</string>
+    <string name="saturday">Σάββατο</string>
+    <string name="sunday">Κυριακή</string>
+    <string name="plot_outline">Περίληψη σεναρίου</string>
+    <string name="network">Δίκτυο</string>
+    <string name="season">Εποχή</string>
+    <string name="schedule">Πρόγραμμα</string>
+    <string name="starring">Πρωταγωνιστούν</string>
+    <string name="written_by">Σενάριο</string>
+    <string name="awards">Βραβεία</string>
+    <string name="personal_info">Προσωπικές πληροφορίες</string>
+    <string name="personal_interests">Προσωπικά ενδιαφέροντα</string>
+    <string name="phone">Τηλέφωνο</string>
+    <string name="release_date">Ημερομηνία κυκλοφορίας</string>
+    <string name="studio">Στούντιο</string>
+    <string name="directed_by">Σκηνοθεσία</string>
+    <string name="screenplay_by">Σενάριο</string>
+    <string name="affiliation">Ασφάλεια</string>
+    <string name="built">Κατασκευή</string>
+    <string name="features">Παρέχει</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Φαρμακευτικές πληροφορίες ασφαλείας</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Κανένας χρήστης</string>
+    <string name="empty_list_no_friend">Κανένας φίλος</string>
+    <string name="empty_list_no_page">Καμία σελίδα</string>
+    <string name="empty_list_no_event">Κανένα γεγονός</string>
+    <string name="empty_list_no_album">Κανένα άλμπουμ</string>
+    <string name="empty_list_no_photo">Καμία φωτογραφία</string>
+    <string name="empty_list_no_video">Κανένα βίντεο</string>
+    <string name="empty_list_no_birthday">Κανένα γενέθλια</string>
+    <string name="empty_list_no_message">Κανένα μήνυμα</string>
+    <string name="empty_list_no_notification">Καμία ειδοποίηση</string>
+    <string name="empty_list_no_stream">Καμία ιστορία</string>
+    <string name="empty_list_no_data">Καμία πληροφορία</string>
+    <string name="empty_list_no_group">Καμία ομάδα</string>
+    <string name="empty_list_no_member">Κανένα μέλος</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">Εικονίδια</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Προτιμήσεις</string>
+    <string name="preference_theme_title">Θέμα</string>
+    <string name="preferences_themes_dialog_title">Επιλογή θλεματος</string>
+    <string name="preference_about_title">Σχετικά</string>
+    <string name="preference_credits_title">Credits</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">Εικονίδια</string>
+    <string name="preference_credits_tools_title">Εργαλεία</string>
+    <string name="preference_changelog_title">Αλλαγή log</string>
+    <string name="preference_notifications_title">Ειδοπιήσεις</string>
+    <string name="preference_notification_title">Ειδοποίηση</string>
+    <string name="preference_notification_summary">Ενεργοποίηση ειδοποιήσεων</string>
+    <string name="preference_notification_type_title">Τύποι ειδοποιήσεων</string>
+    <string name="preference_notification_birthday_title">Γενέθλια</string>
+    <string name="preference_notification_birthday_summary">Ειδοποιήσεις για γενέθλια φίλων</string>
+    <string name="preferences_notification_birthday_time_title">Ανανέωση γενθλίων</string>
+    <string name="preferences_notification_birthday_time_summary">Πότε να ανανεώσει για τα γενέθλια φίλων</string>
+    <string name="preference_notification_event_title">Γεγονότα</string>
+    <string name="preference_notification_event_summary">Ειδοποιήσεις νέων γεγονότων</string>
+    <string name="preference_notification_photo_title">Φωτογραφίες</string>
+    <string name="preference_notification_photo_summary">Ειδοποιήσεις για νέες φωτογραφίες</string>
+    <string name="preference_notification_video_title">Βίντεο</string>
+    <string name="preference_notification_video_summary">Ειδοποιήσεις για νέα βίντεο</string>
+    <string name="preference_notification_page_invite_title">Σελίδες</string>
+    <string name="preference_notification_page_invite_summary">Ειδοποιήσεις για το αν σας έγινε πρόσκληση για να πατήσετε «Μου αρέσει» σε μια σελίδα </string>
+    <string name="preference_notification_group_invite_title">Ομάδες</string>
+    <string name="preference_notification_group_invite_summary">Ειδοποιήσεις για νέες προσκλησεις σε ομάδες </string>
+    <string name="preference_notification_friend_request_title">Αιτήματα φιλίας</string>
+    <string name="preference_notification_friend_request_summary">Ειδοποιήσεις για νέα αιτήματα φιλίας</string>
+    <string name="preference_notification_message_title">Μηνύματα</string>
+    <string name="preference_notification_message_summary">Ειδοποιήσεις για νέα μηνύματα</string>
+    <string name="preference_notification_stream_title">Δημοσιέυσεις</string>
+    <string name="preference_notification_stream_summary">Εικδοποιήσεις για δημοσιέυσιες άλλων εκτός των παραπάνω </string>
+    <string name="preferences_notifications_interval">Διάστημα ειδοποιήσεων</string>
+    <string name="preferences_notifications_permissions_title">Άδειες που χρειάζονται</string>
+    <string name="preferences_notifications_permissions_message">Για να αποστέλλονται ειδομποιήσεις, Πρέπει να κάνετε ξανασυνδεθείτε στο facebook για να λάβετε τις απαραίτητες άδειες χρήσης </string>
+    <string name="preference_notification_group_title">Ομαδικές ειδοποιήσεις</string>
+    <string name="preference_notification_group_summary">Να ειδοποιούμαι μόνο μια φορά σε περίπτωση πολλαπλών ειδοποιήσεων</string>
+    <string name="preference_app_language_title">Γλώσσα εφαρμογής</string>
+    <string name="preferences_app_language_dialog_title">Αλλαγή γλώσσας εφαρμογής σε</string>
+    <string name="preference_fb_language_title">Γλώσσα του facebook</string>
+    <string name="preferences_fb_language_dialog_title">Αλλαγή γλώσσας του facebook σε</string>
+    <string name="preference_newsfeed_title">Ενημερώσεις</string>
+    <string name="preference_newsfeed_pages_title">Σελίδες</string>
+    <string name="preference_newsfeed_groups_title">Ομάδες</string>
+    <string name="preference_newsfeed_events_title">Γεγονότα</string>
+    <string name="preference_newsfeed_pages">Να συμπεριλαμβάνονται ενημερώσεις σελίδων στον τοίχο μου </string>
+    <string name="preference_newsfeed_groups"> Να συμπεριλαμβάνονται ενημερώσεις ομάδων στον τοίχο μου </string>
+    <string name="preference_newsfeed_events"> Να συμπεριλαμβάνονται ενημερώσεις γεγονότων στον τοίχο μου </string>
+    <string name="preference_performances_title">Απόδοση</string>
+    <string name="preference_performances_photo_effect_summary">Απενεργοποίηση του εφε, βελτιώνει την απόδοση </string>
+    <string name="preference_performances_photo_effect_title">Ενεργοποίηση του εφέ  σβησίματος εικόνας στις φωτογραφίες </string>
+    <string name="preference_performances_rounded_profile_picture_summary"> Απενεργοποίηση του εφε, βελτιώνει την απόδοση </string>
+    <string name="preference_performances_rounded_profile_picture_title">Ενεργοποίηση κυκλικών φωτογραφιών προφιλ </string>
+    <string name="preferences_view_pager_indicator_style_title">Εμφάνιση στυλ σελίδας</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Καρτέλες</string>
+    <string name="preferences_view_pager_indicator_style_titles">Τίτλοι</string>
+    <string name="preferences_ui_title">Διεπαφή χρήστη</string>
+    <string name="preference_performances_pause_on_scroll_title">Σταμάτημα φόρτωσης φωτογραφιών κα΄θως κυλάει η σελίδα </string>
+    <string name="preference_performances_pause_on_scroll_summary">Όταν ενεργοποιηθεί οι φωτογραφίες σταματούν να φορτώνουν όταν κυλαέι η σελίδα ή αγγίζετε την οθόνη </string>
+    <string name="preference_performances_pause_on_fling_title">Σταμάτημα φόρτωσης φωτογραφιών </string>
+    <string name="preference_performances_pause_on_fling_summary"> Όταν ενεργοποιηθεί οι φωτογραφίες σταματούν να φορτώνουν όταν κυλαέι η σελίδα ή δεν αγγίζετε </string>
+    <string name="preference_performances_card_animation_title">Ενεργοποίηση κίνησης καρτελών </string>
+    <string name="preference_performances_card_animation_summary">Η απενεργοποίηση κίνησης καρτελών βελτιώνει την απόδοση </string>
+    <string name="preferences_main_activity_tabs_title">Κυρίως καρτέλα</string>
+    <string name="preferences_user_activity_tabs_title">Καρτέλες φίλων</string>
+    <string name="preferences_page_activity_tabs_title">Καρτέλες σελίδων</string>
+    <string name="preferences_event_activity_tabs_title">Καρτέλες γεγονότων </string>
+    <string name="preferences_group_activity_tabs_title">Καρτέλες ομάδων</string>
+    <string name="preference_images_title">Εικόνες</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Σημερινά γενέθλια</string>
+    <string name="notification_birthday_today">Είναι τα γενέθλια του %1$s\'s !</string>
+    <string name="friends_birthday_today">%1$d φίλοι έχουν γενέθλια σήμερα !</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Αιτήματα φιλίας</string>
+    <string name="notification_friendrequest_message">%1$s θέλει να σας προσθέσει ως φίλο</string>
+    <string name="new_friend_requests">Έχετε %1$d νέο αίτημα φιλίας</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Έχετε %1$s νέες ειδοποιήσεις</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Η άδεια για την εμφάνιση ειδοποιήσεων απορρίφθηκε.\nΠαρακαλώ επιτρέψτε την εμφάνιση ειδοποιήσεω κάνοντας ανανέωση.</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Χορηγία</string>
+    <string name="donate_code">Εισάγετε κωδικό</string>
+    <string name="thank_you_very_much">Ευχαριστώ πολύ !</string>
+
+    <!-- Chat -->
+    <string name="online">Ενεργοποιημένος</string>
+    <string name="offline">Απενεργοποιημένος</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Βίντεο</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Λυπούμαστε, το facebook δεν επιτρέπει τη δημοσίευση από τρίτες εφαρμογές στις ομάδες.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Ανάβασμα εικόνων</string>
+    <string name="uploading_image_of">Ανέβασμα εικόνας %1$d of %2$d</string>
+    <string name="upload_complete">Ανέβασμα ολοκληρώθηκε</string>
+    <string name="n_uploaded_images">%1$d εικόνες ανέβηκαν</string>
+    <string name="upload_error">Σφάλμα ανεβάσματος</string>
+    <string name="file_not_found">Αδυναμία εύρεσης αρχείου %1$s</string>
+    <string name="upload_photo_default_album_name">Τοίχος</string>
+
+    <!-- About -->
+    <string name="about_version">Έκδοση %1$s</string>
+    <string name="about_activity_title">Σχετικά</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">All rights reserved</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Αποστολή mail</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Έχετε κάποιοα πρόταση ?\nΒρήκατε κάποιο σφάλμα ?\nΕνημερώστε μας !</string>
+    <string name="feedback_send_suggest">Στείλετε την πρότασή σας</string>
+    <string name="feedback_send_bug">Αναφέρετε ένα σφάλμα</string>
+    <string name="restart">Επανεκίνηση</string>
+    <string name="change_theme_need_restart">Χρείαζεται επανεκίνηση για την εφαρμογή του θέματος.</string>
+    <string name="change_app_language_need_restart"> Χρείαζεται επανεκίνηση για την εφαρμογή νέας γλώσσας.</string>
+    <string name="option_need_restart"> Χρείαζεται επανεκίνηση για την εφαρμογή αυτής της επιλογής.</string>
+    <string name="soon">Σύντομα &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Αλλαγές από την προηγούμενη έκδοση</string>
+    <string name="changelog_close">Κλείσιμο</string>
+    <string name="changelog_activity_title"> Αλλαγές από την προηγούμενη έκδοση </string>
+	<string name="preference_buy_pro_version_title">Αγοράστε την έκδοση Pro</string>
+	
+	<string name="my_last_message">Me : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/text_item_layout"
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/Klyph.ListItem.Title"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:attr/textColorSecondary"
+            android:lineSpacingMultiplier="1.3"
+            android:textIsSelectable="true"
+            android:paddingBottom="8dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/text_item_layout"
+        android:background="@drawable/ab_solid_shadow_holo" >
+    </RelativeLayout>
+
+</RelativeLayout>

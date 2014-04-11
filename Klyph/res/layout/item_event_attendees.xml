@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Klyph.ListItem.Stream"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/ckoobafe_list_padding"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:paddingTop="@dimen/ckoobafe_list_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_header_invited"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/event_num_attendees"
+            style="@style/Klyph.ListItem.TitleItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:background="?android:attr/windowBackground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/ckoobafe_list_padding"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:paddingTop="@dimen/ckoobafe_list_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_header_going"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/event_num_going"
+            style="@style/Klyph.ListItem.TitleItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:background="?android:attr/windowBackground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/ckoobafe_list_padding"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:paddingTop="@dimen/ckoobafe_list_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_header_maybe"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/event_num_unsure"
+            style="@style/Klyph.ListItem.TitleItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:background="?android:attr/windowBackground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/ckoobafe_list_padding"
+        android:paddingLeft="@dimen/ckoobafe_item_padding"
+        android:paddingRight="@dimen/ckoobafe_item_padding"
+        android:paddingTop="@dimen/ckoobafe_list_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_header_declined"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/event_num_declined"
+            style="@style/Klyph.ListItem.TitleItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="right" />
+    </LinearLayout>
+
+</LinearLayout>

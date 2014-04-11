@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:abewy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <com.abewy.android.apps.klyph.view.ListEmptyView
+        android:id="@+id/emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <it.sephiroth.android.library.imagezoom.ImageViewTouch
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/caption_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ab_background_transparent_gradient_inverse"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="@dimen/klyph_stream_item_profile_padding" >
+
+        <com.abewy.android.apps.klyph.widget.ProfileImageView
+            android:id="@+id/author_profile_image"
+            android:layout_width="@dimen/photo_profile_image_size"
+            android:layout_height="@dimen/photo_profile_image_size"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/klyph_stream_item_profile_padding"
+            android:layout_marginRight="@dimen/klyph_stream_item_profile_padding"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/post_time"
+                style="@style/Klyph.Stream.TimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textColor="#CCFFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.abewy.android.apps.klyph.widget.KlyphSlidingDrawer
+        android:id="@+id/sliding_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        abewy:content="@+id/sliding_content"
+        abewy:handle="@+id/sliding_handle"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:id="@id/sliding_handle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                style="@style/Klyph.ListItem"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:background="#00000000" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@id/sliding_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/divider"
+                style="@style/Klyph.ListItem.Separator.Thin"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                android:layout_marginTop="0dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="?android:attr/windowBackground" >
+
+                <ProgressBar
+                    android:id="@android:id/progress"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <ListView
+                    android:id="@android:id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawSelectorOnTop="false" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/send_comment_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/listItemBackground" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/actionBarSplitBackground"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="6dp" >
+
+                    <EditText
+                        android:id="@+id/send_text_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/send_button"
+                        android:hint="@string/post_comment"
+                        android:inputType="textCapSentences|textMultiLine"
+                        android:maxLines="3"
+                        android:textColor="?android:attr/textColorSecondary" />
+
+                    <ImageButton
+                        android:id="@id/send_button"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_alignBottom="@id/send_text_edit"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:src="?attr/sendIcon" />
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.abewy.android.apps.klyph.widget.KlyphSlidingDrawer>
+
+</FrameLayout>

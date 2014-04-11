@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Haber Kaynağı </string>
+    <string name="fragment_header_timeline">Zaman Tüneli </string>
+    <string name="fragment_header_inbox">Gelen Kutusu</string>
+    <string name="fragment_header_friends">Arkadaşlar </string>
+    <string name="fragment_header_pages">Sayfalar </string>
+    <string name="fragment_header_about">Hakkında </string>
+    <string name="fragment_header_events">Etkinlikler </string>
+    <string name="fragment_header_birthdays">Doğum Günleri </string>
+    <string name="fragment_header_albums">Albümler </string>
+    <string name="fragment_header_infos">Bilgi</string>
+    <string name="fragment_header_wall">Duvar</string>
+    <string name="fragment_header_going">Katılıyorum </string>
+    <string name="fragment_header_maybe">Emin Değilim </string>
+    <string name="fragment_header_declined">Katılmıyorum </string>
+    <string name="fragment_header_invited">Davetler </string>
+    <string name="fragment_header_groups">Topluluklar </string>
+    <string name="fragment_header_members">Üyeler </string>
+    <string name="fragment_header_photos">Fotoğraflar </string>
+    <string name="fragment_header_threads">Konular</string>
+    <string name="fragment_header_followed_people">Takip Edilenler </string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Ara</string>
+    <string name="user">Kullanıcı</string>
+    <string name="page">Sayfa</string>
+    <string name="group">Topluluk</string>
+    <string name="event">Etkinlik</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Çıkış Yap </string>
+    <string name="menu_notifications">Bildirimler </string>
+    <string name="menu_chat">Sohbet</string>
+    <string name="menu_messages">İletiler </string>
+    <string name="menu_credits">Emeği geçenler </string>
+    <string name="menu_send">Gönder </string>
+    <string name="menu_preferences">Tercihler </string>
+    <string name="menu_feedback">Öneri/Hata</string>
+    <string name="menu_donate">Bağış</string>
+    <string name="menu_download">İndir</string>
+    <string name="menu_add_photos">Fotoğraf Ekle</string>
+    <string name="menu_faq">SSS</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Oturumu katmak istediğinizden emin misiniz?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Albüm :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Yeni Albüm</string>
+    <string name="create">Oluştur</string>
+    <string name="name">İsim</string>
+    <string name="location">Konum</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Yeniden Dene</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Bir hata oluştu.</string>
+    <string name="request_connexion_error">Bağlantı hatası.\nİnternet bağlantınızı kontrol ediniz.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Yeriniz belirlenemedi.</string>
+    <string name="choose_place">Konum seçin</string>
+
+    <!-- General -->
+    <string name="close">Kapat</string>
+    <string name="open">Aç</string>
+    <string name="refresh">Yenile</string>
+    <string name="share">Paylaş</string>
+    <string name="defaultString">Varsayılan</string>
+    <string name="camera">kamera</string>
+    <string name="copy_text">Metni kopyala</string>
+    <string name="see_who_likes_this">Bunu beğenen kişileri gör</string>
+    <string name="download_image">Görüntüyü indir</string>
+    <string name="view_profile">Profili Görüntüle</string>
+    <string name="share_with">Bununla paylaş</string>
+    <string name="more">Daha fazla</string>
+    <string name="reply">Yanıtla</string>
+    <string name="hide">Gizle</string>
+    <string name="none">空白</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Fotoğraf seçiniz</string>
+    <string name="thread_activity_title">Mesajlar</string>
+    <string name="notification_activity_title">Bildirimler</string>
+    <string name="credentials_activity_title">Emeği geçenler</string>
+    <string name="donate_activity_title">Bağış</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Herkese açık</string>
+    <string name="menu_privacy_friends">Arkadaşlar</string>
+    <string name="menu_privacy_self">Sadece bana özel</string>
+
+    <!-- FR Values -->
+    <string name="like">Beğen</string>
+    <string name="unlike">Geri al</string>
+    <string name="people_who_likes_this">Bu yayını beğenen kişiler</string>
+    <string name="comment">Yorum</string>
+    <string name="zero_or_one_like">%s beğeni</string>
+    <string name="zero_or_one_comment">%s yorum</string>
+    <string name="number_of_likes">%s beğeni</string>
+    <string name="number_of_comments">%s yorum</string>
+    <string name="number_of_people_who_like_it">%s kişi bunu beğendi</string>
+    <string name="you_and_other_people_who_like_it">Sen ve %s kişi bunu beğendi</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">%d saniye önce</string>
+    <string name="one_minute_ago">Bir dakika önce</string>
+    <string name="minutes_ago">%d dakika önce</string>
+    <string name="one_hour_ago">Bir saat önce</string>
+    <string name="hours_ago">%d saat önce</string>
+    <string name="one_day_ago">Bir gün önce</string>
+    <string name="days_ago">%d gün önce</string>
+    <string name="one_month_ago">Bir ay önce</string>
+    <string name="months_ago">%d ay önce</string>
+    <string name="years_ago">%d yıl önce</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Görüntü kalitesini seç</string>
+    <string name="dialog_video_quality_message">Standart çözünürlükte (SD) ya da yüksek çözünürlükte (HD) izle ?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s eklendi %2$s albüme fotoğraf %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— ile %1$s</string>
+    <string name="post_with_two_friends">— ile %1$s ve %2$s</string>
+    <string name="post_with_several_friends">— ile %1$s ve %2$s diğer arkadaşlar</string>
+    <string name="with_several_friends">%1$s diğer arkadaşlar</string>
+    <string name="at_place">— de %1$s</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="error">Hata</string>
+    <string name="please_enter_message">Lütfen iletinizi giriniz</string>
+    <string name="must_select_place_to_tag_friends">Arkadaşlarınızı etiketlemek için önce bir konum seçiniz.</string>
+    <string name="status">Durum</string>
+    <string name="publishing">Yayınlanıyor&#8230;</string>
+    <string name="status_successfully_published">Durumunuz yayınlandı.</string>
+    <string name="message_successfully_published">İletiniz yayınlandı.</string>
+    <string name="publish_unknown_error">Durumunuz yayınlanamıyor.</string>
+    <string name="publish_message_unknown_error">İletiniz yayınlanamıyor.</string>
+    <string name="publish_error_duplicate_message">Son olarak bu durumu yayınlamıştınız.</string>
+    <string name="publish_new_status">Yeni bir durum yayınla.</string>
+    <string name="publish_new_event_message">Yeni bir ileti yayınla.</string>
+    <string name="friends">Arkadaşlar</string>
+    <string name="post_hint">İletiniz</string>
+    <string name="post_link_malformated_url">URL geçersiz</string>
+    <string name="post_link_malformated_image_url">Resim URL\'si geçersiz</string>
+    <string name="post_link_empty_name">Lütfen bir isim girin.</string>
+    <string name="post_share_status">Bir durum paylaş</string>
+    <string name="post_share_photo">Bir fotoraf paylaş</string>
+    <string name="post_share_video">Bir video paylaş</string>
+    <string name="post_share_link">Bir bağlantı paylaş</string>
+    <string name="post_share_album">Bir albüm paylaş</string>
+    <string name="post_share_on">Şurada paylaş</string>
+    <string name="post_share_on_my_wall">Duvarım</string>
+    <string name="post_share_on_friend_wall">Bir arkadaşının duvarı</string>
+    <string name="post_a_reply">Bir cevap gönder</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Yeni fotoğraflar yayınla</string>
+    <string name="creating_album">Albüm oluşturuluyor &#8230;</string>
+    <string name="must_select_photos">Lütfen yüklenecek fotoğrafları seçiniz</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Onayla</string>
+    <string name="delete_post_confirmation_message">Gerçekten iletinizi silmek istiyor musunuz ?</string>
+    <string name="delete_post_error">İletiniz silinemedi.</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="delete">Sil</string>
+    <string name="deleting">Siliniyor&#8230;</string>
+    <string name="post_deleted">İleti kaldırıldı.</string>
+    <string name="like_error">Beğenilemiyor.</string>
+    <string name="unlike_error">Beğeni geri alınamıyor.</string>
+    <string name="stream_date">%1$s de %2$s</string>
+    <string name="stream_today_date">Bugün %1$s </string>
+    <string name="stream_yesterday_date">Dün %1$s </string>
+    <string name="newsfeed_new_stream">1 yeni hikaye</string>
+    <string name="newsfeed_new_streams">%1$d yeni haber</string>
+
+    <!-- Event -->
+    <string name="event_by">ile %1$s</string>
+    <string name="event_description">Açıklama</string>
+    <string name="event_practical_information">Kullanışlı bilgi</string>
+    <string name="event_date">Tarih</string>
+    <string name="event_place">Yer</string>
+    <string name="event_secret">Sadece davette</string>
+    <string name="event_friends">Arkadaşlar</string>
+    <string name="event_public">Herkese açık etkinlik</string>
+    <string name="event_closed">Kapalı etkinlik</string>
+    <string name="event_will_attend_title">Katılacak mıyım ?</string>
+    <string name="event_going">Katıl</string>
+    <string name="event_unsure">Belki</string>
+    <string name="event_declined">Red et</string>
+    <string name="event_num_invitee">%1$s kişi davet edildi</string>
+    <string name="event_num_attending">%1$s kişi katılıyor</string>
+    <string name="event_num_unsure">%1$s kişi emin değil</string>
+    <string name="event_num_declined">%1$s kişi red etti</string>
+    <string name="event_response_dialog_title">Yanıt</string>
+    <string name="event_response_dialog_message">Yanıt gönderiliyor&#8230;</string>
+    <string name="event_response_ok">Yanıtınız gönderildi</string>
+    <string name="event_response_error">Yanıtınız gönderilirken bir hata oluştu.\nLütfen daha sonra tekrar deneyiniz.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Doğum günü</string>
+    <string name="user_sex">Cinsiyet</string>
+    <string name="user_meeting_sex">İlgilendikleri</string>
+    <string name="user_relationship_status">İlişki durumu</string>
+    <string name="user_religion">Dini inancı</string>
+    <string name="user_political">Siyasi görüşü</string>
+    <string name="user_phones">Telefon</string>
+    <string name="user_address">Adres</string>
+    <string name="user_email">E-posta</string>
+    <string name="user_networks">Ağlar</string>
+    <string name="user_activities">Etkinlikler</string>
+    <string name="user_books">Kitaplar</string>
+    <string name="user_inspirational_people">İlham alınan kişiler</string>
+    <string name="user_interests">İlgi alanları</string>
+    <string name="user_movies">Filmler</string>
+    <string name="user_music">Müzik</string>
+    <string name="user_sports">Spor</string>
+    <string name="user_tv">TV programları</string>
+    <string name="user_quotes">Alıntılar</string>
+    <string name="user_website">Web siteleri</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s den %2$s</string>
+    <string name="work_date_until_today">%1$s den şu ana</string>
+
+    <!-- Education -->
+    <string name="education_year">Sınıf %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s  %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s ve %3$d diğer</string>
+    <string name="thread_and_others">%1$d diğer</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Bunu beğenen kişiler</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Gizlilik</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d yaşında</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Arkadaşlarını seç</string>
+    <string name="friend_picker_single_choice_title">Bir arkadaş seç</string>
+    <string name="search_friends">Arkadaşlarını bul</string>
+    <string name="several_friends_selected">%1$d arkadaş seçildi</string>
+    <string name="one_friend_selected">1 arkadaş seçildi</string>
+    <string name="no_friend_selected">Hiç bir arkadaşını seçmedin</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d fotoğraf seçildi</string>
+    <string name="one_photo_selected">Bir fotoğraf seçildi</string>
+    <string name="no_photo_selected">Hiç fotoğraf seçmediniz</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Fotoğraf bulunamıyor</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Yorum yap</string>
+    <string name="comments_disabled">Yorumlar engellendi</string>
+    <string name="publish_comment_dialog_title">Yorum</string>
+    <string name="publish_comment_dialog_message">Yayınlanıyor&#8230;</string>
+    <string name="publish_comment_ok">Yorumunuz yayınlandı.</string>
+    <string name="publish_comment_error">yorumunuz yayınlanırken bir hata oluştu.\nLütfen daha sonra tekrar deneyiniz.</string>
+    <string name="several_comments">%1$d yorum</string>
+    <string name="one_comment">Bir yorum</string>
+    <string name="no_comment">Henüz yorum yok</string>
+    <string name="define_comment_before_publish">Lütfen yorumunuzu giriniz</string>
+    <string name="several_likes">%1$d kişi bunu beğendi</string>
+    <string name="one_like">1 kişi bunu beğendi</string>
+    <string name="no_like">0 kişi bunu beğendi</string>
+    <string name="cannot_find_post">Yayın bulunamadı</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Fotoğraf listesi getiriliyor &#8230;</string>
+    <string name="fetch_videos_from_album">Video listesi getiriliyor &#8230;</string>
+    <string name="tagged_photos_of">%1$s\'nın Fotoğrafları</string>
+
+    <!-- User about -->
+    <string name="family">Aile</string>
+    <string name="others">Diğer</string>
+    <string name="work">İş</string>
+    <string name="education">Eğitim</string>
+    <string name="user_about">Hakkında</string>
+    <string name="user_about_sex">Cinsiyet : %1$s</string>
+    <string name="user_about_birthday"> %1$s doğdu</string>
+    <string name="user_about_ralationship_status">İlişki durumu : %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Hakkında</string>
+    <string name="noone_talk_about_it">Henüz kimse bahsetmedi</string>
+    <string name="one_talk_about_it">1 kişi bahsetti</string>
+    <string name="several_talk_about_it">%1$s kişi bahsetti</string>
+    <string name="page_base_infos">Temel bilgiler</string>
+    <string name="description">Tanımlama</string>
+    <string name="mission">Görev</string>
+    <string name="coordinates">Koordinatlar</string>
+    <string name="general_infos">Genel bilgiler</string>
+    <string name="artists_we_like">Beğendiğimiz sanatçılar</string>
+    <string name="band_interests">Beğendiğimiz gruplar</string>
+    <string name="band_bio">Özgeçmiş</string>
+    <string name="band_members">Üyeler</string>
+    <string name="founded">Bulundu</string>
+    <string name="genre">Tarz</string>
+    <string name="band_current_location">Şu an ki konum</string>
+    <string name="band_hometown">Memleket</string>
+    <string name="band_record_label">Plak şirketi</string>
+    <string name="band_influences">İlham alınanlar</string>
+    <string name="band_press_contact">Basın iletişim</string>
+    <string name="band_booking_agent">randevu</string>
+    <string name="band_general_manager">Genel müdür</string>
+    <string name="company_products">ürünler</string>
+    <string name="company_overview">Genel bakış</string>
+    <string name="hours">Saatler</string>
+    <string name="public_transit">Toplu taşıma</string>
+    <string name="restaurant_food_styles">Yemek çeşitleri</string>
+    <string name="restaurant_culinar_team">Aşçı takımı</string>
+    <string name="restaurant_prices">Fiyatlar</string>
+    <string name="restaurant_attire">Giyim</string>
+    <string name="restaurant_services">Hizmetler</string>
+    <string name="restaurant_specialties">Spesiyaller</string>
+    <string name="restaurant_parking">Park</string>
+    <string name="breakfast">Kahvaltı</string>
+    <string name="lunch">Öğle yemeği</string>
+    <string name="dinner">Akşam yemeği</string>
+    <string name="coffee">Kahve</string>
+    <string name="drinks">İçecekler</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Sadece nakit</string>
+    <string name="discover">Keşfet</string>
+    <string name="reserve">Rezervasyon</string>
+    <string name="walkins">Rezervasyonsuz girilebilir</string>
+    <string name="groups">Topluluklar için ideal</string>
+    <string name="kids">Çacuklar için uygun</string>
+    <string name="takeout">Gezintiye çık</string>
+    <string name="delivery">Teslimat</string>
+    <string name="waiter">Garson hizmeti</string>
+    <string name="catering">Yemek hizmeti</string>
+    <string name="outdoor">Açık hava oturma yeri</string>
+    <string name="street">Cadde</string>
+    <string name="lot">Otopark</string>
+    <string name="valet">Vale</string>
+    <string name="monday">Pazartesi</string>
+    <string name="tuesday">Salı</string>
+    <string name="wednesday">Çarşamba</string>
+    <string name="thursday">Perşembe</string>
+    <string name="friday">Cuma</string>
+    <string name="saturday">Cumartesi</string>
+    <string name="sunday">Pazar</string>
+    <string name="plot_outline">Taslak</string>
+    <string name="network">Şebeke</string>
+    <string name="season">Mevsim</string>
+    <string name="schedule">Takvim</string>
+    <string name="starring">Oyuncular</string>
+    <string name="written_by">Yazan</string>
+    <string name="awards">Ödüller</string>
+    <string name="personal_info">Kişisel bilgiler</string>
+    <string name="personal_interests">İlgi alanları</string>
+    <string name="phone">Telefon</string>
+    <string name="release_date">Yayın tarihi</string>
+    <string name="studio">Stüdyo</string>
+    <string name="directed_by">Yönetmen</string>
+    <string name="screenplay_by">Senaryo</string>
+    <string name="affiliation">Bağlantı</string>
+    <string name="built">Yapım</string>
+    <string name="features">İçerik</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">Farmasötik güvenlik bilgileri</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Kullanıcı yok</string>
+    <string name="empty_list_no_friend">Arkadaş yok</string>
+    <string name="empty_list_no_page">Sayfa yok</string>
+    <string name="empty_list_no_event">Etkinlik yok</string>
+    <string name="empty_list_no_album">Albüm yok</string>
+    <string name="empty_list_no_photo">Fotoğraf yok</string>
+    <string name="empty_list_no_video">Video yok</string>
+    <string name="empty_list_no_birthday">Doğum günü yok</string>
+    <string name="empty_list_no_message">İleti yok</string>
+    <string name="empty_list_no_notification">Bildirim yok</string>
+    <string name="empty_list_no_stream">Besleme yok</string>
+    <string name="empty_list_no_data">Veri yok</string>
+    <string name="empty_list_no_group">Topluluk yok</string>
+    <string name="empty_list_no_member">Üye yok</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">API\' lar</string>
+    <string name="credentials_icons">Simgeler</string>
+    <string name="credentials_translators">Çevirmenler</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Tercihler</string>
+    <string name="preference_theme_title">Tema</string>
+    <string name="preferences_themes_dialog_title">Bir tema seçiniz</string>
+    <string name="preference_about_title">Hakkında</string>
+    <string name="preference_credits_title">emeği geçenler</string>
+    <string name="preference_credits_apis_title">API\' lar</string>
+    <string name="preference_credits_icons_title">Simgeler</string>
+    <string name="preference_credits_tools_title">Araçlar</string>
+    <string name="preference_changelog_title">Yenilikler</string>
+    <string name="preference_notifications_title">Bildirimler</string>
+    <string name="preference_notification_title">Bildirim</string>
+    <string name="preference_notification_summary">Bildirimleri etkinleştir</string>
+    <string name="preference_notification_type_title">Bildirim tipi</string>
+    <string name="preference_notification_birthday_title">Doğum günleri</string>
+    <string name="preference_notification_birthday_summary">Arkadaşının doğum günü ise bildirim gönderilir</string>
+    <string name="preferences_notification_birthday_time_title">doğum günü yenileme zamanı</string>
+    <string name="preferences_notification_birthday_time_summary">Doğum günü yenileme zamanı</string>
+    <string name="preference_notification_apprequest_title">Uygulama önerileri</string>
+    <string name="preference_notification_apprequest_summary">Uygulama önerilerinde bildirimler</string>
+    <string name="preference_notification_album_title">Albümler</string>
+    <string name="preference_notification_album_summary">Albümlerde bildirimler</string>
+    <string name="preference_notification_event_title">Etkinlikler</string>
+    <string name="preference_notification_event_summary">Etkinlik bildirimleri</string>
+    <string name="preference_notification_friend_request_title">Arkadaşlık daveti</string>
+    <string name="preference_notification_friend_request_summary">Arkadaşlık daveti bildirimi</string>
+    <string name="preference_notification_group_invite_title">Topluluklar</string>
+    <string name="preference_notification_group_invite_summary">Topluluklarda bildirimler</string>
+    <string name="preference_notification_page_invite_title">Sayfalar</string>
+    <string name="preference_notification_page_invite_summary">Sayfalardaki bildirimler</string>
+    <string name="preference_notification_photo_title">Fotoğraflar</string>
+    <string name="preference_notification_photo_summary">Fotoğraf bildirimleri</string>
+    <string name="preference_notification_poke_title">Dürtmeler</string>
+    <string name="preference_notification_poke_summary">Dürtmelerde bildirimler</string>
+    <string name="preference_notification_stream_title">Gönderiler</string>
+    <string name="preference_notification_stream_summary">Yukarıdakiler dışındaki durumlar için bildirim gönderilir</string>
+    <string name="preference_notification_video_title">Videolar</string>
+    <string name="preference_notification_video_summary">Video bildirimleri</string>
+    <string name="preferences_notifications_interval">Aralık</string>
+    <string name="preferences_notifications_permissions_title">Gerekli izinler</string>
+    <string name="preferences_notifications_permissions_message">Bildirim gönderebilmek için Facebook\' a yeniden bağlanmanız gerekmektedir</string>
+    <string name="preference_notification_group_title">Topluluk bildirimleri</string>
+    <string name="preference_notification_group_summary">Birden fazla uyarı geldiğinde sadece birkez bildir</string>
+    <string name="preference_app_language_title">Uygulama dilini seçiniz</string>
+    <string name="preferences_app_language_dialog_title">Uygulama dilini değiştir</string>
+    <string name="preference_fb_language_title">Facebook dilini seçiniz</string>
+    <string name="preferences_fb_language_dialog_title">Facebook dilini değiştir</string>
+    <string name="preference_newsfeed_title">Haber kaynağı</string>
+    <string name="preference_newsfeed_pages_title">Sayfalar</string>
+    <string name="preference_newsfeed_groups_title">Topluluklar</string>
+    <string name="preference_newsfeed_events_title">Etkinlikler</string>
+    <string name="preference_newsfeed_pages">Sayfa akışını haber kaynağında göster</string>
+    <string name="preference_newsfeed_groups">Topluluk akışını haber kaynağında göster</string>
+    <string name="preference_newsfeed_events">Etkinlik akışını haber kaynağında göster</string>
+    <string name="preference_performances_title">Performans</string>
+    <string name="preference_performances_photo_effect_summary">Devre dışı bırakmak performansı arttırır</string>
+    <string name="preference_performances_photo_effect_title">Foroğraflarda solma efektini etkinleştir</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Devre dışı bırakmak performansı arttırır</string>
+    <string name="preference_performances_rounded_profile_picture_title">Yuvarlak profil fotoğraflarını etkinleştir</string>
+    <string name="preferences_view_pager_indicator_style_title">Sayfa görünümü gösterge stili</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Sekmeler</string>
+    <string name="preferences_view_pager_indicator_style_titles">Başlıklar</string>
+    <string name="preferences_ui_title">Kullanıcı arayüzü</string>
+    <string name="preference_performances_pause_on_scroll_title">Dokunarak kaydırma yaparken görüntü yüklemeyi engelle</string>
+    <string name="preference_performances_pause_on_scroll_summary">Etkinleştirirseniz parmağınızla kaydırma yaparken görüntüler yüklenmez</string>
+    <string name="preference_performances_pause_on_fling_title">Kaydırma yaparken görüntü yüklemeyi engelle</string>
+    <string name="preference_performances_pause_on_fling_summary">Etkinleştirirseniz kaydırma yaparken görüntüler yüklenmez </string>
+    <string name="preference_performances_card_animation_title">Kart animasyonunu etkinleştir</string>
+    <string name="preference_performances_card_animation_summary">Kart animasyonunu devre dışı bırakmak performanı arttırır</string>
+    <string name="preferences_main_activity_tabs_title">Ana sekme</string>
+    <string name="preferences_user_activity_tabs_title">Arkadaşlar sekmesi</string>
+    <string name="preferences_page_activity_tabs_title">Sayfalar sekmesi</string>
+    <string name="preferences_event_activity_tabs_title">Etkinlikler sekmesi</string>
+    <string name="preferences_group_activity_tabs_title">Topluluklar sekmesi</string>
+    <string name="preference_images_title">Görüntüler</string>
+    <string name="preference_images_clear_cache_title">Görüntü önbelleğini temizle</string>
+    <string name="preference_images_clear_cache_summary">Harici depolama alanındaki önbelleğe alınmış görüntüleri sil</string>
+    <string name="preference_images_cache_clearing">Önbelleğe alınmış görüntüler siliniyor</string>
+    <string name="preference_images_cache_cleared">Önbelleğe alınmış görüntüler silindi</string>
+    <string name="preference_notification_interval_1_minute">Her dakikada</string>
+    <string name="preference_notification_interval_2_minutes">Her 2 dakikada</string>
+    <string name="preference_notification_interval_3_minutes">Her 3 dakikada</string>
+    <string name="preference_notification_interval_5_minutes">Her 5 dakikada</string>
+    <string name="preference_notification_interval_10_minutes">Her 10 dakikada</string>
+    <string name="preference_notification_interval_15_minutes">Her 15 dakikada</string>
+    <string name="preference_notification_interval_20_minutes">Her 20 dakikada</string>
+    <string name="preference_notification_interval_25_minutes">Her 25 dakikada</string>
+    <string name="preference_notification_interval_30_minutes">Her 30 dakikada</string>
+    <string name="preference_notification_interval_45_minutes">Her 45 dakikada</string>
+    <string name="preference_notification_interval_1_hour">Her saatte</string>
+    <string name="preference_notification_interval_2_hours">Her 2 saatte</string>
+    <string name="preference_notification_interval_3_hours">Her 3 saatte</string>
+    <string name="preference_notification_interval_4_hours">Her 4 saatte</string>
+    <string name="preference_notification_interval_5_hours">Her 5 saatte</string>
+    <string name="preference_notification_interval_6_hours">Her 6 saatte</string>
+    <string name="preference_notification_interval_7_hours">Her 7 saatte</string>
+    <string name="preference_notification_interval_8_hours">Her 8 saatte</string>
+    <string name="preference_notification_interval_twice_daily">Günde 2 kez</string>
+    <string name="preference_notification_interval_daily">Günlük</string>
+    <string name="preferences_notification_system_push">Anlık bildirim</string>
+    <string name="preferences_notification_system_periodic">Periyodik bildirim</string>
+    <string name="preferences_notification_system_both">Her ikisi</string>
+    <string name="preferences_notifications_system_title">Bildirim sistemi</string>
+    <string name="preferences_notifications_system_summary">Anlık bildirimlerde gecikmeler yaşanabilir.\nPeriyodik bildirimler daha fazla pil tüketimine neden olur.</string>
+    <string name="preference_notification_vibrate_title">Titreşim</string>
+    <string name="preference_notification_ringtone_title">Zil sesi</string>
+    <string name="preference_notifications_ringtone">Zil sesi</string>
+    <string name="preference_notifications_song">Şarkı</string>
+    <string name="preference_notification_ringtone_chooser">Zil sesini seçiniz</string>
+    <string name="preference_newsfeed_go_to_top_title">Yenilemeden sonra en yeni habere git</string>
+    <string name="preference_newsfeed_go_to_top_summary">Etkinleştirirseniz,sayfa yenilemeden sonra en son haberi gösterir</string>
+    <string name="preference_newsfeed_cut_long_post_title">Uzun iletileri  kırp</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Seçiliyse 10 satırdan uzun iletiler kırpılacak</string>
+    <string name="preference_buy_pro_version_title">Pro sürümü satın</string>
+    <string name="preference_left_drawer_items_title">Sol menü sekmeleri</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Bugünkü doğum günleri</string>
+    <string name="notification_birthday_today">Bu %1$s\'s doğum günü !</string>
+    <string name="friends_birthday_today">%1$d arkadaşının bugün doğum günü !</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Arkadaşlık istekleri</string>
+    <string name="notification_friendrequest_message">%1$s seni arkadaşın olarak eklemek istiyor</string>
+    <string name="new_friend_requests">You have %1$d yeni arkadaşlık isteği</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications"> %1$s yeni bildiriminiz var </string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Bildirim izinleri kabul edilmedi.\nLütfen yenile tuşuna basarak izinleri etkinleştirin.</string>
+    <string name="notifications_unread_header_title">Okunmamış bildirimler (%1$d)</string>
+    <string name="notifications_read_header_title">Geçmiş bildirimler</string>
+    <string name="notifications_friend_request_header_title">Arkadaşlık istekleri</string>
+    <string name="notifications_dismiss">Artık anımsatma</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Déverrouiller le don</string>
+    <string name="donate_code">Entrez le code</string>
+    <string name="thank_you_very_much">Çok teşekkür ederim !</string>
+
+    <!-- Chat -->
+    <string name="online">Bağlı</string>
+    <string name="offline">Bağlı değil</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Videolar</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Üzgünüz.Facebook üçüncü taraf uygulamaların topluluklar sayfasına gönderide bulunulmasına izin vermiyor.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Görüntüler yükleniyor</string>
+    <string name="uploading_image_of">Gürüntü yükleniyor %1$d of %2$d</string>
+    <string name="upload_complete">Yükeleme tamamlandı</string>
+    <string name="n_uploaded_images">%1$d görüntü yüklendi</string>
+    <string name="upload_error">Yükeleme hatası</string>
+    <string name="file_not_found">Dosya bulunamadı %1$s</string>
+    <string name="upload_photo_default_album_name">Duvar</string>
+
+    <!-- About -->
+    <string name="about_version">Sürüm%1$s</string>
+    <string name="about_activity_title">Hakkında</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Tüm hakları saklıdır</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Mail gönder</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Hata bulursan bize bildir!</string>
+    <string name="feedback_send_suggest">Öneride bulun</string>
+    <string name="feedback_send_bug">Hata rapor et</string>
+    <string name="feedback_g_plus_community">G+ Topluluğu</string>
+    <string name="restart">Yeniden başlat</string>
+    <string name="change_theme_need_restart">Temayı uygulamak için yeniden başlatma gereklidir.</string>
+    <string name="change_app_language_need_restart">Dili değiştirmek için yenidien başlatma gereklidir.</string>
+    <string name="option_need_restart">Tercihi uygulamak için yeniden başlatma gereklidir.</string>
+    <string name="soon">Yakında &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Yenilikler</string>
+    <string name="changelog_close">Kapat</string>
+    <string name="changelog_activity_title">Yenilikler</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Reklam</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Ben: %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+
+</resources>

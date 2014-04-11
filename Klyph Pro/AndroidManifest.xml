@@ -1,0 +1,216 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abewy.klyph.pro"
+    android:installLocation="auto"
+    android:versionCode="92"
+    android:versionName="1.2.6" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!-- Android Licensing System -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+    <!-- GCM -->
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.abewy.klyph.pro.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.abewy.klyph.pro.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="com.abewy.android.apps.klyph.KlyphApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/ic_app_logo"
+        android:installLocation="preferExternal"
+        android:label="@string/app_pro_name"
+        android:largeHeap="true"
+        android:theme="@style/Klyph.Light.Blue" >
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:label="@string/app_pro_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.UserActivity"
+            android:parentActivityName="com.abewy.android.apps.klyph.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abewy.android.apps.klyph.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.AlbumPhotosActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale" />
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.AlbumVideosActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale" />
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.EventActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:parentActivityName="com.abewy.android.apps.klyph.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abewy.android.apps.klyph.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.MessageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:parentActivityName="com.abewy.android.apps.klyph.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abewy.android.apps.klyph.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.PageActivity"
+            android:parentActivityName="com.abewy.android.apps.klyph.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abewy.android.apps.klyph.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.GroupActivity"
+            android:parentActivityName="com.abewy.android.apps.klyph.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abewy.android.apps.klyph.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.StreamActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:parentActivityName="com.abewy.android.apps.klyph.app.MainActivity"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abewy.android.apps.klyph.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.ImageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:parentActivityName="com.abewy.android.apps.klyph.app.MainActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.AlbumActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.PostActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.PostPhotosActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.FriendPickerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.abewy.android.apps.klyph.app.PlacePickerActivity" />
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.GalleryActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale" />
+        <activity android:name="com.abewy.android.apps.klyph.app.AllPhotosActivity" />
+        <activity android:name="com.abewy.android.apps.klyph.app.PreferencesActivity" />
+        <activity android:name="com.abewy.android.apps.klyph.app.AboutActivity" />
+        <activity android:name="com.abewy.android.apps.klyph.app.FeedBackActivity" />
+        <activity android:name="com.abewy.android.apps.klyph.app.FaqActivity" />
+        <activity android:name="com.abewy.android.apps.klyph.app.ChangeLogActivity" />
+        <activity
+            android:name="com.abewy.android.apps.klyph.app.ChatConversationActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- Services -->
+        <service android:name="com.abewy.android.apps.klyph.service.NotificationService" />
+        <service android:name="com.abewy.android.apps.klyph.service.BirthdayService" />
+        <service android:name="com.abewy.android.apps.klyph.service.FriendRequestService" />
+        <service android:name="com.abewy.android.apps.klyph.service.UploadPhotoService" />
+        <service android:name="com.abewy.android.apps.klyph.gcm.GCMIntentService" />
+        <service android:name="com.abewy.android.apps.klyph.service.SetNotificationReadService" />
+
+        <!-- Broadcast Receivers -->
+        <receiver android:name="com.abewy.android.apps.klyph.service.NotificationDeletedReceiver" />
+        <receiver android:name="com.abewy.android.apps.klyph.service.NotificationGroupDeletedReceiver" />
+
+        <!-- AdMob SDK -->
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!-- Facebook SDK -->
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <!-- GCM -->
+        <receiver
+            android:name="com.abewy.android.apps.klyph.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.abewy.klyph.pro" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="ab2363aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+    </application>
+
+</manifest>

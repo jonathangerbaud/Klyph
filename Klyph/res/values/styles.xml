@@ -1,0 +1,148 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Klyph"></style>
+
+    <style name="Klyph.Widget"></style>
+
+    <style name="Klyph.ListItem" parent="Klyph.Widget">
+        <item name="android:textColor">@android:attr/textColorSecondary</item>
+        <item name="android:background">?attr/listItemBackground</item>
+    </style>
+
+    <style name="Klyph.ListItem.Stream" parent="Klyph.ListItem">
+        <item name="android:background">?attr/streamBackground</item>
+    </style>
+    
+    <style name="Klyph.ListItem.Card" parent="Klyph.ListItem">
+        <item name="android:background">?attr/cardBackground</item>
+    </style>
+
+    <style name="Klyph.ListItem.Comment" parent="Klyph.ListItem">
+        <item name="android:background">?attr/commentBackground</item>
+    </style>
+
+    <style name="Klyph.ListItem.ErrorItem" parent="Klyph.ListItem">
+        <item name="android:background">#FF4343</item>
+    </style>
+
+    <style name="Klyph.ListEmptyText" parent="Klyph.Widget">
+        <item name="android:textColor">#BFBFBF</item>
+    </style>
+
+    <style name="Klyph.ListItem.Title" parent="Klyph.Widget">
+        <item name="android:textColor">?attr/themeColor</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="Klyph.ListItem.Separator" parent="Klyph.Widget">
+        <item name="android:background">?attr/backgroundColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="Klyph.ListItem.Separator.Thin" parent="Klyph.ListItem.Separator">
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <style name="Klyph.ListItem.TitleItem">
+        <item name="android:textColor">?attr/themeColor</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Klyph.SecondaryText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+    </style>
+
+    <style name="Klyph.ListItem.PrimaryText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/klyph_list_item_primary_text</item>
+    </style>
+
+    <style name="Klyph.ListItem.SecondaryText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/klyph_list_item_secondary_text</item>
+    </style>
+
+    <style name="Klyph.Button">
+        <item name="android:background">@android:drawable/btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Klyph.ButtonBar">
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Klyph.Stream.TimeText" parent="Klyph.ListItem.SecondaryText">
+        <item name="android:textColor">?attr/textTimeColor</item>
+    </style>
+
+    <style name="Klyph.Stream.ButtonBar.Text" parent="Klyph.Widget">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/iconColor</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Klyph.CommentTextName">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="Klyph.CommentTextTime">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/textTimeColor</item>
+    </style>
+
+    <style name="Klyph.Blue.PullToRefresh" parent="android:Widget">
+        <item name="ptrProgressBarColor">@color/blue_theme_primary</item>
+    </style>
+
+    <style name="Klyph.Green.PullToRefresh" parent="android:Widget">
+        <item name="ptrProgressBarColor">@color/green_theme_primary</item>
+    </style>
+
+    <style name="Klyph.DrawerLayout" parent="Klyph.Widget">
+        <item name="android:background">?attr/menuBackgroundColor</item>
+        <item name="android:cacheColorHint">?attr/menuBackgroundColor</item>
+    </style>
+
+    <style name="Klyph.DrawerLayoutRight" parent="Klyph.Widget">
+        <item name="android:background">?attr/listItemBackground</item>
+        <!-- <item name="android:background">@drawable/drawer_menu_right_bg</item> -->
+    </style>
+    
+    <style name="Klyph.DrawerLayout.ListItem" parent="Klyph.Widget">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <!-- <item name="android:textColor">@android:color/white</item> -->
+    </style>
+
+    <style name="Klyph.Stream.ButtonBar.Button" parent="Klyph.Widget">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/iconColor</item>
+        <item name="android:background">?attr/streamButtonBarButtonBackground</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:minWidth">@dimen/dip_40</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+</resources>

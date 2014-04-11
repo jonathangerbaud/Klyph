@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap
+            android:antialias="true"
+            android:dither="false"
+            android:filter="false"
+            android:gravity="left"
+            android:src="@drawable/menu_left_bg"
+            android:tileMode="repeat" />
+    </item>
+    <item>
+        <inset
+            android:insetBottom="-3dp"
+            android:insetLeft="-3dp"
+            android:insetRight="0dp"
+            android:insetTop="-3dp" >
+            <shape>
+                <stroke
+                    android:width="3dp"
+                    android:color="@color/black_30_percent" />
+
+                <solid android:color="@android:color/transparent" />
+            </shape>
+        </inset>
+    </item>
+
+</layer-list>

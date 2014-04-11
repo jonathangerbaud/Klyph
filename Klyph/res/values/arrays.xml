@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="privacy">
+        <item>@string/menu_privacy_public</item>
+        <item>@string/menu_privacy_friends</item>
+        <item>@string/menu_privacy_self</item>
+    </string-array>
+    <string-array name="preferences_themes_entries">
+        <item>Light Blue</item>
+        <item>Dark Blue</item>
+        <item>Black Blue</item>
+        <item>Light Green</item>
+        <item>Dark Green</item>
+        <item>Black Green</item>
+    </string-array>
+    <string-array name="preferences_themes_values">
+        <item>@string/theme_light_blue</item>
+        <item>@string/theme_dark_blue</item>
+        <item>@string/theme_black_blue</item>
+        <item>@string/theme_light_green</item>
+        <item>@string/theme_dark_green</item>
+        <item>@string/theme_black_green</item>
+    </string-array>
+    
+    <string-array name="preferences_notification_system_labels">
+        <item>@string/preferences_notification_system_push</item>
+        <item>@string/preferences_notification_system_periodic</item>
+        <item>@string/preferences_notification_system_both</item>
+    </string-array>
+    
+    <string-array name="preferences_notification_system_values">
+        <item>push</item>
+        <item>periodic</item>
+        <item>both</item>
+    </string-array>
+    <string-array name="preferences_birthday_time_label">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+    <string-array name="preferences_birthday_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    
+    <string-array name="preferences_app_language_entries">
+        <item>@string/defaultString</item>
+        <item>Bahasia Indonesia</item>
+        <item>Català</item>
+        <item>Čeština</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>ελληνικά</item>
+        <item>Italiano</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português (Brasil)</item>
+        <item>Român</item>
+        <item>Svenska</item>
+        <item>Türk</item>
+        <item>Tiếng Việt</item>
+        <item>繁體中文</item>
+        <item>עברית</item>
+        <item>العربية</item>
+    </string-array>
+    
+    <string-array name="preferences_app_language_values">
+        <item>default</item>
+        <item>id</item>
+        <item>ca</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>de</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>el</item>
+        <item>it</item>
+        <item>hu</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>pt_BR</item>
+        <item>ro</item>
+        <item>sv</item>
+        <item>tr</item>
+        <item>vi</item>
+        <item>zh_TW</item>
+        <item>iw</item>
+        <item>ar_AR</item>
+    </string-array>
+    
+    <string-array name="preferences_fb_language_entries">
+        <item>@string/defaultString</item>
+        <item>Bahasia Indonesia</item>
+        <item>Català</item>
+        <item>Čeština</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>ελληνικά</item>
+        <item>Italiano</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português (Brasil)</item>
+        <item>Român</item>
+        <item>Svenska</item>
+        <item>Türk</item>
+        <item>Tiếng Việt</item>
+        <item>繁體中文</item>
+        <item>עברית</item>
+        <item>العربية</item>
+    </string-array>
+    
+    <string-array name="preferences_fb_language_values">
+        <item>default</item>
+        <item>id_ID</item>
+        <item>ca_ES</item>
+        <item>cs_CZ</item>
+        <item>da_DK</item>
+        <item>de_DE</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>fr_FR</item>
+        <item>el_GR</item>
+        <item>it_IT</item>
+        <item>hu_HU</item>
+        <item>nl_NL</item>
+        <item>pl_PL</item>
+        <item>pt_BR</item>
+        <item>ro_RO</item>
+        <item>sv_SE</item>
+        <item>tr_TR</item>
+        <item>vi_VN</item>
+        <item>zh_TW</item>
+        <item>he_IL</item>
+        <item>ar_AR</item>
+    </string-array>
+    
+   	<string-array name="preferences_view_pager_indicator_style_values">
+         <item>Tabs</item>
+         <item>Titles</item>
+    </string-array>
+    
+    <string-array name="preferences_view_pager_indicator_style_entries">
+        <item>@string/preferences_view_pager_indicator_style_tabs</item>
+        <item>@string/preferences_view_pager_indicator_style_titles</item>
+    </string-array>
+
+    <string-array name="donate_google_catalog_values">
+        <item>1 Euro</item>
+        <item>2 Euros</item>
+        <item>3 Euros</item>
+        <item>4 Euros</item>
+        <item>5 Euros</item>
+        <item>6 Euros</item>
+        <item>7 Euros</item>
+        <item>8 Euros</item>
+        <item>9 Euros</item>
+        <item>10 Euros</item>
+        <item>15 Euros</item>
+        <item>20 Euros</item>
+        <item>25 Euros</item>
+        <item>30 Euros</item>
+        <item>35 Euros</item>
+        <item>40 Euros</item>
+        <item>45 Euros</item>
+        <item>50 Euros</item>
+        <item>75 Euros</item>
+        <item>100 Euros</item>
+    </string-array>
+    
+    <string-array name="preferences_notifications_interval_labels">
+        <item>@string/preference_notification_interval_1_minute</item>
+        <item>@string/preference_notification_interval_2_minutes</item>
+        <item>@string/preference_notification_interval_3_minutes</item>
+        <item>@string/preference_notification_interval_5_minutes</item>
+        <item>@string/preference_notification_interval_10_minutes</item>
+        <item>@string/preference_notification_interval_15_minutes</item>
+        <item>@string/preference_notification_interval_20_minutes</item>
+        <item>@string/preference_notification_interval_25_minutes</item>
+        <item>@string/preference_notification_interval_30_minutes</item>
+        <item>@string/preference_notification_interval_45_minutes</item>
+        <item>@string/preference_notification_interval_1_hour</item>
+        <item>@string/preference_notification_interval_2_hours</item>
+        <item>@string/preference_notification_interval_3_hours</item>
+        <item>@string/preference_notification_interval_4_hours</item>
+        <item>@string/preference_notification_interval_5_hours</item>
+        <item>@string/preference_notification_interval_6_hours</item>
+        <item>@string/preference_notification_interval_7_hours</item>
+        <item>@string/preference_notification_interval_8_hours</item>
+        <item>@string/preference_notification_interval_twice_daily</item>
+        <item>@string/preference_notification_interval_daily</item>
+    </string-array>
+    <string-array name="preferences_notifications_interval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1440</item>
+    </string-array>
+    
+    <string-array name="preferences_notifications_ringtone_labels">
+        <item>@string/defaultString</item>
+        <item>@string/preference_notifications_ringtone</item>
+        <item>@string/preference_notifications_song</item>
+    </string-array>
+    
+    <string-array name="preferences_notifications_ringtone_values">
+        <item>default</item>
+        <item>ringtone</item>
+        <item>song</item>
+    </string-array>
+    
+    <string-array name="preferences_main_activity_entries">
+        <item>@string/fragment_header_groups</item>
+        <item>@string/fragment_header_pages</item>
+        <item>@string/fragment_header_followed_people</item>
+        <item>@string/fragment_header_friends</item>
+        <item>@string/fragment_header_timeline</item>
+        <item>@string/fragment_header_newsfeed</item>
+        <item>@string/fragment_header_albums</item>
+        <item>@string/fragment_header_events</item>
+        <item>@string/fragment_header_birthdays</item>
+    </string-array>
+    
+    <string-array name="preferences_main_activity_values">
+        <item>@string/fragment_header_groups_preference_value</item>
+        <item>@string/fragment_header_pages_preference_value</item>
+        <item>@string/fragment_header_followed_people_preference_value</item>
+        <item>@string/fragment_header_friends_preference_value</item>
+        <item>@string/fragment_header_timeline_preference_value</item>
+        <item>@string/fragment_header_newsfeed_preference_value</item>
+        <item>@string/fragment_header_albums_preference_value</item>
+        <item>@string/fragment_header_events_preference_value</item>
+        <item>@string/fragment_header_birthdays_preference_value</item>
+    </string-array>
+    
+    <string-array name="preferences_user_activity_entries">
+        <item>@string/fragment_header_events</item>
+        <item>@string/fragment_header_about</item>
+        <item>@string/fragment_header_timeline</item>
+        <item>@string/fragment_header_albums</item>
+        <item>@string/fragment_header_pages</item>
+    </string-array>
+    
+    <string-array name="preferences_user_activity_values">
+        <item>@string/fragment_header_events_preference_value</item>
+        <item>@string/fragment_header_about_preference_value</item>
+        <item>@string/fragment_header_timeline_preference_value</item>
+        <item>@string/fragment_header_albums_preference_value</item>
+        <item>@string/fragment_header_pages_preference_value</item>
+    </string-array>
+    
+    <string-array name="preferences_page_activity_entries">
+        <item>@string/fragment_header_about</item>
+        <item>@string/fragment_header_timeline</item>
+        <item>@string/fragment_header_albums</item>
+        <item>@string/fragment_header_pages</item>
+        <item>@string/fragment_header_events</item>
+    </string-array>
+    
+    <string-array name="preferences_page_activity_values">
+        <item>@string/fragment_header_about_preference_value</item>
+        <item>@string/fragment_header_timeline_preference_value</item>
+        <item>@string/fragment_header_albums_preference_value</item>
+        <item>@string/fragment_header_pages_preference_value</item>
+        <item>@string/fragment_header_events_preference_value</item>
+    </string-array>
+    
+    <string-array name="preferences_event_activity_entries">
+        <item>@string/fragment_header_wall</item>
+        <item>@string/fragment_header_infos</item>
+        <item>@string/fragment_header_going</item>
+        <item>@string/fragment_header_maybe</item>
+        <item>@string/fragment_header_declined</item>
+        <item>@string/fragment_header_invited</item>
+    </string-array>
+    
+    <string-array name="preferences_event_activity_values">
+        <item>@string/fragment_header_wall_preference_value</item>
+        <item>@string/fragment_header_infos_preference_value</item>
+        <item>@string/fragment_header_going_preference_value</item>
+        <item>@string/fragment_header_maybe_preference_value</item>
+        <item>@string/fragment_header_declined_preference_value</item>
+        <item>@string/fragment_header_invited_preference_value</item>
+    </string-array>
+    
+    <string-array name="preferences_group_activity_entries">
+        <item>@string/fragment_header_events</item>
+        <item>@string/fragment_header_members</item>
+        <item>@string/fragment_header_timeline</item>
+        <item>@string/fragment_header_photos</item>
+    </string-array>
+    
+    <string-array name="preferences_group_activity_values">
+        <item>@string/fragment_header_events_preference_value</item>
+        <item>@string/fragment_header_members_preference_value</item>
+        <item>@string/fragment_header_timeline_preference_value</item>
+        <item>@string/fragment_header_photos_preference_value</item>
+    </string-array>
+    
+    <string-array name="nav_names">
+        <item>@string/fragment_header_newsfeed</item>
+        <item>@string/fragment_header_albums</item>
+        <item>@string/fragment_header_friends</item>
+        <item>@string/fragment_header_inbox</item>
+        <item>@string/menu_chat</item>
+        <item>@string/fragment_header_pages</item>
+        <item>@string/fragment_header_groups</item>
+        <item>@string/fragment_header_events</item>
+        <item>@string/fragment_header_followed_people</item>
+        <item>@string/fragment_header_birthdays</item>
+        <item>@string/fragment_header_search</item>
+    </string-array>
+    
+    <string-array name="nav_classes">
+        <item>com.abewy.android.apps.klyph.fragment.StreamListFragment</item>
+        <item>com.abewy.android.apps.klyph.fragment.ElementAlbums</item>
+        <item>com.abewy.android.apps.klyph.fragment.Friends</item>
+        <item>com.abewy.android.apps.klyph.fragment.Threads</item>
+        <item>com.abewy.android.apps.klyph.fragment.Chat</item>
+        <item>com.abewy.android.apps.klyph.fragment.Pages</item>
+        <item>com.abewy.android.apps.klyph.fragment.Groups</item>
+        <item>com.abewy.android.apps.klyph.fragment.ElementEvents</item>
+        <item>com.abewy.android.apps.klyph.fragment.FollowedPeople</item>
+        <item>com.abewy.android.apps.klyph.fragment.Birthdays</item>
+        <item>com.abewy.android.apps.klyph.fragment.Search</item>
+    </string-array>
+    
+    <string-array name="user_feed_list">
+        <item>@string/fragment_header_wall</item>
+        <item>@string/others</item>
+    </string-array>
+    
+    <string-array name="search_labels">
+        <item>@string/user</item>
+        <item>@string/page</item>
+        <item>@string/group</item>
+        <item>@string/event</item>
+    </string-array>
+</resources>

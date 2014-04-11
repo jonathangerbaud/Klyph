@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">חדשות</string>
+    <string name="fragment_header_timeline">ציר זמן</string>
+    <string name="fragment_header_inbox">Inbox</string>
+    <string name="fragment_header_friends">חברים</string>
+    <string name="fragment_header_pages">דפים</string>
+    <string name="fragment_header_about">אודות</string>
+    <string name="fragment_header_events">אירועים</string>
+    <string name="fragment_header_birthdays">ימי הולדת</string>
+    <string name="fragment_header_albums">אלבומים</string>
+    <string name="fragment_header_infos">מידע</string>
+    <string name="fragment_header_wall">קיר</string>
+    <string name="fragment_header_going">מגיע</string>
+    <string name="fragment_header_maybe">לא בטוח</string>
+    <string name="fragment_header_declined">לא מגיע</string>
+    <string name="fragment_header_invited">מוזמן</string>
+    <string name="fragment_header_groups">קבוצות</string>
+    <string name="fragment_header_members">חברים</string>
+    <string name="fragment_header_photos">תמונות</string>
+    <string name="fragment_header_threads">שיחות</string>
+    <string name="fragment_header_followed_people">אנשים במעקב</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">חפש</string>
+    <string name="user">משתמש</string>
+    <string name="page">עמוד</string>
+    <string name="group">קבוצה</string>
+    <string name="event">אירוע</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">התנתק</string>
+    <string name="menu_notifications">התראות</string>
+    <string name="menu_chat">צ\'\אט</string>
+    <string name="menu_messages">הודעות</string>
+    <string name="menu_credits">קרטידים</string>
+    <string name="menu_send">שלח</string>
+    <string name="menu_preferences">הגדרות</string>
+    <string name="menu_feedback">הצעה/באג</string>
+    <string name="menu_donate">תרום</string>
+    <string name="menu_download">הורד</string>
+    <string name="menu_add_photos">הוסף תמונות</string>
+    <string name="menu_faq">FAQ</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Do you really want to logout ?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">אלבום :</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">אלבום חדש</string>
+    <string name="create">צור</string>
+    <string name="name">שם</string>
+    <string name="location">מיקום</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">נסה שוב</string>
+
+    <!-- Request errors -->
+    <string name="request_error">קרתה תקלה.</string>
+    <string name="request_connexion_error">בעיית התחברות.\nבדוק את החיבור לאינטרנט.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">אין אפשרות לאתר את מיקומך.</string>
+    <string name="choose_place">בחר מקום</string>
+
+    <!-- General -->
+    <string name="close">סגור</string>
+    <string name="open">פתח</string>
+    <string name="refresh">רענן</string>
+    <string name="share">שתף</string>
+    <string name="defaultString">ברירת מחדל</string>
+    <string name="camera">מצלמה</string>
+    <string name="copy_text">העתק טקסט</string>
+    <string name="see_who_likes_this">ראה מי אוהב את זה</string>
+    <string name="download_image">הורד תמונה</string>
+    <string name="view_profile">צפה בפרופיל</string>
+    <string name="share_with">Share with</string>
+    <string name="more">עוד</string>
+    <string name="reply">השב</string>
+    <string name="hide">החבא</string>
+    <string name="none">None</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">בחר תמונות</string>
+    <string name="thread_activity_title">הודעות</string>
+    <string name="notification_activity_title">התראות</string>
+    <string name="credentials_activity_title">קרדיטים</string>
+    <string name="donate_activity_title">תרום</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">פומבי</string>
+    <string name="menu_privacy_friends">חברים</string>
+    <string name="menu_privacy_self">רק אני</string>
+
+    <!-- FR Values -->
+    <string name="like">אהבתי</string>
+    <string name="unlike">לא אהבתי</string>
+    <string name="people_who_likes_this">אנשים שאוהבים את זה</string>
+    <string name="comment">הגב</string>
+    <string name="zero_or_one_like">%s סימוני אהבתי</string>
+    <string name="zero_or_one_comment">%s תגובות</string>
+    <string name="number_of_likes">%s סימוני אהבתי</string>
+    <string name="number_of_comments">%s תגובות</string>
+    <string name="number_of_people_who_like_it">%s אנשים אוהבים את זה</string>
+    <string name="you_and_other_people_who_like_it">אתה ו %s אנשים אוהבים את זה</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">לפני %d שניות</string>
+    <string name="one_minute_ago">לפני דקה אחת</string>
+    <string name="minutes_ago">לפני %d דקות</string>
+    <string name="one_hour_ago">לפני כשעה</string>
+    <string name="hours_ago">לפני %d שעות</string>
+    <string name="one_day_ago">לפני יום</string>
+    <string name="days_ago">לפני %d ימים</string>
+    <string name="one_month_ago">לפני חודש</string>
+    <string name="months_ago">לפני %d חודשים</string>
+    <string name="years_ago">לפני %d שנים</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">בחר איכות</string>
+    <string name="dialog_video_quality_message">צפה באיכות רגילה (SD) או באיכות גבוהה (HD) ?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s הוסיף %2$s תמונות לאלבום %3$s</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— עם %1$s</string>
+    <string name="post_with_two_friends">— עם %1$s ו %2$s</string>
+    <string name="post_with_several_friends">— עם %1$s ו %2$s חברים אחרים</string>
+    <string name="with_several_friends">%1$s חברים אחרים</string>
+    <string name="at_place">— ב %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">בטל</string>
+    <string name="error">תקלה</string>
+    <string name="please_enter_message">בבקשה כתוב את ההודעה</string>
+    <string name="must_select_place_to_tag_friends">לתיוג חברים,בחר מיקום קודם</string>
+    <string name="status">סטטוס</string>
+    <string name="publishing">מפרסם&#8230;</string>
+    <string name="status_successfully_published">הסטטוס החדש שלך פורסם.</string>
+    <string name="message_successfully_published">ההודעה שלך פורסמה.</string>
+    <string name="publish_unknown_error">אין אפשרות לפרסם סטטוס.</string>
+    <string name="publish_message_unknown_error">אין אפשרות לפרסם הודעה.</string>
+    <string name="publish_error_duplicate_message">זה כבר הסטטוס האחרון שלך.</string>
+    <string name="publish_new_status">פרסם סטטוס חדש.</string>
+    <string name="publish_new_event_message">פרסם הודעה חדשה.</string>
+    <string name="friends">חברים</string>
+    <string name="post_hint">ההודעה שלך</string>
+    <string name="post_link_malformated_url">כתובת הurl אינה חוקית</string>
+    <string name="post_link_malformated_image_url">כתובת התמונה לא חוקית</string>
+    <string name="post_link_empty_name">הכנס שם בבקשה.</string>
+    <string name="post_share_status">שתף סטטוס</string>
+    <string name="post_share_photo">שתף תמונה</string>
+    <string name="post_share_video">שתף וידאו</string>
+    <string name="post_share_link">שתף קישור</string>
+    <string name="post_share_album">שתף אלבום</string>
+    <string name="post_share_on">שתף על</string>
+    <string name="post_share_on_my_wall">הקיר שלי</string>
+    <string name="post_share_on_friend_wall">קיר של חבר</string>
+    <string name="post_a_reply">Post a reply</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">פרסם תמונות חדשות</string>
+    <string name="creating_album">יוצר אלבום &#8230;</string>
+    <string name="must_select_photos">בחר תמונות להעלות</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">קבלת אישור</string>
+    <string name="delete_post_confirmation_message">האם אתה באמת רוצה למחוק את ההודעה הזו?</string>
+    <string name="delete_post_error">אין אפשרות למחוק הודעה.</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="delete">מחק</string>
+    <string name="deleting">מוחק&#8230;</string>
+    <string name="post_deleted">הודעה הוסרה.</string>
+    <string name="like_error">אין אפשרות לסמן כ"אהבתי" .</string>
+    <string name="unlike_error">אין אפשרות לבטל את ה"אהבתי"</string>
+    <string name="stream_date">%1$s ב %2$s</string>
+    <string name="stream_today_date">היום ב %1$s</string>
+    <string name="stream_yesterday_date">אתמול ב %1$s</string>
+    <string name="newsfeed_new_stream">פרסום חדש 1</string>
+    <string name="newsfeed_new_streams">%1$d פרסומים חדשים</string>
+
+    <!-- Event -->
+    <string name="event_by">על ידי %1$s</string>
+    <string name="event_description">תיאור</string>
+    <string name="event_practical_information">מידע פרקטי</string>
+    <string name="event_date">תאריך</string>
+    <string name="event_place">מקום</string>
+    <string name="event_secret">רק בהזמנה</string>
+    <string name="event_friends">חברים</string>
+    <string name="event_public">אירוע פומבי</string>
+    <string name="event_closed">אירוע סגור</string>
+    <string name="event_will_attend_title">האם אגיע?</string>
+    <string name="event_going">הצטרף</string>
+    <string name="event_unsure">אולי</string>
+    <string name="event_declined">סרב</string>
+    <string name="event_num_invitee">%1$s אנשים מוזמנים</string>
+    <string name="event_num_attending">%1$s אנשים הולכים</string>
+    <string name="event_num_unsure">%1$s אנשים לא בטוחים</string>
+    <string name="event_num_declined">%1$s אנשים סרבו</string>
+    <string name="event_response_dialog_title">ענה</string>
+    <string name="event_response_dialog_message">שולח תגובה&#8230;</string>
+    <string name="event_response_ok">התגובה שלך נשלחה</string>
+    <string name="event_response_error">קרתה תקלה בעת הניסיון לשלוח תגובה.\nנסה שוב מאוחר יותר.</string>
+
+    <!-- User -->
+    <string name="user_birthday">יום הולדת</string>
+    <string name="user_sex">מין</string>
+    <string name="user_meeting_sex">מתעניין ב</string>
+    <string name="user_relationship_status">מצב מערכת יחסים</string>
+    <string name="user_religion">השקפות דת</string>
+    <string name="user_political">השקפות פוליטיות</string>
+    <string name="user_phones">טלפונים</string>
+    <string name="user_address">כתובת</string>
+    <string name="user_email">מייל</string>
+    <string name="user_networks">רשתות</string>
+    <string name="user_activities">פעילויות</string>
+    <string name="user_books">ספרים</string>
+    <string name="user_inspirational_people">אנשים שנותנים לי השראה</string>
+    <string name="user_interests">תחומי עניין</string>
+    <string name="user_movies">סרטים</string>
+    <string name="user_music">מוזיקה</string>
+    <string name="user_sports">ספורט</string>
+    <string name="user_tv">סדרות טלוויזיה</string>
+    <string name="user_quotes">ציטוטים</string>
+    <string name="user_website">אתר</string>
+
+    <!-- Work -->
+    <string name="work_date">%1$s עד ל %2$s</string>
+    <string name="work_date_until_today">%1$s עד היום</string>
+
+    <!-- Education -->
+    <string name="education_year">מחזור של %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s et %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s ו %3$d אחרים</string>
+    <string name="thread_and_others">%1$d אחרים</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">אנשים שאוהבים את זה</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">פרטיות</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d שנים</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">בחר חברים</string>
+    <string name="friend_picker_single_choice_title">בחר חבר</string>
+    <string name="search_friends">חפש חברים</string>
+    <string name="several_friends_selected">%1$d חברים נבחרו</string>
+    <string name="one_friend_selected">חבר 1 נבחור</string>
+    <string name="no_friend_selected">לא נבחר חבר</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d תמונות נבחרו</string>
+    <string name="one_photo_selected">תמונה אחת נבחרה</string>
+    <string name="no_photo_selected">לא נבחרה תמונה</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">אין אפשרות למצוא תמונה</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">פרסם תגובה</string>
+    <string name="comments_disabled">תגובות חסומות</string>
+    <string name="publish_comment_dialog_title">הגב</string>
+    <string name="publish_comment_dialog_message">מפרסם&#8230;</string>
+    <string name="publish_comment_ok">התגובה שלך פורסמה.</string>
+    <string name="publish_comment_error">קרתה תקלה בעת ניסיון פרסום התגובה.\nנסה שוב מאוחר יותר.</string>
+    <string name="several_comments">%1$d תגובות</string>
+    <string name="one_comment">תגובה אחת</string>
+    <string name="no_comment">אין תגובות</string>
+    <string name="define_comment_before_publish">אנא הכנס את תגובתך</string>
+    <string name="several_likes">%1$d אנשים אוהבים את זה</string>
+    <string name="one_like">איש אחד אוהב את זה</string>
+    <string name="no_like">אף אחד לא אוהב את זה</string>
+    <string name="cannot_find_post">אין אפשרות למצוא את הפרסום</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">מעבד רשימת תמונות לפני הורדה &#8230;</string>
+    <string name="fetch_videos_from_album">מעבד רשימת סרטונים לפני הורדה &#8230;</string>
+    <string name="tagged_photos_of">תמונות של %1$s</string>
+
+    <!-- User about -->
+    <string name="family">משפחה</string>
+    <string name="others">אחרים</string>
+    <string name="work">עבודה</string>
+    <string name="education">השכלה</string>
+    <string name="user_about">אודות</string>
+    <string name="user_about_sex">מין : %1$s</string>
+    <string name="user_about_birthday">נולד ב %1$s</string>
+    <string name="user_about_ralationship_status">מצב מערכת יחסים : %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">אודות</string>
+    <string name="noone_talk_about_it">אף אחד לא מדבר על זה</string>
+    <string name="one_talk_about_it">איש אחד מדבר על זה</string>
+    <string name="several_talk_about_it">%1$s אנשים מדברים על זה</string>
+    <string name="page_base_infos">מידע בסיסי</string>
+    <string name="description">תיאור</string>
+    <string name="mission">משימה</string>
+    <string name="coordinates">קואורדינטות</string>
+    <string name="general_infos">מידע כללי</string>
+    <string name="artists_we_like">אמנים שאנחנו אוהבים</string>
+    <string name="band_interests">תחומי עניין של הלהקה</string>
+    <string name="band_bio">ביוגרפיה</string>
+    <string name="band_members">חברי הלהקה</string>
+    <string name="founded">נוסדה</string>
+    <string name="genre">ג\'\אנר</string>
+    <string name="band_current_location">מיקום נוכחי</string>
+    <string name="band_hometown">עיר המקור</string>
+    <string name="band_record_label">חברת תקליטים</string>
+    <string name="band_influences">השפעות</string>
+    <string name="band_press_contact">איש קשר לתקשורת</string>
+    <string name="band_booking_agent">סוכן הזמנות</string>
+    <string name="band_general_manager">מנהל כללי</string>
+    <string name="company_products">מוצרים</string>
+    <string name="company_overview">מבט כולל</string>
+    <string name="hours">שעות</string>
+    <string name="public_transit">תחבורה ציבורית</string>
+    <string name="restaurant_food_styles">סגנונות אוכל</string>
+    <string name="restaurant_culinar_team">צוות קולינרי</string>
+    <string name="restaurant_prices">מחירים</string>
+    <string name="restaurant_attire">לבוש</string>
+    <string name="restaurant_services">שירותים</string>
+    <string name="restaurant_specialties">התמחויות</string>
+    <string name="restaurant_parking">חניה</string>
+    <string name="breakfast">ארוחת בוקר</string>
+    <string name="lunch">ארוחת צהריים</string>
+    <string name="dinner">ארוחת ערב</string>
+    <string name="coffee">קפה</string>
+    <string name="drinks">משקאות</string>
+    <string name="visa">ויזה</string>
+    <string name="mastercard">מאסטרקארד</string>
+    <string name="amex">אמריקן אספרס</string>
+    <string name="cash_only">רק מזומן</string>
+    <string name="discover">גלה</string>
+    <string name="reserve">לוקח הזמנות</string>
+    <string name="walkins">מקבלים אנשים שנכנסים</string>
+    <string name="groups">טוב לקבוצות</string>
+    <string name="kids">טוב לילדים</string>
+    <string name="takeout">לקחת</string>
+    <string name="delivery">משלוח</string>
+    <string name="waiter">שירותי מלצר</string>
+    <string name="catering">קייטרינג</string>
+    <string name="outdoor">מושבים בחוץ</string>
+    <string name="street">רחוב</string>
+    <string name="lot">מגרש חניה</string>
+    <string name="valet">חדרן</string>
+    <string name="monday">יום שני</string>
+    <string name="tuesday">יום שלישי</string>
+    <string name="wednesday">יום רביעי</string>
+    <string name="thursday">יום חמישי</string>
+    <string name="friday">יום שישי</string>
+    <string name="saturday">יום שבת</string>
+    <string name="sunday">יום ראשון</string>
+    <string name="plot_outline">מתווה עלילה</string>
+    <string name="network">רשת אינטרנט</string>
+    <string name="season">עונה</string>
+    <string name="schedule">לוח זמנים</string>
+    <string name="starring">בכיכובו של</string>
+    <string name="written_by">נכתב על ידי</string>
+    <string name="awards">פרסים</string>
+    <string name="personal_info">מידע אישי</string>
+    <string name="personal_interests">תחומי עניין</string>
+    <string name="phone">טלפון</string>
+    <string name="release_date">יום השקה</string>
+    <string name="studio">סטודי</string>
+    <string name="directed_by">בבימויו של</string>
+    <string name="screenplay_by">תסריט</string>
+    <string name="affiliation">הצטרפות</string>
+    <string name="built">נבנה</string>
+    <string name="features">תכונות</string>
+    <string name="mpg">Mpg</string>
+    <string name="pharma_safety_info">מידע על בטיחות תרופות</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">אין משתמשים</string>
+    <string name="empty_list_no_friend">אין חברים</string>
+    <string name="empty_list_no_page">אין דפים</string>
+    <string name="empty_list_no_event">אין אירועים</string>
+    <string name="empty_list_no_album">אין אלבומים</string>
+    <string name="empty_list_no_photo">אין תמונות</string>
+    <string name="empty_list_no_video">אין סרטונים</string>
+    <string name="empty_list_no_birthday">אין ימי הולדת</string>
+    <string name="empty_list_no_message">אין הודעות</string>
+    <string name="empty_list_no_notification">אין התראות</string>
+    <string name="empty_list_no_stream">אין פרסומים</string>
+    <string name="empty_list_no_data">אין מידע</string>
+    <string name="empty_list_no_group">אין קבוצות</string>
+    <string name="empty_list_no_member">אין חברים</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">אייקונים</string>
+    <string name="credentials_translators">מתרגמים</string>
+
+    <!-- Preferences -->
+    <string name="preferences">העדפות</string>
+    <string name="preference_theme_title">ערכת נושא</string>
+    <string name="preferences_themes_dialog_title">בחר ערכת נושא</string>
+    <string name="preference_about_title">אודות</string>
+    <string name="preference_credits_title">קרדיטים</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">אייקונים</string>
+    <string name="preference_credits_tools_title">כלים</string>
+    <string name="preference_changelog_title">שינויי גרסה</string>
+    <string name="preference_notifications_title">התראות</string>
+    <string name="preference_notification_title">התראה</string>
+    <string name="preference_notification_summary">הפעל התראות</string>
+    <string name="preference_notification_type_title">סוגי התראות</string>
+    <string name="preference_notification_birthday_title">ימי הולדת</string>
+    <string name="preference_notification_birthday_summary">התראות לימי הולדת של חברים</string>
+    <string name="preferences_notification_birthday_time_title">עדכונים לימי הולדת</string>
+    <string name="preferences_notification_birthday_time_summary">זמן לעדכן את ימי ההולדת</string>
+    <string name="preference_notification_apprequest_title">App requests</string>
+    <string name="preference_notification_apprequest_summary">Notification on app requests</string>
+    <string name="preference_notification_album_title">Albums</string>
+    <string name="preference_notification_album_summary">Notification on albums</string>
+    <string name="preference_notification_event_title">אירועים</string>
+    <string name="preference_notification_event_summary">התראות על אירועים</string>
+    <string name="preference_notification_friend_request_title">בקשות חברות</string>
+    <string name="preference_notification_friend_request_summary">התראה על בקשות חברות</string>
+    <string name="preference_notification_group_invite_title">קבוצות</string>
+    <string name="preference_notification_group_invite_summary">Notification on groups</string>
+    <string name="preference_notification_page_invite_title">דפים</string>
+    <string name="preference_notification_page_invite_summary">Notification on pages</string>
+    <string name="preference_notification_photo_title">תמונות</string>
+    <string name="preference_notification_photo_summary">התראות על תמונות</string>
+    <string name="preference_notification_poke_title">Pokes</string>
+    <string name="preference_notification_poke_summary">Notification on pokes</string>
+    <string name="preference_notification_stream_title">פרסומים</string>
+    <string name="preference_notification_stream_summary">התראות לפרסומים חוץ מאלה שלמעלה</string>
+    <string name="preference_notification_video_title">סרטונים</string>
+    <string name="preference_notification_video_summary">התראות על סרטונים</string>
+    <string name="preferences_notifications_interval">תדירות</string>
+    <string name="preferences_notifications_permissions_title">רשות נדרשת</string>
+    <string name="preferences_notifications_permissions_message">על מנת לפרסם התראות, אנחנו מבקשים שתכנס שוב כדי לקבל רשות מפייסבוק</string>
+    <string name="preference_notification_group_title">התראות קבוצה</string>
+    <string name="preference_notification_group_summary">התרעה פעם אחת גם כשמתקבלים התראות מרובות</string>
+    <string name="preference_app_language_title">שפת אפליקציה</string>
+    <string name="preferences_app_language_dialog_title">שנה שפת אפליקציה ל</string>
+    <string name="preference_fb_language_title">שפת פייסבוק</string>
+    <string name="preferences_fb_language_dialog_title">שנה שפת פייסבוק ל</string>
+    <string name="preference_newsfeed_title">חדשות</string>
+    <string name="preference_newsfeed_pages_title">דפים</string>
+    <string name="preference_newsfeed_groups_title">קבוצות</string>
+    <string name="preference_newsfeed_events_title">אירועים</string>
+    <string name="preference_newsfeed_pages">הכלל פרסומים מדפים בחדשות</string>
+    <string name="preference_newsfeed_groups">הכלל פרסומים מקבוצות בחדשות</string>
+    <string name="preference_newsfeed_events">הכלל פרסומים מאירועים בחדשות</string>
+    <string name="preference_performances_title">ביצועים</string>
+    <string name="preference_performances_photo_effect_summary">ביטול האפקט משפר את הביצועים</string>
+    <string name="preference_performances_photo_effect_title">הפעל אפקט העלמות לתמונות</string>
+    <string name="preference_performances_rounded_profile_picture_summary">ביטול האפקט משפר את הביצועים</string>
+    <string name="preference_performances_rounded_profile_picture_title">הפעל תמונות פרופיל עם פינות מעוגלות</string>
+    <string name="preferences_view_pager_indicator_style_title">סגנון סמן הדפים</string>
+    <string name="preferences_view_pager_indicator_style_tabs">טאבים</string>
+    <string name="preferences_view_pager_indicator_style_titles">כותרות</string>
+    <string name="preferences_ui_title">ממשק משתמש</string>
+    <string name="preference_performances_pause_on_scroll_title">השהה טעינת תמונה בעת נגיעה</string>
+    <string name="preference_performances_pause_on_scroll_summary">כשמופעל, תמונות לא יטענו כשאצבעות נוגעות במסך</string>
+    <string name="preference_performances_pause_on_fling_title">השהה טעינת תמונה בעת גלילה</string>
+    <string name="preference_performances_pause_on_fling_summary">כשמופעל, תמונות לא יטענו כשאתה גולל ושאצבעות נוגעות במסך</string>
+    <string name="preference_performances_card_animation_title">הפעל אנימציית קלפים</string>
+    <string name="preference_performances_card_animation_summary">ביטול אנימציית הקלפים משפר ביצועים</string>
+    <string name="preferences_main_activity_tabs_title">תוית ראשית</string>
+    <string name="preferences_user_activity_tabs_title">תוית חברים</string>
+    <string name="preferences_page_activity_tabs_title">תוית דף</string>
+    <string name="preferences_event_activity_tabs_title">תוית אירועים</string>
+    <string name="preferences_group_activity_tabs_title">תוית קבוצה</string>
+    <string name="preference_images_title">תמונות</string>
+    <string name="preference_images_clear_cache_title">הסר מידע תמונות שנטען מראש</string>
+    <string name="preference_images_clear_cache_summary">מוחק תמונות שנטענו מהאחסון</string>
+    <string name="preference_images_cache_clearing">מוחק תמונות...</string>
+    <string name="preference_images_cache_cleared">תמונות נמחקו</string>
+    <string name="preference_notification_interval_1_minute">כל דקה</string>
+    <string name="preference_notification_interval_2_minutes">כל 2 דקות</string>
+    <string name="preference_notification_interval_3_minutes">כל 3 דקות</string>
+    <string name="preference_notification_interval_5_minutes">כל 5 דקות</string>
+    <string name="preference_notification_interval_10_minutes">כל 10 דקות</string>
+    <string name="preference_notification_interval_15_minutes">כל רבע שעה</string>
+    <string name="preference_notification_interval_20_minutes">כל 20 דקות</string>
+    <string name="preference_notification_interval_25_minutes">כל 25 דקות</string>
+    <string name="preference_notification_interval_30_minutes">כל חצי שעה</string>
+    <string name="preference_notification_interval_45_minutes">כל 45 דקות</string>
+    <string name="preference_notification_interval_1_hour">כל שעה</string>
+    <string name="preference_notification_interval_2_hours">כל שעתיים</string>
+    <string name="preference_notification_interval_3_hours">כל 3 שעות</string>
+    <string name="preference_notification_interval_4_hours">כל 4 שעות</string>
+    <string name="preference_notification_interval_5_hours">כל 5 שעות</string>
+    <string name="preference_notification_interval_6_hours">כל 6 שעות</string>
+    <string name="preference_notification_interval_7_hours">כל 7 שעות</string>
+    <string name="preference_notification_interval_8_hours">כל 8 שעות</string>
+    <string name="preference_notification_interval_twice_daily">פעמיים ביום</string>
+    <string name="preference_notification_interval_daily">פעם ביום</string>
+    <string name="preferences_notification_system_push">התראות דחיפה</string>
+    <string name="preferences_notification_system_periodic">התראות בתדירות קבועה מראש</string>
+    <string name="preferences_notification_system_both">שניהם</string>
+    <string name="preferences_notifications_system_title">סוג מערכת ההתראות</string>
+    <string name="preferences_notifications_system_summary">התראות דחיפה עלולות להיות לא מדויקות.\nהתראות בפרק זמן קבוע זולל יותר סוללה</string>
+    <string name="preference_notification_vibrate_title">רטט</string>
+    <string name="preference_notification_ringtone_title">רינגטון</string>
+    <string name="preference_notifications_ringtone">רינגטון</string>
+    <string name="preference_notifications_song">שיר</string>
+    <string name="preference_notification_ringtone_chooser">בחר רינגטון</string>
+    <string name="preference_newsfeed_go_to_top_title">הצג פרסום הכי חדש אחרי טעינה</string>
+    <string name="preference_newsfeed_go_to_top_summary">אם מופעל, הרשימה תקפוץ למעלה אחרי טעינה</string>
+    <string name="preference_newsfeed_cut_long_post_title">חתוך פרסומים ארוכים</string>
+    <string name="preference_newsfeed_cut_long_post_summary">אם מאופשר, פרסומים שאורכם גדול מ10 שורות יחתכו</string>
+    <string name="preference_buy_pro_version_title">קנה גרסה מלאה</string>
+    <string name="preference_left_drawer_items_title">Left menu tabs</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">ימי הולדת של היום</string>
+    <string name="notification_birthday_today">זהו יום ההולדת של %1$s\'s  !</string>
+    <string name="friends_birthday_today">%1$d חברים חוגגים יום הולדת היום !</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">בקשות חברות</string>
+    <string name="notification_friendrequest_message">%1$s רוצה להוסיף אותך כחבר</string>
+    <string name="new_friend_requests">יש לך %1$d בקשות חברות</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">יש לך %1$s התראות חדשות</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">הרשאת ההתראות סורבה.\nבבקשה אפשר את ההתראות על ידי לחיצה על רענן בתפריט</string>
+    <string name="notifications_unread_header_title">התראות שלא נקראו (%1$d)</string>
+    <string name="notifications_read_header_title">התראות שנקראו</string>
+    <string name="notifications_friend_request_header_title">בקשות חברות</string>
+    <string name="notifications_dismiss">סלק התראות</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Déverrouiller le don</string>
+    <string name="donate_code">הכנס קוד</string>
+    <string name="thank_you_very_much">תודה רבה !</string>
+
+    <!-- Chat -->
+    <string name="online">מחובר</string>
+    <string name="offline">לא מחובר</string>
+
+    <!-- Video -->
+    <string name="video_album_name">סרטונים</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">סליחה, פייסבוק אינו מאפשר לתוכנות צד שלישי לפרסם בקבוצות</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">מעלה תמונות</string>
+    <string name="uploading_image_of">מעלה תמונה %1$d מתוך %2$d</string>
+    <string name="upload_complete">העלאה הושלמה</string>
+    <string name="n_uploaded_images">%1$d תמונות הועלו</string>
+    <string name="upload_error">תקלת העלאה</string>
+    <string name="file_not_found">אין אפשרות למצוא קובץ %1$s</string>
+    <string name="upload_photo_default_album_name">קיר -ברירת מחדל</string>
+
+    <!-- About -->
+    <string name="about_version">גרסה %1$s</string>
+    <string name="about_activity_title">אודות</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">כל הזכויות שמורות</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">שלח מייל</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">הצעה ?\nמצאת באג ?\nתודיע לנו !</string>
+    <string name="feedback_send_suggest">שלח הצעה</string>
+    <string name="feedback_send_bug">הודע על באג</string>
+    <string name="feedback_g_plus_community">קהילת גוגל+</string>
+    <string name="restart">אתחל מחדש</string>
+    <string name="change_theme_need_restart">אתחול מחדש דרוש על מנת לאפשר את ערכת הנושא</string>
+    <string name="change_app_language_need_restart">אתחול מחדש דרוש על מנת לאפשר שפה חדשה</string>
+    <string name="option_need_restart">אתחול מחדש דרוש</string>
+    <string name="soon">בקרוב &#8230;</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Change log</string>
+    <string name="changelog_close">סגור</string>
+    <string name="changelog_activity_title">Change log</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Advertising</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Me : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+
+</resources>

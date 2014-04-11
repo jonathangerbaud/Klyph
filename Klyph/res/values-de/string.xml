@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Fragment headers -->
+    <string name="fragment_header_newsfeed">Neuigkeiten</string>
+    <string name="fragment_header_timeline">Chronik</string>
+    <string name="fragment_header_inbox">Posteingang</string>
+    <string name="fragment_header_friends">Freunde</string>
+    <string name="fragment_header_pages">Seiten</string>
+    <string name="fragment_header_about">Über</string>
+    <string name="fragment_header_events">Veranstaltungen</string>
+    <string name="fragment_header_birthdays">Geburtstage</string>
+    <string name="fragment_header_albums">Alben</string>
+    <string name="fragment_header_infos">Infos</string>
+    <string name="fragment_header_wall">Chronik</string>
+    <string name="fragment_header_going">Zusagen</string>
+    <string name="fragment_header_maybe">Unsicher</string>
+    <string name="fragment_header_declined">Absagen</string>
+    <string name="fragment_header_invited">Einladungen</string>
+    <string name="fragment_header_groups">Gruppen</string>
+    <string name="fragment_header_members">Mitglieder</string>
+    <string name="fragment_header_photos">Bilder</string>
+    <string name="fragment_header_threads">Themen</string>
+    <string name="fragment_header_followed_people">Abonnierte Personen</string>
+    <string name="fragment_header_search">@string/search</string>
+    <string name="search">Suchen</string>
+    <string name="user">Nutzer</string>
+    <string name="page">Seite</string>
+    <string name="group">Gruppe</string>
+    <string name="event">Veranstaltung</string>
+
+    <!-- Menus -->
+    <string name="menu_logout">Abmelden</string>
+    <string name="menu_notifications">Benachrichtigungen</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_messages">Nachrichten</string>
+    <string name="menu_credits">Quellenangaben</string>
+    <string name="menu_send">Gesendet</string>
+    <string name="menu_preferences">Einstellungen</string>
+    <string name="menu_feedback">Vorschläge/Fehler</string>
+    <string name="menu_donate">Spenden</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_add_photos">Fotos hinzufügen</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_buy_pro">Werbefrei!</string>
+    
+    <!-- Logout -->
+    <string name="logout_confirmation">Willst du dich wirklich abmelden?</string>
+
+    <!-- Album Spinner Fragment -->
+    <string name="album_legend">Album:</string>
+
+    <!-- New Album dialog -->
+    <string name="new_album">Neues Album</string>
+    <string name="create">Erstellen</string>
+    <string name="name">Name</string>
+    <string name="location">Ort</string>
+
+    <!-- Buttons -->
+    <string name="request_error_retry">Wiederholen</string>
+
+    <!-- Request errors -->
+    <string name="request_error">Ein Fehler ist aufgetreten.</string>
+    <string name="request_connexion_error">Verbindungsfehler.\nÜberprüfe Deine Internetverbindung.</string>
+
+    <!-- Location error -->
+    <string name="no_location_error">Deine Position konnte nicht ermittelt werden.</string>
+    <string name="choose_place">Wähle einen Ort</string>
+
+    <!-- General -->
+    <string name="close">Schließen</string>
+    <string name="open">Öffnen</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="share">Teilen mit</string>
+    <string name="defaultString">Systemstandard</string>
+    <string name="camera">Kamera</string>
+    <string name="copy_text">Text kopieren</string>
+    <string name="see_who_likes_this">Anschauen, wem dies gefällt</string>
+    <string name="download_image">Foto herunterladen</string>
+    <string name="view_profile">Profil ansehen</string>
+    <string name="share_with">Teilen mit</string>
+    <string name="more">Mehr</string>
+    <string name="reply">Antworten</string>
+    <string name="hide">Ausblenden</string>
+    <string name="none">Keine</string>
+
+    <!-- Activity title -->
+    <string name="gallery_activity_title">Wähle Fotos</string>
+    <string name="thread_activity_title">Nachrichten</string>
+    <string name="notification_activity_title">Benachrichtigungen</string>
+    <string name="credentials_activity_title">Quellenangaben</string>
+    <string name="donate_activity_title">Spenden</string>
+
+    <!-- Menus -->
+    <string name="menu_privacy_public">Öffentlich</string>
+    <string name="menu_privacy_friends">Freunde</string>
+    <string name="menu_privacy_self">Nur Ich</string>
+
+    <!-- FR Values -->
+    <string name="like">Gefällt mir</string>
+    <string name="unlike">Gefällt mir nicht mehr</string>
+    <string name="people_who_likes_this">Personen, denen das gefällt:</string>
+    <string name="comment">Kommentar</string>
+    <string name="zero_or_one_like">%s "Gefällt mir"-Angaben</string>
+    <string name="zero_or_one_comment">%s Kommentare</string>
+    <string name="number_of_likes">%s "Gefällt mir"-Angaben</string>
+    <string name="number_of_comments">%s Kommentare</string>
+    <string name="number_of_people_who_like_it">%s Personen gefällt das</string>
+    <string name="you_and_other_people_who_like_it">Dir und %s Personen gefällt das</string>
+
+    <!-- Time values -->
+    <string name="seconds_ago">Vor %d Sekunden</string>
+    <string name="one_minute_ago">Vor einer Minute</string>
+    <string name="minutes_ago">Vor %d Minuten</string>
+    <string name="one_hour_ago">Vor einer Stunde</string>
+    <string name="hours_ago">Vor %d Stunden</string>
+    <string name="one_day_ago">Vor einem Tag</string>
+    <string name="days_ago">Vor %d Tagen</string>
+    <string name="one_month_ago">Vor einem Monat</string>
+    <string name="months_ago">Vor %d Monaten</string>
+    <string name="years_ago">Vor %d Jahr(en)</string>
+
+    <!-- Video Quality Dialog -->
+    <string name="dialog_video_quality_title">Videoqualität auswählen</string>
+    <string name="dialog_video_quality_message">In Standard Definition (SD) oder High Definition (HD) anschauen?</string>
+    <string name="dialog_video_quality_hd">HD</string>
+    <string name="dialog_video_quality_sd">SD</string>
+
+    <!-- Status types -->
+    <string name="user_added_photos_to_album">%1$s fügte %2$s Foto(s) zum Album %3$s hinzu</string>
+
+    <!-- Post Activity -->
+    <string name="post_with_one_friend">— mit %1$s</string>
+    <string name="post_with_two_friends">— mit %1$s und %2$s</string>
+    <string name="post_with_several_friends">— mit %1$s und %2$s weiteren Freunden</string>
+    <string name="with_several_friends">%1$s weiteren Freunde</string>
+    <string name="at_place">— in %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbruch</string>
+    <string name="error">Fehler</string>
+    <string name="please_enter_message">Bitte gib eine Nachricht ein</string>
+    <string name="must_select_place_to_tag_friends">Um Freunde zu markieren, gib zuerst einen Ort an.</string>
+    <string name="status">Status</string>
+    <string name="publishing">Veröffentliche…</string>
+    <string name="status_successfully_published">Dein neuer Status wurde veröffentlicht.</string>
+    <string name="message_successfully_published">Deine Nachricht wurde veröffentlicht.</string>
+    <string name="publish_unknown_error">Dein Status konnte nicht veröffentlicht werden.</string>
+    <string name="publish_message_unknown_error">Deine Nachricht konnte nicht veröffentlicht werden.</string>
+    <string name="publish_error_duplicate_message">Dies ist bereits dein letzter Status.</string>
+    <string name="publish_new_status">Veröffentliche einen neuen Status.</string>
+    <string name="publish_new_event_message">Veröffentliche eine neue Nachricht.</string>
+    <string name="friends">Freunde</string>
+    <string name="post_hint">Deine Nachricht</string>
+    <string name="post_link_malformated_url">Ungültige URL</string>
+    <string name="post_link_malformated_image_url">Die URL des Fotos ist ungültig</string>
+    <string name="post_link_empty_name">Gib einen Namen ein.</string>
+    <string name="post_share_status">Veröffentliche einen Status</string>
+    <string name="post_share_photo">Veröffentliche ein Foto</string>
+    <string name="post_share_video">Veröffentliche ein Video</string>
+    <string name="post_share_link">Veröffentliche einen Link</string>
+    <string name="post_share_album">Veröffentliche ein Album</string>
+    <string name="post_share_on">Veröffentlichungsort</string>
+    <string name="post_share_on_my_wall">Meine Chronik</string>
+    <string name="post_share_on_friend_wall">Chronik eines Freundes</string>
+    <string name="post_a_reply">Antwort veröffentlichen</string>
+
+    <!-- Post photos Activity -->
+    <string name="publish_new_photos">Veröffentliche neue Fotos</string>
+    <string name="creating_album">Erstelle Album …</string>
+    <string name="must_select_photos">Wähle Fotos zum Hochladen aus</string>
+
+    <!-- Stream -->
+    <string name="delete_post_confirmation_title">Bestätigung</string>
+    <string name="delete_post_confirmation_message">Möchtest du diese Nachricht wirklich löschen?</string>
+    <string name="delete_post_error">Nachricht konnte nicht gelöscht werden.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="delete">Löschen</string>
+    <string name="deleting">Lösche…</string>
+    <string name="post_deleted">Nachricht entfernt.</string>
+    <string name="like_error">Kann nicht mit "Gefällt mir" markieren.</string>
+    <string name="unlike_error">Entfernen der "Gefällt mir"-Angabe ist nicht möglich.</string>
+    <string name="stream_date">%1$s um %2$s</string>
+    <string name="stream_today_date">Heute um %1$s</string>
+    <string name="stream_yesterday_date">Gestern um %1$s</string>
+    <string name="newsfeed_new_stream">1 neue Meldung</string>
+    <string name="newsfeed_new_streams">%1$d neue Meldungen</string>
+
+    <!-- Event -->
+    <string name="event_by">Von %1$s</string>
+    <string name="event_description">Beschreibung</string>
+    <string name="event_practical_information">Wann &amp; Wo?</string>
+    <string name="event_date">Datum</string>
+    <string name="event_place">Ort</string>
+    <string name="event_secret">Nur auf Einladung</string>
+    <string name="event_friends">Freunde</string>
+    <string name="event_public">Öffentliche Veranstaltung</string>
+    <string name="event_closed">Geschlossene Veranstaltung</string>
+    <string name="event_will_attend_title">Werde ich Teilnehmen?</string>
+    <string name="event_going">Zusagen</string>
+    <string name="event_unsure">Unsicher</string>
+    <string name="event_declined">Absagen</string>
+    <string name="event_num_invitee">%1$s Personen wurden eingeladen</string>
+    <string name="event_num_attending">%1$s Personen nehmen teil</string>
+    <string name="event_num_unsure">%1$s Personen nehmen vielleicht teil</string>
+    <string name="event_num_declined">%1$s Personen haben abgesagt</string>
+    <string name="event_response_dialog_title">Antwort</string>
+    <string name="event_response_dialog_message">Sende Antwort…</string>
+    <string name="event_response_ok">Deine Antwort wurde versendet</string>
+    <string name="event_response_error">Beim Versenden deiner Antwort ist ein Fehler aufgetreten.\nVersuche es später noch einmal.</string>
+
+    <!-- User -->
+    <string name="user_birthday">Geburtstag</string>
+    <string name="user_sex">Geschlecht</string>
+    <string name="user_meeting_sex">Interessiert an</string>
+    <string name="user_relationship_status">Beziehungsstatus</string>
+    <string name="user_religion">Religiöse Einstellung</string>
+    <string name="user_political">Politische Einstellung</string>
+    <string name="user_phones">Handy</string>
+    <string name="user_address">Anschrift</string>
+    <string name="user_email">E-Mail-Adresse</string>
+    <string name="user_networks">Netzwerke</string>
+    <string name="user_activities">Aktivitäten</string>
+    <string name="user_books">Bücher</string>
+    <string name="user_inspirational_people">Inspirierende Menschen</string>
+    <string name="user_interests">Interessen</string>
+    <string name="user_movies">Filme</string>
+    <string name="user_music">Musik</string>
+    <string name="user_sports">Sport</string>
+    <string name="user_tv">Fernsehsendungen</string>
+    <string name="user_quotes">Zitate</string>
+    <string name="user_website">Webseite</string>
+
+    <!-- Work -->
+    <string name="work_date">Von %1$s bis %2$s</string>
+    <string name="work_date_until_today">Von %1$s bis heute</string>
+
+    <!-- Education -->
+    <string name="education_year">Abschlussjahrgang %1$s</string>
+
+    <!-- Thread -->
+    <string name="thread_one_user">%1$s</string>
+    <string name="thread_two_users">%1$s und %2$s</string>
+    <string name="thread_many_users">%1$s, %2$s und %3$d andere</string>
+    <string name="thread_and_others">%1$d andere</string>
+
+    <!-- UserLikeDialog -->
+    <string name="user_like">Personen, denen das gefällt</string>
+
+    <!-- Post Activity -->
+    <string name="select_privacy">Privatsphäre</string>
+
+    <!-- Birthdays Fragment -->
+    <string name="birthday_age">%1$d Jahre</string>
+
+    <!-- Friend Picker -->
+    <string name="friend_picker_title">Wähle Freunde</string>
+    <string name="friend_picker_single_choice_title">Einen Freund auswählen</string>
+    <string name="search_friends">Freunde durchsuchen</string>
+    <string name="several_friends_selected">%1$d Freund(e) ausgewählt</string>
+    <string name="one_friend_selected">1 Freund ausgewählt</string>
+    <string name="no_friend_selected">Keinen Freund ausgewählt</string>
+
+    <!-- Gallery Activity -->
+    <string name="several_photos_selected">%1$d Foto(s) ausgewählt</string>
+    <string name="one_photo_selected">Ein Foto ausgewählt</string>
+    <string name="no_photo_selected">Kein Foto ausgewählt</string>
+
+    <!-- Image Fragment -->
+    <string name="cannot_find_photo">Das Foto konnte nicht gefunden werden</string>
+
+    <!-- Stream Fragment -->
+    <string name="post_comment">Kommentar veröffentlichen</string>
+    <string name="comments_disabled">Kommentare deaktiviert</string>
+    <string name="publish_comment_dialog_title">Kommentar</string>
+    <string name="publish_comment_dialog_message">Veröffentliche…</string>
+    <string name="publish_comment_ok">Dein Kommentar wurde veröffentlicht.</string>
+    <string name="publish_comment_error">Während der Veröffentlichung deines Kommentars ist ein Fehler aufgetreten.\nVersuche es später noch einmal.</string>
+    <string name="several_comments">%1$d Kommentare</string>
+    <string name="one_comment">Ein Kommentar</string>
+    <string name="no_comment">Kein Kommentar</string>
+    <string name="define_comment_before_publish">Bitte gib dein Kommentar ein</string>
+    <string name="several_likes">%1$d Personen gefällt das</string>
+    <string name="one_like">1 Person gefällt das</string>
+    <string name="no_like">0 Personen gefällt das</string>
+    <string name="cannot_find_post">Der Beitrag kann nicht gefunden werden</string>
+
+    <!-- Album photos fragment -->
+    <string name="fetch_photos_from_album">Rufe Fotoliste vor dem Download ab …</string>
+    <string name="fetch_videos_from_album">Rufe Videoliste vor dem Download ab …</string>
+    <string name="tagged_photos_of">Fotos von %1$s</string>
+
+    <!-- User about -->
+    <string name="family">Familie</string>
+    <string name="others">Allgemeines</string>
+    <string name="work">Arbeit</string>
+    <string name="education">Bildung</string>
+    <string name="user_about">Über</string>
+    <string name="user_about_sex">Geschlecht: %1$s</string>
+    <string name="user_about_birthday">Geboren am %1$s</string>
+    <string name="user_about_ralationship_status">Beziehungsstatus: %1$s</string>
+
+    <!-- Page about -->
+    <string name="page_about">Über</string>
+    <string name="noone_talk_about_it">Keine Person spricht darüber</string>
+    <string name="one_talk_about_it">1 Person spricht darüber</string>
+    <string name="several_talk_about_it">%1$s Personen sprechen darüber</string>
+    <string name="page_base_infos">Allgemeine Informationen</string>
+    <string name="description">Beschreibung</string>
+    <string name="mission">Aufgabe</string>
+    <string name="coordinates">Kontaktinformationen</string>
+    <string name="general_infos">Allgemeine Informationen</string>
+    <string name="artists_we_like">Weitere Künstler, die wir gut finden</string>
+    <string name="band_interests">Interessen der Band</string>
+    <string name="band_bio">Biografie</string>
+    <string name="band_members">Mitglieder</string>
+    <string name="founded">Gegründet</string>
+    <string name="genre">Genre</string>
+    <string name="band_current_location">Aktueller Standort</string>
+    <string name="band_hometown">Heimatstadt</string>
+    <string name="band_record_label">Plattenfirma</string>
+    <string name="band_influences">Einflüsse</string>
+    <string name="band_press_contact">Pressekontakt</string>
+    <string name="band_booking_agent">Buchungs-Assistent</string>
+    <string name="band_general_manager">Geschäftsführer</string>
+    <string name="company_products">Produkte</string>
+    <string name="company_overview">Übersicht</string>
+    <string name="hours">Stunden</string>
+    <string name="public_transit">Öffentlicher Nahverkehr</string>
+    <string name="restaurant_food_styles">Essensstile</string>
+    <string name="restaurant_culinar_team">Kulinarisches Team</string>
+    <string name="restaurant_prices">Preisklasse</string>
+    <string name="restaurant_attire">Kleidung</string>
+    <string name="restaurant_services">Dienstleistungen</string>
+    <string name="restaurant_specialties">Spezialitäten</string>
+    <string name="restaurant_parking">Parken</string>
+    <string name="breakfast">Frühstück</string>
+    <string name="lunch">Mittagessen</string>
+    <string name="dinner">Abendessen</string>
+    <string name="coffee">Kaffee</string>
+    <string name="drinks">Getränke</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="cash_only">Nur Bargeld</string>
+    <string name="discover">Discover</string>
+    <string name="reserve">Reservierung möglich</string>
+    <string name="walkins">Laufkundschaft willkommen</string>
+    <string name="groups">Gut für Gruppen</string>
+    <string name="kids">Kinderfreundlich</string>
+    <string name="takeout">Essen zum Mitnehmen</string>
+    <string name="delivery">Lieferservice</string>
+    <string name="waiter">Bedienung</string>
+    <string name="catering">Partyservice</string>
+    <string name="outdoor">Außenplätze</string>
+    <string name="street">Straße</string>
+    <string name="lot">Parkplatz</string>
+    <string name="valet">Parkservice</string>
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="saturday">Samstag</string>
+    <string name="sunday">Sonntag</string>
+    <string name="plot_outline">Rahmenhandlung</string>
+    <string name="network">Netzwerk</string>
+    <string name="season">Staffel</string>
+    <string name="schedule">Zeitplan</string>
+    <string name="starring">Mit</string>
+    <string name="written_by">Autor</string>
+    <string name="awards">Preise</string>
+    <string name="personal_info">Persönliche Informationen</string>
+    <string name="personal_interests">Persönliche Interessen</string>
+    <string name="phone">Telefon</string>
+    <string name="release_date">Erscheinungsdatum</string>
+    <string name="studio">Studio</string>
+    <string name="directed_by">Regie</string>
+    <string name="screenplay_by">Drehbuch</string>
+    <string name="affiliation">Aufnahme</string>
+    <string name="built">Erstellt</string>
+    <string name="features">Funktionen</string>
+    <string name="mpg">MPG</string>
+    <string name="pharma_safety_info">Pharmazeutische Sicherheitsinformationen</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_user">Keine Personen</string>
+    <string name="empty_list_no_friend">Keine Freunde</string>
+    <string name="empty_list_no_page">Keine Seiten</string>
+    <string name="empty_list_no_event">Keine Veranstaltungen</string>
+    <string name="empty_list_no_album">Keine Alben</string>
+    <string name="empty_list_no_photo">Keine Bilder</string>
+    <string name="empty_list_no_video">Keine Videos</string>
+    <string name="empty_list_no_birthday">Keine Geburtstage</string>
+    <string name="empty_list_no_message">Keine Nachrichten</string>
+    <string name="empty_list_no_notification">Keine Benachrichtigungen</string>
+    <string name="empty_list_no_stream">Keine Neuigkeiten</string>
+    <string name="empty_list_no_data">Keine Dateien</string>
+    <string name="empty_list_no_group">Keine Gruppen</string>
+    <string name="empty_list_no_member">Keine Mitglieder</string>
+
+    <!-- Credentials -->
+    <string name="credentials_apis">APIs</string>
+    <string name="credentials_icons">Symbole</string>
+    <string name="credentials_translators">Übersetzer</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Einstellungen</string>
+    <string name="preference_theme_title">Design</string>
+    <string name="preferences_themes_dialog_title">Wähle ein Design</string>
+    <string name="preference_about_title">Über Klyph</string>
+    <string name="preference_credits_title">Quellenangaben</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_icons_title">Symbole</string>
+    <string name="preference_credits_tools_title">Tools</string>
+    <string name="preference_changelog_title">Changelog</string>
+    <string name="preference_notifications_title">Benachrichtigungen</string>
+    <string name="preference_notification_title">Benachrichtigung</string>
+    <string name="preference_notification_summary">Benachrichtigungen aktivieren</string>
+    <string name="preference_notification_type_title">Benachrichtigungsarten</string>
+    <string name="preference_notification_birthday_title">Geburtstage</string>
+    <string name="preference_notification_birthday_summary">Benachrichtigung beim Geburtstag eines Freundes</string>
+    <string name="preferences_notification_birthday_time_title">Aktualisierung der Geburtstage</string>
+    <string name="preferences_notification_birthday_time_summary">Aktualisierungszeitpunkt der heutigen Geburtstage</string>
+    <string name="preference_notification_apprequest_title">Anwendungsanfragen</string>
+    <string name="preference_notification_apprequest_summary">Benachrichtigungen bei Anwendungsanfragen und -aktivitäten</string>
+    <string name="preference_notification_album_title">Alben</string>
+    <string name="preference_notification_album_summary">Benachrichtigungen bei Aktivitäten Deiner Alben</string>
+    <string name="preference_notification_event_title">Veranstaltungen</string>
+    <string name="preference_notification_event_summary">Benachrichtigungen bei Veranstaltungseinladungen</string>
+    <string name="preference_notification_friend_request_title">Freundschaftsanfrage</string>
+    <string name="preference_notification_friend_request_summary">Benachrichtigungen bei Freundschaftsanfragen</string>
+    <string name="preference_notification_group_invite_title">Gruppen</string>
+    <string name="preference_notification_group_invite_summary">Benachrichtigungen bei Gruppenaktivitäten</string>
+    <string name="preference_notification_page_invite_title">Seiten</string>
+    <string name="preference_notification_page_invite_summary">Benachrichtigungen bei Seiten, die Du verwaltest</string>
+    <string name="preference_notification_photo_title">Fotos</string>
+    <string name="preference_notification_photo_summary">Benachrichtigungen über neue Fotos</string>
+    <string name="preference_notification_poke_title">Anstupser</string>
+    <string name="preference_notification_poke_summary">Benachrichtigungen, wenn Du angestupst wirst</string>
+    <string name="preference_notification_stream_title">Sonstige Beiträge</string>
+    <string name="preference_notification_stream_summary">Benachrichtigungen bei neuen sonstigen Beiträgen</string>
+    <string name="preference_notification_video_title">Videos</string>
+    <string name="preference_notification_video_summary">Benachrichtigungen über neue Videos</string>
+    <string name="preferences_notifications_interval">Intervall</string>
+    <string name="preferences_notifications_permissions_title">Berechtigungen erforderlich!</string>
+    <string name="preferences_notifications_permissions_message">Du musst dich erneut anmelden, da wir die Berechtigungen von Facebook brauchen, um dir Benachrichtigungen zu senden.</string>
+    <string name="preference_notification_group_title">Gruppenbenachrichtigungen</string>
+    <string name="preference_notification_group_summary">Bei Erhalt mehrerer Benachrichtigungen nur einmal benachrichtigen</string>
+    <string name="preference_app_language_title">Anwendungssprache</string>
+    <string name="preferences_app_language_dialog_title">Wechsel der Anwendungssprache zu</string>
+    <string name="preference_fb_language_title">Facebooksprache</string>
+    <string name="preferences_fb_language_dialog_title">Wechsel der Facebooksprache zu</string>
+    <string name="preference_newsfeed_title">Neuigkeiten</string>
+    <string name="preference_newsfeed_pages_title">Seiten</string>
+    <string name="preference_newsfeed_groups_title">Gruppen</string>
+    <string name="preference_newsfeed_events_title">Veranstaltungen</string>
+    <string name="preference_newsfeed_pages">Fügt die Meldungen von Seiten in die Neuigkeiten ein</string>
+    <string name="preference_newsfeed_groups">Fügt die Meldungen von Gruppen in die Neuigkeiten ein</string>
+    <string name="preference_newsfeed_events">Fügt die Meldungen von Veranstaltungen in die Neuigkeiten ein</string>
+    <string name="preference_performances_title">Leistung</string>
+    <string name="preference_performances_photo_effect_summary">Das Deaktivieren des Effekts erhöht die Leistung</string>
+    <string name="preference_performances_photo_effect_title">Überblendeffekt für Fotos</string>
+    <string name="preference_performances_rounded_profile_picture_summary">Das Deaktivieren des Effekts erhöht die Leistung</string>
+    <string name="preference_performances_rounded_profile_picture_title">Runde Profilbilder</string>
+    <string name="preferences_view_pager_indicator_style_title">Stil des ViewPagerIndicator</string>
+    <string name="preferences_view_pager_indicator_style_tabs">Tabs</string>
+    <string name="preferences_view_pager_indicator_style_titles">Titel</string>
+    <string name="preferences_ui_title">Benutzeroberfläche</string>
+    <string name="preference_performances_pause_on_scroll_title">Bilderladen pausiert beim Scrollen mit Berührung</string>
+    <string name="preference_performances_pause_on_scroll_summary">Bei Aktivierung werden Bilder nicht geladen, während du scollst und den Bildschirm berührst</string>
+    <string name="preference_performances_pause_on_fling_title">Bilderladen pausiert beim Scrollen</string>
+    <string name="preference_performances_pause_on_fling_summary">Bei Aktivierung werden Bilder während des Scrollens ohne Berührung des Bildschirms nicht geladen</string>
+    <string name="preference_performances_card_animation_title">Animation der Neuigkeitskarten</string>
+    <string name="preference_performances_card_animation_summary">Das Deaktivieren dieser Animation erhöht die Leistung</string>
+    <string name="preferences_main_activity_tabs_title">Tabs auf der Hauptseite</string>
+    <string name="preferences_user_activity_tabs_title">Tabs bei Freunden</string>
+    <string name="preferences_page_activity_tabs_title">Tabs bei Seiten</string>
+    <string name="preferences_event_activity_tabs_title">Tabs bei Veranstaltungen</string>
+    <string name="preferences_group_activity_tabs_title">Tabs bei Gruppen</string>
+    <string name="preference_images_title">Fotos</string>
+    <string name="preference_images_clear_cache_title">Fotocache leeren</string>
+    <string name="preference_images_clear_cache_summary">Gecachte Fotos vom externen Speicher löschen</string>
+    <string name="preference_images_cache_clearing">Fotocache wird gelöscht</string>
+    <string name="preference_images_cache_cleared">Fotocache wurde gelöscht</string>
+    <string name="preference_notification_interval_1_minute">Jede Minute</string>
+    <string name="preference_notification_interval_2_minutes">Alle 2 Minuten</string>
+    <string name="preference_notification_interval_3_minutes">Alle 3 Minuten</string>
+    <string name="preference_notification_interval_5_minutes">Alle 5 Minuten</string>
+    <string name="preference_notification_interval_10_minutes">Alle 10 Minuten</string>
+    <string name="preference_notification_interval_15_minutes">Alle 15 Minuten</string>
+    <string name="preference_notification_interval_20_minutes">Alle 20 Minuten</string>
+    <string name="preference_notification_interval_25_minutes">Alle 25 Minuten</string>
+    <string name="preference_notification_interval_30_minutes">Alle 30 Minuten</string>
+    <string name="preference_notification_interval_45_minutes">Alle 45 Minuten</string>
+    <string name="preference_notification_interval_1_hour">Jede Stunde</string>
+    <string name="preference_notification_interval_2_hours">Alle 2 Stunden</string>
+    <string name="preference_notification_interval_3_hours">Alle 3 Stunden</string>
+    <string name="preference_notification_interval_4_hours">Alle 4 Stunden</string>
+    <string name="preference_notification_interval_5_hours">Alle 5 Stunden</string>
+    <string name="preference_notification_interval_6_hours">Alle 6 Stunden</string>
+    <string name="preference_notification_interval_7_hours">Alle 7 Stunden</string>
+    <string name="preference_notification_interval_8_hours">Alle 8 Stunden</string>
+    <string name="preference_notification_interval_twice_daily">Zweimal täglich</string>
+    <string name="preference_notification_interval_daily">Täglich</string>
+    <string name="preferences_notification_system_push">Pushbenachrichtigungen</string>
+    <string name="preferences_notification_system_periodic">Periodische Benachrichtigungen</string>
+    <string name="preferences_notification_system_both">Beide</string>
+    <string name="preferences_notifications_system_title">Benachrichtigungssystem</string>
+    <string name="preferences_notifications_system_summary">Pushbenachrichtigungen können verspätet eintreffen.\nPeriodische Benachrichtigungen verbrauchen mehr Akkuleistung.</string>
+    <string name="preference_notification_vibrate_title">Vibrieren</string>
+    <string name="preference_notification_ringtone_title">Benachrichtigungston</string>
+    <string name="preference_notifications_ringtone">Klingelton</string>
+    <string name="preference_notifications_song">Lied</string>
+    <string name="preference_notification_ringtone_chooser">Wähle einen Benachrichtigungston</string>
+    <string name="preference_newsfeed_go_to_top_title">Nachrichtenanzeige nach Aktualisierung</string>
+    <string name="preference_newsfeed_go_to_top_summary">Wenn aktiviert, wird nach Aktualisierung nicht die letzte Leseposition, sondern die neuste Nachricht zuerst angezeigt</string>
+    <string name="preference_newsfeed_cut_long_post_title">Lange Posts abschneiden</string>
+    <string name="preference_newsfeed_cut_long_post_summary">Wenn aktiviert, werden Posts, die länger als 10 Zeilen lang sind, abgeschnitten</string>
+    <string name="preference_buy_pro_version_title">Kaufen Sie die Pro-Version</string>
+    <string name="preference_left_drawer_items_title">Tabs im linken Menü</string>
+    <string name="preference_alternative_newsfeed_title">Alternative Neuigkeiten</string>
+    <string name="preference_alternative_newsfeed_summary">Wenn aktiviert, wird eine alternative Methode genutzt, um Deine Neuigkeiten zu erhalten</string>
+
+    <!-- Birthday Service -->
+    <string name="notification_several_birthdays">Heutige Geburtstage</string>
+    <string name="notification_birthday_today">%1$s hat heute Geburtstag!</string>
+    <string name="friends_birthday_today">%1$d Freunde feiern heute ihren Geburtstag!</string>
+
+    <!-- Friend Request Service -->
+    <string name="notification_friendrequest_title">Freundschaftsanfragen</string>
+    <string name="notification_friendrequest_message">%1$s möchte dich als Freund hinzufügen!</string>
+    <string name="new_friend_requests">Du hast %1$d neue Freundschaftsanfragen!</string>
+
+    <!-- Notification Service -->
+    <string name="new_notifications">Du hast %1$s neue Benachrichtigungen</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_permissions_denied">Berechtigung für Benachrichtigungen verweigert.\nKlicke auf das Symbol zum Aktualisieren, um die Berechtigungen zu erteilen.</string>
+    <string name="notifications_unread_header_title">Ungelesene Benachrichtigungen (%1$d)</string>
+    <string name="notifications_read_header_title">Gelesene Benachrichtigungen</string>
+    <string name="notifications_friend_request_header_title">Freundschaftsanfragen</string>
+    <string name="notifications_dismiss">Ausblenden</string>
+
+    <!-- Donate Fragment -->
+    <string name="donate_unlock">Spende freischalten</string>
+    <string name="donate_code">Gib den Code ein</string>
+    <string name="thank_you_very_much">Vielen Dank!</string>
+
+    <!-- Chat -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <!-- Video -->
+    <string name="video_album_name">Videos</string>
+
+    <!-- Group Timeline -->
+    <string name="cant_post_to_group">Entschuldigung, Facebook erlaubt Drittanbieterprogrammen das Erstellen von Beiträgen bei Gruppen nicht.</string>
+
+    <!-- Upload Photo service -->
+    <string name="uploading_images">Fotos hochladen</string>
+    <string name="uploading_image_of">Foto %1$d von %2$d wird hochgeladen</string>
+    <string name="upload_complete">Hochladen abgeschlossen</string>
+    <string name="n_uploaded_images">%1$d Fotos wurden hochgeladen</string>
+    <string name="upload_error">Fehler beim Hochladen</string>
+    <string name="file_not_found">Die Datei %1$s kann nicht gefunden werden</string>
+    <string name="upload_photo_default_album_name">Chronik (Standard)</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_activity_title">Über</string>
+    <string name="about_copyright">Copyright © 2013 Abewy</string>
+    <string name="about_all_rights_reserved">Alle Rechte vorbehalten</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send_mail">Sende eine E-Mail</string>
+    <string name="feedback_support_mail_address">support.klyph@abewy.com</string>
+    <string name="feedback_found_a_bug">Du hast einen Vorschlag?\nDu hast einen Fehler gefunden?\nLass es uns wissen!</string>
+    <string name="feedback_send_suggest">Vorschlag senden</string>
+    <string name="feedback_send_bug">Fehler melden</string>
+    <string name="feedback_g_plus_community">G+ Community</string>
+    <string name="restart">Neustart</string>
+    <string name="change_theme_need_restart">Um das Design zu ändern, ist ein Neustart erforderlich.</string>
+    <string name="change_app_language_need_restart">Um die Sprache zu ändern, ist ein Neustart erforderlich.</string>
+    <string name="option_need_restart">Um diese Option anwenden zu können, ist ein Neustart erforderlich.</string>
+    <string name="soon">Demnächst …</string>
+
+    <!-- Change log -->
+    <string name="title_changelog">Changelog</string>
+    <string name="changelog_close">Beenden</string>
+    <string name="changelog_activity_title">Changelog</string>
+    
+    <!-- Ads -->
+    <string name="advertising">Werbung</string>
+    
+    <!-- Threads -->
+    <string name="my_last_message">Ich : %1$s</string>
+	<string name="friend_last_message">%1$s : %2$s</string>
+	
+	<!-- User Activity -->
+    <string name="is_friend">Freund</string>
+	<string name="confirm_friend_request">Freundschaftsanfrage bestätigen</string>
+	<string name="send_friend_request">Freundesanfrage senden</string>
+	<string name="friend_request_sent">Freundesanfrage versendet</string>
+
+</resources>

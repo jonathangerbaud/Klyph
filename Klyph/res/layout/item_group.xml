@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="?attr/listItemBackground"
+    android:columnCount="1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dip_8"
+    android:rowCount="3" >
+
+    <com.abewy.android.apps.klyph.widget.coverImage.GroupCoverImageView
+        android:id="@+id/group_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_marginTop="@dimen/dip_8"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/dip_8"
+        android:paddingRight="@dimen/dip_8"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/group_description"
+        android:ellipsize="marquee"
+        android:lines="3"
+        android:paddingLeft="@dimen/dip_8"
+        android:paddingRight="@dimen/dip_8"
+        android:textColor="?android:attr/textColorTertiary"
+        android:lineSpacingMultiplier="1.1"
+        android:textSize="12sp" />
+
+</GridLayout>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    
+    <release version="1.2.6" versioncode="90">
+        <change>Added: friend lists</change>
+        <change>Fixed: Post to a friend's wall</change>
+        <change>Fixed: Pull to refresh on empty list</change>
+        <change>Fixed: Cover image size on user's profile when image is too small</change>
+        <change>Fixed: Crash on orientation change on user profile</change>
+        <change>Fixed: Crash on orientation change on page profile</change>
+        <change>Fixed: Crash on orientation change on group profile</change>
+        <change>Improved: Profile Cover image is darkening progressively</change>
+        <change>Added: Support for canceled event notifications</change>
+        <change>Improved: Main activity title now displays selected tab title</change>
+    </release>
+    
+    <release version="1.2.5" versioncode="88">
+        <change>Fixed: Event decline button was inactive</change>
+        <change>Added: Add friend/confirm friend request</change>
+        <change>Improved: Friend/Page/Group profile design</change>
+        <change>Added: Option - Alternative method to retrieve the newsfeed</change>
+        <change>Improved: Added a delay before retrying to post a status when getting an error</change>
+        <change>Improved: Added a delay before retrying to post a comment when getting an error</change>
+        <change>Fixed: Action bar theme for fullscreen image when light theme selected</change>
+        <change>Fixed: Text could be too close to the overflow button in newsfeed card</change>
+        <change>Improved: Login screen design</change>
+        <change>Improved: Timeline feed</change>
+        <change>Improved: User about design (temporary fix)</change>
+        <change>Fixed: Some images were not loading (specials chars in url)</change>
+        <change>Updated: Facebook SDK to version 3.6</change>
+        <change>Improved: Feedback activity design + landscape optimization</change>
+        <change>Improved: About activity design + landscape optimization</change>
+    </release>
+    
+    <release version="1.2.4" versioncode="85">
+        <change>Fixed: Some bugs</change>
+        <change>Fixed: Video comments loading error</change>
+        <change>Fixed: Blurry images</change>
+    </release>
+    <release version="1.2.3" versioncode="84">
+        <change>Fixed: Hamburger menu icon didn't not come back to initial state after clicking on a menu item</change>
+        <change>Added: Threads section</change>
+        <change>Added: Chat link to Klyph messenger (app / play store)</change>
+        <change>Added: Buy pro menu item</change>
+        <change>Fixed: News feed event card displayed unrelated image</change>
+        <change>Fixed: Event place was missing in some cases</change>
+        <change>Fixed: Posting photo to a group</change>
+        <change>Improved: Group list design</change>
+        <change>Fixed: Refreshing after publishing a post</change>
+        <change>Fixed: Crash on click on user list dialog in some cases</change>
+        <change>Fixed: Back to top button was still enable even if not visible</change>
+        <change>Improved: Showing only upcoming events in event list</change>
+        <change>Added: Notification LED (finally !)</change>
+        <change>Fixed: Event card background for dark themes</change>
+        <change>Added: Indonesian language</change>
+        <change>Added: Left menu tabs option</change>
+        <change>Improved: Messages design</change>
+        <change>Fixed: Notification error</change>
+        <change>Added: FAQ</change>
+    </release>
+    <release version="1.2.2" versioncode="80">
+        <change>Re added: Newsfeed "jump to top" option</change>
+        <change>Fixed: Text selection</change>
+    </release>
+    <release version="1.2.1" versioncode="79">
+        <change>Fixed: Android Notification crash on Android 4.0 - 4.0.3</change>
+        <change>Fixed: Little bugs</change>
+        <change>Updated: Catalan translation</change>
+    </release>
+    
+    <release version="1.2.0" versioncode="78">
+        <change>Min required version is now API 14 (Android 4.0). Welcome to the future !</change>
+        <change>Removed: ActionBarSherlock library</change>
+        <change>Removed: Support library v4</change>
+        <change>Removed: Android Pull to refresh library</change>
+        <change>Added: ActionBar Pull to refresh library</change>
+        <change>Added: New Pull to refresh style</change>
+        <change>Fixed: Notifications menu is not locked anymore when opened</change>
+        <change>Improved: Event response buttons are now vertically aligned on phone screens</change>
+        <change>Improved: Login screen has now a background image</change>
+        <change>Improved: Login screen has no more action bar</change>
+        <change>Improved: Event cards</change>
+        <change>Improved: News feed scrolling performances</change>
+        <change>Improved: Album photos in news feed card are now displayed in an horizontal scrollable list</change>
+        <change>Removed: News feed Go to top option</change>
+        <change>Fixed: Comment images were wrong sized</change>
+        <change>Improved: Rounded picture management</change>
+        <change>Fixed: Comment displayed twice when posting a comment</change>
+        <change>Improved: News feed cards buttons style</change>
+        <change>Improved: Comments style</change>
+        <change>Improved: News feed links style</change>
+        <change>Improved: Left and right menus are wider for some devices</change>
+        <change>Fixed: Notifications</change>
+        <change>Improved: Removed camera permission in manifest</change>
+        <change>Fixed: Profile image cover disappeared after a refresh</change>
+        <change>Improved: New advertising system</change>
+        <change>Added: Catalan language</change>
+        <change>Improved: Reduced notification icon size</change>
+        <change>Added: Logout confirmation dialog</change>
+        <change>Added: Refresh button for the notifications menu</change>
+        <change>Improved: Succeeded to retrieve some missing data, waiting for Facebook to fix the whole issue</change>
+        <change>Improved: Succeeded to retrieve event data in news feed (events are links in news feed...)</change>
+        <change>Fixed: Strings from Facebook are now displayed in the user locale by default (needs re log in)</change>
+        <change>Improved: Completely restructured and redesigned event activity</change>
+        <change>Fixed: Group members request error (Why ? Suddenly stopped working, thank you Facebook...)</change>
+    </release>
+    <release version="1.1.1" versioncode="71">
+        <change>Updated: App logo</change>
+        <change>Fixed: Web app notification now goes on website</change>
+    </release>
+    <release version="1.1.0" versioncode="71">
+        <change>Bug fixes</change>
+    </release>
+    
+    <release version="1.0.9" versioncode="70">
+        <change>Updated: Picasso library replace UniversalImageLoader</change>
+        <change>Removed: pause on scroll/fling preferences</change>
+        <change>Improved: Overall performances</change>
+        <change>Fixed: Albums view loading same albums over and over</change>
+        <change>Fixed: Crash when viewing user list in dialogs</change>
+        <change>Added: Swedish language</change>
+    </release>
+    <release version="1.0.8" versioncode="68">
+        <change>Bug fixes</change>
+    </release>
+    
+    <release version="1.0.7" versioncode="67">
+        <change>Fixed: Could not click on stories anymore</change>
+        <change>Added: Interstitial ads</change>
+        <change>Removed: Banner ads</change>
+        <change>Fixed: Publication not found for group posts</change>
+        <change>Fixed: Crash on photo picker</change>
+        <change>Added: Text selection in about sections</change>
+        <change>Fixed: Undesirable scroll on link names and text links</change>
+        <change>Fixed: Bug in notifications in Free version</change>
+        <change>Fixed: Wrong thread error on request complete on Album activity</change>
+        <change>Fixed: Crash on image view</change>
+    </release>
+    
+    <release version="1.0.6" versioncode="66">
+        <change>Added: Notifications are cleared on logout</change>
+        <change>Improved: Better profile image management, reduced file size</change>
+        <change>Improved: Notifications images have now the perfect size</change>
+        <change>Fixed: Push notifications</change>
+        <change>Fixed: Grouped notifications</change>
+        <change>Improved: Clever notifications management</change>
+        <change>Added: Album, poke filter on notifications</change>
+        <change>Fixed: Duplicated comments</change>
+        <change>Fixed: No comments in group posts</change>
+        <change>Improved: Small design change in newsfeed</change>
+        <change>Updated: Languages</change>
+    </release>
+    <release version="1.0.5" versioncode="63">
+        <change>Removed: shared user id</change>
+    </release>
+    <release version="1.0.4" versioncode="62">
+        <change>Added shared user id to manifest</change>
+    </release>
+    
+    <release version="1.0.3" versioncode="61">
+        <change>Added: Comment replies</change>
+        <change>Fixed: Choose album when posting photos</change>
+        <change>Improved: Notification description is now on 4 lines max instead of 2</change>
+        <change>Fixed (twice): Some comments could be missing</change>
+        <change>Improved: Left and right menus design</change>
+        <change>Improved: Added some missing data on newsfeed cards</change>
+        <change>Fixed: Notifications error</change>
+        <change>Added: Traditional Chinese translation</change>
+        <change>Fixed: Application leave when changing theme or language option</change>
+        <change>Added: Dismissible notifications in right menu</change>
+        <change>Added: Black blue and green themes</change>
+        <change>Fixed: Bad font-size on like and comment count on newsfeed cards for some languages</change>
+        <change>Fixed: No notification sound if settings set to "default"</change>
+        <change>Fixed: Album notifications were not found</change>
+        <change>Fixed: Like on group's comments didn't work</change>
+        <change>Fixed: Black text on dark background on dropdown items</change>
+    </release>
+    
+    <release version="1.0.2" versioncode="56">
+    	<change>Improved: Newsfeed cards button bar</change>
+    	<change>Added: Share with other apps</change>
+    	<change>Added: Show view profile menu button in newsfeed cards</change>
+    	<change>Fixed: Comments in group posts were not always loaded</change>
+    	<change>Fixed: Can't see text when publishing a link</change>
+    	<change>Improved : No more need to restart when applying new theme or changing app language in settings</change>
+    	<change>Fixed: Some annoying crashes</change>
+    	<change>Added: Hungarian translation</change>
+    	<change>Added: Vietnamese translation</change>
+    	<change>Added: Hebrew translation</change>
+    	<change>Fixed: Low resolution profile pictures for XXHDPI screens</change>
+    	<change>Enhanced: Comments design</change>
+    	<change>Added: Menu actions for comments : like, delete, copy, download image, see who likes this, view profile</change>
+    	<change>Added: Images and links in comments (read only)</change>
+    	<change>Fixed: Notifications counter not up to date when reading one or all notifications</change>
+    	<change>Fixed: Broken Youtuble links</change> 
+    	<change>Added: Option to cut long posts</change> 
+    	<change>Fixed: White shadows on list top and bottom</change> 
+    	<change>Fixed: Post to pages</change> 
+    	<change>Added: Post to groups</change> 
+    	<change>Added: Arabic translation</change> 
+    </release>
+    
+    <release version="1.0.1" versioncode="51">
+    	<change>Fixed: Crash when loading data complete in some cases</change>    
+    	<change>Fixed: Crash on loading user timeline</change>
+    	<change>Fixed: Some minors bugs</change>
+    	<change>Updated: new photo gallery picker without out of memory error</change>
+    	<change>Added: You can now take a photo directly in the app and then upload it</change>
+    	<change>Added: Share text/link/photo(s) from other apps</change>
+    	<change>Added: Spanish translation</change>
+    	<change>Added: Notification counter icon in action bar</change>
+    	<change>Fixed: Push notification registration failed</change>
+    	<change>Added: Theme border color on avatar picture click</change>
+    	<change>Added: Portuguese (Brazil) translation</change>
+    	<change>Fixed: Post a comment display twice the comment</change>
+    	<change>Fixed: Set all notifications as read didn't work when notifications count was big</change>
+    	<change>Fixed: Delete button was not displayed in the pro version</change>
+    </release>
+    
+    <release version="1.0.0" versioncode="44">
+        <change>Fixed: Default language is displayed after orientation change</change>
+        <change>Added: Launcher icon for XXHPI devices</change>
+        <change>Fixed: Friend picker did not load friends's profile pictures</change>
+        <change>Fixed: Photo picker for link picture had bad layouts</change>
+        <change>Fixed: Comment number always set to 0 in status detail view</change>
+        <change>Fixed: Memory leaks</change>
+        <change>Fixed: Battery drains</change>
+        <change>Fixed: Default language option</change>
+        <change>Fixed: Can't find group post from notifications</change>
+        <change>Fixed: Notification service not stopped when disabled in options.</change>
+        <change>Fixed: View pager indicator stlyle prefrence unset after switching language</change>
+        <change>Fixed: Search view crash on opening on pre-Android 3.0 devices</change>
+        <change>Fixed: Crash when searching something</change>
+        <change>Removed: New stories indicator</change>
+        <change>Updated: Go directly to new post after loading newest option activated by default</change>
+        <change>Fixed: Notifications not loading/refreshing at startup</change>
+        <change>Added: App chooser to open Facebook videos</change>
+        <change>Fixed: Blank screen after crash</change>
+        <change>Fixed: Crash when coming back from closing publish photos view</change>
+        <change>Fixed: Text too gray on some custom roms</change>
+    </release>
+    
+    <release version="0.9.0" versioncode="40">
+        <change>Added: Timeline filters</change>
+        <change>Added: Go directly to new post after loading newest option</change>
+        <change>Fixed: Crash after loading complete in some cases</change>
+        <change>Fixed: Crash when trying to modify tabs order/visibility in settings</change>
+        <change>Fixed: Scrolling an image from bottom when zoomed made the bottom panel to slide up in Android 2.2/2.3</change>
+        <change>Fixed: Some minors bugs</change>
+        <change>Updated: Image loader library</change>
+        <change>Added: Search</change>
+        <change>Fixed: Can't click on action bar buttons on Android 2.2/2.3</change>
+        <change>Fixed: Album loading the same first photos when reaching the bottom of the list</change>
+    </release>
+    
+    <release version="0.8.9" versioncode="37">
+    	<change>Added: Czech translation</change>    
+    	<change>Added: Dutch translation</change>    
+    	<change>Added: German translation</change>    
+    	<change>Added: Greek translation</change>    
+    	<change>Added: Italian translation</change>    
+    	<change>Added: Polish translation</change>    
+    	<change>Added: Romanian translation</change>    
+    	<change>Added: Turkish translation</change>    
+    	<change>Added: Clear image cache option</change>    
+    	<change>Fixed: Like permissions issues</change>    
+    	<change>Added: Publish a link</change>    
+    	<change>Fixed: Some images in newsfeed were 1px height scaled</change>    
+    	<change>Added: Responsive UI (portrait/landscape)</change>    
+    	<change>Improved: List items design (friends/groups/pages/events)</change>    
+    	<change>Improved: Navigation menu design</change>    
+    	<change>Improved: Notification menu design</change>    
+    	<change>Added: Drawer layout actionbar icon effect on open/close</change>    
+    	<change>Fixed: Request error on post detail in some cases</change>    
+    	<change>Added: Share feature</change>    
+    	<change>Added: Share Link on friend\'s wall</change>   
+    	<change>Added: Notification vibrate option</change>   
+    	<change>Added: Notification ringtone option</change>   
+    	<change>Added: Periodic notifications option</change>   
+    	<change>Added: Dismiss all notifications button</change>   
+    	<change>Improved: newsfeed cards design</change>   
+    	<change>Added: Tagged photos album</change>   
+    	<change>Added: Translators names in credits</change>   
+    	<change>Fixed: Logout display login page above the previous one</change>   
+    	<change>Fixed: Crash for some devices when loading news in memory</change>   
+    	 
+    </release>
+    
+    <release version="0.8.8" versioncode="21">
+    	<change>Fixed: Crash when trying to like a post on newsfeed</change>    
+    	<change>Fixed: Cannot cancel anymore with back button when publishing</change>    
+    	<change>Fixed: Crash when opening followed people</change>    
+    	<change>Fixed: Crash when opening a view from left menu in some cases</change>    
+    	<change>Fixed: Crash when load more and load newest at the same time on newest in some cases</change>    
+    	<change>Fixed: Errors when requesting notifications</change>    
+    	<change>Fixed: Notification menu kept notification from user1 when user1 logout then user2 login</change>    
+    </release>
+   
+    <release version="0.8.7" versioncode="20">
+        <change>Added: Left menu, replace main tabs</change>
+        <change>Added: Right notification menu</change>
+        <change>Fixed: bad groups name in some newsfeed posts</change>
+        <change>Fixed: empty newsfeed posts (except for events)</change>
+        <change>Removed: Newsfeed options</change>
+        <change>Fixed: Infinite loading when opening an album photo from newsfeed</change>
+        <change>Fixed: Reloading image twice when load more action complete</change>
+        <change>Improved: Performances</change>
+        <change>Fixed: Crash when click on user in user list dialog on publish view</change>
+        <change>Fixed: Family members are now selectable</change>
+        <change>Added: Friend request are now visible on notification menu</change>
+        <change>Fixed: Notifications behavior</change>
+        <change>Added: Click on a notification in notification menu set notification as read</change>
+        <change>Fixed: Notifications permissions</change>
+        <change>Enabled: Landscape mode</change>
+    </release>
+    
+    <release version="0.8.6" versioncode="19">
+        <change>Fixed: Removed refresh menu icon on publish status view</change>
+        <change>Added: Upload photos from album</change>
+        <change>Added: create an album</change>
+        <change>Added: Followed people tab</change>
+        <change>Fixed: Crash when trying to download an image over HTTPS on pre Android 4.0 devices</change>
+        <change>Fixed: Crash when trying to download an image on pre Android 3.0 devices</change>
+        <change>Fixed: Crash when failed to retrieve album photos</change>
+        <change>Fixed: Crash when trying to open a video but no media player available on the device</change>
+        <change>Fixed: Crash when changing app language</change>
+        <change>Fixed: Tabs were missing when modifying app language</change>
+        <change>Updated: Image zoom library replaced by TouchImageView</change>
+        <change>Fixed: Image zoom issues</change>
+        <change>Added: Donate recover system</change>
+        <change>Added: Group notifications option</change>
+        <change>Removed: Group and events newsfeed option as Facebook won't fix the bug</change>
+        <change>Fixed: refresh list via pull to refresh does not go back to top anymore</change>
+        <change>Restored: Back to top button on pull to refresh lists</change>
+        <change>Fixed: Many small bugs</change>
+        <change>Fixed: Bad group/page timeline header when card animation deactivated</change>
+        <change>Fixed: Default device locale not set at first launch</change>
+    </release>
+        
+    <release version="0.8.5" versioncode="18">
+    	<change>Added: Download a photo</change>    
+    	<change>Added: Download a video</change>    
+    	<change>Added: Download a photo album</change>    
+    	<change>Added: Download a video album</change>    
+    	<change>Fixed: crash on about and others</change>    
+    	<change>Fixed: crash on click on group header</change>    
+    	<change>Fixed: crash on opening event</change>    
+    </release>
+    
+     <release version="0.8.4" versioncode="17">
+         <change>Updated: Photoview library</change>
+         <change>Fixed: Fixed image zoom crash</change>
+         <change>Fixed: Crash when trying to publish a post with tagged friends but no location</change>
+         <change>Fixed: Crash when user list dialog was empty</change>
+         <change>Added: Donate view. Donate to get rid of ads</change>
+         <change>Fixed: Place picker colors issues. Now fully design compliant with Klyph</change>
+         <change>Fixed: Some bugs</change>
+         <change>Fixed: Newsfeed groups posts were sometimes reported in irrelative events</change>
+         <change>Added: Pull to refresh</change>
+         <change>Added: Tabs order and visibility options</change>
+         <change>Fixed: Infinite loading on stream detail when more than comments</change>
+         <change>Enhanced: Memory handling, less OutOfMemory errors</change>
+    </release>
+    
+    <release version="0.8.3" versioncode="16">
+         <change>Added: Performance option te deactivate fade effect on photos</change>
+         <change>Added: Performance option te deactivate rounded profile pictures</change>
+         <change>Added: "Pages" section to Page profile</change>
+         <change>Added: Search function for friends and groups</change>
+         <change>Added: Tabs to improve navigation experience</change>
+         <change>Added: Option to switch back to title indicators</change>
+         <change>Added: Back to top button</change>
+         <change>Updated: albums/photos/videos caption design</change>
+         <change>Added: Automatically opens the Youtube app for Youtube videos (if Youtube app is installed on device)</change>
+         <change>Fixed: Crash on photo selection view when no photos available</change>
+         <change>Fixed: Crash on video click on video gallery when no video player app available on device</change>
+         <change>Fixed: Crash on group timeline when no cover image available</change>
+         <change>Fixed: Wrong error message appeared when trying to publish a post with friends tagged and location if tagging friends before adding a location</change>
+         <change>Enhanced: Performance improvments</change>
+         <change>Added: Performance option to pause image loading while scrolling</change>
+         <change>Enhanced: Retry publishing post 3 times before giving up</change>
+         <change>Added: Card animation</change>
+         <change>Added: Niek Harman ListViewAnimations API to credits</change>
+         <change>Added: Click on friend / page / group's image cover open the large image</change>
+         <change>Fixed: Click on friend / page's profile image open the image view but load indefinitely</change>
+         <change>Enhanced: Replaced Acra by Crashlytics bug report system</change>
+         
+    </release>
+    
+    <release version="0.8.2" versioncode="15">
+         <change>Updated: New app logo</change>
+         <change>Fixed: Logout then login displays last streams of the last logged in user</change>
+         <change>Enhanced: Different background color for view pager title bar</change>
+         <change>Added: New app logo</change>
+         <change>Added: New list empty view</change>
+         <change>Enhanced: black background in photo view</change>
+         <change>Added: Send a comment on a photo in photo view</change>
+         <change>Added: Like a photo in photo view</change>
+         <change>Added: photo author on photo view</change>
+         <change>Added: comment list on photo view</change>
+         <change>Added: Push notifications system, replace periodic notification system</change>
+         <change>Enhanced: Click on notification open related post/photo/event/page/group</change>
+         <change>Fixed: Album view, the thumbnail could be poor quality even if better ones were available</change>
+         <change>Enhanced: Slightly reduced text size on list item</change>
+         <change>Fixed: Birthday notifications</change>
+         <change>Enhanced: Replaced "plus" button by "pen" button in action bar for write status action</change>
+    </release>
+    
+    <release version="0.8.1" versioncode="14">
+         <change>Added: AndroidGridViewCompatLib to credentials</change>
+         <change>Enhanced: Dates format in event list and event view</change>
+         <change>Enhanced: Displaying age in birthday list</change>
+         <change>Enhanced: Comments text are now selectable and links are active</change>
+         <change>Added: A toast displays the new stories count after fetching new stories</change>
+         <change>Fixed: crash when opening image</change>
+         <change>Enhanced: Removed action bar in image view (more space available)</change>
+         <change>Fixed: Crash when click on group cover photo (no more clickable)</change>
+         <change>Enhanced: Overall performance by switching image loading library to Android Universal Image Loader</change>
+         <change>Fixed: Like permissions issue</change>
+    </release>
+    
+    <release version="0.8.0" versioncode="12">
+         <change>Re enabling ACRA</change>
+    </release>
+    
+    <release version="0.8.0" versioncode="11">
+        <change>Fixed: Post Activity background color on dark theme</change>
+        <change>Added: Publish photos</change>
+        <change>Fixed: Notification service crash on pre 4.0 Android devices</change>
+        <change>Fixed: Vibrate permission on notifications</change>
+        <change>Fixed: Crash on click on publish new post button on user timeline</change>
+        <change>Fixed: Crash on click on home button on friend picker activity</change>
+        <change>Fixed: Crash when trying to watch a video and no video player available on device</change>
+        <change>Fixed: Notification service crash when trying to open facebook session twice</change>
+        <change>Fixed: Crash when fragment receive request error but has been previously destroyed</change>
+        <change>Fixed: Crash when publishing on user timeline and feed not yet displayed</change>
+        <change>Fixed: Notification service crash when more than one notification received</change>
+        <change>Fixed: Crash when back button pressed</change>
+        <change>Fixed: Crash when publishing on news feed before loading newer feed is finished</change>
+        <change>Updated: Image zoom library</change>
+        <change>Fixed: Crash on logout when in some cases</change>
+        <change>Fixed: Notifications error</change>
+    </release>
+    
+    <release version="0.7.9" versioncode="10">
+        <change>Fixed: Album view crash when pressing back button on some cases</change>
+        <change>Added: ACRA for bug reports</change>
+        <change>Added: options to enable or disable pages, groups and events streams on newsfeed</change>
+        <change>Improved write comment bar design</change>
+        <change>Fixed: timeline crash because of cover image</change>
+        <change>Fixed: Stream detail crash</change>    
+    </release>
+    
+    <release version="0.7.8" versioncode="9">
+        <change>Update Admob SDK to 6.3.1</change>
+        <change>Click on friend/page picture profile open friend/page activity</change>
+        <change>Draw selector on top of cards</change>
+        <change>Added: Light green theme</change>
+        <change>Added: Dark green theme</change>
+        <change>Fixed: crash when post not found</change>
+        <change>Album view: replaced grid by list</change>
+        <change>English defined as main language instead of French</change>
+        <change>Fixed: Bug in notification service</change>
+        <change>Fixed: Bug in ad manager</change>
+        <change>Fixed: Crash on timeline on pre Android 3.0 devices</change>
+        <change>Fixed: Leak on notification services (possibly battery drain)</change>
+        <change>Fixed: Galaxy Note/Tab crash</change>
+        <change>Fixed: App not restarting on theme change on pre 3.0 Android devices</change>
+        <change>Fixed: Login view not appearing on logout on pre 3.0 Android devices</change>
+        <change>News feed/Timeline improvement</change>
+        <change>Added: Language preferences</change>
+        <change>Bug fixes</change>
+        <change>Fixed: Battery drain</change>
+        <change>Fixed: Bug in album photos, selected photo was not always the displayed one</change>
+        <change>Added: Groups support</change>
+        <change>Added: Applications support in news feed/timeline</change>
+    </release>
+    
+    <release version="0.7.7" versioncode="8">
+        <change>Dailymotion and vimeo videos integration on news feed</change>
+        <change>Fixed: newsfeed cards reloading on load more operations</change>
+        <change>Added: loading indicator in actionbar on load more operations</change>
+        <change>Fixed: stream detail image(s) width</change>
+        <change>Added: parent stream width</change>
+        <change>Improved news feed cards design</change>
+    </release>
+    
+    <release version="0.7.6" versioncode="7">
+        <change>Performance improvement</change>
+        <change>Newsfeed cards: photos are now full width sized</change>
+        <change>Newsfeed cards: new grid design for albums</change>
+        <change>Newsfeed cards: new design for links</change>
+        <change>Fixed: login bug</change>
+        <change>Fixed: out of memory bug</change>
+    </release>
+    
+    <release version="0.7.5" versioncode="6">
+        <change>Fixed: Crash when click back from another view than main view and then swipe left or right</change>
+        <change>Added: Suggest/bug translation</change>
+        <change>Added: Back arrow in action bar</change>
+        <change>Fixed: Photo grid weird behavior</change>
+        <change>Fixed: Empty text label had different sizes</change>
+        <change>Fixed: Stream header margins</change>
+        <change>Refixed: Crash on viewing image on Android 4.0.3 and lower</change>
+    </release>
+    
+    <release version="0.7.4" versioncode="5">
+        <change>Fixed: Crash at login/startup</change>
+        <change>Fixed: Crash on viewing image on Android 4.0.3 and lower</change>
+        <change>Fixed: Crash when click on user/page tag</change>
+        <change>Added: Notifications push</change>
+    </release> 
+    
+    <release version="0.7.3" versioncode="4">
+        <change>Fixed: Crash when swipe left or right at startup</change>
+        <change>Fixed: Facebook undocumented delete bug</change>
+        <change>Fixed: Update comment number when adding a comment</change>
+        <change>Fixed: Update like number when liking a post</change>
+        <change>Fixed: User list dialog title bar removed when not required</change>
+        <change>Added: English traduction</change>
+        <change>Added: Event cover</change>
+        <change>Added: Stream event handling</change>
+        <change>Added: Delete post animation</change>
+        <change>Added: Page like support in newsfeed</change>
+        <change>Improved: Newsfeed request time (x3)</change>
+        <change>Improved: Minor stream style changes</change>
+    </release> 
+    
+    <release version="0.7.2" versioncode="3">
+        <change>Improved: User/Page/Event names styles in text (No more web link style)</change>
+    </release>  
+    
+    <release version="0.7.1" versioncode="2">
+        <change>Fixed: Album permissions</change>
+        <change>Fixed: Stream ButtonBar buttons size</change>
+        <change>Added: Clic on profile pic in timeline open large profile pic</change>
+        <change>Improved stream buttonbar layout time (x10)</change>
+        <change>Fixed: Action bar like item displayed several times</change>
+        <change>Fixed: Delete button was displayed for all post created by the app including posts not created by the session user</change>
+        <change>Newsfeed : now get all feeds like Facebook's newsfeed</change>
+        <change>ElementTimeline Request : get user posts and wall posts like Facebook's</change>
+		<change>Fixed: Album photos bug</change>
+		<change>Added: "with tags" in newsfeed stream</change>
+		<change>Fixed: User list dialog bug</change>
+		<change>New Stream design</change>
+		<change>Added: nested stream objects</change>
+		<change>Added: change log</change>
+		<change>Added: handle event text links</change>
+		<change>Replace: image place holder icon</change>
+		<change>Added: like a comment</change>
+		<change>Modified: Time annotations</change>
+    </release>     
+</changelog>

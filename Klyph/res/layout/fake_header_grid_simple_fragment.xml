@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@android:id/progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <FrameLayout
+        android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.abewy.android.apps.klyph.widget.KlyphGridView
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:fadingEdgeLength="0dp"
+            android:horizontalSpacing="2dp"
+            android:numColumns="1"
+            android:requiresFadingEdge="none"
+            android:scrollbarStyle="outsideOverlay"
+            android:verticalSpacing="2dp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/back_to_top_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:src="?attr/backToTopIcon"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</FrameLayout>

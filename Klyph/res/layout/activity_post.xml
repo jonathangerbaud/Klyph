@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/message_textview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/listItemBackground"
+        android:gravity="center_vertical|top"
+        android:hint="@string/post_hint"
+        android:inputType="textCapSentences|textMultiLine"
+        android:padding="8dip" />
+
+    <LinearLayout
+        style="?attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="?attr/actionBarStackedBackground"
+        android:paddingLeft="8dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/friends_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <ImageButton
+            android:id="@+id/friends_delete_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="?attr/eventDeclinedIcon" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/actionBarStackedBackground"
+        android:paddingLeft="8dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/place_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <ImageButton
+            android:id="@+id/place_delete_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="?attr/eventDeclinedIcon" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/share_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        class="com.abewy.android.apps.klyph.fragment.PostShare" />
+
+    <fragment
+        android:id="@+id/link_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        class="com.abewy.android.apps.klyph.fragment.PostLink" />
+
+    <fragment
+        android:id="@+id/albums_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        class="com.abewy.android.apps.klyph.fragment.PostAlbums" />
+
+    <fragment
+        android:id="@+id/photos_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        class="com.abewy.android.apps.klyph.fragment.PostPhotos" />
+
+    <LinearLayout
+        android:id="@+id/button_bar"
+        style="?attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/actionBarSplitBackground"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="6dp" >
+
+        <ImageButton
+            android:id="@+id/friends_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="?attr/addUserIcon" />
+
+        <ImageButton
+            android:id="@+id/picture_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="?attr/addPictureIcon" />
+
+        <ImageButton
+            android:id="@+id/place_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="?attr/locationIcon" />
+
+        <ImageButton
+            android:id="@+id/link_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="?attr/linkIcon" />
+
+        <ImageButton
+            android:id="@+id/privacy_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="?attr/groupIcon" />
+    </LinearLayout>
+
+</LinearLayout>

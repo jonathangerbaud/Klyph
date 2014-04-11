@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/send_message_layout"
+        android:layout_alignParentTop="true"
+        layout="@layout/grid_simple" />
+
+    <RelativeLayout
+        android:id="@id/send_message_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/listItemBackground" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionBarSplitBackground"
+            android:paddingTop="6dp"
+            android:paddingBottom="4dp" >
+
+            <EditText
+                android:id="@+id/send_text_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/send_button"
+                android:hint="@string/post_comment"
+                android:textColor="?android:attr/textColorSecondary"
+                android:inputType="textCapSentences|textMultiLine" />
+
+            <ImageButton
+                android:id="@id/send_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignBottom="@id/send_text_edit"
+                android:layout_alignParentRight="true"
+                style="?attr/buttonBarButtonStyle"
+                android:src="?attr/sendIcon" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

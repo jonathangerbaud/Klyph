@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/item_layout"
+        style="@style/Klyph.ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.abewy.android.apps.klyph.widget.coverImage.EventCoverImageView
+            android:id="@+id/event_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <com.abewy.android.apps.klyph.widget.KlyphImageView
+            android:id="@+id/event_picture"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/event_cover"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="@dimen/ckoobafe_list_padding"
+            android:paddingRight="@dimen/ckoobafe_list_padding"
+            android:scaleType="fitStart" />
+
+        <TextView
+            android:id="@+id/event_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_cover"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/event_picture"
+            android:paddingBottom="4dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="@dimen/ckoobafe_list_padding"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/event_host"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/event_name"
+            android:layout_below="@id/event_name"
+            android:paddingBottom="4dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="@dimen/ckoobafe_list_padding"
+            android:paddingTop="4dip"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/event_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/event_name"
+            android:layout_below="@id/event_host"
+            android:paddingBottom="4dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="@dimen/ckoobafe_list_padding"
+            android:paddingTop="4dip"
+            android:textColor="?android:attr/textColorTertiary"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/item_layout"
+        android:background="@drawable/ab_solid_shadow_holo" >
+    </RelativeLayout>
+
+</RelativeLayout>

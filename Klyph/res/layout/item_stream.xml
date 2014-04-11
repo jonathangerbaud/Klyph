@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Klyph.ListItem.Stream"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="48dip"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/stream_layout"
+        layout="@layout/include_stream" />
+
+</LinearLayout>

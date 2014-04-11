@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Ckoobafe.Light.PageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textAppearance">@style/Ckoobafe.Light.TextAppearance.PageIndicator</item>
+    </style>
+
+    <style name="Ckoobafe.Light.TextAppearance.PageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="Klyph.Light.TitlePageIndicator">
+        <item name="android:textColor">@color/light_theme_secondary</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="selectedColor">@android:color/white</item>
+        <item name="footerColor">?attr/themeColor</item>
+        <item name="android:background">#FFFFFFFF</item>
+
+        <!--
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="selectedBold">true</item>
+        -->
+    </style>
+
+    
+
+    <style name="Klyph.Light.ButtonBar" parent="Klyph.Dark.ButtonBar"></style>
+
+    <style name="Klyph.Light.Button" parent="Klyph.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">@color/light_theme_secondary</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+
+    <style name="Klyph.Light.Button.Borderless">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+</resources>

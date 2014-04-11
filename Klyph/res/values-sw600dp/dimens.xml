@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="stream_link_image_size">160dip</dimen>
+    <dimen name="stream_link_image_margin_top">10dp</dimen>
+    <dimen name="stream_link_title_size">18sp</dimen>
+    
+    <dimen name="comment_link_image_size">120dip</dimen>
+    <dimen name="comment_link_height">350dp</dimen>
+    
+    <!-- Grid -->
+    <dimen name="klyph_grid_spacing">16dp</dimen>
+    
+    <dimen name="profile_image_size">64dp</dimen>
+    <dimen name="photo_profile_image_size">48dp</dimen>
+
+</resources>

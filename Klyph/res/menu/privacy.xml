@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/privacy_public"
+        android:title="@string/menu_privacy_public"
+        android:icon="?attr/privacyPublicIcon"/>
+    <item
+        android:id="@+id/privacy_friends"
+        android:title="@string/menu_privacy_friends"
+        android:icon="?attr/privacyFriendsIcon"/>
+    <item
+        android:id="@+id/privacy_self"
+        android:title="@string/menu_privacy_self"
+        android:icon="?attr/privacySelfIcon"/>
+</menu>

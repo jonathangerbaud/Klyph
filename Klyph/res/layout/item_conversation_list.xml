@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="@dimen/dip_8" >
+
+    <com.abewy.android.apps.klyph.widget.ProfileImageView
+        android:id="@+id/avatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/dip_8" >
+
+        <TextView
+            android:id="@+id/conversation_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/conversation_date"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@id/conversation_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/conversation_name"
+            android:layout_alignParentRight="true"
+            android:textColor="?android:attr/textColorTertiary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/message_snippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/conversation_name"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/unread_count"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@id/unread_count"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignBaseline="@id/message_snippet"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/conversation_date"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="3"
+            android:textColor="?attr/themeColor"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

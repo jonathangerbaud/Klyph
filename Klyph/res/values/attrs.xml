@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="themeColor" format="reference|color" />
+    <attr name="themeSelector" format="reference|color" />
+    <attr name="listItemBackground" format="reference|color" />
+    <attr name="listItemBackgroundInverse" format="reference|color" />
+    <attr name="buttonBarStyle" format="reference" />
+    <attr name="buttonBarButtonStyle" format="reference" />
+    <attr name="timelineProfilePicureBackground" format="reference|color" />
+    <attr name="backgroundColor" format="reference|color" />
+    <attr name="profileIconBackgroundColor" format="reference|color" />
+    <attr name="iconColor" format="reference|color" />
+    <attr name="iconColorInverse" format="reference|color" />
+    <attr name="textTimeColor" format="reference|color" />
+    <attr name="menuBackgroundColor" format="reference|color" />
+    
+    <!-- <attr name="selectableItemBackground" format="reference" /> -->
+
+	<attr name="cardBackground" format="reference|color"/>
+	<attr name="streamBackground" format="reference|color"/>
+	<attr name="streamSelector" format="reference|color"/>
+	<attr name="counterBackground" format="reference|color"/>
+	<attr name="notificationsItemBackground" format="reference|color"/>
+	<attr name="commentBackground" format="reference|color"/>
+	<attr name="streamLikeBackground" format="reference|color"/>
+	<attr name="streamButtonBarButtonBackground" format="reference|color"/>
+	<attr name="friendButtonBackground" format="reference|color"/>
+	
+	<attr name="leftConversationBubbleBackground" format="reference|color" />
+    <attr name="rightConversationBubbleBackground" format="reference|color" />
+
+    <!-- Action Bar -->
+    <attr name="actionBarStackedBackground" format="reference|color" />
+    <attr name="actionBarSplitBackground" format="reference|color" />
+
+    <!-- Icons -->
+    <attr name="likeIcon" format="reference" />
+    <attr name="unlikeIcon" format="reference" />
+    <attr name="likeIconDisabled" format="reference" />
+    <attr name="unlikeIconDisabled" format="reference" />
+    <attr name="commentIcon" format="reference" />
+    <attr name="likeIconSmall" format="reference" />
+    <attr name="commentIconSmall" format="reference" />
+    <attr name="maleUserIcon" format="reference" />
+    <attr name="maleUserIconInverse" format="reference" />
+    <attr name="femaleUserIcon" format="reference" />
+    <attr name="squarePlaceHolderIcon" format="reference" />
+    <attr name="circlePlaceHolderIcon" format="reference" />
+    <attr name="videoPlaceHolderIcon" format="reference" />
+    <attr name="photosIconSmall" format="reference" />
+    <attr name="videosIconSmall" format="reference" />
+    <attr name="calendarIcon" format="reference" />
+    <attr name="locationIcon" format="reference" />
+    <attr name="locationDisabledIcon" format="reference" />
+    <attr name="addUserIcon" format="reference" />
+    <attr name="addPictureIcon" format="reference" />
+    <attr name="addPictureDisabledIcon" format="reference" />
+    <attr name="groupIcon" format="reference" />
+    <attr name="sendIcon" format="reference" />
+    <attr name="galleryCheckmarkIcon" format="reference" />
+    <attr name="eventGoingIcon" format="reference" />
+    <attr name="eventUnsureIcon" format="reference" />
+    <attr name="eventDeclinedIcon" format="reference" />
+    <attr name="eventGoingSelectedIcon" format="reference" />
+    <attr name="eventUnsureSelectedIcon" format="reference" />
+    <attr name="eventDeclinedSelectedIcon" format="reference" />
+    <attr name="refreshIcon" format="reference" />
+    <attr name="privacyPublicIcon" format="reference" />
+    <attr name="privacyFriendsIcon" format="reference" />
+    <attr name="privacySelfIcon" format="reference" />
+    <attr name="privacyCustomIcon" format="reference" />
+    <attr name="privacyPublicDisabledIcon" format="reference" />
+    <attr name="privacyFriendsDisabledIcon" format="reference" />
+    <attr name="privacySelfDisabledIcon" format="reference" />
+    <attr name="playOverVideoIcon" format="reference" />
+    <attr name="discardIcon" format="reference" />
+    <attr name="newIcon" format="reference" />
+    <attr name="userLikeIcon" format="reference" />
+    <attr name="likeBaselineIcon" format="reference" />
+    <attr name="commentBaselineIcon" format="reference" />
+    <attr name="userPlaceholderIcon" format="reference" />
+    <attr name="userPlaceholderLargeIcon" format="reference" />
+    <attr name="userLikeBaselineIcon2" format="reference" />
+    <attr name="addFriendIcon" format="reference" />
+    <attr name="addFriendDisabledIcon" format="reference" />
+    <attr name="navigationExpandIcon" format="reference" />
+    <attr name="editIcon" format="reference" />
+    <attr name="searchIcon" format="reference" />
+    <attr name="backToTopIcon" format="reference" />
+    <attr name="dragIcon" format="reference" />
+    <attr name="downloadIcon" format="reference" />
+    <attr name="pullToRefreshIcon" format="reference" />
+    <attr name="pullToRefreshIconInverse" format="reference" />
+    <attr name="notificationIcon" format="reference" />
+    <attr name="newNotificationIcon" format="reference" />
+    <attr name="linkIcon" format="reference" />
+    <attr name="linkDisabledIcon" format="reference" />
+    <attr name="pictureIcon" format="reference" />
+    <attr name="shareIcon" format="reference" />
+    <attr name="dismissNotificationsIcon" format="reference" />
+    <attr name="takePhotoIcon" format="reference" />
+    <attr name="overflowIcon" format="reference" />
+    <attr name="cardLikeIcon" format="reference" />
+    <attr name="cardCommentIcon" format="reference" />
+    <attr name="cardShareIcon" format="reference" />
+    <attr name="cardOverflowIcon" format="reference" />
+    <attr name="userLikeSmallIcon" format="reference" />
+    
+    <attr name="drawerIcon" format="reference" />
+    <attr name="drawerNewsfeedIcon" format="reference" />
+    <attr name="drawerFriendsIcon" format="reference" />
+    <attr name="drawerTimelineIcon" format="reference" />
+    <attr name="drawerAlbumsIcon" format="reference" />
+    <attr name="drawerGroupsIcon" format="reference" />
+    <attr name="drawerPagesIcon" format="reference" />
+    <attr name="drawerFollowedIcon" format="reference" />
+    <attr name="drawerEventsIcon" format="reference" />
+    <attr name="drawerBirthdaysIcon" format="reference" />
+    <attr name="drawerSearchIcon" format="reference" />
+
+    <!-- Madvertise SDK -->
+    <declare-styleable name="de.madvertise.android.sdk.MadvertiseView">
+        <attr name="secondsToRefresh" format="integer" />
+        <!--<attr name="backgroundColor" format="color" />-->
+        <attr name="textSize" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="isTestMode" format="boolean" />
+        <attr name="bannerType" format="string" />
+        <attr name="deliverOnlyText" format="boolean" />
+        <attr name="animation" format="string" />
+        <attr name="placement_type" format="string" />
+        <attr name="mraid" format="boolean" />
+    </declare-styleable>
+
+    <!-- SlidingDrawer -->
+    <declare-styleable name="KlyphSlidingDrawer">
+		<attr name="handle" format="reference" />
+		<attr name="content" format="reference" />
+		<attr name="orientation"  format="integer" />
+		<attr name="bottomOffset" format="dimension" />
+		<attr name="topOffset" format="dimension" />
+		<attr name="allowSingleTap" format="boolean" />
+		<attr name="animateOnClick" format="boolean" />
+	</declare-styleable>
+	
+    <!-- Reference to an array resource that will populate a list/adapter. -->
+    <!--<attr name="entries" format="reference" />-->
+    <attr name="entryValues" format="reference" />
+	
+    <declare-styleable name="MultiSelectDragListPreference">
+        <!-- The human-readable array to present as a list. Each entry must have a corresponding
+             index in entryValues. -->
+        <attr name="entries" />
+        <!-- The array to find the value to save for a preference when an entry from
+             entries is selected. If a user clicks the second item in entries, the
+             second item in this array will be saved to the preference. -->
+        <attr name="entryValues" />
+    </declare-styleable>
+    
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+        <attr name="desaturateOnPress" format="boolean" />
+    </declare-styleable>
+</resources>
