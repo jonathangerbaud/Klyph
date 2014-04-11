@@ -7,6 +7,9 @@ Source code of the Android app "Klyph for Facebook" available on the Play Store
 - [Klyph for Facebook](https://play.google.com/store/apps/details?id=com.abewy.klyph_beta)
 - [Klyph Pro for Facebook](https://play.google.com/store/apps/details?id=com.abewy.klyph.pro)
 
+Source code of the side Project Klyph Messenger for Facebook available [here](https://github.com/jonathangerbaud/KlyphMessenger)
+
+
 Structure
 =====
 
