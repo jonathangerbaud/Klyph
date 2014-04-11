@@ -17,10 +17,10 @@ Main project folders
 _____
 
 Each top level folder is an Android project
-- Klyph Core : The core part of the app, which is also used on the side app [Klyph Messenger For Facebook](https://play.google.com/store/apps/details?id=com.abewy.android.apps.klyph.messenger).
-- Klyph : The code that defines the app
-- Klyph Free : Wrapper for the free version
-- Klyph Pro : Wrapper for the Pro version
+- Klyph Core: The core part of the app, which is also used on the side app [Klyph Messenger For Facebook](https://play.google.com/store/apps/details?id=com.abewy.android.apps.klyph.messenger).
+- Klyph: The code that defines the app
+- Klyph Free: Wrapper for the free version
+- Klyph Pro: Wrapper for the Pro version
 
 
 Dependencies
@@ -40,7 +40,7 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 jonathangerbaud
+Copyright © 2014 jonathangerbaud
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
